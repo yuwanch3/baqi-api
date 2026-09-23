@@ -1,0 +1,731 @@
+[
+  {
+    "group": "subexam",
+    "key": "PFS000000019",
+    "nama": "Petrofisika 7 Sublevel 1",
+    "jumlah": 10,
+    "soal": [
+      {
+        "question": "Parameter utama yang merepresentasikan fraksi dari total volume batuan yang dapat ditempati oleh fluida adalah:",
+        "type": "option",
+        "options": [
+          "Porositas",
+          "Permeabilitas",
+          "Saturasi air",
+          "Net to Gross"
+        ],
+        "correct_option": "Porositas",
+        "question_en": "The primary parameter representing the fraction of total rock volume that can be occupied by fluids is:",
+        "options_en": [
+          "Porosity",
+          "Permeability",
+          "Water saturation",
+          "Net to Gross"
+        ],
+        "correct_option_en": "Porosity"
+      },
+      {
+        "question": "Manakah dari berikut ini yang diperlukan untuk menghitung Bulk Volume (BV) suatu reservoir?",
+        "type": "multi",
+        "options": [
+          "Luas area",
+          "Ketebalan reservoir",
+          "Permeabilitas",
+          "Viskositas fluida"
+        ],
+        "correct_option": [
+          "Luas area",
+          "Ketebalan reservoir"
+        ],
+        "question_en": "Which of the following are required to calculate the Bulk Volume (BV) of a reservoir?",
+        "options_en": [
+          "Surface area",
+          "Reservoir thickness",
+          "Permeability",
+          "Fluid viscosity"
+        ],
+        "correct_option_en": [
+          "Surface area",
+          "Reservoir thickness"
+        ]
+      },
+      {
+        "question": "Rasio antara ketebalan formasi bersih (net) terhadap ketebalan total (gross) dikenal sebagai:",
+        "type": "option",
+        "options": [
+          "Net to Gross ratio",
+          "Porosity ratio",
+          "Recovery factor",
+          "Formation Volume Factor"
+        ],
+        "correct_option": "Net to Gross ratio",
+        "question_en": "The ratio between the net formation thickness and the total gross thickness is known as:",
+        "options_en": [
+          "Net to Gross ratio",
+          "Porosity ratio",
+          "Recovery factor",
+          "Formation Volume Factor"
+        ],
+        "correct_option_en": "Net to Gross ratio"
+      },
+      {
+        "question": "Faktor volume formasi (Bo) didefinisikan sebagai rasio volume minyak di kondisi reservoir terhadap volume minyak di kondisi:",
+        "type": "option",
+        "options": [
+          "Standar (STP)",
+          "Tekanan geostatik",
+          "Titik gelembung",
+          "Kondisi jenuh"
+        ],
+        "correct_option": "Standar (STP)",
+        "question_en": "Formation volume factor (Bo) is defined as the ratio of oil volume at reservoir conditions to oil volume at:",
+        "options_en": [
+          "Standard conditions (STP)",
+          "Geostatic pressure",
+          "Bubble point",
+          "Saturated conditions"
+        ],
+        "correct_option_en": "Standard conditions (STP)"
+      },
+      {
+        "question": "Rumus dasar untuk menghitung Original Oil In Place (OOIP) secara volumetrik adalah:",
+        "type": "option",
+        "options": [
+          "(BV * NTG * Porositas * (1 - Sw)) / Bo",
+          "(BV * NTG * Permeabilitas) / Bo",
+          "(BV * Sw) / Bo",
+          "(BV * Porositas * Sw) / Bo"
+        ],
+        "correct_option": "(BV * NTG * Porositas * (1 - Sw)) / Bo",
+        "question_en": "The basic formula to calculate the Original Oil In Place (OOIP) volumetrically is:",
+        "options_en": [
+          "(BV * NTG * Porosity * (1 - Sw)) / Bo",
+          "(BV * NTG * Permeability) / Bo",
+          "(BV * Sw) / Bo",
+          "(BV * Porosity * Sw) / Bo"
+        ],
+        "correct_option_en": "(BV * NTG * Porosity * (1 - Sw)) / Bo"
+      },
+      {
+        "question": "Jika 1 acre-feet setara dengan 43,560 cubic feet, berapakah perkiraan konversi ke satuan metrik barrel (1 m3 = 6.29 bbl)?",
+        "type": "option",
+        "options": [
+          "7,758 bbl",
+          "1,000 bbl",
+          "5,615 bbl",
+          "42 bbl"
+        ],
+        "correct_option": "7,758 bbl",
+        "question_en": "If 1 acre-feet is equivalent to 43,560 cubic feet, what is the approximate conversion to barrels (1 m3 = 6.29 bbl)?",
+        "options_en": [
+          "7,758 bbl",
+          "1,000 bbl",
+          "5,615 bbl",
+          "42 bbl"
+        ],
+        "correct_option_en": "7,758 bbl"
+      },
+      {
+        "question": "Saturasi air (Sw) dalam perhitungan cadangan berfungsi untuk:",
+        "type": "option",
+        "options": [
+          "Menentukan volume ruang pori yang diisi hidrokarbon",
+          "Menghitung tekanan reservoir",
+          "Menentukan viskositas minyak",
+          "Menghitung densitas batuan"
+        ],
+        "correct_option": "Menentukan volume ruang pori yang diisi hidrokarbon",
+        "question_en": "Water saturation (Sw) in reserves calculation serves to:",
+        "options_en": [
+          "Determine pore space volume filled with hydrocarbons",
+          "Calculate reservoir pressure",
+          "Determine oil viscosity",
+          "Calculate rock density"
+        ],
+        "correct_option_en": "Determine pore space volume filled with hydrocarbons"
+      },
+      {
+        "question": "Apa yang dimaksud dengan Net Pay dalam evaluasi petrofisika?",
+        "type": "multi",
+        "options": [
+          "Bagian reservoir yang mengandung hidrokarbon ekonomis",
+          "Bagian batuan yang memiliki porositas di atas cutoff",
+          "Bagian reservoir dengan permeabilitas nol",
+          "Bagian reservoir yang jenuh air 100%"
+        ],
+        "correct_option": [
+          "Bagian reservoir yang mengandung hidrokarbon ekonomis",
+          "Bagian batuan yang memiliki porositas di atas cutoff"
+        ],
+        "question_en": "What is meant by Net Pay in petrophysical evaluation?",
+        "options_en": [
+          "The part of the reservoir containing economic hydrocarbons",
+          "The rock section with porosity above cutoff",
+          "The part of the reservoir with zero permeability",
+          "The part of the reservoir 100% water saturated"
+        ],
+        "correct_option_en": [
+          "The part of the reservoir containing economic hydrocarbons",
+          "The rock section with porosity above cutoff"
+        ]
+      },
+      {
+        "question": "Dalam perhitungan cadangan gas, faktor volume formasi gas (Bg) biasanya meningkat seiring dengan:",
+        "type": "option",
+        "options": [
+          "Penurunan tekanan",
+          "Peningkatan suhu",
+          "Peningkatan saturasi air",
+          "Penurunan porositas"
+        ],
+        "correct_option": "Penurunan tekanan",
+        "question_en": "In gas reserves calculation, the gas formation volume factor (Bg) usually increases with:",
+        "options_en": [
+          "Pressure decrease",
+          "Temperature increase",
+          "Water saturation increase",
+          "Porosity decrease"
+        ],
+        "correct_option_en": "Pressure decrease"
+      },
+      {
+        "question": "Satuan standar yang digunakan untuk Bulk Volume (BV) dalam perhitungan cadangan di industri perminyakan adalah:",
+        "type": "option",
+        "options": [
+          "Acre-feet",
+          "Darcies",
+          "Centipoise",
+          "PSI"
+        ],
+        "correct_option": "Acre-feet",
+        "question_en": "The standard unit used for Bulk Volume (BV) in reserves calculation in the petroleum industry is:",
+        "options_en": [
+          "Acre-feet",
+          "Darcies",
+          "Centipoise",
+          "PSI"
+        ],
+        "correct_option_en": "Acre-feet"
+      }
+    ]
+  },
+  {
+    "group": "finex",
+    "key": "PFC000000009",
+    "nama": "CEOR Bab 2 - Chemical EOR (Polymer Flooding)",
+    "jumlah": 20,
+    "soal": [
+      {
+        "question": "Apa fungsi utama penambahan polimer ke dalam fluida injeksi pada proses Chemical EOR?",
+        "type": "option",
+        "options": [
+          "Meningkatkan viskositas air injeksi",
+          "Menurunkan tegangan antar muka",
+          "Mengubah kebasahan batuan",
+          "Meningkatkan permeabilitas absolut"
+        ],
+        "correct_option": "Meningkatkan viskositas air injeksi",
+        "question_en": "What is the primary function of adding polymer to the injection fluid in a Chemical EOR process?",
+        "options_en": [
+          "Increase injection water viscosity",
+          "Reduce interfacial tension",
+          "Alter rock wettability",
+          "Increase absolute permeability"
+        ],
+        "correct_option_en": "Increase injection water viscosity"
+      },
+      {
+        "question": "Parameter apa yang secara langsung dipengaruhi oleh penurunan mobilitas air injeksi melalui polimer flooding?",
+        "type": "option",
+        "options": [
+          "Permeabilitas relatif",
+          "Mobility ratio",
+          "Porositas batuan",
+          "Tekanan kapiler"
+        ],
+        "correct_option": "Mobility ratio",
+        "question_en": "Which parameter is directly affected by the decrease in injection water mobility through polymer flooding?",
+        "options_en": [
+          "Relative permeability",
+          "Mobility ratio",
+          "Rock porosity",
+          "Capillary pressure"
+        ],
+        "correct_option_en": "Mobility ratio"
+      },
+      {
+        "question": "Manakah di antara berikut ini yang merupakan jenis polimer yang umum digunakan dalam aplikasi EOR?",
+        "type": "multi",
+        "options": [
+          "HPAM",
+          "Xanthan",
+          "Asam klorida",
+          "Surfaktan anionik"
+        ],
+        "correct_option": [
+          "HPAM",
+          "Xanthan"
+        ],
+        "question_en": "Which of the following are types of polymers commonly used in EOR applications?",
+        "options_en": [
+          "HPAM",
+          "Xanthan",
+          "Hydrochloric acid",
+          "Anionic surfactant"
+        ],
+        "correct_option_en": [
+          "HPAM",
+          "Xanthan"
+        ]
+      },
+      {
+        "question": "Apa kelemahan utama penggunaan HPAM (Hydrolyzed Polyacrylamide) pada kondisi reservoir dengan salinitas tinggi?",
+        "type": "option",
+        "options": [
+          "Sensitif terhadap degradasi mekanis",
+          "Sensitif terhadap salinitas tinggi yang menyebabkan penurunan viskositas",
+          "Sangat mahal dibandingkan polimer lain",
+          "Tidak bisa larut dalam air"
+        ],
+        "correct_option": "Sensitif terhadap salinitas tinggi yang menyebabkan penurunan viskositas",
+        "question_en": "What is the main disadvantage of using HPAM (Hydrolyzed Polyacrylamide) in high salinity reservoir conditions?",
+        "options_en": [
+          "Sensitive to mechanical degradation",
+          "Sensitive to high salinity causing viscosity loss",
+          "Very expensive compared to other polymers",
+          "Not water soluble"
+        ],
+        "correct_option_en": "Sensitive to high salinity causing viscosity loss"
+      },
+      {
+        "question": "Bagaimana pengaruh peningkatan viskositas air terhadap perolehan minyak (sweep efficiency)?",
+        "type": "option",
+        "options": [
+          "Meningkatkan efisiensi penyapuan (sweep efficiency)",
+          "Menurunkan efisiensi penyapuan",
+          "Tidak memiliki pengaruh",
+          "Menyebabkan fingering lebih cepat"
+        ],
+        "correct_option": "Meningkatkan efisiensi penyapuan (sweep efficiency)",
+        "question_en": "How does increasing water viscosity affect oil recovery (sweep efficiency)?",
+        "options_en": [
+          "Increases sweep efficiency",
+          "Decreases sweep efficiency",
+          "Has no effect",
+          "Causes faster fingering"
+        ],
+        "correct_option_en": "Increases sweep efficiency"
+      },
+      {
+        "question": "Apa karakteristik utama dari biopolimer Xanthan dibandingkan dengan HPAM?",
+        "type": "option",
+        "options": [
+          "Lebih tahan terhadap salinitas tinggi",
+          "Lebih murah harganya",
+          "Lebih rentan terhadap degradasi termal",
+          "Memiliki struktur linear yang sederhana"
+        ],
+        "correct_option": "Lebih tahan terhadap salinitas tinggi",
+        "question_en": "What is the main characteristic of the biopolymer Xanthan compared to HPAM?",
+        "options_en": [
+          "More resistant to high salinity",
+          "Cheaper in price",
+          "More susceptible to thermal degradation",
+          "Has a simple linear structure"
+        ],
+        "correct_option_en": "More resistant to high salinity"
+      },
+      {
+        "question": "Mengapa mobility ratio yang lebih kecil dari 1 (M < 1) diinginkan dalam proses injeksi polimer?",
+        "type": "option",
+        "options": [
+          "Untuk mencegah viscous fingering",
+          "Untuk meningkatkan tekanan injeksi secara ekstrem",
+          "Untuk mengurangi saturasi air irreduksibel",
+          "Untuk mempercepat laju korosi"
+        ],
+        "correct_option": "Untuk mencegah viscous fingering",
+        "question_en": "Why is a mobility ratio of less than 1 (M < 1) desirable in polymer injection processes?",
+        "options_en": [
+          "To prevent viscous fingering",
+          "To increase injection pressure excessively",
+          "To reduce irreducible water saturation",
+          "To accelerate corrosion rate"
+        ],
+        "correct_option_en": "To prevent viscous fingering"
+      },
+      {
+        "question": "Faktor apa saja yang membatasi efektivitas injeksi polimer di lapangan?",
+        "type": "multi",
+        "options": [
+          "Degradasi termal",
+          "Adsorpsi polimer pada batuan",
+          "Viskositas fluida yang terlalu rendah",
+          "Salinitas formasi"
+        ],
+        "correct_option": [
+          "Degradasi termal",
+          "Adsorpsi polimer pada batuan",
+          "Salinitas formasi"
+        ],
+        "question_en": "What factors limit the effectiveness of polymer injection in the field?",
+        "options_en": [
+          "Thermal degradation",
+          "Polymer adsorption on rock",
+          "Fluid viscosity that is too low",
+          "Formation salinity"
+        ],
+        "correct_option_en": [
+          "Thermal degradation",
+          "Polymer adsorption on rock",
+          "Formation salinity"
+        ]
+      },
+      {
+        "question": "Pada kondisi reservoir apa injeksi polimer biasanya paling efektif diterapkan?",
+        "type": "option",
+        "options": [
+          "Reservoir dengan permeabilitas rendah",
+          "Reservoir dengan heterogenitas tinggi",
+          "Reservoir dengan suhu di atas 150 C",
+          "Reservoir dengan saturasi minyak sisa sangat rendah"
+        ],
+        "correct_option": "Reservoir dengan heterogenitas tinggi",
+        "question_en": "In what reservoir conditions is polymer injection usually most effectively applied?",
+        "options_en": [
+          "Low permeability reservoirs",
+          "High heterogeneity reservoirs",
+          "Reservoirs with temperatures above 150 C",
+          "Reservoirs with very low residual oil saturation"
+        ],
+        "correct_option_en": "High heterogeneity reservoirs"
+      },
+      {
+        "question": "Apa istilah untuk fenomena kehilangan polimer ke dalam matriks batuan selama injeksi?",
+        "type": "option",
+        "options": [
+          "Adsorpsi",
+          "Erosi",
+          "Infiltrasi",
+          "Evaporasi"
+        ],
+        "correct_option": "Adsorpsi",
+        "question_en": "What is the term for the phenomenon of polymer loss into the rock matrix during injection?",
+        "options_en": [
+          "Adsorption",
+          "Erosion",
+          "Infiltration",
+          "Evaporation"
+        ],
+        "correct_option_en": "Adsorption"
+      },
+      {
+        "question": "Dalam desain slug polimer, apa yang dimaksud dengan tapering?",
+        "type": "option",
+        "options": [
+          "Pengurangan konsentrasi polimer secara bertahap",
+          "Peningkatan tekanan secara drastis",
+          "Pencampuran dengan surfaktan",
+          "Pembersihan lubang sumur"
+        ],
+        "correct_option": "Pengurangan konsentrasi polimer secara bertahap",
+        "question_en": "In polymer slug design, what is meant by tapering?",
+        "options_en": [
+          "Gradual reduction of polymer concentration",
+          "Drastic pressure increase",
+          "Mixing with surfactant",
+          "Wellbore cleaning"
+        ],
+        "correct_option_en": "Gradual reduction of polymer concentration"
+      },
+      {
+        "question": "Apa dampak negatif dari degradasi mekanis (shear degradation) pada polimer HPAM?",
+        "type": "option",
+        "options": [
+          "Penurunan berat molekul dan kehilangan viskositas",
+          "Peningkatan viskositas secara drastis",
+          "Penyumbatan total pada zona produktif",
+          "Pembentukan emulsi minyak-air"
+        ],
+        "correct_option": "Penurunan berat molekul dan kehilangan viskositas",
+        "question_en": "What is the negative impact of shear degradation on HPAM polymer?",
+        "options_en": [
+          "Reduction in molecular weight and loss of viscosity",
+          "Drastic increase in viscosity",
+          "Total plugging of productive zones",
+          "Formation of oil-water emulsions"
+        ],
+        "correct_option_en": "Reduction in molecular weight and loss of viscosity"
+      },
+      {
+        "question": "Manakah pernyataan yang benar mengenai mobilitas fluida (lambda)?",
+        "type": "option",
+        "options": [
+          "Berbanding terbalik dengan permeabilitas relatif",
+          "Berbanding lurus dengan viskositas fluida",
+          "Berbanding terbalik dengan viskositas fluida",
+          "Tidak bergantung pada tekanan"
+        ],
+        "correct_option": "Berbanding terbalik dengan viskositas fluida",
+        "question_en": "Which statement is correct regarding fluid mobility (lambda)?",
+        "options_en": [
+          "Inversely proportional to relative permeability",
+          "Directly proportional to fluid viscosity",
+          "Inversely proportional to fluid viscosity",
+          "Does not depend on pressure"
+        ],
+        "correct_option_en": "Inversely proportional to fluid viscosity"
+      },
+      {
+        "question": "Mengapa injeksi polimer lebih unggul daripada waterflooding konvensional dalam hal perolehan minyak?",
+        "type": "option",
+        "options": [
+          "Memperbaiki vertical dan areal sweep efficiency",
+          "Mengurangi biaya infrastruktur secara drastis",
+          "Menghilangkan kebutuhan akan fasilitas pengolahan air",
+          "Secara langsung melarutkan deposit paraffin"
+        ],
+        "correct_option": "Memperbaiki vertical dan areal sweep efficiency",
+        "question_en": "Why is polymer injection superior to conventional waterflooding in terms of oil recovery?",
+        "options_en": [
+          "Improves vertical and areal sweep efficiency",
+          "Drastically reduces infrastructure costs",
+          "Eliminates the need for water treatment facilities",
+          "Directly dissolves paraffin deposits"
+        ],
+        "correct_option_en": "Improves vertical and areal sweep efficiency"
+      },
+      {
+        "question": "Apa tujuan utama dari proses pre-flush dalam desain Chemical EOR?",
+        "type": "option",
+        "options": [
+          "Menyesuaikan salinitas dan pH lingkungan reservoir",
+          "Meningkatkan suhu reservoir",
+          "Menambah viskositas minyak",
+          "Membersihkan sisa bor di dekat lubang sumur"
+        ],
+        "correct_option": "Menyesuaikan salinitas dan pH lingkungan reservoir",
+        "question_en": "What is the main purpose of pre-flush in Chemical EOR design?",
+        "options_en": [
+          "Adjusting salinity and pH of the reservoir environment",
+          "Increasing reservoir temperature",
+          "Increasing oil viscosity",
+          "Cleaning drilling residue near the wellbore"
+        ],
+        "correct_option_en": "Adjusting salinity and pH of the reservoir environment"
+      },
+      {
+        "question": "Bagaimana pengaruh suhu reservoir yang sangat tinggi terhadap stabilitas kimiawi HPAM?",
+        "type": "option",
+        "options": [
+          "Mempercepat hidrolisis dan degradasi polimer",
+          "Meningkatkan efektivitas polimer",
+          "Tidak berpengaruh sama sekali",
+          "Mengubah polimer menjadi bentuk padat"
+        ],
+        "correct_option": "Mempercepat hidrolisis dan degradasi polimer",
+        "question_en": "How does very high reservoir temperature affect the chemical stability of HPAM?",
+        "options_en": [
+          "Accelerates hydrolysis and polymer degradation",
+          "Increases polymer effectiveness",
+          "Has no effect at all",
+          "Converts polymer into solid form"
+        ],
+        "correct_option_en": "Accelerates hydrolysis and polymer degradation"
+      },
+      {
+        "question": "Dalam konteks polimer flooding, apa yang dimaksud dengan 'resistance factor'?",
+        "type": "option",
+        "options": [
+          "Rasio mobilitas air terhadap mobilitas larutan polimer",
+          "Rasio viskositas polimer terhadap viskositas air",
+          "Rasio permeabilitas batuan setelah dan sebelum injeksi",
+          "Faktor biaya operasional"
+        ],
+        "correct_option": "Rasio mobilitas air terhadap mobilitas larutan polimer",
+        "question_en": "In the context of polymer flooding, what is meant by 'resistance factor'?",
+        "options_en": [
+          "Ratio of water mobility to polymer solution mobility",
+          "Ratio of polymer viscosity to water viscosity",
+          "Ratio of rock permeability after and before injection",
+          "Operational cost factor"
+        ],
+        "correct_option_en": "Ratio of water mobility to polymer solution mobility"
+      },
+      {
+        "question": "Manakah yang benar tentang karakteristik Xanthan Gum?",
+        "type": "multi",
+        "options": [
+          "Merupakan biopolimer",
+          "Tahan terhadap salinitas",
+          "Sangat sensitif terhadap degradasi bakteri",
+          "Sintetis dari turunan minyak bumi"
+        ],
+        "correct_option": [
+          "Merupakan biopolimer",
+          "Tahan terhadap salinitas",
+          "Sangat sensitif terhadap degradasi bakteri"
+        ],
+        "question_en": "Which of the following are true about the characteristics of Xanthan Gum?",
+        "options_en": [
+          "It is a biopolymer",
+          "Resistant to salinity",
+          "Very sensitive to bacterial degradation",
+          "Synthetic from petroleum derivatives"
+        ],
+        "correct_option_en": [
+          "It is a biopolymer",
+          "Resistant to salinity",
+          "Very sensitive to bacterial degradation"
+        ]
+      },
+      {
+        "question": "Apa tantangan utama dalam implementasi lapangan injeksi polimer yang berkaitan dengan sumur injeksi?",
+        "type": "option",
+        "options": [
+          "Penyumbatan formasi akibat viskositas tinggi",
+          "Kerusakan pompa injeksi akibat korosi",
+          "Penguapan polimer di dalam pipa",
+          "Kesulitan dalam memonitor tekanan"
+        ],
+        "correct_option": "Penyumbatan formasi akibat viskositas tinggi",
+        "question_en": "What is the main challenge in field implementation of polymer injection related to injection wells?",
+        "options_en": [
+          "Formation plugging due to high viscosity",
+          "Injection pump damage due to corrosion",
+          "Polymer evaporation inside pipes",
+          "Difficulty in monitoring pressure"
+        ],
+        "correct_option_en": "Formation plugging due to high viscosity"
+      },
+      {
+        "question": "Apa keuntungan menggunakan polimer dibandingkan dengan waterflooding saja pada reservoir heterogen?",
+        "type": "option",
+        "options": [
+          "Mengurangi aliran melalui zona dengan permeabilitas tinggi (thief zones)",
+          "Meningkatkan permeabilitas absolut",
+          "Menggantikan seluruh volume minyak dalam reservoir",
+          "Menurunkan harga minyak mentah"
+        ],
+        "correct_option": "Mengurangi aliran melalui zona dengan permeabilitas tinggi (thief zones)",
+        "question_en": "What is the advantage of using polymer compared to waterflooding alone in heterogeneous reservoirs?",
+        "options_en": [
+          "Reduces flow through high permeability zones (thief zones)",
+          "Increases absolute permeability",
+          "Replaces the entire oil volume in the reservoir",
+          "Lowers crude oil prices"
+        ],
+        "correct_option_en": "Reduces flow through high permeability zones (thief zones)"
+      }
+    ]
+  },
+  {
+    "group": "materi",
+    "key": "PFM000000061",
+    "nama": "Steamflood dan Cyclic Steam",
+    "jumlah": 5,
+    "soal": [
+      {
+        "question": "Apa mekanisme utama injeksi uap untuk meningkatkan perolehan minyak pada reservoir minyak berat?",
+        "type": "option",
+        "options": [
+          "Penurunan viskositas minyak akibat kenaikan temperatur",
+          "Peningkatan saturasi air residual di dalam pori",
+          "Perubahan wettability batuan menjadi oil-wet",
+          "Peningkatan tegangan antarmuka antara uap dan minyak"
+        ],
+        "correct_option": "Penurunan viskositas minyak akibat kenaikan temperatur",
+        "question_en": "What is the primary recovery mechanism of steam injection in heavy oil reservoirs?",
+        "options_en": [
+          "Reduction of oil viscosity due to temperature increase",
+          "Increase of residual water saturation in the pores",
+          "Change of rock wettability to oil-wet",
+          "Increase of interfacial tension between steam and oil"
+        ],
+        "correct_option_en": "Reduction of oil viscosity due to temperature increase"
+      },
+      {
+        "question": "Manakah pernyataan yang benar mengenai metode Cyclic Steam Stimulation (CSS) atau huff and puff?",
+        "type": "option",
+        "options": [
+          "Melibatkan tiga tahap yaitu injeksi, perendaman (soak), dan produksi pada sumur yang sama",
+          "Dilakukan dengan injeksi uap secara kontinu melalui sumur injeksi yang berbeda dari sumur produksi",
+          "Metode ini sangat efektif untuk reservoir dengan permeabilitas yang sangat rendah",
+          "Meniadakan kebutuhan akan tekanan injeksi yang tinggi"
+        ],
+        "correct_option": "Melibatkan tiga tahap yaitu injeksi, perendaman (soak), dan produksi pada sumur yang sama",
+        "question_en": "Which statement is correct regarding the Cyclic Steam Stimulation (CSS) or huff and puff method?",
+        "options_en": [
+          "Involves three stages: injection, soak, and production in the same well",
+          "Conducted by continuous steam injection through an injector well different from the producer",
+          "This method is highly effective for reservoirs with very low permeability",
+          "Eliminates the need for high injection pressures"
+        ],
+        "correct_option_en": "Involves three stages: injection, soak, and production in the same well"
+      },
+      {
+        "question": "Parameter apa saja yang digunakan untuk mengevaluasi efisiensi ekonomi dan teknis dari proyek injeksi uap?",
+        "type": "multi",
+        "options": [
+          "Steam-Oil Ratio (SOR)",
+          "Cumulative Steam-Oil Ratio",
+          "Permeabilitas absolut reservoir",
+          "Porositas batuan"
+        ],
+        "correct_option": [
+          "Steam-Oil Ratio (SOR)",
+          "Cumulative Steam-Oil Ratio"
+        ],
+        "question_en": "Which parameters are used to evaluate the economic and technical efficiency of steam injection projects?",
+        "options_en": [
+          "Steam-Oil Ratio (SOR)",
+          "Cumulative Steam-Oil Ratio",
+          "Absolute reservoir permeability",
+          "Rock porosity"
+        ],
+        "correct_option_en": [
+          "Steam-Oil Ratio (SOR)",
+          "Cumulative Steam-Oil Ratio"
+        ]
+      },
+      {
+        "question": "Apa perbedaan utama antara metode Steamflood dibandingkan dengan Cyclic Steam Stimulation?",
+        "type": "option",
+        "options": [
+          "Steamflood menggunakan pola sumur injeksi dan produksi yang terpisah secara kontinu",
+          "Steamflood tidak menyebabkan perubahan viskositas minyak",
+          "Cyclic Steam Stimulation memiliki efisiensi sapuan (sweep efficiency) yang lebih luas daripada Steamflood",
+          "Steamflood hanya bisa dilakukan pada reservoir dangkal dengan tekanan sangat rendah"
+        ],
+        "correct_option": "Steamflood menggunakan pola sumur injeksi dan produksi yang terpisah secara kontinu",
+        "question_en": "What is the main difference between Steamflood and Cyclic Steam Stimulation?",
+        "options_en": [
+          "Steamflood uses a separate injection and production well pattern continuously",
+          "Steamflood does not cause changes in oil viscosity",
+          "Cyclic Steam Stimulation has a wider sweep efficiency than Steamflood",
+          "Steamflood can only be performed in shallow reservoirs with very low pressure"
+        ],
+        "correct_option_en": "Steamflood uses a separate injection and production well pattern continuously"
+      },
+      {
+        "question": "Bagaimana pengaruh kenaikan temperatur terhadap perolehan minyak pada proses thermal EOR?",
+        "type": "option",
+        "options": [
+          "Meningkatkan mobilitas minyak di dalam media berpori",
+          "Menurunkan mobilitas minyak karena ekspansi termal",
+          "Tidak memberikan pengaruh signifikan terhadap mobilitas fluida",
+          "Meningkatkan tegangan permukaan yang menghambat aliran"
+        ],
+        "correct_option": "Meningkatkan mobilitas minyak di dalam media berpori",
+        "question_en": "How does an increase in temperature affect oil recovery in thermal EOR processes?",
+        "options_en": [
+          "Increases oil mobility within the porous media",
+          "Decreases oil mobility due to thermal expansion",
+          "Does not significantly affect fluid mobility",
+          "Increases surface tension which inhibits flow"
+        ],
+        "correct_option_en": "Increases oil mobility within the porous media"
+      }
+    ]
+  }
+]

@@ -1,0 +1,473 @@
+{
+  "_readme": "Definisi kurikulum Petrofisika & CEOR untuk Baqi Apps. Struktur: 12 bab (levels PFC...), 36 sub-bab (sub_levels PFS...), 72 materi (materi PFM...). ID sub_levels/materi di-key oleh NAMA di tabel (level & sub_levels berisi nama, bukan id). Warna sub-bab mengikuti palet app: #7BA95C, #EE6C4D, #A7BD3C, #303c54.",
+  "bab": [
+    {
+      "no": 1,
+      "id": "PFC000000001",
+      "nama": "Petrofisika Bab 1 - Pengantar Petrofisika dan Batuan Reservoar",
+      "warna": "#7BA95C",
+      "topik": "Konsep dasar petrofisika, peranannya dalam eksplorasi dan produksi minyak & gas, serta pengenalan batuan reservoar (konsolidasi/ unconsolidated, porositas awal).",
+      "sub_bab": [
+        {
+          "id": "PFS000000001",
+          "nama": "Petrofisika 1 Sublevel 1",
+          "warna": "#7BA95C",
+          "topik": "Definisi petrofisika, lingkup kerja, parameter utama (porositas, permeabilitas, saturasi), data dari wireline log dan core.",
+          "materi": [
+            { "id": "PFM000000001", "topik": "Definisi dan Lingkup Petrofisika", "ringkasan": "Pengertian petrofisika, tujuan, parameter utama, sumber data (log, core, mudlog)." },
+            { "id": "PFM000000002", "topik": "Peran Petrofisika dalam Eksplorasi dan Produksi", "ringkasan": "Peran petrofisika pada eksplorasi, penilaian lapangan, pengembangan dan produksi; kerja sama dengan geologi, reservoar engineering." }
+          ]
+        },
+        {
+          "id": "PFS000000002",
+          "nama": "Petrofisika 1 Sublevel 2",
+          "warna": "#EE6C4D",
+          "topik": "Batuan reservoar: batuan klastik vs karbonat, tekstur, konsolidasi, lingkungan pengendapan, dan kerangka batuan.",
+          "materi": [
+            { "id": "PFM000000003", "topik": "Jenis Batuan Reservoar", "ringkasan": "Batuan klastik (sandstone) dan karbonat (limestone, dolomite); karakteristik ruang pori; reservoir quality." },
+            { "id": "PFM000000004", "topik": "Tekstur, Konsolidasi dan Lingkungan Pengendapan", "ringkasan": "Grain size, sorting, rounding, konsolidasi, lingkungan pengendapan dan pengaruhnya pada sifat reservoar." }
+          ]
+        },
+        {
+          "id": "PFS000000003",
+          "nama": "Petrofisika 1 Sublevel 3",
+          "warna": "#A7BD3C",
+          "topik": "Sistem hidrokarbon: sumber (source rock), migrasi, jebakan (trap), dan akumulasi minyak-gas-air.",
+          "materi": [
+            { "id": "PFM000000005", "topik": "Sistem Hidrokarbon", "ringkasan": "Source rock, migrasi, reservoir, seal, trap; pembentukan hidrokarbon dan akumulasi." },
+            { "id": "PFM000000006", "topik": "Jebakan (Trap) dan Akumulasi", "ringkasan": "Jebakan struktural, stratigrafi dan kombinasi; kontak fluida (OWC, GOC); tekanan reservoar." }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "id": "PFC000000002",
+      "nama": "Petrofisika Bab 2 - Sifat Fisik Batuan Reservoar",
+      "warna": "#EE6C4D",
+      "topik": "Porositas, permeabilitas, saturasi fluida dan kompresibilitas; hubungan antar parameter serta pengukurannya di laboratorium.",
+      "sub_bab": [
+        {
+          "id": "PFS000000004",
+          "nama": "Petrofisika 2 Sublevel 1",
+          "warna": "#7BA95C",
+          "topik": "Porositas: definisi, jenis (total vs efektif), faktor pengaruh (kemasan butir, kompaksi, sementasi, pelarutan), dan metode pengukuran (core, log).",
+          "materi": [
+            { "id": "PFM000000007", "topik": "Konsep dan Jenis Porositas", "ringkasan": "Definisi porositas; porositas total vs efektif; porositas primer/sekunder; rumus porositas." },
+            { "id": "PFM000000008", "topik": "Faktor dan Pengukuran Porositas", "ringkasan": "Faktor pengendali porositas (packing, compaction, cementation, dissolution); pengukuran di lab dan dari log." }
+          ]
+        },
+        {
+          "id": "PFS000000005",
+          "nama": "Petrofisika 2 Sublevel 2",
+          "warna": "#EE6C4D",
+          "topik": "Permeabilitas: Hukum Darcy, jenis (absolut/efektif/relatif), arah, faktor pengaruh, dan pengukuran.",
+          "materi": [
+            { "id": "PFM000000009", "topik": "Konsep Permeabilitas dan Hukum Darcy", "ringkasan": "Definisi permeabilitas; Hukum Darcy; satuan darcy/milidarcy; faktor yang mempengaruhi." },
+            { "id": "PFM000000010", "topik": "Jenis dan Pengukuran Permeabilitas", "ringkasan": "Permeabilitas absolut, efektif, relatif; permeabilitas arah; pengukuran core (gas, liquid, Klinkenberg)." }
+          ]
+        },
+        {
+          "id": "PFS000000006",
+          "nama": "Petrofisika 2 Sublevel 3",
+          "warna": "#A7BD3C",
+          "topik": "Saturasi fluida (minyak, gas, air), hubungan porositas-permeabilitas-saturasi, kompresibilitas batuan dan net pay.",
+          "materi": [
+            { "id": "PFM000000011", "topik": "Saturasi Fluida Reservoar", "ringkasan": "Definisi saturasi minyak-gas-air; saturasi air koneat (Swc); konsep bulk volume dan pore volume." },
+            { "id": "PFM000000012", "topik": "Hubungan Porositas-Permeabilitas-Saturasi", "ringkasan": "Korelasi porositas-permeabilitas (Kozeny-Carman); efek saturasi pada permeabilitas efektif; kompresibilitas batuan." }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "id": "PFC000000003",
+      "nama": "Petrofisika Bab 3 - Sifat Fisik Fluida Reservoar",
+      "warna": "#A7BD3C",
+      "topik": "Sifat fluida hidrokarbon dan air formasi: densitas, viskositas, faktor volume formasi (Bo/Bg/Bw), kompresibilitas, PVT, serta pengaruh tekanan dan temperatur.",
+      "sub_bab": [
+        {
+          "id": "PFS000000007",
+          "nama": "Petrofisika 3 Sublevel 1",
+          "warna": "#7BA95C",
+          "topik": "Komposisi dan fase fluida hidrokarbon; diagram fase; jenis reservoir fluida (black oil, volatile oil, gas kondensat, dry gas).",
+          "materi": [
+            { "id": "PFM000000013", "topik": "Komposisi dan Fase Hidrokarbon", "ringkasan": "Komponen minyak dan gas; diagram fase P-T; titik gelembung dan embun; penggolongan fluida reservoar." },
+            { "id": "PFM000000014", "topik": "Jenis Fluida Reservoar", "ringkasan": "Black oil, volatile oil, retrograde gas, wet gas, dry gas; perilaku fase dan kontak fluida." }
+          ]
+        },
+        {
+          "id": "PFS000000008",
+          "nama": "Petrofisika 3 Sublevel 2",
+          "warna": "#EE6C4D",
+          "topik": "PVT, faktor volume formasi (Bo, Bg, Bw), GOR, kompresibilitas fluida dan densitas; data PVT dari lab.",
+          "materi": [
+            { "id": "PFM000000015", "topik": "PVT dan Faktor Volume Formasi", "ringkasan": "Konsep PVT; Bo, Bg, Bw; gas solubility (Rs); GOR; kompresibilitas; peran data PVT." },
+            { "id": "PFM000000016", "topik": "Viskositas dan Densitas Fluida", "ringkasan": "Viskositas minyak-gas-air dan faktor pengaruhnya (T, P, komposisi); densitas dan API gravity." }
+          ]
+        },
+        {
+          "id": "PFS000000009",
+          "nama": "Petrofisika 3 Sublevel 3",
+          "warna": "#A7BD3C",
+          "topik": "Air formasi (brine): salinitas, resistivitas air formasi (Rw), resistivitas batuan (Ro, Rt) dan hubungannya dengan saturasi (Shale/clay effect).",
+          "materi": [
+            { "id": "PFM000000017", "topik": "Sifat Air Formasi", "ringkasan": "Salinitas dan resistivitas air formasi (Rw); efek temperatur pada Rw; hubungan dengan water saturation." },
+            { "id": "PFM000000018", "topik": "Resistivitas Batuan dan Pengaruh Shale", "ringkasan": "Rw, Ro, Rt; faktor formasi (F); pengaruh shale/clay pada resistivitas; koreksi shale." }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "id": "PFC000000004",
+      "nama": "Petrofisika Bab 4 - Wireline Logging",
+      "warna": "#303c54",
+      "topik": "Prinsip pengukuran wireline log: gamma ray, caliper, SP, resistivitas, densitas, neutron, akustik/sonic; lingkungan lubang bor (borehole environment) dan koreksi.",
+      "sub_bab": [
+        {
+          "id": "PFS000000010",
+          "nama": "Petrofisika 4 Sublevel 1",
+          "warna": "#7BA95C",
+          "topik": "Prinsip Dasar Wireline Log: jenis log per sifat (elektrik, nuklir, akustik), data yang diukur, resolusi dan kedalaman (depth control).",
+          "materi": [
+            { "id": "PFM000000019", "topik": "Prinsip dan Jenis Logging", "ringkasan": "Konsep wireline logging; klasifikasi log (listrik, radioaktif, akustik); proses pengukuran sepanjang sumur." },
+            { "id": "PFM000000020", "topik": "Log Gamma Ray dan Caliper", "ringkasan": "Prinsip log GR (shale indicator); log caliper (diameter lubang, washout, mudcake); koreksi lingkungan." }
+          ]
+        },
+        {
+          "id": "PFS000000011",
+          "nama": "Petrofisika 4 Sublevel 2",
+          "warna": "#EE6C4D",
+          "topik": "Log listrik: SP, resistivitas (LL, ILD, AIT), indikasi fluida, pengaruh mud filtrate dan invaded zone.",
+          "materi": [
+            { "id": "PFM000000021", "topik": "Log Spontaneous Potential (SP)", "ringkasan": "Prinsip SP: membran & liquid junction; indikasi permeabilitas dan salinitas; respon pada zona permeabel." },
+            { "id": "PFM000000022", "topik": "Log Resistivitas", "ringkasan": "Prinsip resistivitas; lateral log, induction log; invaded zone & flusher zone; pengaruh saturasi air pada Rt." }
+          ]
+        },
+        {
+          "id": "PFS000000012",
+          "nama": "Petrofisika 4 Sublevel 3",
+          "warna": "#A7BD3C",
+          "topik": "Log porositas: densitas, neutron, sonic (akustik); prinsip nuklir dan akustik, matrix lithology, saturasi hidrogen.",
+          "materi": [
+            { "id": "PFM000000023", "topik": "Log Densitas dan Neutron", "ringkasan": "Prinsip densitas log (photoelectric, electron density); neutron log (hydrogen index); kombinasi densiti-neutron." },
+            { "id": "PFM000000024", "topik": "Log Sonic (Akustik)", "ringkasan": "Prinsip sonic log (interval transit time); korelasi porositas (Wyllie); aplikasi seismik dan mechanical properties." }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "id": "PFC000000005",
+      "nama": "Petrofisika Bab 5 - Interpretasi Log dan Evaluasi Formasi",
+      "warna": "#7BA95C",
+      "topik": "Evaluasi formasi dari log: analisis clean sand (Archie), shale volume, porositas efektif, saturasi air, cut-off, net pay, dan zonasi reservoir.",
+      "sub_bab": [
+        {
+          "id": "PFS000000013",
+          "nama": "Petrofisika 5 Sublevel 1",
+          "warna": "#7BA95C",
+          "topik": "Perhitungan Volume Shale (Vsh) dan Porositas Efektif dari log GR/SP; koreksi shale.",
+          "materi": [
+            { "id": "PFM000000025", "topik": "Kuantifikasi Volume Shale", "ringkasan": "Vsh dari log GR (linear, Larionov); Vsh dari SP; koreksi shale pada porositas dan resistivitas." },
+            { "id": "PFM000000026", "topik": "Penentuan Porositas Efektif", "ringkasan": "Porositas dari densitas/neutron/sonic; koreksi clay; kombinasi density-neutron; perhitungan porositas efektif." }
+          ]
+        },
+        {
+          "id": "PFS000000014",
+          "nama": "Petrofisika 5 Sublevel 2",
+          "warna": "#EE6C4D",
+          "topik": "Persamaan Archie: faktor formasi (F), indeks resistivitas (I), saturasi air (Sw), parameter a, m, n.",
+          "materi": [
+            { "id": "PFM000000027", "topik": "Persamaan Archie dan Faktor Formasi", "ringkasan": "Faktor formasi F=a/phi^m; indeks resistivitas I; eksponen sementasi m dan n; parameter Archie." },
+            { "id": "PFM000000028", "topik": "Penentuan Saturasi Air dan Minyak", "ringkasan": "Perhitungan Sw dengan Archie; koreksi shale (Indonesia, Simandoux, Waxman-Smits); So=1-Sw; HCPV." }
+          ]
+        },
+        {
+          "id": "PFS000000015",
+          "nama": "Petrofisika 5 Sublevel 3",
+          "warna": "#A7BD3C",
+          "topik": "Cut-off, net pay/net reservoir, zonasi dan korelasi log; penyajian hasil evaluasi.",
+          "materi": [
+            { "id": "PFM000000029", "topik": "Cut-off dan Net Pay", "ringkasan": "Konsep cut-off (phi, Sw, Vsh); net reservoir vs net pay; NTG; perhitungan volume batuan dan in-place." },
+            { "id": "PFM000000030", "topik": "Zonasi dan Korelasi Log", "ringkasan": "Pembagian zona reservoir; korelasi antarsumur; kontak fluida dari log; penyajian hasil interpretasi." }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "id": "PFC000000006",
+      "nama": "Petrofisika Bab 6 - Capillary Pressure dan Relative Permeability",
+      "warna": "#EE6C4D",
+      "topik": "Tekanan kapiler, saturasi air tak dapat dikurangi (Swi), kurva tekanan kapiler (mercury, porous plate), dan permeabilitas relatif dua-tiga fase.",
+      "sub_bab": [
+        {
+          "id": "PFS000000016",
+          "nama": "Petrofisika 6 Sublevel 1",
+          "warna": "#7BA95C",
+          "topik": "Konsep tekanan kapiler, tegangan antarmuka, pembasahan (wettability), dan ketinggian di atas free water level (FWL).",
+          "materi": [
+            { "id": "PFM000000031", "topik": "Konsep Tekanan Kapiler", "ringkasan": "Definisi Pc; persamaan Pc=2sigma.cos(theta)/r; histeresis; hubungan Pc dengan Sw." },
+            { "id": "PFM000000032", "topik": "Wettability dan Free Water Level", "ringkasan": "Pembasahan batuan; sudut kontak; distribusi fluida; hubungan Pc dengan ketinggian di atas FWL." }
+          ]
+        },
+        {
+          "id": "PFS000000017",
+          "nama": "Petrofisika 6 Sublevel 2",
+          "warna": "#EE6C4D",
+          "topik": "Pengukuran tekanan kapiler (mercury injection, porous plate, centrifuge), interpretasi Swc, dan pendekatan Leverett J-function.",
+          "materi": [
+            { "id": "PFM000000033", "topik": "Metode Pengukuran Tekanan Kapiler", "ringkasan": "Mercury injection, porous plate, centrifuge; kelebihan dan keterbatasan; data Pc untuk Swc." },
+            { "id": "PFM000000034", "topik": "Interpretasi dan J-Function", "ringkasan": "Interpretasi kurva Pc; Swc dan tinggi transisi; Leverett J-function untuk korelasi antar contoh batu." }
+          ]
+        },
+        {
+          "id": "PFS000000018",
+          "nama": "Petrofisika 6 Sublevel 3",
+          "warna": "#A7BD3C",
+          "topik": "Permeabilitas relatif: kurva Kr, endpoint (Swc, Sor), aliran dua-fase dan tiga-fase, hubungan dengan tekanan kapiler.",
+          "materi": [
+            { "id": "PFM000000035", "topik": "Konsep Permeabilitas Relatif", "ringkasan": "Definisi Kr; kurva Kr vs Sw; endpoint Swc, Sor; perbedaan drainage & imbibisi." },
+            { "id": "PFM000000036", "topik": "Pengukuran dan Aplikasi Kurva Kr", "ringkasan": "Pengukuran kr (unsteady-steady state); fractional flow; aplikasi pada perkiraan produksi (Buckley-Leverett dasar)." }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "id": "PFC000000007",
+      "nama": "Petrofisika Bab 7 - Aplikasi Petrofisika dan Estimasi Volume",
+      "warna": "#A7BD3C",
+      "topik": "Aplikasi praktis: estimasi OOIP/OGIP, integrasi petrofisika dengan geologi, keterbatasan data, lead time, dan pelaporan.",
+      "sub_bab": [
+        {
+          "id": "PFS000000019",
+          "nama": "Petrofisika 7 Sublevel 1",
+          "warna": "#7BA95C",
+          "topik": "Estimasi volume awal minyak/gas in place (bulk volume, NTG, porositas, saturasi), unit konversi, dan faktor volume formasi.",
+          "materi": [
+            { "id": "PFM000000037", "topik": "Perhitungan OOIP dan OGIP", "ringkasan": "Metode volumetric; rumus OOIP (7758 A h phi So / Bo); OGIP; contoh perhitungan sederhana." },
+            { "id": "PFM000000038", "topik": "Input Data dan Ketidakpastian", "ringkasan": "Sumber ketidakpastian (phi, h, Sw, area); sensitivitas; deterministik vs probabilistik." }
+          ]
+        },
+        {
+          "id": "PFS000000020",
+          "nama": "Petrofisika 7 Sublevel 2",
+          "warna": "#EE6C4D",
+          "topik": "Integrasi data petrofisika, geologi dan reservoir; quality control data log dan core; penyajian hasil (petrophysical summary, crossplot).",
+          "materi": [
+            { "id": "PFM000000039", "topik": "Integrasi Data Multidisiplin", "ringkasan": "Konsistensi log-core-seismik; kalibrasi; peran petrofisika dalam model 3D geologi." },
+            { "id": "PFM000000040", "topik": "Quality Control dan Penyajian", "ringkasan": "QC data log (depth shift, normalization); crossplot (phi-density, phi-Neutron); laporan petrofisika." }
+          ]
+        },
+        {
+          "id": "PFS000000021",
+          "nama": "Petrofisika 7 Sublevel 3",
+          "warna": "#A7BD3C",
+          "topik": "Studi kasus: interpretasi petrofisika dari contoh sumur (synthetic case), perhitungan parametrik.",
+          "materi": [
+            { "id": "PFM000000041", "topik": "Studi Kasus Interpretasi Sumur", "ringkasan": "Telaah contoh log sumur; penentuan zona reservoir; perhitungan phi, Vsh, Sw; kesimpulan net pay." },
+            { "id": "PFM000000042", "topik": "Latihan Perhitungan Parametrik", "ringkasan": "Latihan soal perhitungan porositas, saturasi, volume; penggunaan tabel dan grafik interpretasi." }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "id": "PFC000000008",
+      "nama": "CEOR Bab 1 - Pengantar Enhanced Oil Recovery",
+      "warna": "#303c54",
+      "topik": "Konsep perolehan minyak (primary, secondary, tertiary), faktor perolehan (RF), mekanisme pendorong, dan klasifikasi metode EOR.",
+      "sub_bab": [
+        {
+          "id": "PFS000000022",
+          "nama": "CEOR 1 Sublevel 1",
+          "warna": "#7BA95C",
+          "topik": "Tahapan perolehan minyak (primary, secondary, tertiary) dan faktor perolehan (RF) serta komponennya.",
+          "materi": [
+            { "id": "PFM000000043", "topik": "Tahapan Perolehan Minyak", "ringkasan": "Production stages: primary (natural drive), secondary (waterflood/gas), tertiary (EOR); tujuan tiap tahap." },
+            { "id": "PFM000000044", "topik": "Faktor Perolehan (Recovery Factor)", "ringkasan": "Definisi RF; efisiensi penyapuan (sweep) dan perpindahan (displacement); komponen mikroskopik vs makroskopik." }
+          ]
+        },
+        {
+          "id": "PFS000000023",
+          "nama": "CEOR 1 Sublevel 2",
+          "warna": "#EE6C4D",
+          "topik": "Mekanisme pendorong (depletion, water drive, gas cap, gravity) dan residual oil saturation (Sor).",
+          "materi": [
+            { "id": "PFM000000045", "topik": "Mekanisme Pendorong Reservoar", "ringkasan": "Natural drive mechanisms: depletion, aquifer, gas cap, gravity, combination; pengaruhnya pada RF." },
+            { "id": "PFM000000046", "topik": "Residual Oil Saturation (Sor)", "ringkasan": "Konsep Sor; faktor penyebab minyak tertinggal; perbandingan Sor target EOR." }
+          ]
+        },
+        {
+          "id": "PFS000000024",
+          "nama": "CEOR 1 Sublevel 3",
+          "warna": "#A7BD3C",
+          "topik": "Klasifikasi EOR (chemical, thermal, miscible gas, microbial) dan kriteria umum pemilihan (screening).",
+          "materi": [
+            { "id": "PFM000000047", "topik": "Klasifikasi Metode EOR", "ringkasan": "Kategori EOR: chemical (polymer, surfactant, gas miscible CO2/HC, thermal steam, MEOR); mekanisme utama tiap kategori." },
+            { "id": "PFM000000048", "topik": "Kriteria dan Proses Screening EOR", "ringkasan": "Kriteria screening (viskositas, API, phi, k, kedalaman, Salinitas); tabel pemilihan metode EOR." }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "id": "PFC000000009",
+      "nama": "CEOR Bab 2 - Chemical EOR Polymer Flooding",
+      "warna": "#7BA95C",
+      "topik": "Polymer flooding: mekanisme, jenis polimer (HPAM, Xanthan), peningkatan viskositas, penurunan mobility ratio, desain slug dan implementasi lapangan.",
+      "sub_bab": [
+        {
+          "id": "PFS000000025",
+          "nama": "CEOR 2 Sublevel 1",
+          "warna": "#7BA95C",
+          "topik": "Mekanisme dasar polymer flooding: peningkatan viskositas air, mobility ratio (M), sweep efficiency.",
+          "materi": [
+            { "id": "PFM000000049", "topik": "Mekanisme Polymer Flooding", "ringkasan": "Peran polimer menaikkan viskositas; menurunkan mobilitas air; memperbaiki sweep (mobility ratio < 1)." },
+            { "id": "PFM000000050", "topik": "Mobility Ratio dan Sweep Efficiency", "ringkasan": "Definisi mobility ratio M; efek M pada areal/vertical sweep; kriteria desain (M <= 1)." }
+          ]
+        },
+        {
+          "id": "PFS000000026",
+          "nama": "CEOR 2 Sublevel 2",
+          "warna": "#EE6C4D",
+          "topik": "Jenis polimer (sintetik HPAM/PAM, biopolimer Xanthan), sifat rheologi, salinitas & temperatur, degradasi mekanik.",
+          "materi": [
+            { "id": "PFM000000051", "topik": "Jenis dan Sifat Polimer", "ringkasan": "HPAM vs Xanthan; hidrolisis; viskositas vs konsentrasi; efek salinitas dan temperatur." },
+            { "id": "PFM000000052", "topik": "Degradasi dan Rheologi Polimer", "ringkasan": "Degradasi mekanik, kimia, biologis; shear thinning; in-situ viscosity; RRF (residual resistance factor)." }
+          ]
+        },
+        {
+          "id": "PFS000000027",
+          "nama": "CEOR 2 Sublevel 3",
+          "warna": "#A7BD3C",
+          "topik": "Desain polymer flood: konsentrasi, slug size, injektivitas, implementasi lapangan, studi kasus.",
+          "materi": [
+            { "id": "PFM000000053", "topik": "Desain Injeksi Polimer", "ringkasan": "Konsentrasi polimer; ukuran slug (PV); rate injeksi; salinitas sistem air injeksi; optimasi." },
+            { "id": "PFM000000054", "topik": "Implementasi dan Studi Kasus Polymer", "ringkasan": "Persiapan lapangan (polymer plant), monitoring, contoh proyek polymer flooding, dan evaluasi performa." }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "id": "PFC000000010",
+      "nama": "CEOR Bab 3 - Chemical EOR Surfaktan dan Alkaline",
+      "warna": "#EE6C4D",
+      "topik": "Surfactant flooding dan alkaline flooding: penurunan IFT, perubahan wettability, solubilisasi, formulasi ASP, dan aplikasinya.",
+      "sub_bab": [
+        {
+          "id": "PFS000000028",
+          "nama": "CEOR 3 Sublevel 1",
+          "warna": "#7BA95C",
+          "topik": "Surfaktan: mekanisme penurunan interfacial tension (IFT), capillary number, mobilisasi minyak residual.",
+          "materi": [
+            { "id": "PFM000000055", "topik": "Mekanisme Surfactant Flooding", "ringkasan": "Menurunkan IFT; menaikkan capillary number (Nc); mendesorpsi minyak; ultralow IFT (<10^-2 mN/m)." },
+            { "id": "PFM000000056", "topik": "Jenis Surfaktan dan Formulasi", "ringkasan": "Anionik, kationik, nonionik; solubilisation ratio; phase behavior (Winsor); salinitas optimal." }
+          ]
+        },
+        {
+          "id": "PFS000000029",
+          "nama": "CEOR 3 Sublevel 2",
+          "warna": "#EE6C4D",
+          "topik": "Alkaline flooding: reaksi alkali-minyak (saponifikasi), pengurangan adsorpsi, dan sinergi dengan surfaktan (ASP).",
+          "materi": [
+            { "id": "PFM000000057", "topik": "Mekanisme Alkaline Flooding", "ringkasan": "NaOH/Na2CO3; saponifikasi asam organik; penurunan IFT; perubahan wettability; konsumsi alkali." },
+            { "id": "PFM000000058", "topik": "Formulasi dan Proses ASP", "ringkasan": "Alkaline-Surfactant-Polymer; peran tiap komponen; slug design; optimal salinity; adsorpsi dan loss." }
+          ]
+        },
+        {
+          "id": "PFS000000030",
+          "nama": "CEOR 3 Sublevel 3",
+          "warna": "#A7BD3C",
+          "topik": "Studi kasus chemical EOR (surfaktan/ASP), tantangan lapangan, dan pertimbangan ekonomi.",
+          "materi": [
+            { "id": "PFM000000059", "topik": "Implementasi Lapangan Chemical EOR", "ringkasan": "Pilot vs full field; tata kelola kimia; contoh proyek SP/ASP; kendala (adsorpsi, scaling, emulsi)." },
+            { "id": "PFM000000060", "topik": "Evaluasi Ekonomi dan Risiko", "ringkasan": "Capex/opex chemical; harga produk; NPV; risiko teknis dan lingkungan." }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "id": "PFC000000011",
+      "nama": "CEOR Bab 4 - Thermal EOR dan Gas EOR",
+      "warna": "#A7BD3C",
+      "topik": "Metode thermal (steamflood, cyclic steam, SAGD, in-situ combustion) dan gas injection (CO2, hidrokarbon, WAG); mekanisme dan kriteria.",
+      "sub_bab": [
+        {
+          "id": "PFS000000031",
+          "nama": "CEOR 4 Sublevel 1",
+          "warna": "#7BA95C",
+          "topik": "Thermal recovery: mekanisme penurunan viskositas, steamflood, cyclic steam stimulation, dan SAGD.",
+          "materi": [
+            { "id": "PFM000000061", "topik": "Steamflood dan Cyclic Steam", "ringkasan": "Prinsip injeksi uap; penurunan viskositas; CSS (huff and puff); steamflood; steam-oil ratio (SOR)." },
+            { "id": "PFM000000062", "topik": "SAGD dan In-Situ Combustion", "ringkasan": "Steam Assisted Gravity Drainage; ISC (fireflood); forward/reverse combustion; air requirement." }
+          ]
+        },
+        {
+          "id": "PFS000000032",
+          "nama": "CEOR 4 Sublevel 2",
+          "warna": "#EE6C4D",
+          "topik": "Gas injection miscible: CO2 flooding, hydrocarbon gas, immiscible gas, dan mekanisme miscibility.",
+          "materi": [
+            { "id": "PFM000000063", "topik": "CO2 dan Gas Hidrokarbon Injection", "ringkasan": "Miscible vs immiscible; MMP; swelling & viscosity reduction; WAG; sumber CO2." },
+            { "id": "PFM000000064", "topik": "Mekanisme Miscibility dan Aplikasinya", "ringkasan": "First/second contact miscibility; vaporizing & condensing gas drive; screening gas injection." }
+          ]
+        },
+        {
+          "id": "PFS000000033",
+          "nama": "CEOR 4 Sublevel 3",
+          "warna": "#A7BD3C",
+          "topik": "Perbandingan metode EOR (thermal, gas, chemical); pemilihan berdasarkan karakteristik reservoar.",
+          "materi": [
+            { "id": "PFM000000065", "topik": "Perbandingan Metode EOR", "ringkasan": "Perbandingan biaya, recovery, kecocokan; matrix screening; kelebihan/kekurangan tiap metode." },
+            { "id": "PFM000000066", "topik": "Pemilihan Metode Berdasarkan Reservoar", "ringkasan": "Analisis karakteristik reservoar (viskositas, kedalaman, T, salinitas) untuk memilih metode; contoh keputusan." }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 12,
+      "id": "PFC000000012",
+      "nama": "CEOR Bab 5 - Perencanaan Proyek Ekonomi dan Aplikasi CEOR",
+      "warna": "#303c54",
+      "topik": "Perencanaan proyek EOR (pilot, full field), evaluasi teknis dan ekonomi (NPV), risiko, HSE, dan masa depan CEOR.",
+      "sub_bab": [
+        {
+          "id": "PFS000000034",
+          "nama": "CEOR 5 Sublevel 1",
+          "warna": "#7BA95C",
+          "topik": "Perencanaan proyek: data reservoir, kajian laboratorium, simulasi, pilot dan skala lapangan penuh.",
+          "materi": [
+            { "id": "PFM000000067", "topik": "Tahapan Perencanaan Proyek EOR", "ringkasan": "Data gathering; lab (core flood, rheology); simulasi reservoir; desain pilot; skala komersial." },
+            { "id": "PFM000000068", "topik": "Pilot Test dan Skala Lapangan", "ringkasan": "Tujuan pilot; pola pilot; scale-up; kriteria sukses; monitoring produksi dan injeksi." }
+          ]
+        },
+        {
+          "id": "PFS000000035",
+          "nama": "CEOR 5 Sublevel 2",
+          "warna": "#EE6C4D",
+          "topik": "Ekonomi proyek EOR: biaya, harga minyak, incremental oil, NPV/IRR, dan analisis risiko.",
+          "materi": [
+            { "id": "PFM000000069", "topik": "Analisis Ekonomi Proyek EOR", "ringkasan": "Incremental oil; capex-opex; price deck; NPV, IRR, payout; break-even." },
+            { "id": "PFM000000070", "topik": "Manajemen Risiko dan HSE", "ringkasan": "Risiko teknis (injectivity, scaling); risiko pasar; HSE chemical handling; regulasi." }
+          ]
+        },
+        {
+          "id": "PFS000000036",
+          "nama": "CEOR 5 Sublevel 3",
+          "warna": "#A7BD3C",
+          "topik": "Studi kasus aplikasi CEOR di lapangan; tren dan masa depan (digital, low salinity, CO2-EOR & CCS).",
+          "materi": [
+            { "id": "PFM000000071", "topik": "Studi Kasus CEOR Lapangan", "ringkasan": "Contoh proyek polymer/surfactant/CO2; lessons learned; hasil recovery." },
+            { "id": "PFM000000072", "topik": "Tren dan Masa Depan EOR", "ringkasan": "Low salinity waterflood; CO2-EOR dan CCS; digitalisasi; residu & kebijakan energi." }
+          ]
+        }
+      ]
+    }
+  ]
+}

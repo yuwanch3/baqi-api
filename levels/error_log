@@ -1,0 +1,5 @@
+[19-Jan-2022 11:02:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on boolean in /home/pondokhu/api.pondok-huda.com/config/connect.php:32
+Stack trace:
+#0 /home/pondokhu/api.pondok-huda.com/levels/index.php(10): Connection->api_code('X64irOkE01qT0jW...')
+#1 {main}
+  thrown in /home/pondokhu/api.pondok-huda.com/config/connect.php on line 32

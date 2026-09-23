@@ -1,0 +1,65 @@
+RewriteEngine On
+
+RewriteRule ^users/?$ users/index.php [NC,L]
+RewriteRule ^users/([a-zA-Z0-9]+)/?$ users/index.php?api=$1 [NC,L]
+RewriteRule ^users/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ users/index.php?id=$1&api=$2 [NC,L]
+
+RewriteRule ^sublevels/?$ sublevels/index.php [NC,L]
+RewriteRule ^sublevels/([a-zA-Z0-9-\s]+)/?$ sublevels/index.php?api=$1 [NC,L]
+RewriteRule ^sublevels/([a-zA-Z0-9-\s]+)/([a-zA-Z0-9-\s]+)/?$ sublevels/index.php?level=$1&api=$2 [NC,L]
+RewriteRule ^sublevels/id/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ sublevels/index.php?id=$1&api=$2 [NC,L]
+
+RewriteRule ^level/?$ levels/index.php [NC,L]
+RewriteRule ^level/([a-zA-Z0-9]+)/?$ levels/index.php?api=$1 [NC,L]
+RewriteRule ^level/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ levels/index.php?id=$1&api=$2 [NC,L]
+
+RewriteRule ^materi/?$ materi/index.php [NC,L]
+RewriteRule ^materi/([a-zA-Z0-9]+)/?$ materi/index.php?api=$1 [NC,L]
+RewriteRule ^materi/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ materi/index.php?id=$1&api=$2 [NC,L]
+RewriteRule ^materi/get/([a-zA-Z0-9-\s]+)/([a-zA-Z0-9-\s]+)/([a-zA-Z0-9]+)/?$ materi/index.php?level=$1&sub=$2&api=$3 [NC,L]
+RewriteRule ^materi/doc/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ materi/index.php?type=$1&id=$2&api=$3 [NC,L]
+
+RewriteRule ^skor/?$ skors/index.php [NC,L]
+RewriteRule ^skor/([a-zA-Z0-9]+)/?$ skors/index.php?api=$1 [NC,L]
+RewriteRule ^skor/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ skors/index.php?id=$1&api=$2 [NC,L]
+RewriteRule ^skor/getmid/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9-\s]+)/([a-zA-Z0-9]+)/?$ skors/index.php?id=$1&mid=$2&excerpt=$3&api=$4 [NC,L]
+
+
+RewriteRule ^login/?$ login/index.php [NC,L]
+RewriteRule ^login/([a-zA-Z0-9]+)/?$ login/index.php?api=$1 [NC,L]
+
+RewriteRule ^questions/?$ soal/index.php [NC,L]
+RewriteRule ^questions/([a-zA-Z0-9]+)/?$ soal/index.php?api=$1 [NC,L]
+RewriteRule ^questions/mid/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ soal/index.php?mid=$1&api=$2 [NC,L]
+RewriteRule ^questions/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ soal/index.php?id=$1&api=$2 [NC,L]
+RewriteRule ^questions/en/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ soal/index.php?id=$1&up=$2&api=$3 [NC,L]
+
+RewriteRule ^finex/([a-zA-Z0-9]+)/?$ final/index.php?api=$1 [NC,L]
+RewriteRule ^finex/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ final/index.php?id=$1&api=$2 [NC,L]
+RewriteRule ^finex/([a-zA-Z0-9-\s]+)/([a-zA-Z0-9]+)/?$ final/index.php?excerpt=$1&api=$2 [NC,L]
+RewriteRule ^finex/([a-zA-Z0-9]+)/([a-zA-Z0-9-\s]+)/([a-zA-Z0-9]+)/?$ final/index.php?id=$1&excerpt=$2&api=$3 [NC,L]
+RewriteRule ^finex/en/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ final/index.php?id=$1&up=$2&api=$3 [NC,L]
+
+RewriteRule ^subexam/([a-zA-Z0-9]+)/?$ final/index.php?api=$1 [NC,L]
+RewriteRule ^subexam/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ final/index.php?id=$1&api=$2 [NC,L]
+RewriteRule ^subexam/([a-zA-Z0-9-\s]+)/([a-zA-Z0-9]+)/?$ final/index.php?excerpt=$1&api=$2 [NC,L]
+RewriteRule ^subexam/([a-zA-Z0-9]+)/([a-zA-Z0-9-\s]+)/([a-zA-Z0-9]+)/?$ final/index.php?id=$1&excerpt=$2&api=$3 [NC,L]
+
+
+RewriteRule ^forgetpass/?$ forget_password/index.php [NC,L]
+RewriteRule ^forgetpass/up/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ forget_password/index.php?id=$1&api=$2 [NC,L]
+RewriteRule ^forgetpass/([a-zA-Z0-9]+)/?$ forget_password/index.php?&api=$1 [NC,L]
+RewriteRule ^forgetpass/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ forget_password/index.php?uname=$1&api=$2 [NC,L]
+
+RewriteRule ^lastest/?$ lastest/index.php [NC,L]
+RewriteRule ^lastest/([a-zA-Z0-9]+)/?$ lastest/index.php?api=$1 [NC,L]
+RewriteRule ^lastest/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ lastest/index.php?id=$1&api=$2 [NC,L]
+RewriteRule ^lastest/del/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ lastest/index.php?id=$1&api=$2 [NC,L]
+RewriteRule ^lastest/indi/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ lastest/index.php?uid=$1&api=$2 [NC,L]
+RewriteRule ^lastest/up/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ lastest/index.php?uid=$1&1api=$2 [NC,L]
+RewriteRule ^lastest/get/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ lastest/index.php?mid=$1&uid=$2&api=$3 [NC,L]
+
+
+RewriteRule ^progress/?$ progress/index.php [NC,L]
+RewriteRule ^progress/([a-zA-Z0-9]+)/?$ progress/index.php?api=$1 [NC,L]
+RewriteRule ^progress/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ progress/index.php?uid=$1&api=$2 [NC,L]

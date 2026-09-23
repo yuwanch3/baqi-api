@@ -1,0 +1,1712 @@
+[
+  {
+    "group": "materi",
+    "key": "PFM000000001",
+    "nama": "Definisi dan Lingkup Petrofisika",
+    "jumlah": 5,
+    "soal": [
+      {
+        "question": "Manakah di antara berikut ini yang merupakan parameter fisik batuan utama yang dipelajari dalam petrofisika untuk mengevaluasi potensi reservoar?",
+        "type": "multi",
+        "options": [
+          "Porositas",
+          "Permeabilitas",
+          "Saturasi air",
+          "Tekanan hidrostatik"
+        ],
+        "correct_option": [
+          "Porositas",
+          "Permeabilitas",
+          "Saturasi air"
+        ],
+        "question_en": "Which of the following are the primary rock physical parameters studied in petrophysics to evaluate reservoir potential?",
+        "options_en": [
+          "Porosity",
+          "Permeability",
+          "Water saturation",
+          "Hydrostatic pressure"
+        ],
+        "correct_option_en": [
+          "Porosity",
+          "Permeability",
+          "Water saturation"
+        ]
+      },
+      {
+        "question": "Data yang diperoleh langsung dari pengambilan sampel batuan fisik di bawah permukaan untuk analisis laboratorium di permukaan disebut sebagai:",
+        "type": "option",
+        "options": [
+          "Log sumur",
+          "Core",
+          "Mudlog",
+          "Seismik"
+        ],
+        "correct_option": "Core",
+        "question_en": "Data obtained directly from physical rock samples taken from the subsurface for laboratory analysis at the surface is called:",
+        "options_en": [
+          "Well log",
+          "Core",
+          "Mudlog",
+          "Seismic"
+        ],
+        "correct_option_en": "Core"
+      },
+      {
+        "question": "Dalam konteks petrofisika, apa tujuan utama dari integrasi data log dan data core?",
+        "type": "option",
+        "options": [
+          "Mengurangi biaya pengeboran",
+          "Mengalibrasi data log dengan data fisik batuan yang sebenarnya",
+          "Menentukan kedalaman total sumur secara akurat",
+          "Menghitung volume minyak di permukaan"
+        ],
+        "correct_option": "Mengalibrasi data log dengan data fisik batuan yang sebenarnya",
+        "question_en": "In the context of petrophysics, what is the main purpose of integrating log data and core data?",
+        "options_en": [
+          "Reduce drilling costs",
+          "Calibrate log data with actual physical rock data",
+          "Determine total well depth accurately",
+          "Calculate oil volume at the surface"
+        ],
+        "correct_option_en": "Calibrate log data with actual physical rock data"
+      },
+      {
+        "question": "Parameter log sumur yang terutama digunakan untuk mengidentifikasi litologi dan menentukan porositas pada formasi bersih adalah:",
+        "type": "option",
+        "options": [
+          "Resistivitas",
+          "Gamma ray dan densitas",
+          "Tekanan formasi",
+          "Laju penetrasi"
+        ],
+        "correct_option": "Gamma ray dan densitas",
+        "question_en": "Well log parameters mainly used to identify lithology and determine porosity in clean formations are:",
+        "options_en": [
+          "Resistivity",
+          "Gamma ray and density",
+          "Formation pressure",
+          "Rate of penetration"
+        ],
+        "correct_option_en": "Gamma ray and density"
+      },
+      {
+        "question": "Pernyataan yang tepat mengenai mudlog dalam lingkup petrofisika adalah:",
+        "type": "option",
+        "options": [
+          "Memberikan informasi real-time mengenai serpihan batuan (cuttings) dan gas selama pengeboran",
+          "Alat utama untuk mengukur permeabilitas absolut secara tepat",
+          "Hanya digunakan setelah sumur selesai diproduksi",
+          "Mengukur saturasi minyak secara langsung di dalam reservoir"
+        ],
+        "correct_option": "Memberikan informasi real-time mengenai serpihan batuan (cuttings) dan gas selama pengeboran",
+        "question_en": "The correct statement regarding mudlogs in the scope of petrophysics is:",
+        "options_en": [
+          "Provides real-time information on rock cuttings and gas during drilling",
+          "The main tool for measuring absolute permeability precisely",
+          "Used only after the well is finished being produced",
+          "Directly measures oil saturation within the reservoir"
+        ],
+        "correct_option_en": "Provides real-time information on rock cuttings and gas during drilling"
+      }
+    ]
+  },
+  {
+    "group": "materi",
+    "key": "PFM000000002",
+    "nama": "Peran Petrofisika dalam Eksplorasi dan Produksi",
+    "jumlah": 5,
+    "soal": [
+      {
+        "question": "Parameter utama apa yang dihitung oleh petrofisikawan untuk menentukan volume hidrokarbon di tempat (OOIP) selama fase penilaian lapangan?",
+        "type": "option",
+        "options": [
+          "Porositas dan saturasi air",
+          "Permeabilitas dan tekanan kapiler",
+          "Viskositas fluida dan densitas batuan",
+          "Kecepatan seismik dan impedansi akustik"
+        ],
+        "correct_option": "Porositas dan saturasi air",
+        "question_en": "What is the primary parameter calculated by a petrophysicist to determine the original oil in place (OOIP) during the field appraisal phase?",
+        "options_en": [
+          "Porosity and water saturation",
+          "Permeability and capillary pressure",
+          "Fluid viscosity and rock density",
+          "Seismic velocity and acoustic impedance"
+        ],
+        "correct_option_en": "Porosity and water saturation"
+      },
+      {
+        "question": "Pilihlah properti batuan reservoar yang secara langsung mempengaruhi kemampuan reservoir untuk mengalirkan fluida ke lubang bor.",
+        "type": "multi",
+        "options": [
+          "Permeabilitas",
+          "Porositas efektif",
+          "Saturasi gas",
+          "Tekanan formasi"
+        ],
+        "correct_option": [
+          "Permeabilitas",
+          "Porositas efektif"
+        ],
+        "question_en": "Select the reservoir rock properties that directly influence the ability of a reservoir to flow fluids to the wellbore.",
+        "options_en": [
+          "Permeability",
+          "Effective porosity",
+          "Gas saturation",
+          "Formation pressure"
+        ],
+        "correct_option_en": [
+          "Permeability",
+          "Effective porosity"
+        ]
+      },
+      {
+        "question": "Data log sumur manakah yang paling sering digunakan untuk mengidentifikasi zona permeabel dan menentukan volume serpih (shale volume) pada batuan klastik?",
+        "type": "option",
+        "options": [
+          "Log Gamma Ray",
+          "Log Resistivitas",
+          "Log Densitas",
+          "Log Neutron"
+        ],
+        "correct_option": "Log Gamma Ray",
+        "question_en": "Which well log data is most frequently used to identify permeable zones and determine shale volume in clastic rocks?",
+        "options_en": [
+          "Gamma Ray Log",
+          "Resistivity Log",
+          "Density Log",
+          "Neutron Log"
+        ],
+        "correct_option_en": "Gamma Ray Log"
+      },
+      {
+        "question": "Dalam konteks kerja sama multidisiplin, informasi petrofisika apa yang paling dibutuhkan oleh seorang reservoir engineer untuk merancang strategi injeksi air?",
+        "type": "option",
+        "options": [
+          "Permeabilitas absolut dan heterogenitas batuan",
+          "Kandungan mineral clay",
+          "Kecepatan gelombang geser",
+          "Tekanan overburden"
+        ],
+        "correct_option": "Permeabilitas absolut dan heterogenitas batuan",
+        "question_en": "In the context of multidisciplinary collaboration, which petrophysical information is most needed by a reservoir engineer to design a water injection strategy?",
+        "options_en": [
+          "Absolute permeability and rock heterogeneity",
+          "Clay mineral content",
+          "Shear wave velocity",
+          "Overburden pressure"
+        ],
+        "correct_option_en": "Absolute permeability and rock heterogeneity"
+      },
+      {
+        "question": "Apa peran utama interpretasi data petrofisika pada fase eksplorasi minyak dan gas?",
+        "type": "option",
+        "options": [
+          "Mengidentifikasi keberadaan reservoar dan potensi hidrokarbon",
+          "Merancang kapasitas pompa sucker rod",
+          "Menentukan rute pipa penyalur utama",
+          "Menghitung nilai ekonomi pajak perusahaan"
+        ],
+        "correct_option": "Mengidentifikasi keberadaan reservoar dan potensi hidrokarbon",
+        "question_en": "What is the primary role of petrophysical data interpretation in the oil and gas exploration phase?",
+        "options_en": [
+          "Identifying the presence of reservoirs and hydrocarbon potential",
+          "Designing sucker rod pump capacity",
+          "Determining main pipeline routes",
+          "Calculating corporate tax economic value"
+        ],
+        "correct_option_en": "Identifying the presence of reservoirs and hydrocarbon potential"
+      }
+    ]
+  },
+  {
+    "group": "materi",
+    "key": "PFM000000003",
+    "nama": "Jenis Batuan Reservoar",
+    "jumlah": 5,
+    "soal": [
+      {
+        "question": "Batuan reservoir jenis klastik yang paling umum ditemukan dalam industri perminyakan adalah:",
+        "type": "option",
+        "options": [
+          "Batupasir (sandstone)",
+          "Batu gamping (limestone)",
+          "Dolomit",
+          "Serpih (shale)"
+        ],
+        "correct_option": "Batupasir (sandstone)",
+        "question_en": "The most common type of clastic reservoir rock found in the petroleum industry is:",
+        "options_en": [
+          "Sandstone",
+          "Limestone",
+          "Dolomite",
+          "Shale"
+        ],
+        "correct_option_en": "Sandstone"
+      },
+      {
+        "question": "Manakah dari berikut ini yang merupakan karakteristik utama dari batuan karbonat?",
+        "type": "multi",
+        "options": [
+          "Sifat heterogenitas yang tinggi",
+          "Terbentuk dari endapan proses biokimia",
+          "Terutama tersusun dari mineral kuarsa",
+          "Struktur pori yang sering kali dipengaruhi oleh proses diagenesis"
+        ],
+        "correct_option": [
+          "Sifat heterogenitas yang tinggi",
+          "Terbentuk dari endapan proses biokimia",
+          "Struktur pori yang sering kali dipengaruhi oleh proses diagenesis"
+        ],
+        "question_en": "Which of the following are main characteristics of carbonate rocks?",
+        "options_en": [
+          "High degree of heterogeneity",
+          "Formed from biochemical deposition processes",
+          "Mainly composed of quartz minerals",
+          "Pore structure often influenced by diagenetic processes"
+        ],
+        "correct_option_en": [
+          "High degree of heterogeneity",
+          "Formed from biochemical deposition processes",
+          "Pore structure often influenced by diagenetic processes"
+        ]
+      },
+      {
+        "question": "Proses pembentukan mineral dolomit dari kalsit yang dapat meningkatkan porositas sekunder disebut dengan:",
+        "type": "option",
+        "options": [
+          "Dolomitisasi",
+          "Sementasi",
+          "Kompaksi",
+          "Pelarutan"
+        ],
+        "correct_option": "Dolomitisasi",
+        "question_en": "The process of forming dolomite minerals from calcite which can enhance secondary porosity is called:",
+        "options_en": [
+          "Dolomitization",
+          "Cementation",
+          "Compaction",
+          "Dissolution"
+        ],
+        "correct_option_en": "Dolomitization"
+      },
+      {
+        "question": "Parameter utama yang menentukan kualitas reservoir batupasir adalah:",
+        "type": "option",
+        "options": [
+          "Sorting dan kemas butiran",
+          "Warna batuan",
+          "Kedalaman pengeboran",
+          "Ketebalan lapisan penutup"
+        ],
+        "correct_option": "Sorting dan kemas butiran",
+        "question_en": "The primary parameter that determines the quality of sandstone reservoirs is:",
+        "options_en": [
+          "Sorting and grain packing",
+          "Rock color",
+          "Drilling depth",
+          "Overburden thickness"
+        ],
+        "correct_option_en": "Sorting and grain packing"
+      },
+      {
+        "question": "Apa yang dimaksud dengan porositas vuggy pada batuan karbonat?",
+        "type": "option",
+        "options": [
+          "Ruang pori yang terbentuk dari pelarutan mineral",
+          "Ruang pori antar butir yang sangat halus",
+          "Porositas yang tertutup oleh semen kalsit",
+          "Porositas yang hanya terdapat pada batuan vulkanik"
+        ],
+        "correct_option": "Ruang pori yang terbentuk dari pelarutan mineral",
+        "question_en": "What is meant by vuggy porosity in carbonate rocks?",
+        "options_en": [
+          "Pore space formed by mineral dissolution",
+          "Very fine intergranular pore space",
+          "Porosity plugged by calcite cement",
+          "Porosity found only in volcanic rocks"
+        ],
+        "correct_option_en": "Pore space formed by mineral dissolution"
+      }
+    ]
+  },
+  {
+    "group": "materi",
+    "key": "PFM000000004",
+    "nama": "Tekstur, Konsolidasi dan Lingkungan Pengendapan",
+    "jumlah": 5,
+    "soal": [
+      {
+        "question": "Bagaimana pengaruh tingkat pemilahan (sorting) yang buruk pada batupasir terhadap nilai permeabilitas reservoar?",
+        "type": "option",
+        "options": [
+          "Permeabilitas cenderung menurun karena butiran kecil mengisi pori-pori di antara butiran besar",
+          "Permeabilitas meningkat karena variasi ukuran butir memperbesar ukuran pori",
+          "Permeabilitas tetap konstan tanpa dipengaruhi oleh pemilahan",
+          "Permeabilitas akan meningkat secara eksponensial seiring bertambahnya variasi ukuran"
+        ],
+        "correct_option": "Permeabilitas cenderung menurun karena butiran kecil mengisi pori-pori di antara butiran besar",
+        "question_en": "How does poor sorting in sandstone affect reservoir permeability?",
+        "options_en": [
+          "Permeability tends to decrease because smaller grains fill the pores between larger grains",
+          "Permeability increases because grain size variation enlarges pore sizes",
+          "Permeability remains constant regardless of sorting",
+          "Permeability increases exponentially as grain size variation increases"
+        ],
+        "correct_option_en": "Permeability tends to decrease because smaller grains fill the pores between larger grains"
+      },
+      {
+        "question": "Manakah dari faktor tekstur berikut yang secara langsung meningkatkan porositas primer pada batuan sedimen?",
+        "type": "multi",
+        "options": [
+          "Pemilahan yang sangat baik (well-sorted)",
+          "Bentuk butir yang menyudut (angular)",
+          "Tingkat sementasi yang tinggi",
+          "Ukuran butir yang sangat halus (clay-sized)"
+        ],
+        "correct_option": [
+          "Pemilahan yang sangat baik (well-sorted)",
+          "Bentuk butir yang menyudut (angular)"
+        ],
+        "question_en": "Which of the following textural factors directly increase primary porosity in sedimentary rocks?",
+        "options_en": [
+          "Well-sorted",
+          "Angular grain shape",
+          "High degree of cementation",
+          "Very fine (clay-sized) grains"
+        ],
+        "correct_option_en": [
+          "Well-sorted",
+          "Angular grain shape"
+        ]
+      },
+      {
+        "question": "Apa dampak utama dari proses sementasi dan kompaksi selama diagenesis terhadap sifat fisik reservoar?",
+        "type": "option",
+        "options": [
+          "Mengurangi porositas dan permeabilitas batuan",
+          "Meningkatkan porositas efektif secara signifikan",
+          "Mengubah batuan sedimen menjadi batuan beku",
+          "Tidak memberikan pengaruh terhadap sifat petrofisika"
+        ],
+        "correct_option": "Mengurangi porositas dan permeabilitas batuan",
+        "question_en": "What is the main impact of cementation and compaction during diagenesis on reservoir physical properties?",
+        "options_en": [
+          "Reduces rock porosity and permeability",
+          "Significantly increases effective porosity",
+          "Transforms sedimentary rocks into igneous rocks",
+          "Has no effect on petrophysical properties"
+        ],
+        "correct_option_en": "Reduces rock porosity and permeability"
+      },
+      {
+        "question": "Lingkungan pengendapan apa yang umumnya menghasilkan batupasir dengan pemilahan (sorting) terbaik?",
+        "type": "option",
+        "options": [
+          "Lingkungan eolian (gurun pasir)",
+          "Lingkungan aluvial (sungai dekat pegunungan)",
+          "Lingkungan glasial",
+          "Lingkungan debris flow"
+        ],
+        "correct_option": "Lingkungan eolian (gurun pasir)",
+        "question_en": "Which depositional environment typically produces the best-sorted sandstone?",
+        "options_en": [
+          "Aeolian (desert sand) environment",
+          "Alluvial (river near mountains) environment",
+          "Glacial environment",
+          "Debris flow environment"
+        ],
+        "correct_option_en": "Aeolian (desert sand) environment"
+      },
+      {
+        "question": "Bagaimana hubungan antara kebundaran (rounding) butiran dengan efisiensi aliran fluida dalam media berpori?",
+        "type": "option",
+        "options": [
+          "Butiran yang lebih membulat (rounded) cenderung memberikan jalur aliran yang lebih lancar",
+          "Butiran yang lebih menyudut (angular) selalu memberikan permeabilitas yang lebih tinggi",
+          "Kebundaran tidak memiliki pengaruh terhadap sifat aliran fluida",
+          "Butiran yang menyudut akan menghilangkan porositas total"
+        ],
+        "correct_option": "Butiran yang lebih membulat (rounded) cenderung memberikan jalur aliran yang lebih lancar",
+        "question_en": "What is the relationship between grain rounding and fluid flow efficiency in porous media?",
+        "options_en": [
+          "More rounded grains tend to provide smoother flow paths",
+          "More angular grains always provide higher permeability",
+          "Rounding has no influence on fluid flow properties",
+          "Angular grains will eliminate total porosity"
+        ],
+        "correct_option_en": "More rounded grains tend to provide smoother flow paths"
+      }
+    ]
+  },
+  {
+    "group": "materi",
+    "key": "PFM000000005",
+    "nama": "Sistem Hidrokarbon",
+    "jumlah": 5,
+    "soal": [
+      {
+        "question": "Manakah batuan yang memiliki kandungan material organik tinggi dan merupakan tempat terjadinya proses pematangan hidrokarbon?",
+        "type": "option",
+        "options": [
+          "Source rock",
+          "Reservoir rock",
+          "Seal rock",
+          "Basement rock"
+        ],
+        "correct_option": "Source rock",
+        "question_en": "Which rock contains high organic content and serves as the site for hydrocarbon maturation processes?",
+        "options_en": [
+          "Source rock",
+          "Reservoir rock",
+          "Seal rock",
+          "Basement rock"
+        ],
+        "correct_option_en": "Source rock"
+      },
+      {
+        "question": "Pilihlah karakteristik utama yang harus dimiliki oleh batuan reservoir agar dapat menyimpan dan mengalirkan hidrokarbon secara ekonomis.",
+        "type": "multi",
+        "options": [
+          "Porositas yang tinggi",
+          "Permeabilitas yang baik",
+          "Kandungan organik yang rendah",
+          "Kedap air secara total"
+        ],
+        "correct_option": [
+          "Porositas yang tinggi",
+          "Permeabilitas yang baik"
+        ],
+        "question_en": "Select the primary characteristics that a reservoir rock must possess to store and transmit hydrocarbons economically.",
+        "options_en": [
+          "High porosity",
+          "Good permeability",
+          "Low organic content",
+          "Totally impermeable"
+        ],
+        "correct_option_en": [
+          "High porosity",
+          "Good permeability"
+        ]
+      },
+      {
+        "question": "Fungsi utama dari lapisan penutup (seal) dalam sebuah sistem hidrokarbon adalah untuk:",
+        "type": "option",
+        "options": [
+          "Mencegah migrasi hidrokarbon lebih lanjut ke permukaan",
+          "Mempercepat proses pematangan source rock",
+          "Meningkatkan permeabilitas batuan reservoir",
+          "Menyediakan ruang pori untuk akumulasi minyak"
+        ],
+        "correct_option": "Mencegah migrasi hidrokarbon lebih lanjut ke permukaan",
+        "question_en": "The primary function of a seal layer in a hydrocarbon system is to:",
+        "options_en": [
+          "Prevent further hydrocarbon migration to the surface",
+          "Accelerate source rock maturation",
+          "Increase reservoir rock permeability",
+          "Provide pore space for oil accumulation"
+        ],
+        "correct_option_en": "Prevent further hydrocarbon migration to the surface"
+      },
+      {
+        "question": "Proses berpindahnya hidrokarbon dari batuan induk (source rock) menuju batuan reservoir dikenal dengan istilah:",
+        "type": "option",
+        "options": [
+          "Migrasi",
+          "Diagenesis",
+          "Litifikasi",
+          "Erosi"
+        ],
+        "correct_option": "Migrasi",
+        "question_en": "The process of hydrocarbons moving from the source rock to the reservoir rock is known as:",
+        "options_en": [
+          "Migration",
+          "Diagenesis",
+          "Lithification",
+          "Erosion"
+        ],
+        "correct_option_en": "Migration"
+      },
+      {
+        "question": "Perangkap (trap) merupakan komponen sistem hidrokarbon yang berfungsi sebagai tempat terakumulasinya minyak dan gas. Manakah contoh jenis perangkap struktural?",
+        "type": "option",
+        "options": [
+          "Antiklin",
+          "Updip pinch-out",
+          "Unconformity",
+          "Reef buildup"
+        ],
+        "correct_option": "Antiklin",
+        "question_en": "A trap is a component of a hydrocarbon system that serves as a location for oil and gas accumulation. Which of the following is an example of a structural trap?",
+        "options_en": [
+          "Anticline",
+          "Updip pinch-out",
+          "Unconformity",
+          "Reef buildup"
+        ],
+        "correct_option_en": "Anticline"
+      }
+    ]
+  },
+  {
+    "group": "materi",
+    "key": "PFM000000006",
+    "nama": "Jebakan (Trap) dan Akumulasi",
+    "jumlah": 5,
+    "soal": [
+      {
+        "question": "Jenis jebakan migas yang terbentuk terutama akibat proses lipatan (folding) atau patahan (faulting) pada batuan reservoar adalah?",
+        "type": "option",
+        "options": [
+          "Jebakan struktural",
+          "Jebakan stratigrafi",
+          "Jebakan kombinasi",
+          "Jebakan hidrodinamik"
+        ],
+        "correct_option": "Jebakan struktural",
+        "question_en": "The type of hydrocarbon trap formed primarily due to folding or faulting processes in the reservoir rock is?",
+        "options_en": [
+          "Structural trap",
+          "Stratigraphic trap",
+          "Combination trap",
+          "Hydrodynamic trap"
+        ],
+        "correct_option_en": "Structural trap"
+      },
+      {
+        "question": "Manakah dari berikut ini yang dikategorikan sebagai jebakan stratigrafi?",
+        "type": "multi",
+        "options": [
+          "Ketidakselarasan (unconformity)",
+          "Pinch-out batupasir",
+          "Antiklin",
+          "Sesar normal"
+        ],
+        "correct_option": [
+          "Ketidakselarasan (unconformity)",
+          "Pinch-out batupasir"
+        ],
+        "question_en": "Which of the following are categorized as stratigraphic traps?",
+        "options_en": [
+          "Unconformity",
+          "Sandstone pinch-out",
+          "Anticline",
+          "Normal fault"
+        ],
+        "correct_option_en": [
+          "Unconformity",
+          "Sandstone pinch-out"
+        ]
+      },
+      {
+        "question": "Bidang batas yang memisahkan zona akumulasi minyak di bawah dan zona gas di atas pada suatu reservoar dikenal sebagai?",
+        "type": "option",
+        "options": [
+          "Oil-Water Contact (OWC)",
+          "Gas-Oil Contact (GOC)",
+          "Gas-Water Contact (GWC)",
+          "Cap rock"
+        ],
+        "correct_option": "Gas-Oil Contact (GOC)",
+        "question_en": "The interface that separates the oil accumulation zone below from the gas zone above in a reservoir is known as?",
+        "options_en": [
+          "Oil-Water Contact (OWC)",
+          "Gas-Oil Contact (GOC)",
+          "Gas-Water Contact (GWC)",
+          "Cap rock"
+        ],
+        "correct_option_en": "Gas-Oil Contact (GOC)"
+      },
+      {
+        "question": "Apa fungsi utama dari batuan penutup (seal/cap rock) dalam sistem akumulasi hidrokarbon?",
+        "type": "option",
+        "options": [
+          "Meningkatkan permeabilitas batuan",
+          "Menghambat migrasi hidrokarbon lebih lanjut",
+          "Menambah porositas efektif",
+          "Mengurangi tekanan reservoar"
+        ],
+        "correct_option": "Menghambat migrasi hidrokarbon lebih lanjut",
+        "question_en": "What is the primary function of the seal or cap rock in a hydrocarbon accumulation system?",
+        "options_en": [
+          "Increasing rock permeability",
+          "Preventing further hydrocarbon migration",
+          "Increasing effective porosity",
+          "Reducing reservoir pressure"
+        ],
+        "correct_option_en": "Preventing further hydrocarbon migration"
+      },
+      {
+        "question": "Dalam konteks tekanan reservoar, apa yang dimaksud dengan tekanan hidrostatik?",
+        "type": "option",
+        "options": [
+          "Tekanan yang disebabkan oleh berat kolom fluida di atas reservoar",
+          "Tekanan akibat kompresi tektonik yang ekstrem",
+          "Tekanan yang dihasilkan oleh injeksi air",
+          "Tekanan yang sama dengan tekanan atmosfer"
+        ],
+        "correct_option": "Tekanan yang disebabkan oleh berat kolom fluida di atas reservoar",
+        "question_en": "In the context of reservoir pressure, what is hydrostatic pressure?",
+        "options_en": [
+          "Pressure caused by the weight of the fluid column above the reservoir",
+          "Pressure due to extreme tectonic compression",
+          "Pressure generated by water injection",
+          "Pressure equal to atmospheric pressure"
+        ],
+        "correct_option_en": "Pressure caused by the weight of the fluid column above the reservoir"
+      }
+    ]
+  },
+  {
+    "group": "subexam",
+    "key": "PFS000000001",
+    "nama": "Petrofisika 1 Sublevel 1",
+    "jumlah": 10,
+    "soal": [
+      {
+        "question": "Apa definisi dasar dari petrofisika dalam konteks eksplorasi dan produksi minyak dan gas?",
+        "type": "option",
+        "options": [
+          "Studi tentang sifat fisik dan kimia batuan serta interaksi fluida di dalamnya",
+          "Studi tentang pergerakan tektonik lempeng di bawah permukaan",
+          "Analisis struktur makro reservoir menggunakan data seismik 3D",
+          "Studi tentang komposisi kimia minyak mentah di dalam tangki penyimpanan"
+        ],
+        "correct_option": "Studi tentang sifat fisik dan kimia batuan serta interaksi fluida di dalamnya",
+        "question_en": "What is the basic definition of petrophysics in the context of oil and gas exploration and production?",
+        "options_en": [
+          "Study of physical and chemical rock properties and fluid interactions within them",
+          "Study of tectonic plate movements in the subsurface",
+          "Macro-scale reservoir structure analysis using 3D seismic data",
+          "Study of the chemical composition of crude oil in storage tanks"
+        ],
+        "correct_option_en": "Study of physical and chemical rock properties and fluid interactions within them"
+      },
+      {
+        "question": "Parameter utama apa saja yang menentukan kualitas sebuah reservoir dalam studi petrofisika?",
+        "type": "multi",
+        "options": [
+          "Porositas",
+          "Permeabilitas",
+          "Warna batuan",
+          "Saturasi fluida"
+        ],
+        "correct_option": [
+          "Porositas",
+          "Permeabilitas",
+          "Saturasi fluida"
+        ],
+        "question_en": "Which main parameters determine the quality of a reservoir in petrophysical studies?",
+        "options_en": [
+          "Porosity",
+          "Permeability",
+          "Rock color",
+          "Fluid saturation"
+        ],
+        "correct_option_en": [
+          "Porosity",
+          "Permeability",
+          "Fluid saturation"
+        ]
+      },
+      {
+        "question": "Porositas efektif didefinisikan sebagai rasio antara...",
+        "type": "option",
+        "options": [
+          "Volume pori yang saling berhubungan dengan volume total batuan",
+          "Volume pori total dengan volume matriks batuan",
+          "Volume air terjebak dengan volume pori total",
+          "Volume fluida hidrokarbon dengan volume total pori"
+        ],
+        "correct_option": "Volume pori yang saling berhubungan dengan volume total batuan",
+        "question_en": "Effective porosity is defined as the ratio of...",
+        "options_en": [
+          "Interconnected pore volume to total rock volume",
+          "Total pore volume to rock matrix volume",
+          "Trapped water volume to total pore volume",
+          "Hydrocarbon fluid volume to total pore volume"
+        ],
+        "correct_option_en": "Interconnected pore volume to total rock volume"
+      },
+      {
+        "question": "Manakah instrumen wireline logging yang digunakan untuk menentukan porositas berdasarkan densitas elektron batuan?",
+        "type": "option",
+        "options": [
+          "Density Log",
+          "Resistivity Log",
+          "Gamma Ray Log",
+          "Caliper Log"
+        ],
+        "correct_option": "Density Log",
+        "question_en": "Which wireline logging instrument is used to determine porosity based on the electron density of the rock?",
+        "options_en": [
+          "Density Log",
+          "Resistivity Log",
+          "Gamma Ray Log",
+          "Caliper Log"
+        ],
+        "correct_option_en": "Density Log"
+      },
+      {
+        "question": "Permeabilitas didefinisikan sebagai kemampuan batuan untuk...",
+        "type": "option",
+        "options": [
+          "Mengalirkan fluida melalui pori-pori yang saling terhubung",
+          "Menyimpan volume hidrokarbon dalam pori",
+          "Menahan tekanan overburden di kedalaman",
+          "Menyerap radiasi alami dari formasi"
+        ],
+        "correct_option": "Mengalirkan fluida melalui pori-pori yang saling terhubung",
+        "question_en": "Permeability is defined as the rock's ability to...",
+        "options_en": [
+          "Transmit fluids through interconnected pores",
+          "Store hydrocarbon volumes in pores",
+          "Withstand overburden pressure at depth",
+          "Absorb natural radiation from the formation"
+        ],
+        "correct_option_en": "Transmit fluids through interconnected pores"
+      },
+      {
+        "question": "Data core (inti batuan) memberikan keuntungan utama dibandingkan wireline log dalam hal...",
+        "type": "option",
+        "options": [
+          "Pengamatan langsung sifat fisik batuan secara fisik dan laboratorium",
+          "Pengambilan data secara kontinu di seluruh lubang bor",
+          "Biaya operasional yang jauh lebih murah",
+          "Kemampuan mengukur saturasi pada kedalaman yang sangat dalam"
+        ],
+        "correct_option": "Pengamatan langsung sifat fisik batuan secara fisik dan laboratorium",
+        "question_en": "Core data provides a major advantage over wireline logs in terms of...",
+        "options_en": [
+          "Direct physical observation of rock properties in the laboratory",
+          "Continuous data acquisition throughout the borehole",
+          "Significantly lower operational costs",
+          "Ability to measure saturation at very deep depths"
+        ],
+        "correct_option_en": "Direct physical observation of rock properties in the laboratory"
+      },
+      {
+        "question": "Satuan standar yang digunakan untuk mengukur permeabilitas batuan reservoir adalah...",
+        "type": "option",
+        "options": [
+          "Darcy (atau milliDarcy)",
+          "Persen (%)",
+          "Ohm-meter",
+          "API Unit"
+        ],
+        "correct_option": "Darcy (atau milliDarcy)",
+        "question_en": "The standard unit used to measure reservoir rock permeability is...",
+        "options_en": [
+          "Darcy (or milliDarcy)",
+          "Percent (%)",
+          "Ohm-meter",
+          "API Unit"
+        ],
+        "correct_option_en": "Darcy (or milliDarcy)"
+      },
+      {
+        "question": "Apa fungsi utama dari Gamma Ray Log dalam interpretasi petrofisika?",
+        "type": "option",
+        "options": [
+          "Membedakan litologi batuan (serpih vs pasir) berdasarkan radioaktivitas alami",
+          "Mengukur saturasi air dalam formasi",
+          "Menentukan porositas batuan secara langsung",
+          "Mengukur resistivitas fluida dalam batuan"
+        ],
+        "correct_option": "Membedakan litologi batuan (serpih vs pasir) berdasarkan radioaktivitas alami",
+        "question_en": "What is the primary function of the Gamma Ray Log in petrophysical interpretation?",
+        "options_en": [
+          "Differentiating rock lithology (shale vs sand) based on natural radioactivity",
+          "Measuring water saturation in the formation",
+          "Determining rock porosity directly",
+          "Measuring fluid resistivity within the rock"
+        ],
+        "correct_option_en": "Differentiating rock lithology (shale vs sand) based on natural radioactivity"
+      },
+      {
+        "question": "Saturasi air (Sw) dalam sebuah reservoir didefinisikan sebagai...",
+        "type": "option",
+        "options": [
+          "Rasio volume air terhadap volume pori total",
+          "Rasio volume air terhadap volume matriks batuan",
+          "Rasio volume minyak terhadap volume air",
+          "Rasio volume hidrokarbon terhadap volume total reservoir"
+        ],
+        "correct_option": "Rasio volume air terhadap volume pori total",
+        "question_en": "Water saturation (Sw) in a reservoir is defined as...",
+        "options_en": [
+          "Ratio of water volume to total pore volume",
+          "Ratio of water volume to rock matrix volume",
+          "Ratio of oil volume to water volume",
+          "Ratio of hydrocarbon volume to total reservoir volume"
+        ],
+        "correct_option_en": "Ratio of water volume to total pore volume"
+      },
+      {
+        "question": "Data log resistivitas sangat penting dalam petrofisika karena berfungsi untuk...",
+        "type": "option",
+        "options": [
+          "Mengidentifikasi keberadaan hidrokarbon karena minyak/gas bersifat resistif",
+          "Menentukan densitas batuan secara presisi",
+          "Mendeteksi keberadaan mineral radioaktif",
+          "Mengukur diameter lubang bor yang sebenarnya"
+        ],
+        "correct_option": "Mengidentifikasi keberadaan hidrokarbon karena minyak/gas bersifat resistif",
+        "question_en": "Resistivity log data is essential in petrophysics because it functions to...",
+        "options_en": [
+          "Identify hydrocarbon presence because oil/gas are resistive",
+          "Determine rock density precisely",
+          "Detect the presence of radioactive minerals",
+          "Measure the actual borehole diameter"
+        ],
+        "correct_option_en": "Identify hydrocarbon presence because oil/gas are resistive"
+      }
+    ]
+  },
+  {
+    "group": "subexam",
+    "key": "PFS000000002",
+    "nama": "Petrofisika 1 Sublevel 2",
+    "jumlah": 10,
+    "soal": [
+      {
+        "question": "Manakah dari pernyataan berikut yang paling tepat mendeskripsikan perbedaan utama antara batuan reservoar klastik dan karbonat?",
+        "type": "option",
+        "options": [
+          "Batuan klastik terbentuk dari presipitasi kimia, sedangkan karbonat dari rombakan mekanik.",
+          "Batuan klastik umumnya terdiri dari fragmen silisiklastik, sedangkan karbonat didominasi oleh mineral kalsit atau dolomit.",
+          "Porositas pada batuan klastik selalu lebih tinggi dibandingkan batuan karbonat.",
+          "Batuan karbonat tidak pernah memiliki porositas primer."
+        ],
+        "correct_option": "Batuan klastik umumnya terdiri dari fragmen silisiklastik, sedangkan karbonat didominasi oleh mineral kalsit atau dolomit.",
+        "question_en": "Which of the following statements best describes the main difference between clastic and carbonate reservoir rocks?",
+        "options_en": [
+          "Clastic rocks are formed by chemical precipitation, while carbonates are from mechanical fragments.",
+          "Clastic rocks generally consist of siliciclastic fragments, while carbonates are dominated by calcite or dolomite minerals.",
+          "Porosity in clastic rocks is always higher than in carbonate rocks.",
+          "Carbonate rocks never possess primary porosity."
+        ],
+        "correct_option_en": "Clastic rocks generally consist of siliciclastic fragments, while carbonates are dominated by calcite or dolomite minerals."
+      },
+      {
+        "question": "Faktor apa saja yang paling memengaruhi tekstur batuan klastik?",
+        "type": "multi",
+        "options": [
+          "Ukuran butir",
+          "Sortasi (pemilahan)",
+          "Kandungan kimiawi",
+          "Bentuk butir (roundness)"
+        ],
+        "correct_option": [
+          "Ukuran butir",
+          "Sortasi (pemilahan)",
+          "Bentuk butir (roundness)"
+        ],
+        "question_en": "What factors most influence the texture of clastic rocks?",
+        "options_en": [
+          "Grain size",
+          "Sorting",
+          "Chemical content",
+          "Grain roundness"
+        ],
+        "correct_option_en": [
+          "Grain size",
+          "Sorting",
+          "Grain roundness"
+        ]
+      },
+      {
+        "question": "Istilah untuk batuan yang memiliki ikatan antar butir yang kuat karena adanya material pengisi (semen) disebut sebagai batuan yang...",
+        "type": "option",
+        "options": [
+          "Unconsolidated",
+          "Friable",
+          "Consolidated",
+          "Porous"
+        ],
+        "correct_option": "Consolidated",
+        "question_en": "The term for rocks that have strong inter-granular bonds due to the presence of filling material (cement) is referred to as...",
+        "options_en": [
+          "Unconsolidated",
+          "Friable",
+          "Consolidated",
+          "Porous"
+        ],
+        "correct_option_en": "Consolidated"
+      },
+      {
+        "question": "Lingkungan pengendapan manakah yang umumnya menghasilkan batuan reservoar klastik dengan sortasi yang sangat baik?",
+        "type": "option",
+        "options": [
+          "Lingkungan aluvial fan",
+          "Lingkungan delta",
+          "Lingkungan pantai (eolian atau shoreface)",
+          "Lingkungan sedimen turbidit"
+        ],
+        "correct_option": "Lingkungan pantai (eolian atau shoreface)",
+        "question_en": "Which depositional environment typically produces clastic reservoir rocks with excellent sorting?",
+        "options_en": [
+          "Alluvial fan environment",
+          "Deltaic environment",
+          "Coastal environment (eolian or shoreface)",
+          "Turbidite sediment environment"
+        ],
+        "correct_option_en": "Coastal environment (eolian or shoreface)"
+      },
+      {
+        "question": "Dalam konteks kerangka batuan, apa yang dimaksud dengan porositas primer?",
+        "type": "option",
+        "options": [
+          "Porositas yang terbentuk setelah batuan mengalami proses diagenesa.",
+          "Porositas yang terbentuk pada saat deposisi material sedimen.",
+          "Porositas yang disebabkan oleh pelarutan batuan (vuggy).",
+          "Porositas yang terbentuk karena adanya rekahan (fractures)."
+        ],
+        "correct_option": "Porositas yang terbentuk pada saat deposisi material sedimen.",
+        "question_en": "In the context of rock framework, what is meant by primary porosity?",
+        "options_en": [
+          "Porosity formed after the rock undergoes diagenesis.",
+          "Porosity formed during the deposition of sedimentary material.",
+          "Porosity caused by rock dissolution (vuggy).",
+          "Porosity formed due to fractures."
+        ],
+        "correct_option_en": "Porosity formed during the deposition of sedimentary material."
+      },
+      {
+        "question": "Batuan karbonat sering kali memiliki porositas sekunder yang signifikan. Manakah proses utama yang membentuk porositas ini?",
+        "type": "option",
+        "options": [
+          "Kompaksi mekanik selama pembebanan sedimen.",
+          "Proses dolomitisasi dan pelarutan (dissolution).",
+          "Pengendapan material klastik oleh arus turbidit.",
+          "Penyusutan ukuran butir selama litifikasi."
+        ],
+        "correct_option": "Proses dolomitisasi dan pelarutan (dissolution).",
+        "question_en": "Carbonate rocks often have significant secondary porosity. Which is the main process forming this porosity?",
+        "options_en": [
+          "Mechanical compaction during sediment loading.",
+          "Dolomitization and dissolution processes.",
+          "Deposition of clastic material by turbidity currents.",
+          "Reduction of grain size during lithification."
+        ],
+        "correct_option_en": "Dolomitization and dissolution processes."
+      },
+      {
+        "question": "Mengapa sortasi (pemilahan) butiran sangat penting dalam menentukan kualitas reservoar klastik?",
+        "type": "option",
+        "options": [
+          "Sortasi yang buruk meningkatkan permeabilitas.",
+          "Sortasi yang baik memastikan ukuran pori yang lebih seragam dan umumnya permeabilitas lebih tinggi.",
+          "Sortasi tidak berpengaruh terhadap porositas efektif.",
+          "Sortasi yang baik berarti butiran memiliki bentuk yang sangat angular."
+        ],
+        "correct_option": "Sortasi yang baik memastikan ukuran pori yang lebih seragam dan umumnya permeabilitas lebih tinggi.",
+        "question_en": "Why is sorting of grains very important in determining the quality of a clastic reservoir?",
+        "options_en": [
+          "Poor sorting increases permeability.",
+          "Good sorting ensures more uniform pore sizes and generally higher permeability.",
+          "Sorting has no effect on effective porosity.",
+          "Good sorting means the grains have a very angular shape."
+        ],
+        "correct_option_en": "Good sorting ensures more uniform pore sizes and generally higher permeability."
+      },
+      {
+        "question": "Manakah dari elemen berikut yang termasuk dalam komponen kerangka batuan (rock framework)?",
+        "type": "multi",
+        "options": [
+          "Butiran (grains)",
+          "Matriks",
+          "Fluida reservoar",
+          "Semen"
+        ],
+        "correct_option": [
+          "Butiran (grains)",
+          "Matriks",
+          "Semen"
+        ],
+        "question_en": "Which of the following elements are included in the rock framework components?",
+        "options_en": [
+          "Grains",
+          "Matrix",
+          "Reservoir fluids",
+          "Cement"
+        ],
+        "correct_option_en": [
+          "Grains",
+          "Matrix",
+          "Cement"
+        ]
+      },
+      {
+        "question": "Tekstur batuan klastik yang menunjukkan butiran 'angular' (menyudut) biasanya mengindikasikan bahwa...",
+        "type": "option",
+        "options": [
+          "Batuan telah mengalami transportasi yang sangat jauh.",
+          "Batuan mengalami proses pelarutan kimia yang sangat intens.",
+          "Batuan belum mengalami banyak transportasi atau abrasi.",
+          "Batuan berasal dari lingkungan pengendapan laut dalam."
+        ],
+        "correct_option": "Batuan belum mengalami banyak transportasi atau abrasi.",
+        "question_en": "Clastic rock texture showing 'angular' grains usually indicates that...",
+        "options_en": [
+          "The rock has undergone very long transportation.",
+          "The rock has undergone intense chemical dissolution.",
+          "The rock has not undergone much transportation or abrasion.",
+          "The rock originated from a deep-sea depositional environment."
+        ],
+        "correct_option_en": "The rock has not undergone much transportation or abrasion."
+      },
+      {
+        "question": "Apa dampak utama dari keberadaan matriks yang berlebihan (seperti lempung) dalam batuan reservoar klastik terhadap sifat petrofisikanya?",
+        "type": "option",
+        "options": [
+          "Meningkatkan permeabilitas secara drastis.",
+          "Mengurangi porositas dan permeabilitas dengan menyumbat pori-pori.",
+          "Tidak memberikan pengaruh apapun terhadap aliran fluida.",
+          "Mengubah sifat kimiawi minyak mentah."
+        ],
+        "correct_option": "Mengurangi porositas dan permeabilitas dengan menyumbat pori-pori.",
+        "question_en": "What is the primary impact of excessive matrix (like clay) in a clastic reservoir rock on its petrophysical properties?",
+        "options_en": [
+          "Drastically increases permeability.",
+          "Reduces porosity and permeability by clogging pores.",
+          "Has no effect on fluid flow.",
+          "Changes the chemical properties of crude oil."
+        ],
+        "correct_option_en": "Reduces porosity and permeability by clogging pores."
+      }
+    ]
+  },
+  {
+    "group": "subexam",
+    "key": "PFS000000003",
+    "nama": "Petrofisika 1 Sublevel 3",
+    "jumlah": 10,
+    "soal": [
+      {
+        "question": "Batuan sedimen yang kaya akan material organik (kerogen) dan memiliki potensi untuk menghasilkan hidrokarbon disebut sebagai apa?",
+        "type": "option",
+        "options": [
+          "Batuan induk (source rock)",
+          "Batuan reservoir",
+          "Batuan penutup (seal)",
+          "Batuan dasar (basement)"
+        ],
+        "correct_option": "Batuan induk (source rock)",
+        "question_en": "Sedimentary rock rich in organic material (kerogen) with the potential to generate hydrocarbons is referred to as what?",
+        "options_en": [
+          "Source rock",
+          "Reservoir rock",
+          "Seal rock",
+          "Basement rock"
+        ],
+        "correct_option_en": "Source rock"
+      },
+      {
+        "question": "Proses perpindahan hidrokarbon dari batuan induk ke batuan reservoir disebut sebagai apa?",
+        "type": "option",
+        "options": [
+          "Migrasi",
+          "Akumulasi",
+          "Erosi",
+          "Diagenesa"
+        ],
+        "correct_option": "Migrasi",
+        "question_en": "The process of hydrocarbon movement from the source rock to the reservoir rock is known as what?",
+        "options_en": [
+          "Migration",
+          "Accumulation",
+          "Erosion",
+          "Diagenesis"
+        ],
+        "correct_option_en": "Migration"
+      },
+      {
+        "question": "Faktor utama apa saja yang diperlukan untuk membentuk jebakan hidrokarbon yang efektif?",
+        "type": "multi",
+        "options": [
+          "Batuan penutup yang impermeabel",
+          "Geometri batuan reservoir yang sesuai",
+          "Keberadaan struktur geologi atau stratigrafi",
+          "Saturasi air yang tinggi di seluruh reservoir"
+        ],
+        "correct_option": [
+          "Batuan penutup yang impermeabel",
+          "Geometri batuan reservoir yang sesuai",
+          "Keberadaan struktur geologi atau stratigrafi"
+        ],
+        "question_en": "What are the primary factors required to form an effective hydrocarbon trap?",
+        "options_en": [
+          "Impermeable seal rock",
+          "Suitable reservoir rock geometry",
+          "Presence of geological or stratigraphic structures",
+          "High water saturation throughout the reservoir"
+        ],
+        "correct_option_en": [
+          "Impermeable seal rock",
+          "Suitable reservoir rock geometry",
+          "Presence of geological or stratigraphic structures"
+        ]
+      },
+      {
+        "question": "Jenis jebakan hidrokarbon yang terbentuk akibat adanya patahan yang mempertemukan batuan permeabel dengan batuan impermeabel disebut sebagai apa?",
+        "type": "option",
+        "options": [
+          "Jebakan struktur",
+          "Jebakan stratigrafi",
+          "Jebakan kombinasi",
+          "Jebakan hidrodinamik"
+        ],
+        "correct_option": "Jebakan struktur",
+        "question_en": "A type of hydrocarbon trap formed by a fault placing permeable rock against impermeable rock is called what?",
+        "options_en": [
+          "Structural trap",
+          "Stratigraphic trap",
+          "Combination trap",
+          "Hydrodynamic trap"
+        ],
+        "correct_option_en": "Structural trap"
+      },
+      {
+        "question": "Manakah pernyataan yang benar mengenai urutan stratifikasi fluida dalam sebuah reservoir hidrokarbon konvensional?",
+        "type": "option",
+        "options": [
+          "Gas di atas, minyak di tengah, air di bawah",
+          "Air di atas, minyak di tengah, gas di bawah",
+          "Minyak di atas, gas di tengah, air di bawah",
+          "Gas di atas, air di tengah, minyak di bawah"
+        ],
+        "correct_option": "Gas di atas, minyak di tengah, air di bawah",
+        "question_en": "Which statement is correct regarding the fluid stratification order in a conventional hydrocarbon reservoir?",
+        "options_en": [
+          "Gas on top, oil in middle, water at bottom",
+          "Water on top, oil in middle, gas at bottom",
+          "Oil on top, gas in middle, water at bottom",
+          "Gas on top, water in middle, oil at bottom"
+        ],
+        "correct_option_en": "Gas on top, oil in middle, water at bottom"
+      },
+      {
+        "question": "Apa fungsi utama dari batuan penutup (seal rock) dalam sistem hidrokarbon?",
+        "type": "option",
+        "options": [
+          "Mencegah migrasi hidrokarbon lebih lanjut agar tetap terperangkap",
+          "Meningkatkan permeabilitas batuan reservoir",
+          "Menjadi sumber utama pembentukan gas",
+          "Menyediakan ruang pori untuk akumulasi minyak"
+        ],
+        "correct_option": "Mencegah migrasi hidrokarbon lebih lanjut agar tetap terperangkap",
+        "question_en": "What is the primary function of a seal rock in a hydrocarbon system?",
+        "options_en": [
+          "Prevent further hydrocarbon migration to keep it trapped",
+          "Increase reservoir rock permeability",
+          "Act as the primary source for gas generation",
+          "Provide pore space for oil accumulation"
+        ],
+        "correct_option_en": "Prevent further hydrocarbon migration to keep it trapped"
+      },
+      {
+        "question": "Migrasi hidrokarbon yang terjadi melalui lapisan batuan yang menerus dari batuan induk ke batuan reservoir disebut sebagai?",
+        "type": "option",
+        "options": [
+          "Migrasi sekunder",
+          "Migrasi primer",
+          "Migrasi tersier",
+          "Migrasi difusi"
+        ],
+        "correct_option": "Migrasi sekunder",
+        "question_en": "Hydrocarbon migration occurring through continuous rock layers from source rock to reservoir rock is called?",
+        "options_en": [
+          "Secondary migration",
+          "Primary migration",
+          "Tertiary migration",
+          "Diffusion migration"
+        ],
+        "correct_option_en": "Secondary migration"
+      },
+      {
+        "question": "Jebakan stratigrafi sering kali terbentuk karena adanya?",
+        "type": "multi",
+        "options": [
+          "Perubahan fasies batuan (pincout)",
+          "Ketidakselarasan (unconformity)",
+          "Antiklin",
+          "Perubahan porositas dan permeabilitas secara lateral"
+        ],
+        "correct_option": [
+          "Perubahan fasies batuan (pincout)",
+          "Ketidakselarasan (unconformity)",
+          "Perubahan porositas dan permeabilitas secara lateral"
+        ],
+        "question_en": "Stratigraphic traps are often formed due to?",
+        "options_en": [
+          "Facies changes (pinchout)",
+          "Unconformity",
+          "Anticline",
+          "Lateral changes in porosity and permeability"
+        ],
+        "correct_option_en": [
+          "Facies changes (pinchout)",
+          "Unconformity",
+          "Lateral changes in porosity and permeability"
+        ]
+      },
+      {
+        "question": "Apa istilah untuk kedalaman di mana gas, minyak, dan air bertemu dalam sebuah reservoir?",
+        "type": "option",
+        "options": [
+          "Kontak fluida (Fluid contact)",
+          "Porositas efektif",
+          "Permeabilitas absolut",
+          "Tekanan kapiler"
+        ],
+        "correct_option": "Kontak fluida (Fluid contact)",
+        "question_en": "What is the term for the depth at which gas, oil, and water meet in a reservoir?",
+        "options_en": [
+          "Fluid contact",
+          "Effective porosity",
+          "Absolute permeability",
+          "Capillary pressure"
+        ],
+        "correct_option_en": "Fluid contact"
+      },
+      {
+        "question": "Dalam konteks sistem hidrokarbon, apakah batuan reservoir wajib memiliki porositas dan permeabilitas yang baik?",
+        "type": "option",
+        "options": [
+          "Ya, karena diperlukan untuk menyimpan dan mengalirkan hidrokarbon",
+          "Tidak, yang terpenting adalah batuan harus sangat keras",
+          "Tidak, permeabilitas rendah justru lebih baik untuk menyimpan minyak",
+          "Hanya porositas saja yang penting, permeabilitas tidak relevan"
+        ],
+        "correct_option": "Ya, karena diperlukan untuk menyimpan dan mengalirkan hidrokarbon",
+        "question_en": "In the context of a hydrocarbon system, must reservoir rock have good porosity and permeability?",
+        "options_en": [
+          "Yes, because it is needed to store and flow hydrocarbons",
+          "No, the most important thing is for the rock to be very hard",
+          "No, low permeability is actually better for storing oil",
+          "Only porosity is important, permeability is irrelevant"
+        ],
+        "correct_option_en": "Yes, because it is needed to store and flow hydrocarbons"
+      }
+    ]
+  },
+  {
+    "group": "finex",
+    "key": "PFC000000001",
+    "nama": "Petrofisika Bab 1 - Pengantar Petrofisika dan Batuan Reservoar",
+    "jumlah": 20,
+    "soal": [
+      {
+        "question": "Apa definisi dasar dari petrofisika dalam konteks industri migas?",
+        "type": "option",
+        "options": [
+          "Studi tentang sifat fisik dan kimia batuan serta interaksinya dengan fluida di dalamnya",
+          "Studi tentang pemetaan geologi bawah permukaan secara makro",
+          "Ilmu yang mempelajari pergerakan lempeng tektonik di sekitar reservoar",
+          "Proses pengeboran sumur eksplorasi menggunakan lumpur berbasis minyak"
+        ],
+        "correct_option": "Studi tentang sifat fisik dan kimia batuan serta interaksinya dengan fluida di dalamnya",
+        "question_en": "What is the basic definition of petrophysics in the oil and gas industry context?",
+        "options_en": [
+          "The study of physical and chemical properties of rocks and their interaction with fluids",
+          "The study of subsurface geological mapping on a macro scale",
+          "The science of studying tectonic plate movements around the reservoir",
+          "The process of drilling exploration wells using oil-based mud"
+        ],
+        "correct_option_en": "The study of physical and chemical properties of rocks and their interaction with fluids"
+      },
+      {
+        "question": "Manakah di bawah ini yang merupakan parameter petrofisika utama yang harus ditentukan dalam evaluasi reservoar?",
+        "type": "multi",
+        "options": [
+          "Porositas",
+          "Permeabilitas",
+          "Saturasi air",
+          "Laju pengeboran"
+        ],
+        "correct_option": [
+          "Porositas",
+          "Permeabilitas",
+          "Saturasi air"
+        ],
+        "question_en": "Which of the following are the primary petrophysical parameters that must be determined in reservoir evaluation?",
+        "options_en": [
+          "Porosity",
+          "Permeability",
+          "Water saturation",
+          "Drilling rate"
+        ],
+        "correct_option_en": [
+          "Porosity",
+          "Permeability",
+          "Water saturation"
+        ]
+      },
+      {
+        "question": "Batuan reservoar yang memiliki butiran yang tidak saling terikat secara kuat dan mudah terlepas disebut sebagai batuan:",
+        "type": "option",
+        "options": [
+          "Unconsolidated",
+          "Consolidated",
+          "Metamorphic",
+          "Igneous"
+        ],
+        "correct_option": "Unconsolidated",
+        "question_en": "Reservoir rocks that have loosely bound grains that easily detach are called:",
+        "options_en": [
+          "Unconsolidated",
+          "Consolidated",
+          "Metamorphic",
+          "Igneous"
+        ],
+        "correct_option_en": "Unconsolidated"
+      },
+      {
+        "question": "Porositas yang terbentuk pada saat pengendapan batuan disebut sebagai:",
+        "type": "option",
+        "options": [
+          "Porositas primer",
+          "Porositas sekunder",
+          "Porositas efektif",
+          "Porositas vuggy"
+        ],
+        "correct_option": "Porositas primer",
+        "question_en": "Porosity formed during the deposition of the rock is called:",
+        "options_en": [
+          "Primary porosity",
+          "Secondary porosity",
+          "Effective porosity",
+          "Vuggy porosity"
+        ],
+        "correct_option_en": "Primary porosity"
+      },
+      {
+        "question": "Manakah yang berperan paling penting dalam menentukan apakah batuan bisa menyimpan hidrokarbon?",
+        "type": "option",
+        "options": [
+          "Porositas",
+          "Warna batuan",
+          "Kekerasan batuan",
+          "Ukuran kristal mineral"
+        ],
+        "correct_option": "Porositas",
+        "question_en": "Which plays the most important role in determining if a rock can store hydrocarbons?",
+        "options_en": [
+          "Porosity",
+          "Rock color",
+          "Rock hardness",
+          "Mineral crystal size"
+        ],
+        "correct_option_en": "Porosity"
+      },
+      {
+        "question": "Pilih dua faktor yang secara signifikan memengaruhi porositas batuan sedimen:",
+        "type": "multi",
+        "options": [
+          "Penyortiran butiran (sorting)",
+          "Bentuk butiran",
+          "Warna tanah",
+          "Temperatur permukaan"
+        ],
+        "correct_option": [
+          "Penyortiran butiran (sorting)",
+          "Bentuk butiran"
+        ],
+        "question_en": "Select two factors that significantly affect the porosity of sedimentary rocks:",
+        "options_en": [
+          "Grain sorting",
+          "Grain shape",
+          "Soil color",
+          "Surface temperature"
+        ],
+        "correct_option_en": [
+          "Grain sorting",
+          "Grain shape"
+        ]
+      },
+      {
+        "question": "Apa kegunaan utama data petrofisika dalam fase eksplorasi migas?",
+        "type": "option",
+        "options": [
+          "Mengidentifikasi potensi cadangan hidrokarbon dalam formasi",
+          "Menentukan lokasi kantor pusat perusahaan",
+          "Menghitung gaji karyawan lapangan",
+          "Mendesain struktur platform lepas pantai"
+        ],
+        "correct_option": "Mengidentifikasi potensi cadangan hidrokarbon dalam formasi",
+        "question_en": "What is the primary use of petrophysical data in the oil and gas exploration phase?",
+        "options_en": [
+          "Identifying hydrocarbon reserve potential in the formation",
+          "Determining the company head office location",
+          "Calculating field employee salaries",
+          "Designing offshore platform structures"
+        ],
+        "correct_option_en": "Identifying hydrocarbon reserve potential in the formation"
+      },
+      {
+        "question": "Sifat batuan yang menggambarkan kemampuannya untuk mengalirkan fluida disebut:",
+        "type": "option",
+        "options": [
+          "Permeabilitas",
+          "Porositas",
+          "Saturasi",
+          "Tekanan kapiler"
+        ],
+        "correct_option": "Permeabilitas",
+        "question_en": "The rock property that describes its ability to transmit fluids is called:",
+        "options_en": [
+          "Permeability",
+          "Porosity",
+          "Saturation",
+          "Capillary pressure"
+        ],
+        "correct_option_en": "Permeability"
+      },
+      {
+        "question": "Batuan yang memiliki porositas tinggi namun permeabilitas sangat rendah dapat disebabkan oleh:",
+        "type": "option",
+        "options": [
+          "Ukuran pori yang sangat kecil (mikropori)",
+          "Kandungan mineral kuarsa yang tinggi",
+          "Adanya retakan besar",
+          "Ukuran butiran yang sangat besar"
+        ],
+        "correct_option": "Ukuran pori yang sangat kecil (mikropori)",
+        "question_en": "Rocks with high porosity but very low permeability can be caused by:",
+        "options_en": [
+          "Very small pore sizes (micropores)",
+          "High quartz mineral content",
+          "Presence of large fractures",
+          "Very large grain sizes"
+        ],
+        "correct_option_en": "Very small pore sizes (micropores)"
+      },
+      {
+        "question": "Apa perbedaan utama antara porositas total dan porositas efektif?",
+        "type": "option",
+        "options": [
+          "Porositas efektif hanya menghitung pori yang saling terhubung",
+          "Porositas total hanya menghitung pori yang terisi air",
+          "Porositas efektif selalu lebih besar dari porositas total",
+          "Tidak ada perbedaan secara teknis"
+        ],
+        "correct_option": "Porositas efektif hanya menghitung pori yang saling terhubung",
+        "question_en": "What is the main difference between total porosity and effective porosity?",
+        "options_en": [
+          "Effective porosity only counts interconnected pores",
+          "Total porosity only counts pores filled with water",
+          "Effective porosity is always greater than total porosity",
+          "There is no technical difference"
+        ],
+        "correct_option_en": "Effective porosity only counts interconnected pores"
+      },
+      {
+        "question": "Proses sementasi selama diagenesa batuan cenderung menyebabkan:",
+        "type": "option",
+        "options": [
+          "Penurunan porositas",
+          "Peningkatan porositas",
+          "Tidak mengubah porositas",
+          "Peningkatan volume butiran"
+        ],
+        "correct_option": "Penurunan porositas",
+        "question_en": "The cementation process during rock diagenesis tends to cause:",
+        "options_en": [
+          "Decrease in porosity",
+          "Increase in porosity",
+          "No change in porosity",
+          "Increase in grain volume"
+        ],
+        "correct_option_en": "Decrease in porosity"
+      },
+      {
+        "question": "Satuan standar yang digunakan untuk permeabilitas dalam petrofisika adalah:",
+        "type": "option",
+        "options": [
+          "Darcy atau milidarcy (mD)",
+          "Persen (%)",
+          "Psi (pound per square inch)",
+          "Centipoise (cP)"
+        ],
+        "correct_option": "Darcy atau milidarcy (mD)",
+        "question_en": "The standard unit used for permeability in petrophysics is:",
+        "options_en": [
+          "Darcy or millidarcy (mD)",
+          "Percent (%)",
+          "Psi (pound per square inch)",
+          "Centipoise (cP)"
+        ],
+        "correct_option_en": "Darcy or millidarcy (mD)"
+      },
+      {
+        "question": "Manakah kondisi yang membuat sebuah batuan disebut 'consolidated'?",
+        "type": "option",
+        "options": [
+          "Memiliki semen mineral yang kuat antar butiran",
+          "Terdiri dari pasir lepas yang tidak terkompaksi",
+          "Hanya terdapat di permukaan bumi",
+          "Tidak memiliki porositas sama sekali"
+        ],
+        "correct_option": "Memiliki semen mineral yang kuat antar butiran",
+        "question_en": "Which condition makes a rock called 'consolidated'?",
+        "options_en": [
+          "Having strong mineral cement between grains",
+          "Consisting of loose, uncompacted sand",
+          "Found only on the Earth's surface",
+          "Having no porosity at all"
+        ],
+        "correct_option_en": "Having strong mineral cement between grains"
+      },
+      {
+        "question": "Dalam studi petrofisika, data dari log sumur memberikan informasi mengenai:",
+        "type": "multi",
+        "options": [
+          "Resistivitas batuan",
+          "Saturasi air",
+          "Kualitas semen bangunan",
+          "Porositas"
+        ],
+        "correct_option": [
+          "Resistivitas batuan",
+          "Saturasi air",
+          "Porositas"
+        ],
+        "question_en": "In petrophysical studies, well log data provides information on:",
+        "options_en": [
+          "Rock resistivity",
+          "Water saturation",
+          "Building cement quality",
+          "Porosity"
+        ],
+        "correct_option_en": [
+          "Rock resistivity",
+          "Water saturation",
+          "Porosity"
+        ]
+      },
+      {
+        "question": "Apa yang dimaksud dengan 'vuggy porosity'?",
+        "type": "option",
+        "options": [
+          "Porositas yang terbentuk oleh rongga-rongga besar akibat pelarutan",
+          "Porositas yang seragam di seluruh batuan pasir",
+          "Porositas yang hanya ada pada batuan beku",
+          "Porositas yang nilainya nol"
+        ],
+        "correct_option": "Porositas yang terbentuk oleh rongga-rongga besar akibat pelarutan",
+        "question_en": "What is meant by 'vuggy porosity'?",
+        "options_en": [
+          "Porosity formed by large cavities due to dissolution",
+          "Uniform porosity throughout sandstone",
+          "Porosity found only in igneous rocks",
+          "Porosity with a zero value"
+        ],
+        "correct_option_en": "Porosity formed by large cavities due to dissolution"
+      },
+      {
+        "question": "Pada reservoar unconsolidated, masalah utama yang sering dihadapi adalah:",
+        "type": "option",
+        "options": [
+          "Produksi pasir (sand production)",
+          "Permeabilitas terlalu tinggi",
+          "Batuan terlalu keras untuk dibor",
+          "Tidak bisa menyimpan minyak"
+        ],
+        "correct_option": "Produksi pasir (sand production)",
+        "question_en": "In unconsolidated reservoirs, the main problem often faced is:",
+        "options_en": [
+          "Sand production",
+          "Permeability is too high",
+          "Rock is too hard to drill",
+          "Cannot store oil"
+        ],
+        "correct_option_en": "Sand production"
+      },
+      {
+        "question": "Hubungan antara porositas dan permeabilitas biasanya adalah:",
+        "type": "option",
+        "options": [
+          "Tidak selalu berbanding lurus",
+          "Selalu berbanding lurus",
+          "Selalu berbanding terbalik",
+          "Tidak memiliki hubungan sama sekali"
+        ],
+        "correct_option": "Tidak selalu berbanding lurus",
+        "question_en": "The relationship between porosity and permeability is usually:",
+        "options_en": [
+          "Not always directly proportional",
+          "Always directly proportional",
+          "Always inversely proportional",
+          "Has no relationship at all"
+        ],
+        "correct_option_en": "Not always directly proportional"
+      },
+      {
+        "question": "Mengapa evaluasi petrofisika sangat penting untuk perhitungan cadangan (reserve estimation)?",
+        "type": "option",
+        "options": [
+          "Untuk menentukan volume pori yang berisi hidrokarbon",
+          "Untuk menentukan warna minyak",
+          "Untuk menghitung biaya operasional kantor",
+          "Untuk memprediksi cuaca di lokasi pengeboran"
+        ],
+        "correct_option": "Untuk menentukan volume pori yang berisi hidrokarbon",
+        "question_en": "Why is petrophysical evaluation crucial for reserve estimation?",
+        "options_en": [
+          "To determine the pore volume containing hydrocarbons",
+          "To determine the oil color",
+          "To calculate office operational costs",
+          "To predict weather at the drilling site"
+        ],
+        "correct_option_en": "To determine the pore volume containing hydrocarbons"
+      },
+      {
+        "question": "Pilih komponen yang memengaruhi kualitas reservoar:",
+        "type": "multi",
+        "options": [
+          "Porositas",
+          "Permeabilitas",
+          "Harga minyak dunia",
+          "Ketebalan formasi"
+        ],
+        "correct_option": [
+          "Porositas",
+          "Permeabilitas",
+          "Ketebalan formasi"
+        ],
+        "question_en": "Select the components that affect reservoir quality:",
+        "options_en": [
+          "Porosity",
+          "Permeability",
+          "World oil price",
+          "Formation thickness"
+        ],
+        "correct_option_en": [
+          "Porosity",
+          "Permeability",
+          "Formation thickness"
+        ]
+      },
+      {
+        "question": "Apa dampak utama kompaksi terhadap batuan reservoar seiring bertambahnya kedalaman?",
+        "type": "option",
+        "options": [
+          "Mengurangi ruang pori batuan",
+          "Menambah volume batuan",
+          "Mengubah minyak menjadi air",
+          "Membuat batuan menjadi lebih lunak"
+        ],
+        "correct_option": "Mengurangi ruang pori batuan",
+        "question_en": "What is the main impact of compaction on reservoir rocks as depth increases?",
+        "options_en": [
+          "Reduces rock pore space",
+          "Increases rock volume",
+          "Converts oil to water",
+          "Makes the rock softer"
+        ],
+        "correct_option_en": "Reduces rock pore space"
+      }
+    ]
+  }
+]
