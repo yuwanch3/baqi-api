@@ -36,6 +36,11 @@ module.exports = [
         corrE: 'people of reason' },
       { q: '6. Apakah تَصْرِيفِ الرِّيَاحِ berarti pergiliran angin?', qe: '6. Does تَصْرِيفِ الرِّيَاحِ mean the alternating of the winds?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: lalu Dia sebarkan di bumi segala jenis binatang melata', qe: '7. Translate into Arabic: then He scattered therein every kind of moving creature', t: 'drag',
+        opts: ['فَبَثَّ فِيهَا مِنْ كُلِّ دَابَّةٍ', 'فَبَثَّ فِيهَا مِنْ كُلِّ نَبَاتٍ', 'فَأَنْزَلَ فِيهَا مِنْ كُلِّ دَابَّةٍ', 'فَبَثَّ فِي السَّمَاءِ مِنْ كُلِّ دَابَّةٍ'],
+        corr: ['فَبَثَّ فِيهَا مِنْ كُلِّ دَابَّةٍ'],
+        optsE: ['فَبَثَّ فِيهَا مِنْ كُلِّ دَابَّةٍ', 'فَبَثَّ فِيهَا مِنْ كُلِّ نَبَاتٍ', 'فَأَنْزَلَ فِيهَا مِنْ كُلِّ دَابَّةٍ', 'فَبَثَّ فِي السَّمَاءِ مِنْ كُلِّ دَابَّةٍ'],
+        corrE: ['فَبَثَّ فِيهَا مِنْ كُلِّ دَابَّةٍ'] },
     ]
   },
   // --- MTR: Gr24a ---
@@ -70,6 +75,11 @@ module.exports = [
         corrE: 'and the alternating of the winds' },
       { q: '8. Apakah masdar dapat berfungsi seperti kata benda biasa dalam kalimat?', qe: '8. Can a masdar function like an ordinary noun in a sentence?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. 3 Kunci kata kerja خَلَقَ adalah: (madi, mudari, masdar)', qe: '9. The 3 keys of the verb خَلَقَ are: (past, present, verbal noun)', t: 'drag',
+        opts: ['خَلَقَ', 'يَخْلُقُ', 'خَلْق', 'خَالِقٌ'],
+        corr: ['خَلَقَ', 'يَخْلُقُ', 'خَلْق'],
+        optsE: ['خَلَقَ', 'يَخْلُقُ', 'خَلْق', 'خَالِقٌ'],
+        corrE: ['خَلَقَ', 'يَخْلُقُ', 'خَلْق'] },
     ]
   },
   // --- MTR: 24b Qur'an ---
@@ -104,6 +114,11 @@ module.exports = [
         corrE: 'and that Allah is severe in punishment' },
       { q: '6. Apakah أَنْدَادًا berarti tandingan-tandingan?', qe: '6. Does أَنْدَادًا mean rivals?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: dan di antara manusia ada yang menjadikan tandingan-tandingan selain Allah', qe: '7. Translate into Arabic: and among mankind are those who take rivals other than Allah', t: 'drag',
+        opts: ['وَمِنَ النَّاسِ مَنْ يَتَّخِذُ مِنْ دُونِ اللَّهِ أَنْدَادًا', 'وَمِنَ النَّاسِ مَنْ يَتَّخِذُ مِنْ دُونِ اللَّهِ أَصْدِقَاءَ', 'وَمِنَ النَّاسِ مَنْ يُوَحِّدُ اللَّهَ', 'وَمِنَ الْجِنِّ مَنْ يَتَّخِذُ مِنْ دُونِ اللَّهِ أَنْدَادًا'],
+        corr: ['وَمِنَ النَّاسِ مَنْ يَتَّخِذُ مِنْ دُونِ اللَّهِ أَنْدَادًا'],
+        optsE: ['وَمِنَ النَّاسِ مَنْ يَتَّخِذُ مِنْ دُونِ اللَّهِ أَنْدَادًا', 'وَمِنَ النَّاسِ مَنْ يَتَّخِذُ مِنْ دُونِ اللَّهِ أَصْدِقَاءَ', 'وَمِنَ النَّاسِ مَنْ يُوَحِّدُ اللَّهَ', 'وَمِنَ الْجِنِّ مَنْ يَتَّخِذُ مِنْ دُونِ اللَّهِ أَنْدَادًا'],
+        corrE: ['وَمِنَ النَّاسِ مَنْ يَتَّخِذُ مِنْ دُونِ اللَّهِ أَنْدَادًا'] },
     ]
   },
   // --- MTR: Gr24b ---
@@ -136,6 +151,11 @@ module.exports = [
         corrE: 'a simile particle (tasybih)' },
       { q: '8. Apakah maf\'ul bih adalah objek dari kata kerja?', qe: '8. Is maf\'ul bih the object of the verb?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. Terjemahkan ke dalam bahasa Arab: selain Allah', qe: '9. Translate into Arabic: other than Allah', t: 'drag',
+        opts: ['مِنْ دُونِ اللَّهِ', 'مِنْ عِنْدِ اللَّهِ', 'مِنْ أَمَامِ اللَّهِ', 'قَبْلَ اللَّهِ'],
+        corr: ['مِنْ دُونِ اللَّهِ'],
+        optsE: ['مِنْ دُونِ اللَّهِ', 'مِنْ عِنْدِ اللَّهِ', 'مِنْ أَمَامِ اللَّهِ', 'قَبْلَ اللَّهِ'],
+        corrE: ['مِنْ دُونِ اللَّهِ'] },
     ]
   },
   // --- MTR: 24c Qur'an ---
@@ -170,6 +190,11 @@ module.exports = [
         corrE: 'and they will never leave the Fire' },
       { q: '6. Apakah تَبَرَّأَ berarti berlepas diri?', qe: '6. Does تَبَرَّأَ mean disassociate?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: dan mereka tidak akan keluar dari neraka', qe: '7. Translate into Arabic: and they will never leave the Fire', t: 'drag',
+        opts: ['وَمَا هُمْ بِخَارِجِينَ مِنَ النَّارِ', 'وَمَا هُمْ دَاخِلِينَ مِنَ النَّارِ', 'وَمَا هُمْ بِخَارِجِينَ مِنَ الْجَنَّةِ', 'وَهُمْ خَارِجُونَ مِنَ النَّارِ'],
+        corr: ['وَمَا هُمْ بِخَارِجِينَ مِنَ النَّارِ'],
+        optsE: ['وَمَا هُمْ بِخَارِجِينَ مِنَ النَّارِ', 'وَمَا هُمْ دَاخِلِينَ مِنَ النَّارِ', 'وَمَا هُمْ بِخَارِجِينَ مِنَ الْجَنَّةِ', 'وَهُمْ خَارِجُونَ مِنَ النَّارِ'],
+        corrE: ['وَمَا هُمْ بِخَارِجِينَ مِنَ النَّارِ'] },
     ]
   },
   // --- MTR: Gr24c ---
@@ -206,6 +231,11 @@ module.exports = [
         optsE: ['الْأَرْضَ', 'فَأَحْيَا', 'بِهِ', 'الْحَيَاةَ'], corrE: 'الْأَرْضَ' },
       { q: '8. Apakah jumlatu fi\'liyah dapat memiliki objek (maf\'ul bih)?', qe: '8. Can a verbal sentence have an object?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. Terjemahkan ke dalam bahasa Arab: mereka mencintainya', qe: '9. Translate into Arabic: they love them', t: 'drag',
+        opts: ['يُحِبُّونَهُمْ', 'يُحِبُّونَهَا', 'يُحِبُّونَكُمْ', 'يُحِبُّونَنَا'],
+        corr: ['يُحِبُّونَهُمْ'],
+        optsE: ['يُحِبُّونَهُمْ', 'يُحِبُّونَهَا', 'يُحِبُّونَكُمْ', 'يُحِبُّونَنَا'],
+        corrE: ['يُحِبُّونَهُمْ'] },
     ]
   },
   // --- MTR: 24d Qur'an ---
@@ -240,6 +270,11 @@ module.exports = [
         corrE: 'evil and immorality and saying about Allah what one does not know' },
       { q: '6. Apakah حَلَالًا طَيِّبًا berarti halal lagi baik?', qe: '6. Does حَلَالًا طَيِّبًا mean lawful and good?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Susun kata berikut sesuai urutan dalam كُلُوا مِمَّا فِي الْأَرْضِ حَلَالًا طَيِّبًا: (halal lalu baik)', qe: '7. Arrange the words as in كُلُوا مِمَّا فِي الْأَرْضِ حَلَالًا طَيِّبًا: (lawful then good)', t: 'drag',
+        opts: ['حَلَالًا', 'طَيِّبًا', 'حَلَالٌ', 'طَيِّبٌ'],
+        corr: ['حَلَالًا', 'طَيِّبًا'],
+        optsE: ['حَلَالًا', 'طَيِّبًا', 'حَلَالٌ', 'طَيِّبٌ'],
+        corrE: ['حَلَالًا', 'طَيِّبًا'] },
     ]
   },
   // --- MTR: Gr24d ---
@@ -282,6 +317,11 @@ module.exports = [
         corrE: 'a return (to the world)' },
       { q: '8. Apakah لَوْ أَنَّ لَنَا كَرَّةً adalah harapan yang mustahil?', qe: '8. Is لَوْ أَنَّ لَنَا كَرَّةً an impossible wish?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. Terjemahkan ke dalam bahasa Arab: sekiranya kami dapat kembali (ke dunia)', qe: '9. Translate into Arabic: if only we could return (to the world)', t: 'drag',
+        opts: ['لَوْ أَنَّ لَنَا كَرَّةً', 'لَوْ أَنَّ لَنَا نَصِيبًا', 'لَوْ أَنَّ لَهُمْ كَرَّةً', 'لَوْ أَنَّ لَنَا مَالًا'],
+        corr: ['لَوْ أَنَّ لَنَا كَرَّةً'],
+        optsE: ['لَوْ أَنَّ لَنَا كَرَّةً', 'لَوْ أَنَّ لَنَا نَصِيبًا', 'لَوْ أَنَّ لَهُمْ كَرَّةً', 'لَوْ أَنَّ لَنَا مَالًا'],
+        corrE: ['لَوْ أَنَّ لَنَا كَرَّةً'] },
     ]
   },
 ];

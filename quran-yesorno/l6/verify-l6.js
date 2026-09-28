@@ -47,7 +47,7 @@ if (mode === 'local') {
   // ---- ID & jumlah ----
   if (sublevels.length !== 5) problems.push('sublevels != 5');
   if (materi.length !== 40) problems.push('materi != 40');
-  if (soal.length !== 280) problems.push('soal != 280 (' + soal.length + ')');
+  if (soal.length !== 320) problems.push('soal != 320 (' + soal.length + ')');
   const uniq = (arr) => new Set(arr).size === arr.length;
   if (!uniq(sublevels.map((s) => s.id))) problems.push('SLV duplikat');
   if (!uniq(materi.map((m) => m.id))) problems.push('MTR duplikat');
@@ -55,7 +55,7 @@ if (mode === 'local') {
   const slvOk = sublevels.every((s, i) => s.id === 'SLV' + String(37 + i).padStart(12, '0'));
   if (!slvOk) problems.push('ID SLV tidak berurutan 037-041');
   const qids = soal.map((s) => Number(s.id.slice(3)));
-  if (Math.min(...qids) !== 4000 || Math.max(...qids) !== 4279) problems.push('QST harus 4000-4279, dpt ' + Math.min(...qids) + '-' + Math.max(...qids));
+  if (Math.min(...qids) !== 4000 || Math.max(...qids) !== 4319) problems.push('QST harus 4000-4319, dpt ' + Math.min(...qids) + '-' + Math.max(...qids));
   for (let i = 0; i < materi.length; i++) {
     const e = 'MTR' + String(206 + i).padStart(12, '0');
     if (materi[i].id !== e) { problems.push('MTR urutan salah: ' + materi[i].id + ' harus ' + e); break; }
@@ -65,16 +65,16 @@ if (mode === 'local') {
     const c = materi.filter((m) => m.slv === n).length;
     if (c !== 8) problems.push('sublevel ' + n + ' materi != 8 (' + c + ')');
   }
-  // soal per materi: quran 6, grammar 8
+  // soal per materi: quran 7, grammar 9 (termasuk 1 drag di akhir)
   for (const m of materi) {
     const c = soal.filter((s) => s.mid === m.id).length;
-    const expect = m.type === 'quran' ? 6 : 8;
+    const expect = m.type === 'quran' ? 7 : 9;
     if (c !== expect) problems.push(m.id + ' soal ' + c + ' != ' + expect);
     if (m.type === 'quran' && !m.range) problems.push(m.id + ': quran tanpa range');
   }
   // soal tipe & corr
   for (const s of soal) {
-    if (!['option', 'multi', 'yesorno'].includes(s.t)) problems.push(s.id + ': tipe tidak dikenal ' + s.t);
+    if (!['option', 'multi', 'yesorno', 'drag'].includes(s.t)) problems.push(s.id + ': tipe tidak dikenal ' + s.t);
     if (s.t === 'yesorno' && !['Yes,No', 'No,Yes'].includes(s.opts.join(','))) problems.push(s.id + ': yesorno opts');
     if (s.t === 'yesorno' && !['Yes', 'No'].includes(String(s.corr))) problems.push(s.id + ': yesorno corr');
     if (s.t !== 'yesorno') {
@@ -87,6 +87,7 @@ if (mode === 'local') {
       if (!cse.every((x) => oei.includes(String(x).trim().toLowerCase()))) problems.push(s.id + ': corr EN tidak di optsE');
       if (new Set(oi).size !== oi.length || new Set(oei).size !== oei.length) problems.push(s.id + ': duplikat opsi');
       if (s.t === 'multi' && cs.length < 2) problems.push(s.id + ': multi 1 benar');
+      if (s.t === 'drag' && (!Array.isArray(s.corr) || cs.length < 1 || cs.length > 3)) problems.push(s.id + ': drag harus array 1-3 benar');
     }
   }
 
@@ -162,6 +163,19 @@ if (mode === 'local') {
   // 6) metadata (now/desc) konsisten
   if (rows.now !== NOW) problems.push('rows.now != NOW');
   if (rows.desc !== DESC) problems.push('rows.desc != DESC');
+  // 7) file drag deliverable: 40 QST 4280-4319, ASCII
+  const dragFile = path.join(dir, 'zz_drag_questions_level6_v1.sql');
+  if (!fs.existsSync(dragFile)) problems.push('zz_drag_questions_level6_v1.sql tidak ada');
+  else {
+    const txt = fs.readFileSync(dragFile, 'utf8');
+    const ids = [...txt.matchAll(/'QST(\d{20})'/g)].map((m) => Number(m[1]));
+    const exp = new Set(Array.from({ length: 40 }, (_, i) => 4280 + i));
+    const got = new Set(ids);
+    if (ids.length !== 40) problems.push('zz_drag: jumlah baris drag ' + ids.length + ' != 40');
+    if (got.size !== 40 || [...exp].some((i) => !got.has(i))) problems.push('zz_drag: id harus 4280-4319 lengkap (' + [...got].sort((a, b) => a - b).join(',') + ')');
+    if (!/INSERT INTO soal/.test(txt)) problems.push('zz_drag: bukan file INSERT soal');
+    for (const c of fs.readFileSync(dragFile)) if (c > 127) { problems.push('zz_drag: non-ASCII'); break; }
+  }
 
   console.log('=== VERIFY LOCAL — LEVEL 6 ===');
   console.log('sublevels ' + sublevels.length + ' | materi ' + materi.length + ' | soal ' + soal.length + ' | file sql ' + sqlFiles.length);
@@ -191,7 +205,7 @@ if (mode === 'local') {
         if (m.state_exam !== 'yes' || m.doc !== '' || m.watch !== '' || m.test !== '') problems.push(m.id + ': field doc/watch/test/state_exam tidak sesuai');
         if (m.information !== exp.title) problems.push(m.id + ': information berbeda');
         const qs = toArr(await get(BASE + 'questions/mid/' + m.id + '/' + KEY));
-        const expectCount = exp.type === 'quran' ? 6 : 8;
+        const expectCount = exp.type === 'quran' ? 7 : 9;
         if (qs.length !== expectCount) { problems.push(m.id + ': jumlah soal ' + qs.length + ' != ' + expectCount); continue; }
         for (const raw of qs) {
           const wrapped = !!raw && !!raw.value && typeof raw.value === 'object' && !Array.isArray(raw.value) && ('type' in raw.value || 'question' in raw.value);

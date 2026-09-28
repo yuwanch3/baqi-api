@@ -37,6 +37,11 @@ module.exports = [
         corrE: 'مَشَارِق' },
       { q: '6. Apakah سَيَقُولُ السُّفَهَاءُ berarti akan berkata orang-orang yang bodoh?', qe: '6. Does سَيَقُولُ السُّفَهَاءُ mean the foolish will say?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: orang-orang yang bodoh di antara manusia akan berkata', qe: '7. Translate into Arabic: the foolish among the people will say', t: 'drag',
+        opts: ['سَيَقُولُ السُّفَهَاءُ مِنَ النَّاسِ', 'سَيَقُولُ الْعُقَلَاءُ مِنَ النَّاسِ', 'قَالَ السُّفَهَاءُ مِنَ النَّاسِ', 'سَيَسْأَلُ السُّفَهَاءُ مِنَ النَّاسِ'],
+        corr: ['سَيَقُولُ السُّفَهَاءُ مِنَ النَّاسِ'],
+        optsE: ['سَيَقُولُ السُّفَهَاءُ مِنَ النَّاسِ', 'سَيَقُولُ الْعُقَلَاءُ مِنَ النَّاسِ', 'قَالَ السُّفَهَاءُ مِنَ النَّاسِ', 'سَيَسْأَلُ السُّفَهَاءُ مِنَ النَّاسِ'],
+        corrE: ['سَيَقُولُ السُّفَهَاءُ مِنَ النَّاسِ'] },
     ]
   },
   // --- MTR: Gr21a ---
@@ -73,6 +78,11 @@ module.exports = [
         corr: 'اِهْدِ', optsE: ['اِهْدِ', 'يَهْدِي', 'هَدَى', 'هُدًى'], corrE: 'اِهْدِ' },
       { q: '8. Apakah قُلْ merupakan فعل أمر?', qe: '8. Is قُلْ an imperative verb?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. 3 Kunci kata kerja وَلَّى adalah: (madi, mudari, masdar)', qe: '9. The 3 keys of the verb وَلَّى are: (past, present, verbal noun)', t: 'drag',
+        opts: ['وَلَّى', 'يُوَلِّي', 'تَوْلِيَة', 'مُوَلٍّ'],
+        corr: ['وَلَّى', 'يُوَلِّي', 'تَوْلِيَة'],
+        optsE: ['وَلَّى', 'يُوَلِّي', 'تَوْلِيَة', 'مُوَلٍّ'],
+        corrE: ['وَلَّى', 'يُوَلِّي', 'تَوْلِيَة'] },
     ]
   },
   // --- MTR: 21b Qur'an ---
@@ -105,6 +115,11 @@ module.exports = [
         corr: 'شُهَدَاء', optsE: ['شُهَدَاء', 'شَهِيدَانِ', 'شَهِيدُوْنَ', 'شِهَادَات'], corrE: 'شُهَدَاء' },
       { q: '6. Apakah أُمَّةً وَسَطًا berarti umat yang lalai?', qe: '6. Does أُمَّةً وَسَطًا mean a negligent nation?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'No', optsE: ['Yes', 'No'], corrE: 'No' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: demikianlah Kami jadikan kamu umat pertengahan', qe: '7. Translate into Arabic: thus We made you a middle nation', t: 'drag',
+        opts: ['وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا', 'وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً كَثِيرَةً', 'وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً ضَعِيفَةً', 'وَبَعَثْنَاكُمْ أُمَّةً وَسَطًا'],
+        corr: ['وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا'],
+        optsE: ['وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا', 'وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً كَثِيرَةً', 'وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً ضَعِيفَةً', 'وَبَعَثْنَاكُمْ أُمَّةً وَسَطًا'],
+        corrE: ['وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا'] },
     ]
   },
   // --- MTR: Gr21b ---
@@ -141,6 +156,11 @@ module.exports = [
         corrE: 'starting point or partitive' },
       { q: '8. Apakah huruf jar membuat kata setelahnya menjadi majrur?', qe: '8. Does a preposition make the following noun genitive?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. Terjemahkan ke dalam bahasa Arab: menjauhi kiblat mereka', qe: '9. Translate into Arabic: away from their qiblah', t: 'drag',
+        opts: ['عَنْ قِبْلَتِهِمْ', 'إِلَىٰ قِبْلَتِهِمْ', 'مِنْ قِبْلَتِهِمْ', 'عَلَىٰ قِبْلَتِهِمْ'],
+        corr: ['عَنْ قِبْلَتِهِمْ'],
+        optsE: ['عَنْ قِبْلَتِهِمْ', 'إِلَىٰ قِبْلَتِهِمْ', 'مِنْ قِبْلَتِهِمْ', 'عَلَىٰ قِبْلَتِهِمْ'],
+        corrE: ['عَنْ قِبْلَتِهِمْ'] },
     ]
   },
   // --- MTR: 21c Qur'an ---
@@ -173,6 +193,11 @@ module.exports = [
         corr: 'وُجُوه', optsE: ['وُجُوه', 'وَجْهَانِ', 'وِجَاهَة', 'وُجُهَات'], corrE: 'وُجُوه' },
       { q: '6. Apakah قَدْ نَرَىٰ berarti sungguh Kami melihat?', qe: '6. Does قَدْ نَرَىٰ mean We certainly see?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: sungguh Kami melihat wajahmu menengadah ke langit', qe: '7. Translate into Arabic: We certainly see the turning of your face to the sky', t: 'drag',
+        opts: ['قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ', 'قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِي الْأَرْضِ', 'قَدْ يَرَى تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ', 'قَدْ نَذْكُرُ تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ'],
+        corr: ['قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ'],
+        optsE: ['قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ', 'قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِي الْأَرْضِ', 'قَدْ يَرَى تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ', 'قَدْ نَذْكُرُ تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ'],
+        corrE: ['قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ'] },
     ]
   },
   // --- MTR: Gr21c ---
@@ -213,6 +238,11 @@ module.exports = [
         corrE: 'and wherever you are turn your faces toward it' },
       { q: '8. Apakah seorang mubtada dapat menjadi pembuka jumlatu fi\'liyah?', qe: '8. Can a mubtada open a verbal sentence?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'No', optsE: ['Yes', 'No'], corrE: 'No' },
+      { q: '9. 3 Kunci kata kerja قَالَ adalah: (madi, mudari, masdar)', qe: '9. The 3 keys of the verb قَالَ are: (past, present, verbal noun)', t: 'drag',
+        opts: ['قَالَ', 'يَقُولُ', 'قَوْلٌ', 'قَائِلٌ'],
+        corr: ['قَالَ', 'يَقُولُ', 'قَوْلٌ'],
+        optsE: ['قَالَ', 'يَقُولُ', 'قَوْلٌ', 'قَائِلٌ'],
+        corrE: ['قَالَ', 'يَقُولُ', 'قَوْلٌ'] },
     ]
   },
   // --- MTR: 21d Qur'an ---
@@ -245,6 +275,11 @@ module.exports = [
         corr: 'حُقُوق', optsE: ['حُقُوق', 'حَقَّانِ', 'حِقَاق', 'حَاقَّة'], corrE: 'حُقُوق' },
       { q: '6. Apakah أَهْوَاءَهُمْ berarti hawa nafsu mereka?', qe: '6. Does أَهْوَاءَهُمْ mean their desires?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: dan jika kamu mendatangkan kepada Ahlul Kitab segala ayat', qe: '7. Translate into Arabic: and if you bring the People of the Book every sign', t: 'drag',
+        opts: ['وَلَئِنْ أَتَيْتَ الَّذِينَ أُوتُوا الْكِتَابَ بِكُلِّ آيَةٍ', 'وَلَئِنْ أَتَيْتَ الَّذِينَ أُوتُوا الْكِتَابَ بِبَعْضِ آيَةٍ', 'وَلَئِنْ أَتَيْتَ الَّذِينَ كَفَرُوا بِكُلِّ آيَةٍ', 'وَلَئِنْ دَعَوْتَ أَهْلَ الْكِتَابِ بِكُلِّ آيَةٍ'],
+        corr: ['وَلَئِنْ أَتَيْتَ الَّذِينَ أُوتُوا الْكِتَابَ بِكُلِّ آيَةٍ'],
+        optsE: ['وَلَئِنْ أَتَيْتَ الَّذِينَ أُوتُوا الْكِتَابَ بِكُلِّ آيَةٍ', 'وَلَئِنْ أَتَيْتَ الَّذِينَ أُوتُوا الْكِتَابَ بِبَعْضِ آيَةٍ', 'وَلَئِنْ أَتَيْتَ الَّذِينَ كَفَرُوا بِكُلِّ آيَةٍ', 'وَلَئِنْ دَعَوْتَ أَهْلَ الْكِتَابِ بِكُلِّ آيَةٍ'],
+        corrE: ['وَلَئِنْ أَتَيْتَ الَّذِينَ أُوتُوا الْكِتَابَ بِكُلِّ آيَةٍ'] },
     ]
   },
   // --- MTR: Gr21d ---
@@ -279,6 +314,11 @@ module.exports = [
         corrE: 'present tense' },
       { q: '8. Apakah jumlah fi\'liyah dimulai dengan kata kerja?', qe: '8. Does a verbal sentence begin with a verb?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. Susun kata berikut sesuai urutan dalam جَعَلْنَاكُمْ أُمَّةً وَسَطًا: (maf\'ul bih lalu sifatnya)', qe: '9. Arrange the words as in جَعَلْنَاكُمْ أُمَّةً وَسَطًا: (object then its adjective)', t: 'drag',
+        opts: ['أُمَّةً', 'وَسَطًا', 'أُمَّةٌ', 'وَسَطٌ'],
+        corr: ['أُمَّةً', 'وَسَطًا'],
+        optsE: ['أُمَّةً', 'وَسَطًا', 'أُمَّةٌ', 'وَسَطٌ'],
+        corrE: ['أُمَّةً', 'وَسَطًا'] },
     ]
   },
 ];

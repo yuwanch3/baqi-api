@@ -1,6 +1,8 @@
 // ============================================
 // GENERATOR SQL LEVEL 6 (KURIKULUM AL-QURAN) — Baqi
-// 5 sublevel x 8 materi = 40 materi; soal quran 6 / grammar 8.
+// 5 sublevel x 8 materi = 40 materi; soal quran 7 / grammar 9 (tiap materi +1 drag di akhir).
+//  ID: non-drag 4000..4279 (280 soal lama, opsi shuffled dijaga dari rows.json),
+//      drag baru 4280..4319 (40).
 //  Path A: Arab via CONVERT(0x... USING utf8mb4); ASCII literal dengan escape ''.
 //  File output 100% ASCII.
 // Build: PREVIEW default; FINAL=1 tulis output/l6/*.sql
@@ -37,7 +39,7 @@ if (content.some((c) => !Array.isArray(c) || c.length !== 8)) throw new Error('S
 
 // ---- validasi ----
 const problems = [];
-let qstIdx = -1;
+let qstIdx = -1, dragIdx = -1;
 const seenMtr = new Set(), seenSlv = new Set(), seenQst = new Set();
 const MATERI = [];   // {id, slv, type, range, title, soal:[] }
 const SOAL = [];     // {id, mid, ...soal fields}
@@ -58,15 +60,18 @@ for (let n = 1; n <= 5; n++) {
     const nOpt = mat.soal.filter((x) => x.t === 'option').length;
     const nMulti = mat.soal.filter((x) => x.t === 'multi').length;
     const nYn = mat.soal.filter((x) => x.t === 'yesorno').length;
-    if (mat.type === 'quran' && mat.soal.length !== 6) problems.push(tag + ': quran soal != 6');
-    if (mat.type === 'quran' && (nOpt !== 5 || nYn !== 1)) problems.push(tag + ': quran harus 5 option + 1 yesorno');
-    if (mat.type === 'grammar' && mat.soal.length !== 8) problems.push(tag + ': grammar soal != 8');
-    if (mat.type === 'grammar' && !(nYn === 1 && ((nOpt === 7 && nMulti === 0) || (nOpt === 6 && nMulti === 1))))
-      problems.push(tag + ': grammar harus 7 option+1 yesorno ATAU 6 option+1 multi+1 yesorno (' + nOpt + '/' + nMulti + '/' + nYn + ')');
+    const nDrag = mat.soal.filter((x) => x.t === 'drag').length;
+    if (mat.type === 'quran' && mat.soal.length !== 7) problems.push(tag + ': quran soal != 7');
+    if (mat.type === 'quran' && (nOpt !== 5 || nYn !== 1 || nDrag !== 1)) problems.push(tag + ': quran harus 5 option + 1 yesorno + 1 drag');
+    if (mat.type === 'grammar' && mat.soal.length !== 9) problems.push(tag + ': grammar soal != 9');
+    if (mat.type === 'grammar' && !(nYn === 1 && nDrag === 1 && ((nOpt === 7 && nMulti === 0) || (nOpt === 6 && nMulti === 1))))
+      problems.push(tag + ': grammar harus 7 option+1 yesorno+1 drag ATAU 6 option+1 multi+1 yesorno+1 drag (' + nOpt + '/' + nMulti + '/' + nYn + '/' + nDrag + ')');
+    if (nDrag === 1 && mat.soal[mat.soal.length - 1].t !== 'drag') problems.push(tag + ': drag harus di akhir soal materi');
 
     mat.soal.forEach((x, i) => {
-      qstIdx++;
-      const qid = qstId(qstIdx);
+      let qid;
+      if (x.t === 'drag') { dragIdx++; qid = qstId(280 + dragIdx); }
+      else { qstIdx++; qid = qstId(qstIdx); }
       if (seenQst.has(qid)) problems.push('QST duplikat ' + qid);
       seenQst.add(qid);
       if (!x.q.trim() || !x.qe.trim()) problems.push(qid + ': teks kosong');
@@ -93,6 +98,7 @@ for (let n = 1; n <= 5; n++) {
         if (!c.length || c.some((s) => !oi.includes(norm(s)))) problems.push(qid + ': corr ID tidak di opts');
         if (!ce.length || ce.some((s) => !oei.includes(norm(s)))) problems.push(qid + ': corr EN tidak di optsE');
         if (x.t === 'multi' && c.length < 2) problems.push(qid + ': multi tapi 1 benar');
+        if (x.t === 'drag' && (!Array.isArray(x.corr) || c.length < 1 || c.length > 3)) problems.push(qid + ': drag harus array 1-3 benar');
       }
       SOAL.push({ id: qid, mid, ...x });
     });
@@ -101,15 +107,18 @@ for (let n = 1; n <= 5; n++) {
   });
 }
 
-if (qstIdx + 1 !== 280) problems.push('Total soal harus 280, dapat ' + (qstIdx + 1));
-if (qstIdx > 999) problems.push('Melebihi blok QST 4000-4999: ' + qstIdx);
+if (qstIdx + 1 !== 280) problems.push('Total soal non-drag harus 280, dapat ' + (qstIdx + 1));
+if (dragIdx + 1 !== 40) problems.push('Total soal drag harus 40, dapat ' + (dragIdx + 1));
+if (qstIdx + 1 + dragIdx + 1 !== 320) problems.push('Total soal harus 320, dapat ' + (qstIdx + 1 + dragIdx + 1));
+if (qstIdx > 279) problems.push('Melebihi blok QST non-drag 4000-4279: ' + qstIdx);
+if (dragIdx > 39) problems.push('Melebihi blok QST drag 4280-4319: ' + dragIdx);
 
-console.log('=== LEVEL 6: 5 SUBLEVEL + 40 MATERI + 280 SOAL ===');
+console.log('=== LEVEL 6: 5 SUBLEVEL + 40 MATERI + 320 SOAL (280 non-drag + 40 drag) ===');
 SUBLEVELS.forEach((s, i) => {
   const mats = MATERI.filter((m) => m.slv === i + 1);
   console.log(' ' + s.id + ' | ' + s.name + ' | ' + mats.map((m) => m.id).join(' '));
 });
-function qsum(soals) { const o = soals.filter((x) => x.t === 'option').length + soals.filter((x) => x.t === 'multi').length; const y = soals.filter((x) => x.t === 'yesorno').length; return o + ' option/multi + ' + y + ' yesorno'; }
+function qsum(soals) { const o = soals.filter((x) => x.t === 'option').length + soals.filter((x) => x.t === 'multi').length; const y = soals.filter((x) => x.t === 'yesorno').length; const d = soals.filter((x) => x.t === 'drag').length; return o + ' option/multi + ' + y + ' yesorno' + (d ? ' + ' + d + ' drag' : ''); }
 MATERI.forEach((m) => {
   const ss = SOAL.filter((s) => s.mid === m.id);
   console.log('  ' + m.id + ' [' + m.type + '] ' + (m.range ? '(' + m.range + ') ' : '') + m.title + ' -> ' + ss.length + ' soal (' + qsum(ss) + ')');
@@ -143,6 +152,18 @@ if (FINAL) {
   const dir = path.join(__dirname, 'output', 'l6');
   fs.mkdirSync(dir, { recursive: true });
 
+  // ---- jaga urutan opsi shuffled utk 280 soal non-drag dari rows.json lama (sudah diimport) ----
+  let oldMap = new Map();
+  try {
+    const oldRows = JSON.parse(fs.readFileSync(path.join(dir, 'rows.json'), 'utf8'));
+    if (Array.isArray(oldRows.soal)) oldMap = new Map(oldRows.soal.map((s) => [s.id, s]));
+  } catch (e) { /* manifest lama belum ada -> pakai urutan naskah */ }
+  for (const s of SOAL) {
+    if (s.t === 'drag') continue;
+    const old = oldMap.get(s.id);
+    if (old && Array.isArray(old.opts) && old.opts.length === s.opts.length) { s.opts = old.opts; s.optsE = old.optsE; }
+  }
+
   // 00 sublevels
   const slRows = SUBLEVELS.map((s) => `('${s.id}','${s.name}','Level 6','yes','','','${s.bg}','${NOW}','${NOW}')`);
   let sql0 = HEAD('INSERT LEVEL 6 - 5 SUBLEVEL (sub_levels)') + INSERT_SL + slRows.join(',\n') + ';\n';
@@ -167,6 +188,19 @@ if (FINAL) {
       + INSERT_SOAL + qRows.join(',\n') + ';\n';
     fs.writeFileSync(path.join(dir, '0' + n + '_sublevel' + n + '.sql'), sql, 'utf8');
   }
+
+  // ---- file deliverable: hanya 40 soal drag baru (4280-4319), Path A ----
+  const dragSoals = SOAL.filter((s) => s.t === 'drag');
+  const dRows = dragSoals.map((x) => {
+    const corr = wrapC(x.corr), corrE = wrapC(x.corrE);
+    const opts = 'CONVERT(0x' + hexM(phpser(x.opts)) + ' USING utf8mb4)';
+    const optsE = 'CONVERT(0x' + hexM(phpser(x.optsE)) + ' USING utf8mb4)';
+    return `('${x.id}',${wrapC(x.q)},'${x.t}','${x.mid}',${opts},'',${corr},${wrapC(x.qe)},${optsE},${corrE},'${NOW}','${NOW}')`;
+  });
+  const sqlDrag = HEAD('INSERT LEVEL 6 - 40 SOAL DRAG BARU (4280-4319) - IMPORT FILE INI SAJA')
+    + '-- Hanya 40 soal drag baru. 280 soal lama (4000-4279) TIDAK disentuh.\n'
+    + INSERT_SOAL + dRows.join(',\n') + ';\n';
+  fs.writeFileSync(path.join(dir, 'zz_drag_questions_level6_v1.sql'), sqlDrag, 'utf8');
 
   // manifest (sidecar untuk verifikasi lokal — bukan untuk import)
   const manifest = {

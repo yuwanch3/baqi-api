@@ -37,6 +37,11 @@ module.exports = [
         corrE: 'deaf, dumb, and blind, so they do not think' },
       { q: '6. Apakah أَلْفَيْنَا berarti kami dapati?', qe: '6. Does أَلْفَيْنَا mean we found?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: mereka berkata: tidak! kami mengikuti apa yang kami dapati dari nenek moyang kami', qe: '7. Translate into Arabic: they say: no! we follow what we found our fathers doing', t: 'drag',
+        opts: ['قَالُوا بَلْ نَتَّبِعُ مَا أَلْفَيْنَا عَلَيْهِ آبَاءَنَا', 'قَالُوا بَلْ نَتَّبِعُ مَا أَخَذْنَا مِنْ آبَائِنَا', 'قَالُوا بَلْ نَتْرُكُ مَا أَلْفَيْنَا عَلَيْهِ آبَاءَنَا', 'قَالُوا بَلْ نَتَّبِعُ مَا أَنْزَلَ اللَّهُ'],
+        corr: ['قَالُوا بَلْ نَتَّبِعُ مَا أَلْفَيْنَا عَلَيْهِ آبَاءَنَا'],
+        optsE: ['قَالُوا بَلْ نَتَّبِعُ مَا أَلْفَيْنَا عَلَيْهِ آبَاءَنَا', 'قَالُوا بَلْ نَتَّبِعُ مَا أَخَذْنَا مِنْ آبَائِنَا', 'قَالُوا بَلْ نَتْرُكُ مَا أَلْفَيْنَا عَلَيْهِ آبَاءَنَا', 'قَالُوا بَلْ نَتَّبِعُ مَا أَنْزَلَ اللَّهُ'],
+        corrE: ['قَالُوا بَلْ نَتَّبِعُ مَا أَلْفَيْنَا عَلَيْهِ آبَاءَنَا'] },
     ]
   },
   // --- MTR: Gr25a ---
@@ -73,6 +78,11 @@ module.exports = [
         corrE: 'would they still follow even if their forefathers had no reason and no guidance?' },
       { q: '8. Apakah كان termasuk salah satu nawasikh yang mengubah susunan jumlah ismiyah?', qe: '8. Is كان one of the nawasikh that alter the nominal sentence?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. Susun kalimat berikut sesuai urutan dalam كَانَ آبَاؤُهُمْ لَا يَعْقِلُونَ شَيْئًا: (ism kan lalu khabar kan)', qe: '9. Arrange the sentence as in كَانَ آبَاؤُهُمْ لَا يَعْقِلُونَ شَيْئًا: (name of kana then predicate of kana)', t: 'drag',
+        opts: ['آبَاؤُهُمْ', 'لَا يَعْقِلُونَ شَيْئًا', 'آبَاءَهُمْ', 'يَعْقِلُونَ شَيْئًا'],
+        corr: ['آبَاؤُهُمْ', 'لَا يَعْقِلُونَ شَيْئًا'],
+        optsE: ['آبَاؤُهُمْ', 'لَا يَعْقِلُونَ شَيْئًا', 'آبَاءَهُمْ', 'يَعْقِلُونَ شَيْئًا'],
+        corrE: ['آبَاؤُهُمْ', 'لَا يَعْقِلُونَ شَيْئًا'] },
     ]
   },
   // --- MTR: 25b Qur'an ---
@@ -107,6 +117,11 @@ module.exports = [
         corrE: 'Oft-Forgiving, Most Merciful' },
       { q: '6. Apakah لَحْمَ الْخِنْزِيرِ berarti daging babi?', qe: '6. Does لَحْمَ الْخِنْزِيرِ mean pig meat?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: wahai orang-orang yang beriman! makanlah dari rezeki yang baik yang Kami berikan kepada kalian', qe: '7. Translate into Arabic: O you who believe! eat from the good things We have provided for you', t: 'drag',
+        opts: ['يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ', 'يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِنْ جَمِيعِ مَا فِي الْأَرْضِ', 'يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَأْكُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ', 'يَا أَيُّهَا النَّاسُ كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ'],
+        corr: ['يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ'],
+        optsE: ['يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ', 'يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِنْ جَمِيعِ مَا فِي الْأَرْضِ', 'يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَأْكُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ', 'يَا أَيُّهَا النَّاسُ كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ'],
+        corrE: ['يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ'] },
     ]
   },
   // --- MTR: Gr25b ---
@@ -149,6 +164,11 @@ module.exports = [
         corrE: 'وَمَثَلُ الَّذِينَ كَفَرُوا كَمَثَلِ الَّذِي يَنْعِقُ' },
       { q: '8. Apakah tasybih berarti menyerupakan sesuatu dengan yang lain?', qe: '8. Does tasybih mean likening something to another?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. Terjemahkan ke dalam bahasa Arab: mereka tuli, bisu, dan buta', qe: '9. Translate into Arabic: they are deaf, dumb, and blind', t: 'drag',
+        opts: ['صُمٌّ بُكْمٌ عُمْيٌ', 'صُمٌّ بُكْمٌ مُبْصِرُونَ', 'نَاطِقُونَ بُكْمٌ عُمْيٌ', 'صُمٌّ فُصَحَاءُ عُمْيٌ'],
+        corr: ['صُمٌّ بُكْمٌ عُمْيٌ'],
+        optsE: ['صُمٌّ بُكْمٌ عُمْيٌ', 'صُمٌّ بُكْمٌ مُبْصِرُونَ', 'نَاطِقُونَ بُكْمٌ عُمْيٌ', 'صُمٌّ فُصَحَاءُ عُمْيٌ'],
+        corrE: ['صُمٌّ بُكْمٌ عُمْيٌ'] },
     ]
   },
   // --- MTR: 25c Qur'an ---
@@ -179,6 +199,11 @@ module.exports = [
         corrE: 'misguidance, and forgiveness with punishment' },
       { q: '6. Apakah يَكْتُمُونَ berarti menyembunyikan?', qe: '6. Does يَكْتُمُونَ mean to conceal?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: harga yang murah', qe: '7. Translate into Arabic: a small price', t: 'drag',
+        opts: ['ثَمَنًا قَلِيلًا', 'ثَمَنًا كَثِيرًا', 'ثَمَنًا عَظِيمًا', 'ثَمَنًا بَعِيدًا'],
+        corr: ['ثَمَنًا قَلِيلًا'],
+        optsE: ['ثَمَنًا قَلِيلًا', 'ثَمَنًا كَثِيرًا', 'ثَمَنًا عَظِيمًا', 'ثَمَنًا بَعِيدًا'],
+        corrE: ['ثَمَنًا قَلِيلًا'] },
     ]
   },
   // --- MTR: Gr25c ---
@@ -219,6 +244,11 @@ module.exports = [
         corrE: 'with evil and immorality' },
       { q: '8. Apakah إِنَّمَا dalam إِنَّمَا حَرَّمَ membatasi yang haram hanya pada yang disebut?', qe: '8. Does إِنَّمَا in إِنَّمَا حَرَّمَ restrict the forbidden only to what is mentioned?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. Terjemahkan ke dalam bahasa Arab: sesungguhnya hanya diharamkan bagimu bangkai, darah, dan daging babi', qe: '9. Translate into Arabic: He has only forbidden to you carrion, blood, and pig meat', t: 'drag',
+        opts: ['إِنَّمَا حَرَّمَ عَلَيْكُمُ الْمَيْتَةَ وَالدَّمَ وَلَحْمَ الْخِنْزِيرِ', 'إِنَّمَا حَلَّلَ لَكُمُ الْمَيْتَةَ وَالدَّمَ وَلَحْمَ الْخِنْزِيرِ', 'إِنَّمَا حَرَّمَ عَلَيْهِمُ الْمَيْتَةَ وَالدَّمَ وَلَحْمَ الْخِنْزِيرِ', 'إِنَّمَا حَرَّمَ عَلَيْكُمُ الطَّيِّبَاتِ'],
+        corr: ['إِنَّمَا حَرَّمَ عَلَيْكُمُ الْمَيْتَةَ وَالدَّمَ وَلَحْمَ الْخِنْزِيرِ'],
+        optsE: ['إِنَّمَا حَرَّمَ عَلَيْكُمُ الْمَيْتَةَ وَالدَّمَ وَلَحْمَ الْخِنْزِيرِ', 'إِنَّمَا حَلَّلَ لَكُمُ الْمَيْتَةَ وَالدَّمَ وَلَحْمَ الْخِنْزِيرِ', 'إِنَّمَا حَرَّمَ عَلَيْهِمُ الْمَيْتَةَ وَالدَّمَ وَلَحْمَ الْخِنْزِيرِ', 'إِنَّمَا حَرَّمَ عَلَيْكُمُ الطَّيِّبَاتِ'],
+        corrE: ['إِنَّمَا حَرَّمَ عَلَيْكُمُ الْمَيْتَةَ وَالدَّمَ وَلَحْمَ الْخِنْزِيرِ'] },
     ]
   },
   // --- MTR: 25d Qur'an ---
@@ -247,6 +277,11 @@ module.exports = [
         optsE: ['تَنْزِيل', 'مُنَزِّل', 'يُنَزِّلُ', 'نَازِل'], corrE: 'تَنْزِيل' },
       { q: '6. Apakah ذَٰلِكَ بِأَنَّ berarti itu karena?', qe: '6. Does ذَٰلِكَ بِأَنَّ mean that is because?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: yang demikian itu karena Allah telah menurunkan Kitab dengan kebenaran', qe: '7. Translate into Arabic: that is because Allah has sent down the Book in truth', t: 'drag',
+        opts: ['ذَٰلِكَ بِأَنَّ اللَّهَ نَزَّلَ الْكِتَابَ بِالْحَقِّ', 'ذَٰلِكَ بِأَنَّ اللَّهَ نَزَّلَ الْكِتَابَ بِالْبَاطِلِ', 'ذَٰلِكَ بِأَنَّ النَّاسَ نَزَّلُوا الْكِتَابَ بِالْحَقِّ', 'ذَٰلِكَ بِأَنَّ اللَّهَ أَنْزَلَ الْكِتَابَ بِالْحَقِّ'],
+        corr: ['ذَٰلِكَ بِأَنَّ اللَّهَ نَزَّلَ الْكِتَابَ بِالْحَقِّ'],
+        optsE: ['ذَٰلِكَ بِأَنَّ اللَّهَ نَزَّلَ الْكِتَابَ بِالْحَقِّ', 'ذَٰلِكَ بِأَنَّ اللَّهَ نَزَّلَ الْكِتَابَ بِالْبَاطِلِ', 'ذَٰلِكَ بِأَنَّ النَّاسَ نَزَّلُوا الْكِتَابَ بِالْحَقِّ', 'ذَٰلِكَ بِأَنَّ اللَّهَ أَنْزَلَ الْكِتَابَ بِالْحَقِّ'],
+        corrE: ['ذَٰلِكَ بِأَنَّ اللَّهَ نَزَّلَ الْكِتَابَ بِالْحَقِّ'] },
     ]
   },
   // --- MTR: Gr25d ---
@@ -281,6 +316,11 @@ module.exports = [
         corrE: 'eat from the good things We have provided for you' },
       { q: '8. Apakah Level 6 mencakup Al-Baqarah ayat 142 sampai 176?', qe: '8. Does Level 6 cover Al-Baqarah verses 142 to 176?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. 3 Kunci kata kerja أَكَلَ adalah: (madi, mudari, masdar)', qe: '9. The 3 keys of the verb أَكَلَ are: (past, present, verbal noun)', t: 'drag',
+        opts: ['أَكَلَ', 'يَأْكُلُ', 'أَكْل', 'آكِلٌ'],
+        corr: ['أَكَلَ', 'يَأْكُلُ', 'أَكْل'],
+        optsE: ['أَكَلَ', 'يَأْكُلُ', 'أَكْل', 'آكِلٌ'],
+        corrE: ['أَكَلَ', 'يَأْكُلُ', 'أَكْل'] },
     ]
   },
 ];

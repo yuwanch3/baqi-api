@@ -1,5 +1,6 @@
 // ============================================
-// shuffle-opsi-l6.js — Acak posisi opsi (kunci jawaban) 280 soal Level 6
+// shuffle-opsi-l6.js — Acak posisi opsi (kunci jawaban) 280 soal non-drag Level 6
+// (soal tipe 'drag' 40 soal SKIP: posisi opsi tetap urutan naskah, tidak di-UPDATE)
 // Mirip petro/shuffle-keys.js:
 //   - HANYA mengubah urutan kolom options & options_en.
 //   - correct_option / correct_option_en TIDAK diubah (teks jawaban benar
@@ -52,7 +53,7 @@ function shuffleArr(arr, rnd) {
 // ---- muat manifest (sumber kebenaran saat ini) ----
 const manifest = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'));
 const soal = manifest.soal;
-if (soal.length !== 280) throw new Error('Manifest soal harus 280, dapat ' + soal.length);
+if (soal.length !== 320) throw new Error('Manifest soal harus 320, dapat ' + soal.length);
 
 // kunci tiap soal: teks-teks jawaban benar dalam urutan database (opts)
 function kunciTeks(s) {
@@ -105,6 +106,7 @@ let sql = '';
 const newSoal = [];
 let problems = [];
 for (const s of soal) {
+  if (s.t === 'drag') { newSoal.push(s); continue; }  // drag: posisi opsi tetap (tidak diacak, tidak di-UPDATE)
   const perm = s.t === 'yesorno' ? shuffleArr([0, 1].slice(), rnd) : shuffleArr([0, 1, 2, 3].slice(), rnd);
   const optBaru = perm.map((i) => s.opts[i]);
   const optEnBaru = perm.map((i) => s.optsE[i]);
@@ -123,7 +125,7 @@ for (const s of soal) {
 }
 
 const head = `-- ============================================
--- SHUFFLE OPSI LEVEL 6 (280 soal, 5 sublevel, 40 materi)
+-- SHUFFLE OPSI LEVEL 6 (280 soal non-drag; 40 soal drag TIDAK di-shuffle)
 -- HANYA mengubah urutan kolom options & options_en (correct_option/correct_option_en
 -- TIDAK berubah: teks jawaban benar tetap sama, hanya berpindah posisi opsi).
 -- Distribusi posisi klunci SETELAH acak (seed ${bestSeed}):

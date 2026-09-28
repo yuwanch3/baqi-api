@@ -34,6 +34,11 @@ module.exports = [
         corr: 'orang-orang yang', optsE: ['those who', 'sons who', 'the book that', 'a nation that'], corrE: 'those who' },
       { q: '6. Apakah يَعْرِفُونَهُ berarti mereka mengenalnya?', qe: '6. Does يَعْرِفُونَهُ mean they recognize it?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: sebagian dari mereka menyembunyikan kebenaran padahal mereka mengetahuinya', qe: '7. Translate into Arabic: a group of them conceal the truth while they know it', t: 'drag',
+        opts: ['لَيَكْتُمُونَ الْحَقَّ وَهُمْ يَعْلَمُونَ', 'لَيَكْتُمُونَ الْحَقَّ وَهُمْ يَجْهَلُونَ', 'لَيُنْكِرُونَ الْحَقَّ وَهُمْ يَعْلَمُونَ', 'لَيُظْهِرُونَ الْحَقَّ وَهُمْ يَعْلَمُونَ'],
+        corr: ['لَيَكْتُمُونَ الْحَقَّ وَهُمْ يَعْلَمُونَ'],
+        optsE: ['لَيَكْتُمُونَ الْحَقَّ وَهُمْ يَعْلَمُونَ', 'لَيَكْتُمُونَ الْحَقَّ وَهُمْ يَجْهَلُونَ', 'لَيُنْكِرُونَ الْحَقَّ وَهُمْ يَعْلَمُونَ', 'لَيُظْهِرُونَ الْحَقَّ وَهُمْ يَعْلَمُونَ'],
+        corrE: ['لَيَكْتُمُونَ الْحَقَّ وَهُمْ يَعْلَمُونَ'] },
     ]
   },
   // --- MTR: Gr22a ---
@@ -74,6 +79,11 @@ module.exports = [
         corrE: 'a plural subject (waw of plurality)' },
       { q: '8. Apakah اسْتَعِينُوا adalah فعل أمر berbentuk jamak?', qe: '8. Is اسْتَعِينُوا a plural imperative?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. 3 Kunci kata kerja اسْتَعَانَ adalah: (madi, mudari, masdar)', qe: '9. The 3 keys of the verb اسْتَعَانَ are: (past, present, verbal noun)', t: 'drag',
+        opts: ['اسْتَعَانَ', 'يَسْتَعِينُ', 'اسْتِعَانَة', 'مُسْتَعِينٌ'],
+        corr: ['اسْتَعَانَ', 'يَسْتَعِينُ', 'اسْتِعَانَة'],
+        optsE: ['اسْتَعَانَ', 'يَسْتَعِينُ', 'اسْتِعَانَة', 'مُسْتَعِينٌ'],
+        corrE: ['اسْتَعَانَ', 'يَسْتَعِينُ', 'اسْتِعَانَة'] },
     ]
   },
   // --- MTR: 22b Qur'an ---
@@ -106,6 +116,11 @@ module.exports = [
         corr: 'arah atau kiblat', optsE: ['a direction or qiblah', 'strength and power', 'the beauty of a face', 'a long journey'], corrE: 'a direction or qiblah' },
       { q: '6. Apakah فَاسْتَبِقُوا الْخَيْرَاتِ berarti maka berlomba-lombalah dalam kebaikan?', qe: '6. Does فَاسْتَبِقُوا الْخَيْرَاتِ mean then race toward good deeds?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: dan bagi setiap umat ada kiblat yang dia menghadap kepadanya', qe: '7. Translate into Arabic: and for every nation is a direction to which it turns', t: 'drag',
+        opts: ['وَلِكُلٍّ وِجْهَةٌ هُوَ مُوَلِّيهَا', 'وَلِكُلٍّ وِجْهَةٌ هُوَ مُبْدِلُهَا', 'وَلِكُلٍّ قِبْلَةٌ هُوَ مُوَلِّيهَا', 'وَلِكُلِّ أُمَّةٍ وِجْهَةٌ هُوَ مُوَلِّيهَا'],
+        corr: ['وَلِكُلٍّ وِجْهَةٌ هُوَ مُوَلِّيهَا'],
+        optsE: ['وَلِكُلٍّ وِجْهَةٌ هُوَ مُوَلِّيهَا', 'وَلِكُلٍّ وِجْهَةٌ هُوَ مُبْدِلُهَا', 'وَلِكُلٍّ قِبْلَةٌ هُوَ مُوَلِّيهَا', 'وَلِكُلِّ أُمَّةٍ وِجْهَةٌ هُوَ مُوَلِّيهَا'],
+        corrE: ['وَلِكُلٍّ وِجْهَةٌ هُوَ مُوَلِّيهَا'] },
     ]
   },
   // --- MTR: Gr22b ---
@@ -138,6 +153,11 @@ module.exports = [
         corrE: 'they recognize it as they recognize their own sons' },
       { q: '8. Apakah آتَيْنَاهُمُ mengandung kata ganti هُمُ yang berarti mereka?', qe: '8. Does آتَيْنَاهُمُ contain the pronoun هُمُ meaning they?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. Terjemahkan ke dalam bahasa Arab: mereka mengenalnya', qe: '9. Translate into Arabic: they recognize it', t: 'drag',
+        opts: ['يَعْرِفُونَهُ', 'يَعْرِفُونَهَا', 'يَعْرِفُونَهُمْ', 'تَعْرِفُونَهُ'],
+        corr: ['يَعْرِفُونَهُ'],
+        optsE: ['يَعْرِفُونَهُ', 'يَعْرِفُونَهَا', 'يَعْرِفُونَهُمْ', 'تَعْرِفُونَهُ'],
+        corrE: ['يَعْرِفُونَهُ'] },
     ]
   },
   // --- MTR: 22c Qur'an ---
@@ -172,6 +192,11 @@ module.exports = [
         corrE: 'reciting verses, purifying, and teaching the Book and wisdom' },
       { q: '6. Apakah يَتْلُو عَلَيْكُمْ آيَاتِنَا berarti membacakan kepadamu ayat-ayat Kami?', qe: '6. Does يَتْلُو عَلَيْكُمْ آيَاتِنَا mean reciting to you Our verses?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: agar tidak ada bagi manusia suatu alasan terhadapmu', qe: '7. Translate into Arabic: so that people may have no argument against you', t: 'drag',
+        opts: ['لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ', 'لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْكُمْ سَبِيلٌ', 'لِكَيْ يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ', 'لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْهِمْ حُجَّةٌ'],
+        corr: ['لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ'],
+        optsE: ['لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ', 'لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْكُمْ سَبِيلٌ', 'لِكَيْ يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ', 'لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْهِمْ حُجَّةٌ'],
+        corrE: ['لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ'] },
     ]
   },
   // --- MTR: Gr22c ---
@@ -206,6 +231,11 @@ module.exports = [
         corr: 'وَلَا تَكْفُرُونِ', optsE: ['وَلَا تَكْفُرُونِ', 'الْحَقُّ مِنْ رَبِّكَ', 'وَإِنَّ فَرِيقًا مِنْهُمْ', 'آتَيْنَاهُمُ الْكِتَابَ'], corrE: 'وَلَا تَكْفُرُونِ' },
       { q: '8. Apakah la dalam وَلَا تَكْفُرُونِ berfungsi menegaskan perbuatan?', qe: '8. Does la in وَلَا تَكْفُرُونِ affirm the action?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'No', optsE: ['Yes', 'No'], corrE: 'No' },
+      { q: '9. Terjemahkan ke dalam bahasa Arab: dan janganlah kamu ingkar kepada-Ku', qe: '9. Translate into Arabic: and do not be ungrateful to Me', t: 'drag',
+        opts: ['وَلَا تَكْفُرُونِ', 'وَلَا تَشْكُرُونِ', 'وَلَا يَكْفُرُونِ', 'وَلَا تَكْفُرْنَ'],
+        corr: ['وَلَا تَكْفُرُونِ'],
+        optsE: ['وَلَا تَكْفُرُونِ', 'وَلَا تَشْكُرُونِ', 'وَلَا يَكْفُرُونِ', 'وَلَا تَكْفُرْنَ'],
+        corrE: ['وَلَا تَكْفُرُونِ'] },
     ]
   },
   // --- MTR: 22d Qur'an ---
@@ -238,6 +268,11 @@ module.exports = [
         optsE: ['صَابِر', 'صَبُور', 'يَصْبِرُ', 'صَبْر'], corrE: 'صَابِر' },
       { q: '6. Apakah أَذْكُرْكُمْ berarti Aku akan ingat kepadamu?', qe: '6. Does أَذْكُرْكُمْ mean I will remember you?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: maka ingatlah kepada-Ku, Aku pun akan ingat kepadamu', qe: '7. Translate into Arabic: so remember Me, I will remember you', t: 'drag',
+        opts: ['فَاذْكُرُونِي أَذْكُرْكُمْ', 'فَاذْكُرُونِي أَنْسَاكُمْ', 'فَاذْكُرُوا اللَّهَ أَذْكُرْكُمْ', 'فَاذْكُرُونِي فَأُجِبْكُمْ'],
+        corr: ['فَاذْكُرُونِي أَذْكُرْكُمْ'],
+        optsE: ['فَاذْكُرُونِي أَذْكُرْكُمْ', 'فَاذْكُرُونِي أَنْسَاكُمْ', 'فَاذْكُرُوا اللَّهَ أَذْكُرْكُمْ', 'فَاذْكُرُونِي فَأُجِبْكُمْ'],
+        corrE: ['فَاذْكُرُونِي أَذْكُرْكُمْ'] },
     ]
   },
   // --- MTR: Gr22d ---
@@ -272,6 +307,11 @@ module.exports = [
         optsE: ['يَأْتِ بِكُمُ اللَّهُ جَمِيعًا', 'تَكُونُوا', 'أَيْنَ مَا', 'بِكُمُ اللَّهُ'], corrE: 'يَأْتِ بِكُمُ اللَّهُ جَمِيعًا' },
       { q: '8. Apakah أَيْنَ مَا adalah kata syarat untuk tempat?', qe: '8. Is أَيْنَ مَا a condition word for place?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. Terjemahkan ke dalam bahasa Arab: di mana saja kamu berada', qe: '9. Translate into Arabic: wherever you may be', t: 'drag',
+        opts: ['أَيْنَ مَا تَكُونُوا', 'إِذَا مَا تَكُونُوا', 'أَيْنَ مَا يَكُونُوا', 'حَيْثُ مَا تَكُونُوا'],
+        corr: ['أَيْنَ مَا تَكُونُوا'],
+        optsE: ['أَيْنَ مَا تَكُونُوا', 'إِذَا مَا تَكُونُوا', 'أَيْنَ مَا يَكُونُوا', 'حَيْثُ مَا تَكُونُوا'],
+        corrE: ['أَيْنَ مَا تَكُونُوا'] },
     ]
   },
 ];

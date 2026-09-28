@@ -36,6 +36,11 @@ module.exports = [
         corrE: 'and give good tidings to the patient' },
       { q: '6. Apakah يُقْتَلُ berarti dibunuh, gugur?', qe: '6. Does يُقْتَلُ mean is killed, slain?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Susun kata berikut sesuai urutan dalam وَبَشِّرِ الصَّابِرِينَ: (fi\'l amr lalu maf\'ul bih)', qe: '7. Arrange the words as in وَبَشِّرِ الصَّابِرِينَ: (imperative then object)', t: 'drag',
+        opts: ['بَشِّرِ', 'الصَّابِرِينَ', 'بَشَّرَ', 'الصَّابِرُونَ'],
+        corr: ['بَشِّرِ', 'الصَّابِرِينَ'],
+        optsE: ['بَشِّرِ', 'الصَّابِرِينَ', 'بَشَّرَ', 'الصَّابِرُونَ'],
+        corrE: ['بَشِّرِ', 'الصَّابِرِينَ'] },
     ]
   },
   // --- MTR: Gr23a ---
@@ -78,6 +83,11 @@ module.exports = [
         corr: 'nasab', optsE: ['accusative', 'nominative', 'genitive', 'jussive'], corrE: 'accusative' },
       { q: '8. Apakah لَا إِلَهَ إِلَّا هُوَ menegaskan bahwa tidak ada tuhan selain Allah?', qe: '8. Does لَا إِلَهَ إِلَّا هُوَ affirm that there is no god but Allah?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. Terjemahkan ke dalam bahasa Arab: tidak ada tuhan yang berhak disembah selain Dia', qe: '9. Translate into Arabic: there is no god worthy of worship except Him', t: 'drag',
+        opts: ['لَا إِلَهَ إِلَّا هُوَ', 'لَا إِلَهَ إِلَّا أَنْتَ', 'لَا إِلَهَ إِلَّا هِيَ', 'مَا إِلَهَ إِلَّا هُوَ'],
+        corr: ['لَا إِلَهَ إِلَّا هُوَ'],
+        optsE: ['لَا إِلَهَ إِلَّا هُوَ', 'لَا إِلَهَ إِلَّا أَنْتَ', 'لَا إِلَهَ إِلَّا هِيَ', 'مَا إِلَهَ إِلَّا هُوَ'],
+        corrE: ['لَا إِلَهَ إِلَّا هُوَ'] },
     ]
   },
   // --- MTR: 23b Qur'an ---
@@ -108,6 +118,11 @@ module.exports = [
         optsE: ['مَصَائِب', 'مُصِيبَتَانِ', 'مُصِيْبَات', 'مَصَابِيْب'], corrE: 'مَصَائِب' },
       { q: '6. Apakah إِنَّا لِلَّهِ berarti sesungguhnya kami milik Allah?', qe: '6. Does إِنَّا لِلَّهِ mean indeed we belong to Allah?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: sesungguhnya kami milik Allah dan kepada-Nya kami kembali', qe: '7. Translate into Arabic: indeed we belong to Allah and to Him we will return', t: 'drag',
+        opts: ['إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ', 'إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ سَائِرُونَ', 'إِنَّا لِلَّهِ وَإِنَّا عَنْهُ مُعْرِضُونَ', 'إِنَّا لِلَّهِ وَإِلَيْهِ نَنْظُرُ'],
+        corr: ['إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ'],
+        optsE: ['إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ', 'إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ سَائِرُونَ', 'إِنَّا لِلَّهِ وَإِنَّا عَنْهُ مُعْرِضُونَ', 'إِنَّا لِلَّهِ وَإِلَيْهِ نَنْظُرُ'],
+        corrE: ['إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ'] },
     ]
   },
   // --- MTR: Gr23b ---
@@ -149,6 +164,11 @@ module.exports = [
         corrE: 'a complete exception (istitsna mufarrag)' },
       { q: '8. Apakah إِلَّا dalam ayat 160 mengecualikan orang-orang yang bertobat?', qe: '8. Does إِلَّا in verse 160 exclude those who repent?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. 3 Kunci kata kerja تَابَ adalah: (madi, mudari, masdar)', qe: '9. The 3 keys of the verb تَابَ are: (past, present, verbal noun)', t: 'drag',
+        opts: ['تَابَ', 'يَتُوبُ', 'تَوْبَة', 'تَائِبٌ'],
+        corr: ['تَابَ', 'يَتُوبُ', 'تَوْبَة'],
+        optsE: ['تَابَ', 'يَتُوبُ', 'تَوْبَة', 'تَائِبٌ'],
+        corrE: ['تَابَ', 'يَتُوبُ', 'تَوْبَة'] },
     ]
   },
   // --- MTR: 23c Qur'an ---
@@ -183,6 +203,11 @@ module.exports = [
         corrE: 'indeed those who conceal what We sent down of clear proofs and guidance' },
       { q: '6. Apakah شَعَائِر berarti syi\'ar, tanda-tanda?', qe: '6. Does شَعَائِر mean symbols, signs?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: sesungguhnya Safa dan Marwah adalah termasuk syi\'ar Allah', qe: '7. Translate into Arabic: indeed Safa and Marwah are among the symbols of Allah', t: 'drag',
+        opts: ['إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ شَعَائِرِ اللَّهِ', 'إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ أَعْلَامِ النَّاسِ', 'إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ بُيُوتِ اللَّهِ', 'جَعَلَ اللَّهُ الصَّفَا وَالْمَرْوَةَ شَعَائِرَهُ فَقَط'],
+        corr: ['إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ شَعَائِرِ اللَّهِ'],
+        optsE: ['إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ شَعَائِرِ اللَّهِ', 'إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ أَعْلَامِ النَّاسِ', 'إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ بُيُوتِ اللَّهِ', 'جَعَلَ اللَّهُ الصَّفَا وَالْمَرْوَةَ شَعَائِرَهُ فَقَط'],
+        corrE: ['إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ شَعَائِرِ اللَّهِ'] },
     ]
   },
   // --- MTR: Gr23c ---
@@ -215,6 +240,11 @@ module.exports = [
         corrE: 'and whoever volunteers good, then indeed Allah is Appreciative and Knowing' },
       { q: '8. Apakah huruf athaf menghubungkan dua kata atau kalimat?', qe: '8. Do conjunctions join two words or clauses?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '9. 3 Kunci kata kerja تَطَوَّعَ adalah: (madi, mudari, masdar)', qe: '9. The 3 keys of the verb تَطَوَّعَ are: (past, present, verbal noun)', t: 'drag',
+        opts: ['تَطَوَّعَ', 'يَتَطَوَّعُ', 'تَطَوُّع', 'مُتَطَوِّعٌ'],
+        corr: ['تَطَوَّعَ', 'يَتَطَوَّعُ', 'تَطَوُّع'],
+        optsE: ['تَطَوَّعَ', 'يَتَطَوَّعُ', 'تَطَوُّع', 'مُتَطَوِّعٌ'],
+        corrE: ['تَطَوَّعَ', 'يَتَطَوَّعُ', 'تَطَوُّع'] },
     ]
   },
   // --- MTR: 23d Qur'an ---
@@ -246,6 +276,11 @@ module.exports = [
         corr: 'الرَّحْمَنُ الرَّحِيمُ', optsE: ['الرَّحْمَنُ الرَّحِيمُ', 'الْعَزِيزُ الْحَكِيمُ', 'الْغَفُورُ الْوَدُودُ', 'السَّمِيعُ الْبَصِيرُ'], corrE: 'الرَّحْمَنُ الرَّحِيمُ' },
       { q: '6. Apakah خَالِدِينَ فِيهَا berarti kekal di dalamnya?', qe: '6. Does خَالِدِينَ فِيهَا mean abiding forever therein?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'Yes', optsE: ['Yes', 'No'], corrE: 'Yes' },
+      { q: '7. Terjemahkan ke dalam bahasa Arab: dan Tuhanmu adalah Tuhan Yang Maha Esa', qe: '7. Translate into Arabic: and your God is one God', t: 'drag',
+        opts: ['وَإِلَهُكُمْ إِلَهٌ وَاحِدٌ', 'وَإِلَهُكُمْ إِلَهٌ كَثِيرٌ', 'وَإِلَهُكُمْ إِلَهٌ قَدِيمٌ', 'وَلِكُلِّ قَوْمٍ إِلَهٌ وَاحِدٌ'],
+        corr: ['وَإِلَهُكُمْ إِلَهٌ وَاحِدٌ'],
+        optsE: ['وَإِلَهُكُمْ إِلَهٌ وَاحِدٌ', 'وَإِلَهُكُمْ إِلَهٌ كَثِيرٌ', 'وَإِلَهُكُمْ إِلَهٌ قَدِيمٌ', 'وَلِكُلِّ قَوْمٍ إِلَهٌ وَاحِدٌ'],
+        corrE: ['وَإِلَهُكُمْ إِلَهٌ وَاحِدٌ'] },
     ]
   },
   // --- MTR: Gr23d ---
@@ -280,6 +315,11 @@ module.exports = [
         optsE: ['إِلَهٌ وَاحِدٌ', 'إِلَهُكُمْ', 'وَاحِدٌ فَقَط', 'لَكُمْ إِلَهٌ'], corrE: 'إِلَهٌ وَاحِدٌ' },
       { q: '8. Apakah jumlatu ismiyah dapat dimulai dengan kata kerja?', qe: '8. Can a nominal sentence begin with a verb?', t: 'yesorno',
         opts: ['Yes', 'No'], corr: 'No', optsE: ['Yes', 'No'], corrE: 'No' },
+      { q: '9. Susun jumlatu ismiyah berikut sesuai urutannya (mubtada lalu khabar): الْحَقُّ مِنْ رَبِّكَ', qe: '9. Arrange the nominal sentence in order (mubtada then khabar): الْحَقُّ مِنْ رَبِّكَ', t: 'drag',
+        opts: ['الْحَقُّ', 'مِنْ رَبِّكَ', 'رَبُّكَ', 'الْبَاطِلُ'],
+        corr: ['الْحَقُّ', 'مِنْ رَبِّكَ'],
+        optsE: ['الْحَقُّ', 'مِنْ رَبِّكَ', 'رَبُّكَ', 'الْبَاطِلُ'],
+        corrE: ['الْحَقُّ', 'مِنْ رَبِّكَ'] },
     ]
   },
 ];
