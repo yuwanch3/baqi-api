@@ -191,16 +191,21 @@ if (mode === 'local') {
         const qs = toArr(await get(BASE + 'questions/mid/' + m.id + '/' + KEY));
         const expectCount = exp.type === 'quran' ? 6 : 8;
         if (qs.length !== expectCount) { problems.push(m.id + ': jumlah soal ' + qs.length + ' != ' + expectCount); continue; }
-        for (const q of qs) {
-          const ex = rows.soal.find((x) => x.id === q.id);
-          if (!ex) { problems.push(q.id + ': tidak ada di manifest'); continue; }
-          if (q.type !== ex.t) problems.push(q.id + ': type berbeda');
-          if (q.question !== ex.q) problems.push(q.id + ': question ID berbeda');
-          if (q.question_en !== ex.qe) problems.push(q.id + ': question_en berbeda');
-          if (q.correct_option !== String(ex.corr)) problems.push(q.id + ': correct_option berbeda');
-          if (q.correct_option_en !== String(ex.corrE)) problems.push(q.id + ': correct_option_en berbeda');
-          if (q.options !== phpser(ex.opts)) problems.push(q.id + ': options serialized berbeda');
-          if (q.options_en !== phpser(ex.optsE)) problems.push(q.id + ': options_en serialized berbeda');
+        for (const raw of qs) {
+          const wrapped = !!raw && !!raw.value && typeof raw.value === 'object' && !Array.isArray(raw.value) && ('type' in raw.value || 'question' in raw.value);
+          const v = wrapped ? raw.value : raw;
+          const qid = v.id || (raw && raw.id);
+          const ex = rows.soal.find((x) => x.id === qid);
+          if (!ex) { problems.push(qid + ': tidak ada di manifest'); continue; }
+          const jc = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+          if (v.mid !== m.id) problems.push(qid + ': mid salah (' + v.mid + ')');
+          if (!jc(v.type, ex.t)) problems.push(qid + ': type berbeda (' + v.type + ' vs ' + ex.t + ')');
+          if (!jc(v.question, ex.q)) problems.push(qid + ': question ID berbeda');
+          if (!jc(v.question_en, ex.qe)) problems.push(qid + ': question_en berbeda');
+          if (!jc(v.correct_option, ex.corr)) problems.push(qid + ': correct_option berbeda');
+          if (!jc(v.correct_option_en, ex.corrE)) problems.push(qid + ': correct_option_en berbeda');
+          if (!jc(v.options, ex.opts)) problems.push(qid + ': options berbeda');
+          if (!jc(v.options_en, ex.optsE)) problems.push(qid + ': options_en berbeda');
         }
       }
     }
