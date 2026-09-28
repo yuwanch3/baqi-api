@@ -2,9 +2,16 @@
 // GENERATOR SQL LEVEL 6 — UJIAN 1 PELAJARAN + UJIAN 1 TATA BAHASA
 // Tabel final_exam (prefix FQT), excerpt 'Ujian Pelajaran' / 'Ujian Grammer',
 // lid = SLV000000000037..041 (Level 6).
-// Pola jumlah = Level 5: Pelajaran 12 (option); Grammer 16 (14 option + 2 drag).
+// Pola tipe per sublevel:
+//   Pelajaran 12 : 8 option + 2 multi + 2 yesorno
+//   Grammer 16   : 8 option + 2 drag + 3 multi + 3 yesorno
+//   Total : option 80, multi 25, yesorno 25, drag 10 = 140.
+// Urutan opsi option & multi DIACAK seeded (mulberry32, seed = id FQT)
+// sebelum SQL/manifest ditulis -> posisi jawaban benar tidak selalu A.
+// yesorno & drag tidak diacak (opsi tetap Yes/No atau pasangan kunci).
 //  ID blok FQT: 90000000000.. (jauh dari produksi ~1051 & blok petro 92e9).
 //  Path A: Arab via CONVERT(0x... USING utf8mb4); file 100% ASCII.
+//  SQL pakai REPLACE INTO (idempoten: re-import menimpa 140 baris lama).
 // Build: PREVIEW default; FINAL=1 tulis output/l6/zz_ujian1_level6_v1.sql
 // ============================================
 const fs = require('fs');
@@ -25,6 +32,29 @@ const norm = (s) => String(s).trim().toLowerCase();
 const hasArabic = (s) => /[\u0600-\u06FF]/.test(String(s));
 const safeChar = (ch) => ch < '\x80' || /[\u0600-\u06FF\u061C\u061F]/.test(ch) || /[\u0640-\u0652\u0670\u06D6-\u06ED]/.test(ch);
 const allSafe = (s) => [...String(s)].every(safeChar);
+
+// ---- seeded shuffle (mulberry32) ----
+const mulberry32 = (a) => () => {
+  a |= 0; a = (a + 0x6D2B79F5) | 0;
+  let t = Math.imul(a ^ (a >>> 15), 1 | a);
+  t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+  return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+};
+const seededPerm = (n, seed) => {
+  const rnd = mulberry32(seed);
+  const idx = Array.from({ length: n }, (_, i) => i);
+  for (let i = n - 1; i > 0; i--) {
+    const j = Math.floor(rnd() * (i + 1));
+    [idx[i], idx[j]] = [idx[j], idx[i]];
+  }
+  return idx;
+};
+// acak urutan opts & optsE dengan permutasi identik (seed = id FQT)
+const shuffleOpts = (x, seed) => {
+  const p = seededPerm(x.opts.length, seed);
+  x.opts = p.map((k) => x.opts[k]);
+  x.optsE = p.map((k) => x.optsE[k]);
+};
 
 const wrapC = (v) => (Array.isArray(v)
   ? 'CONVERT(0x' + hexM(phpser(v)) + ' USING utf8mb4)'
@@ -48,8 +78,9 @@ const problems = [];
 const manifest = { now: NOW, exams: [] };
 
 const chkSoal = (x, lid, excerpt, qid) => {
-  if (!['option', 'drag'].includes(x.t)) problems.push(qid + ': tipe tidak dikenal ' + x.t);
-  if (x.opts.length !== 4 || x.optsE.length !== 4) problems.push(qid + ': opsi harus 4');
+  if (!['option', 'drag', 'multi', 'yesorno'].includes(x.t)) problems.push(qid + ': tipe tidak dikenal ' + x.t);
+  const wantOpts = x.t === 'yesorno' ? 2 : 4;
+  if (x.opts.length !== wantOpts || x.optsE.length !== wantOpts) problems.push(qid + ': opsi harus ' + wantOpts);
   for (const s of [x.q, x.qe, ...x.opts, ...x.optsE, ...(Array.isArray(x.corr) ? x.corr : [x.corr]), ...(Array.isArray(x.corrE) ? x.corrE : [x.corrE])]) {
     if (/["\\]/.test(s)) problems.push(qid + ': kutip ganda/backslash: ' + JSON.stringify(String(s).slice(0, 40)));
     if (!allSafe(s)) problems.push(qid + ': non-ASCII non-Arab ' + JSON.stringify([...String(s)].find((c) => !safeChar(c))));
@@ -61,9 +92,17 @@ const chkSoal = (x, lid, excerpt, qid) => {
   if (!c.length || c.some((s) => !oi.includes(norm(s)))) problems.push(qid + ': corr ID tidak di opts');
   if (!ce.length || ce.some((s) => !oei.includes(norm(s)))) problems.push(qid + ': corr EN tidak di optsE');
   if (x.t === 'drag' && (!Array.isArray(x.corr) || c.length < 1 || c.length > 3)) problems.push(qid + ': drag harus array 1-3 benar');
+  if (x.t === 'multi' && (!Array.isArray(x.corr) || c.length < 2)) problems.push(qid + ': multi harus array minimal 2 benar');
   if (x.t === 'option' && (Array.isArray(x.corr) || Array.isArray(x.corrE))) problems.push(qid + ': option koran tidak boleh array');
+  if (x.t === 'yesorno') {
+    if (JSON.stringify(x.opts) !== '["Yes","No"]' || JSON.stringify(x.optsE) !== '["Yes","No"]') problems.push(qid + ': yesorno opsi harus Yes,No');
+    if (!['Yes', 'No'].includes(String(x.corr)) || !['Yes', 'No'].includes(String(x.corrE))) problems.push(qid + ': yesorno corr harus Yes/No');
+    if (Array.isArray(x.corr) || Array.isArray(x.corrE)) problems.push(qid + ': yesorno corr tidak boleh array');
+  }
   return { id: qid, lid, excerpt, ...x };
 };
+
+const cnt = (arr, t) => arr.filter((x) => x.t === t).length;
 
 for (const b of banks) {
   const lid = b.lid;
@@ -72,18 +111,37 @@ for (const b of banks) {
   if (b.grammer.length !== 16) problems.push(lid + ': grammer != 16 (' + b.grammer.length + ')');
   const pel = b.pelajaran.map((x) => chkSoal(x, lid, EXC_PEL, fqtId()));
   const grm = b.grammer.map((x) => chkSoal(x, lid, EXC_GRM, fqtId()));
-  const nDrag = grm.filter((g) => g.t === 'drag').length;
-  if (nDrag !== 2) problems.push(lid + ': grammer drag != 2 (' + nDrag + ')');
+  // komposisi per sublevel
+  if (cnt(pel, 'option') !== 8 || cnt(pel, 'multi') !== 2 || cnt(pel, 'yesorno') !== 2) {
+    problems.push(lid + ': pelajaran harus 8 option + 2 multi + 2 yesorno (dpt ' + cnt(pel, 'option') + '/' + cnt(pel, 'multi') + '/' + cnt(pel, 'yesorno') + ')');
+  }
+  if (cnt(grm, 'option') !== 8 || cnt(grm, 'drag') !== 2 || cnt(grm, 'multi') !== 3 || cnt(grm, 'yesorno') !== 3) {
+    problems.push(lid + ': grammer harus 8 option + 2 drag + 3 multi + 3 yesorno (dpt ' + cnt(grm, 'option') + '/' + cnt(grm, 'drag') + '/' + cnt(grm, 'multi') + '/' + cnt(grm, 'yesorno') + ')');
+  }
+  // acak urutan opsi option & multi (seed = id FQT) -> SQL & manifest dari hasil acak
+  for (const x of [...pel, ...grm]) {
+    if (x.t === 'option' || x.t === 'multi') shuffleOpts(x, Number(x.id.slice(3)));
+  }
   manifest.exams.push({ slv: b.slv, lid, pelajaran: pel, grammer: grm });
 }
 
 const totalSoal = manifest.exams.reduce((n, e) => n + e.pelajaran.length + e.grammer.length, 0);
 console.log('=== LEVEL 6 — UJIAN PELAJARAN (12) + TATA BAHASA (16) per sublevel ===');
 manifest.exams.forEach((e) => {
-  const g = e.grammer.filter((x) => x.t === 'drag').length;
-  console.log(' ' + e.lid + ' | pelajaran ' + e.pelajaran.length + ' option | grammer ' + e.grammer.length + ' (14 option + ' + g + ' drag)');
+  const cp = cnt(e.pelajaran, 'option') + '/' + cnt(e.pelajaran, 'multi') + '/' + cnt(e.pelajaran, 'yesorno');
+  const cg = cnt(e.grammer, 'option') + '/' + cnt(e.grammer, 'drag') + '/' + cnt(e.grammer, 'multi') + '/' + cnt(e.grammer, 'yesorno');
+  console.log(' ' + e.lid + ' | pelajaran ' + e.pelajaran.length + ' (opt/multi/yorno ' + cp + ') | grammer ' + e.grammer.length + ' (opt/drag/multi/yorno ' + cg + ')');
 });
-console.log('Total soal final_exam baru:', totalSoal);
+const allS = manifest.exams.flatMap((e) => [...e.pelajaran, ...e.grammer]);
+const dist = { option: cnt(allS, 'option'), multi: cnt(allS, 'multi'), yesorno: cnt(allS, 'yesorno'), drag: cnt(allS, 'drag') };
+const posIdx = { 0: 0, 1: 0, 2: 0, 3: 0 };
+for (const s of allS) {
+  if (s.t !== 'option' && s.t !== 'multi') continue;
+  const cs = Array.isArray(s.corr) ? s.corr : [s.corr];
+  for (const cv of cs) posIdx[s.opts.findIndex((o) => norm(o) === norm(cv))]++;
+}
+console.log('Total soal final_exam baru:', totalSoal, '(' + Object.entries(dist).map(([k, v]) => k + ' ' + v).join(', ') + ')');
+console.log('Posisi jawaban benar (option & multi): index ' + Object.entries(posIdx).map(([k, v]) => k + ': ' + v).join(' | '));
 console.log('Masalah:', problems.length ? '\n  ' + problems.join('\n  ') : '0 \u2713');
 if (problems.length) { console.log('\nBatal tulis SQL.'); return; }
 
@@ -92,13 +150,14 @@ const HEAD = (t) => `-- ============================================
 -- ${t}
 -- Path A: semua teks Arab via CONVERT(0x... USING utf8mb4).
 -- File 100% ASCII. CARA IMPORT: phpMyAdmin -> Import -> file ini.
+-- REPLACE INTO: impor ulang menimpa 140 baris lama (id Abu).
 -- ============================================
 
 SET NAMES utf8mb4;
 
 `;
 
-const INSERT_FEX = 'INSERT INTO final_exam(id, question, type, lid, excerpt, options, image, correct_option, question_en, options_en, correct_option_en, created, updated) VALUES\n';
+const REPLACE_FEX = 'REPLACE INTO final_exam(id, question, type, lid, excerpt, options, image, correct_option, question_en, options_en, correct_option_en, created, updated) VALUES\n';
 
 const row = (x) => {
   const corr = wrapC(x.corr), corrE = wrapC(x.corrE);
@@ -114,9 +173,9 @@ if (FINAL) {
     all.push(...e.pelajaran.map(row));
     all.push(...e.grammer.map(row));
   }
-  const sql = HEAD('INSERT LEVEL 6 - ' + all.length + ' SOAL UJIAN (final_exam, prefix FQT blok 9000000000+)')
+  const sql = HEAD('REPLACE LEVEL 6 - ' + all.length + ' SOAL UJIAN (final_exam, prefix FQT blok 9000000000+)')
     + '-- Hanya soal ujian final_exam L6 baru. TIDAK menyentuh soal materi / level lain.\n'
-    + INSERT_FEX + all.join(',\n') + ';\n';
+    + REPLACE_FEX + all.join(',\n') + ';\n';
   const out = path.join(l6dir, 'zz_ujian1_level6_v1.sql');
   fs.writeFileSync(out, sql, 'utf8');
 
@@ -127,7 +186,7 @@ if (FINAL) {
   for (const c of b) if (c > 127) bad++;
   console.log('\nFile ditulis :', out);
   console.log('Non-ASCII    :', bad === 0 ? '0 (ASCII)' : 'ADA MASALAH (' + bad + ')');
-  console.log('Total        : ' + all.length + ' INSERT final_exam');
+  console.log('Total        : ' + all.length + ' REPLACE final_exam');
 } else {
   console.log('\n(PREVIEW ONLY — FINAL=1 untuk menulis file SQL.)');
 }

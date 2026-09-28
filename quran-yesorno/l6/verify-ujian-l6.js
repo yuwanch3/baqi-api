@@ -3,6 +3,7 @@
 //  local : cek file SQL zz_ujian1_level6_v1.sql + rows-ujian.json
 //          (ID FQT unik/blok, jumlah 140, excerpt/lid, tipe, ASCII, hex round-trip)
 //  api   : verifikasi read-only setelah import (subexam/<slv>/<excerpt>/<api>)
+// Komposisi: pelajaran 8 option + 2 multi + 2 yesorno; grammer 8 option + 2 drag + 3 multi + 3 yesorno.
 // Usage  : node l6/verify-ujian-l6.js            -> local
 //          node l6/verify-ujian-l6.js api        -> API (setelah user import)
 // ============================================
@@ -46,6 +47,7 @@ if (mode === 'local') {
   if (allSoal.length !== 140) problems.push('soal != 140 (' + allSoal.length + ')');
   if (rows.now !== NOW) problems.push('rows.now != NOW');
   const uniq = (arr) => new Set(arr).size === arr.length;
+  const cnt = (arr, t) => arr.filter((x) => x.t === t).length;
 
   // ---- struktur manifest ----
   const slvExpected = (n) => 'SLV' + String(36 + n).padStart(12, '0');
@@ -53,9 +55,12 @@ if (mode === 'local') {
     if (e.lid !== slvExpected(e.slv)) problems.push(e.lid + ': lid tidak sesuai urutan');
     if (e.pelajaran.length !== 12) problems.push(e.lid + ': pelajaran != 12');
     if (e.grammer.length !== 16) problems.push(e.lid + ': grammer != 16');
-    const nDrag = e.grammer.filter((x) => x.t === 'drag').length;
-    if (nDrag !== 2) problems.push(e.lid + ': grammer drag != 2 (' + nDrag + ')');
-    if (e.pelajaran.some((x) => x.t !== 'option')) problems.push(e.lid + ': pelajaran harus semua option');
+    if (cnt(e.pelajaran, 'option') !== 8 || cnt(e.pelajaran, 'multi') !== 2 || cnt(e.pelajaran, 'yesorno') !== 2) {
+      problems.push(e.lid + ': pelajaran harus 8 option + 2 multi + 2 yesorno');
+    }
+    if (cnt(e.grammer, 'option') !== 8 || cnt(e.grammer, 'drag') !== 2 || cnt(e.grammer, 'multi') !== 3 || cnt(e.grammer, 'yesorno') !== 3) {
+      problems.push(e.lid + ': grammer harus 8 option + 2 drag + 3 multi + 3 yesorno');
+    }
     e.pelajaran.forEach((x) => { if (x.excerpt !== 'Ujian Pelajaran') problems.push(x.id + ': excerpt pelajaran salah'); });
     e.grammer.forEach((x) => { if (x.excerpt !== 'Ujian Grammer') problems.push(x.id + ': excerpt grammer salah'); });
   }
@@ -71,7 +76,8 @@ if (mode === 'local') {
 
   // isi soal
   for (const s of allSoal) {
-    if (s.opts.length !== 4 || s.optsE.length !== 4) problems.push(s.id + ': opsi harus 4');
+    const wantOpts = s.t === 'yesorno' ? 2 : 4;
+    if (s.opts.length !== wantOpts || s.optsE.length !== wantOpts) problems.push(s.id + ': opsi harus ' + wantOpts + ' (tipe ' + s.t + ')');
     const oi = s.opts.map((x) => String(x).trim().toLowerCase());
     const oei = s.optsE.map((x) => String(x).trim().toLowerCase());
     const cs = Array.isArray(s.corr) ? s.corr : [s.corr];
@@ -80,6 +86,12 @@ if (mode === 'local') {
     if (!cse.every((x) => oei.includes(String(x).trim().toLowerCase()))) problems.push(s.id + ': corr EN tidak di optsE');
     if (new Set(oi).size !== oi.length || new Set(oei).size !== oei.length) problems.push(s.id + ': duplikat opsi');
     if (s.t === 'drag' && (!Array.isArray(s.corr) || cs.length < 1 || cs.length > 3)) problems.push(s.id + ': drag harus array 1-3 benar');
+    if (s.t === 'multi' && (!Array.isArray(s.corr) || cs.length < 2)) problems.push(s.id + ': multi harus array minimal 2 benar');
+    if (s.t === 'yesorno') {
+      if (JSON.stringify(s.opts) !== '["Yes","No"]' || JSON.stringify(s.optsE) !== '["Yes","No"]') problems.push(s.id + ': yesorno opsi harus Yes,No');
+      if (!['Yes', 'No'].includes(String(s.corr)) || !['Yes', 'No'].includes(String(s.corrE))) problems.push(s.id + ': yesorno corr harus Yes/No');
+      if (Array.isArray(s.corr) || Array.isArray(s.corrE)) problems.push(s.id + ': yesorno corr tidak boleh array');
+    }
   }
 
   // ---- cek file SQL ----
@@ -98,11 +110,15 @@ if (mode === 'local') {
     const nGrm = (txt.match(/'Ujian Grammer'/g) || []).length;
     if (nPel !== 60) problems.push('sql: excerpt Ujian Pelajaran ' + nPel + ' != 60');
     if (nGrm !== 80) problems.push('sql: excerpt Ujian Grammer ' + nGrm + ' != 80');
-    const nDrag = (txt.match(/'drag'/g) || []).length;
     const nOpt = (txt.match(/'option'/g) || []).length;
+    const nMul = (txt.match(/'multi'/g) || []).length;
+    const nYes = (txt.match(/'yesorno'/g) || []).length;
+    const nDrag = (txt.match(/'drag'/g) || []).length;
+    if (nOpt !== 80) problems.push('sql: type option ' + nOpt + ' != 80');
+    if (nMul !== 25) problems.push('sql: type multi ' + nMul + ' != 25');
+    if (nYes !== 25) problems.push('sql: type yesorno ' + nYes + ' != 25');
     if (nDrag !== 10) problems.push('sql: type drag ' + nDrag + ' != 10');
-    if (nOpt !== 130) problems.push('sql: type option ' + nOpt + ' != 130');
-    if (!/INSERT INTO final_exam/.test(txt)) problems.push('sql: bukan INSERT final_exam');
+    if (!/REPLACE INTO final_exam/.test(txt)) problems.push('sql: bukan REPLACE INTO final_exam');
     if (!/SET NAMES utf8mb4/.test(txt)) problems.push('sql: SET NAMES utf8mb4 hilang');
 
     // lid per SLV: setiap SLV punya 28 baris
@@ -148,7 +164,7 @@ if (mode === 'local') {
   }
 
   console.log('=== VERIFY LOCAL — LEVEL 6 UJIAN (final_exam) ===');
-  console.log('banks ' + exams.length + ' | soal ' + allSoal.length + ' | pelajaran(60 option) + grammer(70 option + 10 drag)');
+  console.log('banks ' + exams.length + ' | soal ' + allSoal.length + ' | option ' + cnt(allSoal, 'option') + ' + multi ' + cnt(allSoal, 'multi') + ' + yesorno ' + cnt(allSoal, 'yesorno') + ' + drag ' + cnt(allSoal, 'drag'));
   console.log('Masalah:', problems.length ? '\n  ' + problems.join('\n  ') : '0 \u2713 (siap diimport)');
 
 } else if (mode === 'api') {
