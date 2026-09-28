@@ -716,17 +716,17 @@
    "qe": "1. Translate: سَيَقُولُ السُّفَهَاءُ مِنَ النَّاسِ",
    "t": "option",
    "opts": [
-    "akan berkata orang-orang yang bodoh di antara manusia",
+    "akan diam orang-orang yang bodoh di antara manusia",
     "akan berkata orang-orang yang cerdas dari manusia",
     "akan bertanya orang-orang yang mulia di antara manusia",
-    "akan diam orang-orang yang bodoh di antara manusia"
+    "akan berkata orang-orang yang bodoh di antara manusia"
    ],
    "corr": "akan berkata orang-orang yang bodoh di antara manusia",
    "optsE": [
-    "the foolish among the people will say",
+    "the foolish among the people will remain silent",
     "the wise among the people will say",
     "the noble among the people will ask",
-    "the foolish among the people will remain silent"
+    "the foolish among the people will say"
    ],
    "corrE": "the foolish among the people will say"
   },
@@ -737,17 +737,17 @@
    "qe": "2. Translate: مَا وَلَّىٰهُمْ عَنْ قِبْلَتِهِمُ الَّتِي كَانُوا عَلَيْهَا",
    "t": "option",
    "opts": [
+    "apa yang menimpakan mereka dari kiblat mereka",
     "apa yang memalingkan mereka dari kiblat yang mereka dahulu menghadap kepadanya",
     "apa yang menyelamatkan mereka dari kiblat mereka",
-    "mengapa mereka berpaling dari agama mereka",
-    "apa yang menimpakan mereka dari kiblat mereka"
+    "mengapa mereka berpaling dari agama mereka"
    ],
    "corr": "apa yang memalingkan mereka dari kiblat yang mereka dahulu menghadap kepadanya",
    "optsE": [
+    "what afflicted them regarding their qiblah",
     "what turned them away from their qiblah which they used to face",
     "what saved them from their qiblah",
-    "why they turned away from their religion",
-    "what afflicted them regarding their qiblah"
+    "why they turned away from their religion"
    ],
    "corrE": "what turned them away from their qiblah which they used to face"
   },
@@ -780,16 +780,16 @@
    "t": "option",
    "opts": [
     "Dia memberi petunjuk kepada siapa yang Dia kehendaki ke jalan yang lurus",
+    "Dia memuliakan orang yang beriman",
     "Dia memberi rezeki kepada siapa yang Dia cintai",
-    "Dia memberi kesesatan kepada orang yang tidak taat",
-    "Dia memuliakan orang yang beriman"
+    "Dia memberi kesesatan kepada orang yang tidak taat"
    ],
    "corr": "Dia memberi petunjuk kepada siapa yang Dia kehendaki ke jalan yang lurus",
    "optsE": [
     "He guides whom He wills to a straight path",
+    "He honors the believers",
     "He provides for whom He loves",
-    "He misguides the disobedient",
-    "He honors the believers"
+    "He misguides the disobedient"
    ],
    "corrE": "He guides whom He wills to a straight path"
   },
@@ -800,17 +800,17 @@
    "qe": "5. Plural of مَشْرِق is...",
    "t": "option",
    "opts": [
-    "مَشَارِق",
-    "مَشْرِقَانِ",
     "مَشَارِيْق",
-    "مَشْرُوْق"
+    "مَشَارِق",
+    "مَشْرُوْق",
+    "مَشْرِقَانِ"
    ],
    "corr": "مَشَارِق",
    "optsE": [
-    "مَشَارِق",
-    "مَشْرِقَانِ",
     "مَشَارِيْق",
-    "مَشْرُوْق"
+    "مَشَارِق",
+    "مَشْرُوْق",
+    "مَشْرِقَانِ"
    ],
    "corrE": "مَشَارِق"
   },
@@ -821,13 +821,13 @@
    "qe": "6. Does سَيَقُولُ السُّفَهَاءُ mean the foolish will say?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -838,17 +838,17 @@
    "qe": "1. Imperative of قَالَ is...",
    "t": "option",
    "opts": [
+    "قَوْلٌ",
     "قُلْ",
     "قَالَ",
-    "يَقُولُ",
-    "قَوْلٌ"
+    "يَقُولُ"
    ],
    "corr": "قُلْ",
    "optsE": [
+    "قَوْلٌ",
     "قُلْ",
     "قَالَ",
-    "يَقُولُ",
-    "قَوْلٌ"
+    "يَقُولُ"
    ],
    "corrE": "قُلْ"
   },
@@ -859,17 +859,17 @@
    "qe": "2. Imperative of وَلَّى is...",
    "t": "option",
    "opts": [
-    "وَلِّ",
     "وَلَّى",
-    "يُوَلِّي",
-    "تَوْلِيَةٌ"
+    "وَلِّ",
+    "تَوْلِيَةٌ",
+    "يُوَلِّي"
    ],
    "corr": "وَلِّ",
    "optsE": [
-    "وَلِّ",
     "وَلَّى",
-    "يُوَلِّي",
-    "تَوْلِيَةٌ"
+    "وَلِّ",
+    "تَوْلِيَةٌ",
+    "يُوَلِّي"
    ],
    "corrE": "وَلِّ"
   },
@@ -880,17 +880,17 @@
    "qe": "3. Why is وَلِّ written with a shaddah?",
    "t": "option",
    "opts": [
-    "karena berasal dari wazan فَعِّل (mazeed)",
-    "karena kata dasar tiga huruf saja",
+    "karena menunjukkan waktu lampau",
     "karena huruf pertamanya wawu",
-    "karena menunjukkan waktu lampau"
+    "karena kata dasar tiga huruf saja",
+    "karena berasal dari wazan فَعِّل (mazeed)"
    ],
    "corr": "karena berasal dari wazan فَعِّل (mazeed)",
    "optsE": [
-    "because it follows the فَعِّل pattern (mazeed)",
-    "because the root has only three letters",
+    "because it indicates past tense",
     "because it starts with waw",
-    "because it indicates past tense"
+    "because the root has only three letters",
+    "because it follows the فَعِّل pattern (mazeed)"
    ],
    "corrE": "because it follows the فَعِّل pattern (mazeed)"
   },
@@ -903,15 +903,15 @@
    "opts": [
     "وَلُّوا",
     "وَلِّ",
-    "وَلِّيْنَ",
-    "وَلُّوْا لَكَ"
+    "وَلُّوْا لَكَ",
+    "وَلِّيْنَ"
    ],
    "corr": "وَلُّوا",
    "optsE": [
     "وَلُّوا",
     "وَلِّ",
-    "وَلِّيْنَ",
-    "وَلُّوْا لَكَ"
+    "وَلُّوْا لَكَ",
+    "وَلِّيْنَ"
    ],
    "corrE": "وَلُّوا"
   },
@@ -922,16 +922,16 @@
    "qe": "5. Which sign shows the plural imperative in فَوَلُّوا?",
    "t": "option",
    "opts": [
+    "ya muannats",
     "واو الجماعة",
     "alif fathah di akhir",
-    "ya muannats",
     "tanwin di akhir"
    ],
    "corr": "واو الجماعة",
    "optsE": [
+    "ya for feminine",
     "the plural waw (waw al-jama'ah)",
     "alif with fathah at the end",
-    "ya for feminine",
     "tanwin at the end"
    ],
    "corrE": "the plural waw (waw al-jama'ah)"
@@ -944,16 +944,16 @@
    "t": "option",
    "opts": [
     "maka hadapkanlah wajahmu ke arah Masjidil Haram",
-    "maka palingkanlah kiblatmu dari Ka'bah",
+    "maka berdoalah menghadap Baitul Maqdis",
     "maka berdiri menghadap kota Makkah",
-    "maka berdoalah menghadap Baitul Maqdis"
+    "maka palingkanlah kiblatmu dari Ka'bah"
    ],
    "corr": "maka hadapkanlah wajahmu ke arah Masjidil Haram",
    "optsE": [
     "turn your face toward the Sacred Mosque",
-    "turn your qiblah away from the Ka'bah",
+    "pray facing Baitul Maqdis",
     "stand facing the city of Makkah",
-    "pray facing Baitul Maqdis"
+    "turn your qiblah away from the Ka'bah"
    ],
    "corrE": "turn your face toward the Sacred Mosque"
   },
@@ -964,17 +964,17 @@
    "qe": "7. Imperative of يَهْدِي is...",
    "t": "option",
    "opts": [
+    "هُدًى",
     "اِهْدِ",
-    "يَهْدِي",
     "هَدَى",
-    "هُدًى"
+    "يَهْدِي"
    ],
    "corr": "اِهْدِ",
    "optsE": [
+    "هُدًى",
     "اِهْدِ",
-    "يَهْدِي",
     "هَدَى",
-    "هُدًى"
+    "يَهْدِي"
    ],
    "corrE": "اِهْدِ"
   },
@@ -985,13 +985,13 @@
    "qe": "8. Is قُلْ an imperative verb?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -1002,17 +1002,17 @@
    "qe": "1. Translate: وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا",
    "t": "option",
    "opts": [
-    "demikianlah Kami jadikan kamu umat pertengahan",
     "demikianlah Kami ciptakan kamu umat yang lemah",
-    "seperti itu Kami jadikan kamu umat yang terakhir",
-    "demikianlah Kami beri kamu umat yang besar"
+    "demikianlah Kami jadikan kamu umat pertengahan",
+    "demikianlah Kami beri kamu umat yang besar",
+    "seperti itu Kami jadikan kamu umat yang terakhir"
    ],
    "corr": "demikianlah Kami jadikan kamu umat pertengahan",
    "optsE": [
-    "thus We made you a middle nation",
     "thus We created you a weak nation",
-    "thus We made you the last nation",
-    "thus We gave you a great nation"
+    "thus We made you a middle nation",
+    "thus We gave you a great nation",
+    "thus We made you the last nation"
    ],
    "corrE": "thus We made you a middle nation"
   },
@@ -1023,17 +1023,17 @@
    "qe": "2. Why was this nation made a middle nation?",
    "t": "option",
    "opts": [
-    "agar menjadi saksi atas manusia",
-    "agar menjadi umat yang paling kaya",
     "agar menjadi penguasa dunia",
-    "agar menjadi umat yang banyak jumlahnya"
+    "agar menjadi umat yang paling kaya",
+    "agar menjadi umat yang banyak jumlahnya",
+    "agar menjadi saksi atas manusia"
    ],
    "corr": "agar menjadi saksi atas manusia",
    "optsE": [
-    "to be witnesses over mankind",
-    "to be the richest nation",
     "to rule the world",
-    "to be the most numerous nation"
+    "to be the richest nation",
+    "to be the most numerous nation",
+    "to be witnesses over mankind"
    ],
    "corrE": "to be witnesses over mankind"
   },
@@ -1065,17 +1065,17 @@
    "qe": "4. What wisdom of the qiblah change is explained in this verse?",
    "t": "option",
    "opts": [
-    "untuk mengetahui siapa yang mengikuti Rasul dari yang berbalik",
-    "untuk mempersulit umat",
     "untuk membedakan suku Arab",
-    "untuk menghapus ibadah yang lalu"
+    "untuk mempersulit umat",
+    "untuk menghapus ibadah yang lalu",
+    "untuk mengetahui siapa yang mengikuti Rasul dari yang berbalik"
    ],
    "corr": "untuk mengetahui siapa yang mengikuti Rasul dari yang berbalik",
    "optsE": [
-    "to know who follows the Messenger from who turns back",
-    "to make it difficult for the nation",
     "to distinguish the Arab tribes",
-    "to cancel previous worship"
+    "to make it difficult for the nation",
+    "to cancel previous worship",
+    "to know who follows the Messenger from who turns back"
    ],
    "corrE": "to know who follows the Messenger from who turns back"
   },
@@ -1086,17 +1086,17 @@
    "qe": "5. Plural of شَهِيد is...",
    "t": "option",
    "opts": [
+    "شِهَادَات",
     "شُهَدَاء",
-    "شَهِيدَانِ",
     "شَهِيدُوْنَ",
-    "شِهَادَات"
+    "شَهِيدَانِ"
    ],
    "corr": "شُهَدَاء",
    "optsE": [
+    "شِهَادَات",
     "شُهَدَاء",
-    "شَهِيدَانِ",
     "شَهِيدُوْنَ",
-    "شِهَادَات"
+    "شَهِيدَانِ"
    ],
    "corrE": "شُهَدَاء"
   },
@@ -1107,13 +1107,13 @@
    "qe": "6. Does أُمَّةً وَسَطًا mean a negligent nation?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "No",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "No"
   },
@@ -1125,15 +1125,15 @@
    "t": "option",
    "opts": [
     "kata depan yang berarti dari",
-    "kata sambung dan",
     "kata tanya apa",
+    "kata sambung dan",
     "huruf penegas sungguh"
    ],
    "corr": "kata depan yang berarti dari",
    "optsE": [
     "a preposition meaning from/away from",
-    "the conjunction and",
     "the question word what",
+    "the conjunction and",
     "an emphatic particle"
    ],
    "corrE": "a preposition meaning from/away from"
@@ -1145,16 +1145,16 @@
    "qe": "2. The word after a preposition has the case...",
    "t": "option",
    "opts": [
-    "majrur",
-    "marfu'",
     "mansub",
+    "marfu'",
+    "majrur",
     "jazm"
    ],
    "corr": "majrur",
    "optsE": [
-    "majrur (genitive)",
-    "marfu' (nominative)",
     "mansub (accusative)",
+    "marfu' (nominative)",
+    "majrur (genitive)",
     "jazm (jussive)"
    ],
    "corrE": "majrur (genitive)"
@@ -1166,15 +1166,15 @@
    "qe": "3. Which preposition means to/toward?",
    "t": "option",
    "opts": [
-    "إِلَىٰ",
     "عَنْ",
+    "إِلَىٰ",
     "مِنْ",
     "فِي"
    ],
    "corr": "إِلَىٰ",
    "optsE": [
-    "إِلَىٰ",
     "عَنْ",
+    "إِلَىٰ",
     "مِنْ",
     "فِي"
    ],
@@ -1187,17 +1187,17 @@
    "qe": "4. In عَلَى النَّاسِ, the i'rab sign of النَّاسِ is...",
    "t": "option",
    "opts": [
-    "kasrah",
-    "dhammah",
     "fathah",
-    "sukun"
+    "kasrah",
+    "sukun",
+    "dhammah"
    ],
    "corr": "kasrah",
    "optsE": [
-    "kasrah",
-    "dhammah",
     "fathah",
-    "sukun"
+    "kasrah",
+    "sukun",
+    "dhammah"
    ],
    "corrE": "kasrah"
   },
@@ -1208,17 +1208,17 @@
    "qe": "5. A preposition together with a genitive noun is called...",
    "t": "option",
    "opts": [
-    "jar-majrur",
-    "mubtada-khabar",
     "fi'l-fa'il",
-    "idhafah"
+    "mubtada-khabar",
+    "idhafah",
+    "jar-majrur"
    ],
    "corr": "jar-majrur",
    "optsE": [
-    "jar-majrur",
-    "mubtada-khabar",
     "fi'l-fa'il",
-    "idhafah"
+    "mubtada-khabar",
+    "idhafah",
+    "jar-majrur"
    ],
    "corrE": "jar-majrur"
   },
@@ -1230,15 +1230,15 @@
    "t": "option",
    "opts": [
     "milik Allah timur dan barat",
-    "dari Allah pagi dan petang",
     "kepada Allah arah dan tempat",
+    "dari Allah pagi dan petang",
     "bagi Allah langit dan bumi"
    ],
    "corr": "milik Allah timur dan barat",
    "optsE": [
     "to Allah belong the east and the west",
-    "from Allah the morning and evening",
     "to Allah direction and place",
+    "from Allah the morning and evening",
     "for Allah the sky and the earth"
    ],
    "corrE": "to Allah belong the east and the west"
@@ -1250,17 +1250,17 @@
    "qe": "7. The preposition مِنْ in مِنَ النَّاسِ indicates...",
    "t": "option",
    "opts": [
-    "permulaan atau sebagian",
+    "penyebab",
     "akhir tujuan",
-    "persamaan",
-    "penyebab"
+    "permulaan atau sebagian",
+    "persamaan"
    ],
    "corr": "permulaan atau sebagian",
    "optsE": [
-    "starting point or partitive",
+    "cause",
     "final destination",
-    "resemblance",
-    "cause"
+    "starting point or partitive",
+    "resemblance"
    ],
    "corrE": "starting point or partitive"
   },
@@ -1271,13 +1271,13 @@
    "qe": "8. Does a preposition make the following noun genitive?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -1288,17 +1288,17 @@
    "qe": "1. Translate: قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ",
    "t": "option",
    "opts": [
-    "sungguh Kami melihat wajahmu menengadah ke langit",
-    "sungguh Kami melihat wajahmu tertunduk ke bumi",
     "sungguh Kami melihat hatimu gelisah",
-    "sungguh kami mendengar doamu di malam hari"
+    "sungguh kami mendengar doamu di malam hari",
+    "sungguh Kami melihat wajahmu menengadah ke langit",
+    "sungguh Kami melihat wajahmu tertunduk ke bumi"
    ],
    "corr": "sungguh Kami melihat wajahmu menengadah ke langit",
    "optsE": [
-    "We certainly see the turning of your face to the sky",
-    "We certainly see your face bowed to the ground",
     "We certainly see your heart restless",
-    "We hear your prayer at night"
+    "We hear your prayer at night",
+    "We certainly see the turning of your face to the sky",
+    "We certainly see your face bowed to the ground"
    ],
    "corrE": "We certainly see the turning of your face to the sky"
   },
@@ -1309,16 +1309,16 @@
    "qe": "2. Where was the Prophet ordered to turn his face?",
    "t": "option",
    "opts": [
+    "ke arah timur",
     "ke arah Masjidil Haram",
     "ke arah Baitul Maqdis",
-    "ke arah timur",
     "ke arah gunung Sinai"
    ],
    "corr": "ke arah Masjidil Haram",
    "optsE": [
+    "toward the east",
     "toward the Sacred Mosque",
     "toward Baitul Maqdis",
-    "toward the east",
     "toward Mount Sinai"
    ],
    "corrE": "toward the Sacred Mosque"
@@ -1330,17 +1330,17 @@
    "qe": "3. What do the People of the Book know about the change?",
    "t": "option",
    "opts": [
-    "bahwa itu adalah kebenaran dari Rabb mereka",
     "bahwa itu adalah kesalahan Nabi",
+    "bahwa itu berasal dari hawa nafsu",
     "bahwa itu hanya siasat perang",
-    "bahwa itu berasal dari hawa nafsu"
+    "bahwa itu adalah kebenaran dari Rabb mereka"
    ],
    "corr": "bahwa itu adalah kebenaran dari Rabb mereka",
    "optsE": [
-    "that it is the truth from their Lord",
     "that it is the Prophet's mistake",
+    "that it comes from desire",
     "that it is only a war stratagem",
-    "that it comes from desire"
+    "that it is the truth from their Lord"
    ],
    "corrE": "that it is the truth from their Lord"
   },
@@ -1351,16 +1351,16 @@
    "qe": "4. Translate: فَلَنُوَلِّيَنَّكَ قِبْلَةً تَرْضَاهَا",
    "t": "option",
    "opts": [
-    "maka sungguh Kami akan palingkan kamu ke kiblat yang kamu sukai",
-    "maka sungguh kami akan menghalangi keinginanmu",
     "maka Kami akan jadikan kamu pemimpin bangsa",
+    "maka sungguh kami akan menghalangi keinginanmu",
+    "maka sungguh Kami akan palingkan kamu ke kiblat yang kamu sukai",
     "maka Kami akan turunkan kepadamu kitab baru"
    ],
    "corr": "maka sungguh Kami akan palingkan kamu ke kiblat yang kamu sukai",
    "optsE": [
-    "so We will surely turn you toward a qiblah you like",
-    "so We will certainly prevent your wish",
     "so We will make you a leader of the nations",
+    "so We will certainly prevent your wish",
+    "so We will surely turn you toward a qiblah you like",
     "so We will send down to you a new book"
    ],
    "corrE": "so We will surely turn you toward a qiblah you like"
@@ -1372,17 +1372,17 @@
    "qe": "5. Plural of وَجْه is...",
    "t": "option",
    "opts": [
-    "وُجُوه",
-    "وَجْهَانِ",
     "وِجَاهَة",
-    "وُجُهَات"
+    "وُجُهَات",
+    "وُجُوه",
+    "وَجْهَانِ"
    ],
    "corr": "وُجُوه",
    "optsE": [
-    "وُجُوه",
-    "وَجْهَانِ",
     "وِجَاهَة",
-    "وُجُهَات"
+    "وُجُهَات",
+    "وُجُوه",
+    "وَجْهَانِ"
    ],
    "corrE": "وُجُوه"
   },
@@ -1393,13 +1393,13 @@
    "qe": "6. Does قَدْ نَرَىٰ mean We certainly see?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -1431,17 +1431,17 @@
    "qe": "2. In سَيَقُولُ السُّفَهَاءُ, what is the subject (fa'il)?",
    "t": "option",
    "opts": [
-    "السُّفَهَاءُ",
     "مِنَ النَّاسِ",
     "سَيَقُولُ",
-    "الْقَوْلُ"
+    "الْقَوْلُ",
+    "السُّفَهَاءُ"
    ],
    "corr": "السُّفَهَاءُ",
    "optsE": [
-    "السُّفَهَاءُ",
     "مِنَ النَّاسِ",
     "سَيَقُولُ",
-    "الْقَوْلُ"
+    "الْقَوْلُ",
+    "السُّفَهَاءُ"
    ],
    "corrE": "السُّفَهَاءُ"
   },
@@ -1453,16 +1453,16 @@
    "t": "option",
    "opts": [
     "fi'l lalu fa'il",
+    "maf'ul lalu fi'l",
     "fa'il lalu fi'l",
-    "mubtada lalu khabar",
-    "maf'ul lalu fi'l"
+    "mubtada lalu khabar"
    ],
    "corr": "fi'l lalu fa'il",
    "optsE": [
     "fi'l then fa'il",
+    "maf'ul then fi'l",
     "fa'il then fi'l",
-    "mubtada then khabar",
-    "maf'ul then fi'l"
+    "mubtada then khabar"
    ],
    "corrE": "fi'l then fa'il"
   },
@@ -1473,16 +1473,16 @@
    "qe": "4. In قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ, the object (maf'ul bih) is...",
    "t": "option",
    "opts": [
-    "تَقَلُّبَ وَجْهِكَ",
     "نَرَىٰ",
     "قَدْ",
+    "تَقَلُّبَ وَجْهِكَ",
     "فِي السَّمَاءِ"
    ],
    "corr": "تَقَلُّبَ وَجْهِكَ",
    "optsE": [
-    "تَقَلُّبَ وَجْهِكَ",
     "نَرَىٰ",
     "قَدْ",
+    "تَقَلُّبَ وَجْهِكَ",
     "فِي السَّمَاءِ"
    ],
    "corrE": "تَقَلُّبَ وَجْهِكَ"
@@ -1494,17 +1494,17 @@
    "qe": "5. A verbal sentence differs from a nominal sentence by starting with...",
    "t": "option",
    "opts": [
-    "fi'l (kata kerja)",
-    "ism (kata benda)",
+    "maf'ul (objek)",
     "harf (huruf)",
-    "maf'ul (objek)"
+    "fi'l (kata kerja)",
+    "ism (kata benda)"
    ],
    "corr": "fi'l (kata kerja)",
    "optsE": [
-    "a verb (fi'l)",
-    "a noun (ism)",
+    "an object (maf'ul)",
     "a particle (harf)",
-    "an object (maf'ul)"
+    "a verb (fi'l)",
+    "a noun (ism)"
    ],
    "corrE": "a verb (fi'l)"
   },
@@ -1516,9 +1516,9 @@
    "t": "multi",
    "opts": [
     "fi'l",
-    "fa'il",
+    "mubtada",
     "maf'ul bih",
-    "mubtada"
+    "fa'il"
    ],
    "corr": [
     "fi'l",
@@ -1527,9 +1527,9 @@
    ],
    "optsE": [
     "fi'l",
-    "fa'il",
+    "mubtada",
     "maf'ul bih",
-    "mubtada"
+    "fa'il"
    ],
    "corrE": [
     "fi'l",
@@ -1544,17 +1544,17 @@
    "qe": "7. Translate: وَحَيْثُ مَا كُنْتُمْ فَوَلُّوا وُجُوهَكُمْ شَطْرَهُ",
    "t": "option",
    "opts": [
-    "dan di mana saja kamu berada hadapkanlah wajahmu ke arahnya",
-    "dan di mana saja kamu berada menjauhlah darinya",
     "dan kapan saja kamu berada berhentilah",
-    "dan di mana saja kamu berada saling mengingatkan"
+    "dan di mana saja kamu berada hadapkanlah wajahmu ke arahnya",
+    "dan di mana saja kamu berada saling mengingatkan",
+    "dan di mana saja kamu berada menjauhlah darinya"
    ],
    "corr": "dan di mana saja kamu berada hadapkanlah wajahmu ke arahnya",
    "optsE": [
-    "and wherever you are turn your faces toward it",
-    "and wherever you are go away from it",
     "and whenever you are stop",
-    "and wherever you are remind one another"
+    "and wherever you are turn your faces toward it",
+    "and wherever you are remind one another",
+    "and wherever you are go away from it"
    ],
    "corrE": "and wherever you are turn your faces toward it"
   },
@@ -1582,17 +1582,17 @@
    "qe": "1. Translate: وَلَئِنْ أَتَيْتَ الَّذِينَ أُوتُوا الْكِتَابَ بِكُلِّ آيَةٍ",
    "t": "option",
    "opts": [
-    "dan jika kamu mendatangkan kepada Ahlul Kitab segala ayat",
-    "dan jika kamu memberi mereka sebagian harta",
+    "dan jika kamu meminta mereka bersyahadat",
     "dan jika kamu datang membawa pasukan besar",
-    "dan jika kamu meminta mereka bersyahadat"
+    "dan jika kamu mendatangkan kepada Ahlul Kitab segala ayat",
+    "dan jika kamu memberi mereka sebagian harta"
    ],
    "corr": "dan jika kamu mendatangkan kepada Ahlul Kitab segala ayat",
    "optsE": [
-    "and if you were to bring the People of the Book every sign",
-    "and if you gave them some wealth",
+    "and if you asked them to testify",
     "and if you came with a great army",
-    "and if you asked them to testify"
+    "and if you were to bring the People of the Book every sign",
+    "and if you gave them some wealth"
    ],
    "corrE": "and if you were to bring the People of the Book every sign"
   },
@@ -1603,17 +1603,17 @@
    "qe": "2. How would they respond to your qiblah even with all signs?",
    "t": "option",
    "opts": [
+    "mereka akan beriman kepada Nabi",
     "mereka tidak akan mengikuti kiblatmu",
-    "mereka akan langsung mengikutimu",
     "mereka akan mempertanyakan ayatmu",
-    "mereka akan beriman kepada Nabi"
+    "mereka akan langsung mengikutimu"
    ],
    "corr": "mereka tidak akan mengikuti kiblatmu",
    "optsE": [
+    "they would believe in the Prophet",
     "they would not follow your qiblah",
-    "they would follow you at once",
     "they would question your signs",
-    "they would believe in the Prophet"
+    "they would follow you at once"
    ],
    "corrE": "they would not follow your qiblah"
   },
@@ -1624,17 +1624,17 @@
    "qe": "3. Translate: وَلَئِنِ اتَّبَعْتَ أَهْوَاءَهُمْ مِنْ بَعْدِ مَا جَاءَكَ مِنَ الْعِلْمِ",
    "t": "option",
    "opts": [
+    "dan jika kamu diam di hadapan mereka",
     "dan jika kamu mengikuti hawa nafsu mereka setelah datang ilmu kepadamu",
     "dan jika kamu mengikuti jejak leluhur mereka",
-    "dan jika kamu meninggalkan ilmu yang datang",
-    "dan jika kamu diam di hadapan mereka"
+    "dan jika kamu meninggalkan ilmu yang datang"
    ],
    "corr": "dan jika kamu mengikuti hawa nafsu mereka setelah datang ilmu kepadamu",
    "optsE": [
+    "and if you kept silent before them",
     "and if you followed their desires after knowledge has come to you",
     "and if you followed their ancestors",
-    "and if you abandoned the knowledge that came",
-    "and if you kept silent before them"
+    "and if you abandoned the knowledge that came"
    ],
    "corrE": "and if you followed their desires after knowledge has come to you"
   },
@@ -1646,16 +1646,16 @@
    "t": "option",
    "opts": [
     "kamu termasuk orang-orang yang zalim",
-    "kamu menjadi orang arif",
     "kamu tetap beriman",
-    "kamu menjadi pemimpin"
+    "kamu menjadi pemimpin",
+    "kamu menjadi orang arif"
    ],
    "corr": "kamu termasuk orang-orang yang zalim",
    "optsE": [
     "you would be among the wrongdoers",
-    "you would become wise",
     "you would remain a believer",
-    "you would become a leader"
+    "you would become a leader",
+    "you would become wise"
    ],
    "corrE": "you would be among the wrongdoers"
   },
@@ -1667,15 +1667,15 @@
    "t": "option",
    "opts": [
     "حُقُوق",
-    "حَقَّانِ",
     "حِقَاق",
+    "حَقَّانِ",
     "حَاقَّة"
    ],
    "corr": "حُقُوق",
    "optsE": [
     "حُقُوق",
-    "حَقَّانِ",
     "حِقَاق",
+    "حَقَّانِ",
     "حَاقَّة"
    ],
    "corrE": "حُقُوق"
@@ -1687,13 +1687,13 @@
    "qe": "6. Does أَهْوَاءَهُمْ mean their desires?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -1746,17 +1746,17 @@
    "qe": "3. Why is أُمَّةً in جَعَلْنَاكُمْ أُمَّةً وَسَطًا accusative?",
    "t": "option",
    "opts": [
+    "karena setelah huruf jar",
     "karena menjadi maf'ul bih",
-    "karena menjadi fa'il",
     "karena menjadi mubtada",
-    "karena setelah huruf jar"
+    "karena menjadi fa'il"
    ],
    "corr": "karena menjadi maf'ul bih",
    "optsE": [
+    "because it follows a preposition",
     "because it is the object",
-    "because it is the subject",
     "because it is the mubtada",
-    "because it follows a preposition"
+    "because it is the subject"
    ],
    "corrE": "because it is the object"
   },
@@ -1767,17 +1767,17 @@
    "qe": "4. In تَقَلُّبَ وَجْهِكَ, وَجْهِكَ has the case...",
    "t": "option",
    "opts": [
+    "majzum",
     "majrur",
     "marfu'",
-    "mansub",
-    "majzum"
+    "mansub"
    ],
    "corr": "majrur",
    "optsE": [
+    "majzum",
     "majrur",
     "marfu'",
-    "mansub",
-    "majzum"
+    "mansub"
    ],
    "corrE": "majrur"
   },
@@ -1788,17 +1788,17 @@
    "qe": "5. In إِنَّ اللَّهَ بِالنَّاسِ لَرَءُوفٌ رَحِيمٌ, what is the position of رَحِيمٌ?",
    "t": "option",
    "opts": [
-    "khabar kedua",
     "mubtada",
     "badal",
-    "sifat"
+    "sifat",
+    "khabar kedua"
    ],
    "corr": "khabar kedua",
    "optsE": [
-    "second khabar",
     "mubtada",
     "badal",
-    "adjective"
+    "adjective",
+    "second khabar"
    ],
    "corrE": "second khabar"
   },
@@ -1809,17 +1809,17 @@
    "qe": "6. The rafa' sign of a sound masculine plural is...",
    "t": "option",
    "opts": [
-    "wawu",
-    "kasrah",
     "fathah",
-    "sukun"
+    "wawu",
+    "sukun",
+    "kasrah"
    ],
    "corr": "wawu",
    "optsE": [
-    "waw",
-    "kasrah",
     "fathah",
-    "sukun"
+    "waw",
+    "sukun",
+    "kasrah"
    ],
    "corrE": "waw"
   },
@@ -1869,16 +1869,16 @@
    "t": "option",
    "opts": [
     "orang-orang yang telah Kami beri Kitab mengenalnya seperti mereka mengenal anak-anak mereka",
+    "orang-orang yang diberikan kekayaan mengenal Nabi seperti mengenal harta mereka",
     "orang-orang yang telah Kami beri Kitab mengingkarinya seperti mereka membenci anaknya",
-    "orang-orang yang beriman mengikuti Kitab seperti mengikuti hawa nafsunya",
-    "orang-orang yang diberikan kekayaan mengenal Nabi seperti mengenal harta mereka"
+    "orang-orang yang beriman mengikuti Kitab seperti mengikuti hawa nafsunya"
    ],
    "corr": "orang-orang yang telah Kami beri Kitab mengenalnya seperti mereka mengenal anak-anak mereka",
    "optsE": [
     "those to whom We gave the Book recognize it as they recognize their own sons",
+    "those given wealth know the Prophet like they know their wealth",
     "those to whom We gave the Book deny it as they hate their own sons",
-    "the believers follow the Book like they follow their desires",
-    "those given wealth know the Prophet like they know their wealth"
+    "the believers follow the Book like they follow their desires"
    ],
    "corrE": "those to whom We gave the Book recognize it as they recognize their own sons"
   },
@@ -1889,17 +1889,17 @@
    "qe": "2. How well do they recognize the truth?",
    "t": "option",
    "opts": [
-    "seperti mereka mengenal anak-anak mereka sendiri",
-    "tidak mengenalnya sama sekali",
     "hanya sebagian kecil yang mengenalnya",
-    "mengenalnya seperti mengenal nama kota"
+    "seperti mereka mengenal anak-anak mereka sendiri",
+    "mengenalnya seperti mengenal nama kota",
+    "tidak mengenalnya sama sekali"
    ],
    "corr": "seperti mereka mengenal anak-anak mereka sendiri",
    "optsE": [
-    "as they recognize their own sons",
-    "they do not recognize it at all",
     "only a few know it",
-    "they know it like they know city names"
+    "as they recognize their own sons",
+    "they know it like they know city names",
+    "they do not recognize it at all"
    ],
    "corrE": "as they recognize their own sons"
   },
@@ -1910,17 +1910,17 @@
    "qe": "3. Translate: وَإِنَّ فَرِيقًا مِنْهُمْ لَيَكْتُمُونَ الْحَقَّ وَهُمْ يَعْلَمُونَ",
    "t": "option",
    "opts": [
-    "dan sesungguhnya sebagian di antara mereka menyembunyikan kebenaran padahal mereka mengetahuinya",
-    "dan sesungguhnya sebagian mereka menyebarkan kebenaran dengan bangga",
     "dan sesungguhnya banyak dari mereka menolak petunjuk",
-    "dan sesungguhnya mereka mengikuti kebenaran sepenuhnya"
+    "dan sesungguhnya sebagian di antara mereka menyembunyikan kebenaran padahal mereka mengetahuinya",
+    "dan sesungguhnya mereka mengikuti kebenaran sepenuhnya",
+    "dan sesungguhnya sebagian mereka menyebarkan kebenaran dengan bangga"
    ],
    "corr": "dan sesungguhnya sebagian di antara mereka menyembunyikan kebenaran padahal mereka mengetahuinya",
    "optsE": [
-    "and indeed a group of them conceal the truth while they know it",
-    "and indeed some of them spread the truth proudly",
     "and indeed many of them reject guidance",
-    "and indeed they fully follow the truth"
+    "and indeed a group of them conceal the truth while they know it",
+    "and indeed they fully follow the truth",
+    "and indeed some of them spread the truth proudly"
    ],
    "corrE": "and indeed a group of them conceal the truth while they know it"
   },
@@ -1931,16 +1931,16 @@
    "qe": "4. Translate: الْحَقُّ مِنْ رَبِّكَ فَلَا تَكُونَنَّ مِنَ الْمُمْتَرِينَ",
    "t": "option",
    "opts": [
-    "kebenaran itu dari Rabbmu, maka janganlah engkau termasuk orang-orang yang ragu",
-    "kebatilan itu datang dari setan, maka jauhilah",
     "kebenaran itu dari manusia, maka percayalah",
+    "kebatilan itu datang dari setan, maka jauhilah",
+    "kebenaran itu dari Rabbmu, maka janganlah engkau termasuk orang-orang yang ragu",
     "kebohongan itu dari Rabbmu, maka berhati-hatilah"
    ],
    "corr": "kebenaran itu dari Rabbmu, maka janganlah engkau termasuk orang-orang yang ragu",
    "optsE": [
-    "the truth is from your Lord, so never be among the doubters",
-    "falsehood is from Satan, so avoid it",
     "the truth is from people, so believe it",
+    "falsehood is from Satan, so avoid it",
+    "the truth is from your Lord, so never be among the doubters",
     "the lie is from your Lord, so beware"
    ],
    "corrE": "the truth is from your Lord, so never be among the doubters"
@@ -1952,17 +1952,17 @@
    "qe": "5. The word الَّذِينَ is a relative pronoun meaning...",
    "t": "option",
    "opts": [
-    "orang-orang yang",
     "anak-anak yang",
-    "kitab yang",
-    "umat yang"
+    "umat yang",
+    "orang-orang yang",
+    "kitab yang"
    ],
    "corr": "orang-orang yang",
    "optsE": [
-    "those who",
     "sons who",
-    "the book that",
-    "a nation that"
+    "a nation that",
+    "those who",
+    "the book that"
    ],
    "corrE": "those who"
   },
@@ -1973,13 +1973,13 @@
    "qe": "6. Does يَعْرِفُونَهُ mean they recognize it?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -2011,17 +2011,17 @@
    "qe": "2. Why does اسْتَعِينُوا begin with a hamzah?",
    "t": "option",
    "opts": [
-    "karena berasal dari wazan اِسْتَفْعَلَ (mazeed)",
-    "karena merupakan fi'l madhi",
+    "karena merupakan isim",
     "karena menunjukkan masa depan",
-    "karena merupakan isim"
+    "karena berasal dari wazan اِسْتَفْعَلَ (mazeed)",
+    "karena merupakan fi'l madhi"
    ],
    "corr": "karena berasal dari wazan اِسْتَفْعَلَ (mazeed)",
    "optsE": [
-    "because it comes from the istaf'ala pattern (mazeed)",
-    "because it is a past tense verb",
+    "because it is a noun",
     "because it indicates the future",
-    "because it is a noun"
+    "because it comes from the istaf'ala pattern (mazeed)",
+    "because it is a past tense verb"
    ],
    "corrE": "because it comes from the istaf'ala pattern (mazeed)"
   },
@@ -2034,15 +2034,15 @@
    "opts": [
     "اُذْكُرْ",
     "يَذْكُرُ",
-    "ذَكَرَ",
-    "ذِكْر"
+    "ذِكْر",
+    "ذَكَرَ"
    ],
    "corr": "اُذْكُرْ",
    "optsE": [
     "اُذْكُرْ",
     "يَذْكُرُ",
-    "ذَكَرَ",
-    "ذِكْر"
+    "ذِكْر",
+    "ذَكَرَ"
    ],
    "corrE": "اُذْكُرْ"
   },
@@ -2053,17 +2053,17 @@
    "qe": "4. Translate: فَاسْتَبِقُوا الْخَيْرَاتِ",
    "t": "option",
    "opts": [
-    "maka berlomba-lombalah dalam kebaikan",
     "maka bersegeralah menuju keburukan",
-    "maka berhentilah berbuat kebaikan",
-    "maka berdebatlah dalam kebaikan"
+    "maka berdebatlah dalam kebaikan",
+    "maka berlomba-lombalah dalam kebaikan",
+    "maka berhentilah berbuat kebaikan"
    ],
    "corr": "maka berlomba-lombalah dalam kebaikan",
    "optsE": [
-    "so race toward good deeds",
     "so hurry toward evil",
-    "so stop doing good",
-    "so argue about good deeds"
+    "so argue about good deeds",
+    "so race toward good deeds",
+    "so stop doing good"
    ],
    "corrE": "so race toward good deeds"
   },
@@ -2074,17 +2074,17 @@
    "qe": "5. Translate: وَاشْكُرُوا لِي",
    "t": "option",
    "opts": [
-    "dan bersyukurlah kepada-Ku",
-    "dan bersabarlah kepada-Ku",
     "dan berbicaralah dengan-Ku",
-    "dan berdiamlah di hadapan-Ku"
+    "dan bersyukurlah kepada-Ku",
+    "dan berdiamlah di hadapan-Ku",
+    "dan bersabarlah kepada-Ku"
    ],
    "corr": "dan bersyukurlah kepada-Ku",
    "optsE": [
-    "and thank Me",
-    "and be patient with Me",
     "and speak to Me",
-    "and stay silent before Me"
+    "and thank Me",
+    "and stay silent before Me",
+    "and be patient with Me"
    ],
    "corrE": "and thank Me"
   },
@@ -2097,15 +2097,15 @@
    "opts": [
     "mintalah pertolongan dengan sabar dan shalat",
     "mintalah pertolongan dengan harta dan pasukan",
-    "bersungguh-sungguhlah dalam bekerja",
-    "ikatlah dengan tali yang kuat"
+    "ikatlah dengan tali yang kuat",
+    "bersungguh-sungguhlah dalam bekerja"
    ],
    "corr": "mintalah pertolongan dengan sabar dan shalat",
    "optsE": [
     "seek help through patience and prayer",
     "seek help through wealth and armies",
-    "strive hard in work",
-    "tie it with a strong rope"
+    "tie it with a strong rope",
+    "strive hard in work"
    ],
    "corrE": "seek help through patience and prayer"
   },
@@ -2116,17 +2116,17 @@
    "qe": "7. The waw in اسْتَبِقُوا indicates...",
    "t": "option",
    "opts": [
-    "pelaku jamak (waw jamaah)",
     "kata ganti perempuan",
     "bentuk lampau",
-    "huruf athaf"
+    "huruf athaf",
+    "pelaku jamak (waw jamaah)"
    ],
    "corr": "pelaku jamak (waw jamaah)",
    "optsE": [
-    "a plural subject (waw of plurality)",
     "a feminine pronoun",
     "the past tense",
-    "a conjunction"
+    "a conjunction",
+    "a plural subject (waw of plurality)"
    ],
    "corrE": "a plural subject (waw of plurality)"
   },
@@ -2154,16 +2154,16 @@
    "qe": "1. Translate: وَلِكُلٍّ وِجْهَةٌ هُوَ مُوَلِّيهَا",
    "t": "option",
    "opts": [
-    "dan bagi setiap umat ada kiblat yang dia menghadap kepadanya",
     "dan bagi setiap umat ada pemimpin yang mereka taati",
     "dan bagi setiap umat ada istana yang mereka banggakan",
+    "dan bagi setiap umat ada kiblat yang dia menghadap kepadanya",
     "dan bagi setiap umat ada harta yang mereka kumpulkan"
    ],
    "corr": "dan bagi setiap umat ada kiblat yang dia menghadap kepadanya",
    "optsE": [
-    "and for every nation is a direction to which it turns",
     "and for every nation is a leader whom they obey",
     "and for every nation is a palace they boast about",
+    "and for every nation is a direction to which it turns",
     "and for every nation is wealth they collect"
    ],
    "corrE": "and for every nation is a direction to which it turns"
@@ -2175,17 +2175,17 @@
    "qe": "2. What command follows the mention of every nation and its direction?",
    "t": "option",
    "opts": [
-    "berlomba-lombalah dalam kebaikan",
-    "berdebatlah tentang kiblat",
+    "ikuti nenek moyangmu",
     "tinggalkan semua kiblat",
-    "ikuti nenek moyangmu"
+    "berdebatlah tentang kiblat",
+    "berlomba-lombalah dalam kebaikan"
    ],
    "corr": "berlomba-lombalah dalam kebaikan",
    "optsE": [
-    "race toward good deeds",
-    "argue about the direction",
+    "follow your forefathers",
     "abandon all directions",
-    "follow your forefathers"
+    "argue about the direction",
+    "race toward good deeds"
    ],
    "corrE": "race toward good deeds"
   },
@@ -2197,16 +2197,16 @@
    "t": "option",
    "opts": [
     "di mana saja kamu berada, Allah akan mendatangkan kamu semuanya",
-    "di mana saja kamu berada, setan akan menyesatkanmu",
+    "di mana saja kamu pergi, orang lain akan mengikutimu",
     "kapan saja kamu berada, kamu harus bekerja keras",
-    "di mana saja kamu pergi, orang lain akan mengikutimu"
+    "di mana saja kamu berada, setan akan menyesatkanmu"
    ],
    "corr": "di mana saja kamu berada, Allah akan mendatangkan kamu semuanya",
    "optsE": [
     "wherever you may be, Allah will bring you all together",
-    "wherever you are, Satan will mislead you",
+    "wherever you go, others will follow you",
     "whenever you are, you must work hard",
-    "wherever you go, others will follow you"
+    "wherever you are, Satan will mislead you"
    ],
    "corrE": "wherever you may be, Allah will bring you all together"
   },
@@ -2217,17 +2217,17 @@
    "qe": "4. Translate: وَمِنْ حَيْثُ خَرَجْتَ فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ",
    "t": "option",
    "opts": [
-    "dan dari mana saja engkau keluar, hadapkanlah wajahmu ke arah Masjidil Haram",
+    "dan ke mana saja engkau pergi, jauhi Masjidil Haram",
     "dan dari mana saja engkau keluar, menghadaplah ke timur",
-    "dan kapan saja engkau keluar, berhentilah berjalan",
-    "dan ke mana saja engkau pergi, jauhi Masjidil Haram"
+    "dan dari mana saja engkau keluar, hadapkanlah wajahmu ke arah Masjidil Haram",
+    "dan kapan saja engkau keluar, berhentilah berjalan"
    ],
    "corr": "dan dari mana saja engkau keluar, hadapkanlah wajahmu ke arah Masjidil Haram",
    "optsE": [
-    "and from wherever you go out, turn your face toward the Sacred Mosque",
+    "and wherever you go, stay away from the Sacred Mosque",
     "and from wherever you go out, face the east",
-    "and whenever you go out, stop walking",
-    "and wherever you go, stay away from the Sacred Mosque"
+    "and from wherever you go out, turn your face toward the Sacred Mosque",
+    "and whenever you go out, stop walking"
    ],
    "corrE": "and from wherever you go out, turn your face toward the Sacred Mosque"
   },
@@ -2238,17 +2238,17 @@
    "qe": "5. The word وِجْهَة in this verse means...",
    "t": "option",
    "opts": [
-    "arah atau kiblat",
-    "kekuatan dan kekuasaan",
+    "perjalanan jauh",
     "ketampanan wajah",
-    "perjalanan jauh"
+    "kekuatan dan kekuasaan",
+    "arah atau kiblat"
    ],
    "corr": "arah atau kiblat",
    "optsE": [
-    "a direction or qiblah",
-    "strength and power",
+    "a long journey",
     "the beauty of a face",
-    "a long journey"
+    "strength and power",
+    "a direction or qiblah"
    ],
    "corrE": "a direction or qiblah"
   },
@@ -2276,17 +2276,17 @@
    "qe": "1. In يَعْرِفُونَهُ, the pronoun هُ refers to...",
    "t": "option",
    "opts": [
-    "dia (laki-laki)",
-    "dia (perempuan)",
     "kamu",
-    "kami"
+    "dia (laki-laki)",
+    "kami",
+    "dia (perempuan)"
    ],
    "corr": "dia (laki-laki)",
    "optsE": [
-    "he (male)",
-    "she (female)",
     "you",
-    "we"
+    "he (male)",
+    "we",
+    "she (female)"
    ],
    "corrE": "he (male)"
   },
@@ -2297,17 +2297,17 @@
    "qe": "2. In آتَيْنَاهُمُ الْكِتَابَ, the pronoun هُمُ means...",
    "t": "option",
    "opts": [
-    "mereka",
-    "kami",
+    "dia",
     "kalian",
-    "dia"
+    "mereka",
+    "kami"
    ],
    "corr": "mereka",
    "optsE": [
-    "they",
-    "we",
+    "he",
     "you",
-    "he"
+    "they",
+    "we"
    ],
    "corrE": "they"
   },
@@ -2318,17 +2318,17 @@
    "qe": "3. In جَعَلْنَاكُمْ, the pronoun كُمْ refers to...",
    "t": "option",
    "opts": [
-    "kamu (jamak)",
     "mereka",
-    "kami",
-    "dia (perempuan)"
+    "dia (perempuan)",
+    "kamu (jamak)",
+    "kami"
    ],
    "corr": "kamu (jamak)",
    "optsE": [
-    "you (plural)",
     "they",
-    "we",
-    "she"
+    "she",
+    "you (plural)",
+    "we"
    ],
    "corrE": "you (plural)"
   },
@@ -2339,17 +2339,17 @@
    "qe": "4. In بِكُمُ, the pronoun كُمُ is attached to...",
    "t": "option",
    "opts": [
-    "huruf jar بِ",
-    "fi'l (kata kerja)",
     "ism (kata benda)",
-    "huruf athaf"
+    "huruf athaf",
+    "fi'l (kata kerja)",
+    "huruf jar بِ"
    ],
    "corr": "huruf jar بِ",
    "optsE": [
-    "the preposition بِ",
-    "a verb",
     "a noun",
-    "a conjunction"
+    "a conjunction",
+    "a verb",
+    "the preposition بِ"
    ],
    "corrE": "the preposition بِ"
   },
@@ -2360,17 +2360,17 @@
    "qe": "5. A pronoun attached to another word is called...",
    "t": "option",
    "opts": [
-    "الضمير المتصل",
+    "الاسم الموصول",
     "الضمير المنفصل",
-    "اسم الإشارة",
-    "الاسم الموصول"
+    "الضمير المتصل",
+    "اسم الإشارة"
    ],
    "corr": "الضمير المتصل",
    "optsE": [
-    "attached pronoun",
+    "relative pronoun",
     "detached pronoun",
-    "demonstrative pronoun",
-    "relative pronoun"
+    "attached pronoun",
+    "demonstrative pronoun"
    ],
    "corrE": "attached pronoun"
   },
@@ -2381,9 +2381,9 @@
    "qe": "6. Which are attached pronouns? (Pick more than one)",
    "t": "multi",
    "opts": [
-    "هُ",
-    "هَا",
     "هُوَ",
+    "هَا",
+    "هُ",
     "أَنَا"
    ],
    "corr": [
@@ -2391,9 +2391,9 @@
     "هَا"
    ],
    "optsE": [
-    "هُ",
-    "هَا",
     "هُوَ",
+    "هَا",
+    "هُ",
     "أَنَا"
    ],
    "corrE": [
@@ -2409,16 +2409,16 @@
    "t": "option",
    "opts": [
     "mereka mengenalnya seperti mereka mengenal anak-anak mereka",
-    "mereka mengenalnya lebih dari anak-anak mereka",
     "mereka tidak mengenalnya seperti anak-anak mereka",
-    "mereka mengajarkannya kepada anak-anak mereka"
+    "mereka mengajarkannya kepada anak-anak mereka",
+    "mereka mengenalnya lebih dari anak-anak mereka"
    ],
    "corr": "mereka mengenalnya seperti mereka mengenal anak-anak mereka",
    "optsE": [
     "they recognize it as they recognize their own sons",
-    "they recognize it more than their sons",
     "they do not recognize it as they know their sons",
-    "they teach it to their sons"
+    "they teach it to their sons",
+    "they recognize it more than their sons"
    ],
    "corrE": "they recognize it as they recognize their own sons"
   },
@@ -2446,17 +2446,17 @@
    "qe": "1. Translate: لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ",
    "t": "option",
    "opts": [
-    "agar tidak ada bagi manusia suatu alasan terhadapmu",
+    "agar manusia tidak melupakanmu",
     "agar manusia mendapat banyak hujjah atasmu",
-    "agar manusia tidak perlu beribadah",
-    "agar manusia tidak melupakanmu"
+    "agar tidak ada bagi manusia suatu alasan terhadapmu",
+    "agar manusia tidak perlu beribadah"
    ],
    "corr": "agar tidak ada bagi manusia suatu alasan terhadapmu",
    "optsE": [
-    "so that people may have no argument against you",
+    "so that people do not forget you",
     "so that people may have many arguments against you",
-    "so that people do not need to worship",
-    "so that people do not forget you"
+    "so that people may have no argument against you",
+    "so that people do not need to worship"
    ],
    "corrE": "so that people may have no argument against you"
   },
@@ -2467,16 +2467,16 @@
    "qe": "2. Beside turning the face, what else is commanded in verse 150?",
    "t": "option",
    "opts": [
-    "jangan takut kepada mereka, tetapi takutlah kepada-Ku",
-    "janganlah beribadah kepada Allah",
     "bantahlah mereka dengan keras",
+    "janganlah beribadah kepada Allah",
+    "jangan takut kepada mereka, tetapi takutlah kepada-Ku",
     "ikuti saja keinginan mereka"
    ],
    "corr": "jangan takut kepada mereka, tetapi takutlah kepada-Ku",
    "optsE": [
-    "do not fear them but fear Me",
-    "do not worship Allah",
     "argue with them harshly",
+    "do not worship Allah",
+    "do not fear them but fear Me",
     "just follow their wishes"
    ],
    "corrE": "do not fear them but fear Me"
@@ -2488,17 +2488,17 @@
    "qe": "3. Translate: فَلَا تَخْشَوْهُمْ وَاخْشَوْنِي",
    "t": "option",
    "opts": [
+    "maka bencilah mereka dan cintai dunia",
     "maka janganlah kamu takut kepada mereka, dan takutlah kepada-Ku",
-    "maka hormati mereka dan tinggalkan Aku",
     "maka takutlah kepada mereka dan lupakan Aku",
-    "maka bencilah mereka dan cintai dunia"
+    "maka hormati mereka dan tinggalkan Aku"
    ],
    "corr": "maka janganlah kamu takut kepada mereka, dan takutlah kepada-Ku",
    "optsE": [
+    "so hate them and love this world",
     "so do not fear them but fear Me",
-    "so respect them and leave Me",
     "so fear them and forget Me",
-    "so hate them and love this world"
+    "so respect them and leave Me"
    ],
    "corrE": "so do not fear them but fear Me"
   },
@@ -2509,16 +2509,16 @@
    "qe": "4. Translate: كَمَا أَرْسَلْنَا فِيكُمْ رَسُولًا مِنْكُمْ",
    "t": "option",
    "opts": [
-    "sebagaimana Kami telah mengutus kepadamu seorang Rasul dari kalanganmu",
-    "sebagaimana kami telah mengutus kepadamu seorang raja",
     "sebagaimana kamu mengutus utusan kepada raja",
+    "sebagaimana kami telah mengutus kepadamu seorang raja",
+    "sebagaimana Kami telah mengutus kepadamu seorang Rasul dari kalanganmu",
     "sebagaimana mereka mengirimkan hadiah kepada Nabi"
    ],
    "corr": "sebagaimana Kami telah mengutus kepadamu seorang Rasul dari kalanganmu",
    "optsE": [
-    "just as We have sent among you a Messenger from yourselves",
-    "just as We sent a king to you",
     "just as you sent an envoy to the king",
+    "just as We sent a king to you",
+    "just as We have sent among you a Messenger from yourselves",
     "just as they sent gifts to the Prophet"
    ],
    "corrE": "just as We have sent among you a Messenger from yourselves"
@@ -2530,16 +2530,16 @@
    "qe": "5. What task of the Messenger is mentioned in verse 151?",
    "t": "option",
    "opts": [
-    "membacakan ayat-ayat, menyucikan, dan mengajarkan Kitab dan Hikmah",
-    "memungut pajak dan zakat",
     "memerintah dengan kekuatan militer",
+    "memungut pajak dan zakat",
+    "membacakan ayat-ayat, menyucikan, dan mengajarkan Kitab dan Hikmah",
     "menebarkan harta kepada fakir miskin"
    ],
    "corr": "membacakan ayat-ayat, menyucikan, dan mengajarkan Kitab dan Hikmah",
    "optsE": [
-    "reciting verses, purifying, and teaching the Book and wisdom",
-    "collecting taxes and zakat",
     "ruling by military force",
+    "collecting taxes and zakat",
+    "reciting verses, purifying, and teaching the Book and wisdom",
     "distributing wealth to the poor"
    ],
    "corrE": "reciting verses, purifying, and teaching the Book and wisdom"
@@ -2551,13 +2551,13 @@
    "qe": "6. Does يَتْلُو عَلَيْكُمْ آيَاتِنَا mean reciting to you Our verses?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -2568,16 +2568,16 @@
    "qe": "1. In وَلَا تَكْفُرُونِ, the particle لا functions as...",
    "t": "option",
    "opts": [
+    "pertanyaan (istifham)",
     "larangan (nahy)",
     "penegasan (taukid)",
-    "pertanyaan (istifham)",
     "peringatan (tahzir)"
    ],
    "corr": "larangan (nahy)",
    "optsE": [
+    "a question (istifham)",
     "a prohibition (nahy)",
     "emphasis (taukid)",
-    "a question (istifham)",
     "a warning"
    ],
    "corrE": "a prohibition (nahy)"
@@ -2589,17 +2589,17 @@
    "qe": "2. The verb after laa nahiyah has the case...",
    "t": "option",
    "opts": [
-    "jazm (majzum)",
-    "rafa' (marfu')",
     "nasab (mansub)",
-    "jar (majrur)"
+    "rafa' (marfu')",
+    "jar (majrur)",
+    "jazm (majzum)"
    ],
    "corr": "jazm (majzum)",
    "optsE": [
-    "jussive (majzum)",
-    "nominative (marfu')",
     "accusative (mansub)",
-    "genitive (majrur)"
+    "nominative (marfu')",
+    "genitive (majrur)",
+    "jussive (majzum)"
    ],
    "corrE": "jussive (majzum)"
   },
@@ -2610,16 +2610,16 @@
    "qe": "3. Translate: وَلَا تَكْفُرُونِ",
    "t": "option",
    "opts": [
-    "dan janganlah kamu ingkar kepada-Ku",
     "dan janganlah kamu beriman kepada-Ku",
     "dan janganlah kamu bersyukur kepada-Ku",
+    "dan janganlah kamu ingkar kepada-Ku",
     "dan beribadahlah kepada-Ku"
    ],
    "corr": "dan janganlah kamu ingkar kepada-Ku",
    "optsE": [
-    "and do not be ungrateful to Me",
     "and do not believe in Me",
     "and do not thank Me",
+    "and do not be ungrateful to Me",
     "and worship Me"
    ],
    "corrE": "and do not be ungrateful to Me"
@@ -2631,17 +2631,17 @@
    "qe": "4. Translate: لَا تَخْشَوْهُمْ وَاخْشَوْنِي",
    "t": "option",
    "opts": [
-    "janganlah takut kepada mereka, dan takutlah kepada-Ku",
+    "janganlah bicara kepada mereka, dan diamlah",
     "janganlah sayang kepada mereka, dan benci kepada-Ku",
     "janganlah dekat dengan mereka, dan pergilah",
-    "janganlah bicara kepada mereka, dan diamlah"
+    "janganlah takut kepada mereka, dan takutlah kepada-Ku"
    ],
    "corr": "janganlah takut kepada mereka, dan takutlah kepada-Ku",
    "optsE": [
-    "do not fear them but fear Me",
+    "do not speak to them and stay silent",
     "do not love them and hate Me",
     "do not approach them and go away",
-    "do not speak to them and stay silent"
+    "do not fear them but fear Me"
    ],
    "corrE": "do not fear them but fear Me"
   },
@@ -2652,17 +2652,17 @@
    "qe": "5. The jussive sign of تَكْفُرُونِ (plural form) is...",
    "t": "option",
    "opts": [
-    "membuang nun",
+    "membuang wawu",
     "menambah ya",
     "mengganti harakat",
-    "membuang wawu"
+    "membuang nun"
    ],
    "corr": "membuang nun",
    "optsE": [
-    "dropping the nun",
+    "dropping the waw",
     "adding a ya",
     "changing the vowel",
-    "dropping the waw"
+    "dropping the nun"
    ],
    "corrE": "dropping the nun"
   },
@@ -2673,17 +2673,17 @@
    "qe": "6. The verbal noun of كَفَرَ is...",
    "t": "option",
    "opts": [
-    "كُفْر",
-    "كَافِر",
     "يَكْفُر",
-    "اِسْتَكْفَرَ"
+    "اِسْتَكْفَرَ",
+    "كَافِر",
+    "كُفْر"
    ],
    "corr": "كُفْر",
    "optsE": [
-    "كُفْر",
-    "كَافِر",
     "يَكْفُر",
-    "اِسْتَكْفَرَ"
+    "اِسْتَكْفَرَ",
+    "كَافِر",
+    "كُفْر"
    ],
    "corrE": "كُفْر"
   },
@@ -2696,15 +2696,15 @@
    "opts": [
     "وَلَا تَكْفُرُونِ",
     "الْحَقُّ مِنْ رَبِّكَ",
-    "وَإِنَّ فَرِيقًا مِنْهُمْ",
-    "آتَيْنَاهُمُ الْكِتَابَ"
+    "آتَيْنَاهُمُ الْكِتَابَ",
+    "وَإِنَّ فَرِيقًا مِنْهُمْ"
    ],
    "corr": "وَلَا تَكْفُرُونِ",
    "optsE": [
     "وَلَا تَكْفُرُونِ",
     "الْحَقُّ مِنْ رَبِّكَ",
-    "وَإِنَّ فَرِيقًا مِنْهُمْ",
-    "آتَيْنَاهُمُ الْكِتَابَ"
+    "آتَيْنَاهُمُ الْكِتَابَ",
+    "وَإِنَّ فَرِيقًا مِنْهُمْ"
    ],
    "corrE": "وَلَا تَكْفُرُونِ"
   },
@@ -2732,17 +2732,17 @@
    "qe": "1. Translate: فَاذْكُرُونِي أَذْكُرْكُمْ",
    "t": "option",
    "opts": [
-    "maka ingatlah kepada-Ku, Aku pun akan ingat kepadamu",
+    "maka berzikirlah, setan akan lari",
     "maka sebutlah nama-Ku, Aku pun akan memanggilmu",
-    "maka lupakanlah Aku, Aku pun akan melupakanmu",
-    "maka berzikirlah, setan akan lari"
+    "maka ingatlah kepada-Ku, Aku pun akan ingat kepadamu",
+    "maka lupakanlah Aku, Aku pun akan melupakanmu"
    ],
    "corr": "maka ingatlah kepada-Ku, Aku pun akan ingat kepadamu",
    "optsE": [
-    "so remember Me, I will remember you",
+    "so remember, Satan will flee",
     "so mention My name, I will call you",
-    "so forget Me, I will forget you",
-    "so remember, Satan will flee"
+    "so remember Me, I will remember you",
+    "so forget Me, I will forget you"
    ],
    "corrE": "so remember Me, I will remember you"
   },
@@ -2753,16 +2753,16 @@
    "qe": "2. What command follows remember Me?",
    "t": "option",
    "opts": [
+    "kumpulkan harta sebanyak-banyaknya",
     "bersyukurlah kepada-Ku dan jangan ingkar kepada-Ku",
     "berdebatlah dan berbangga diri",
-    "kumpulkan harta sebanyak-banyaknya",
     "tinggalkanlah semua ibadah"
    ],
    "corr": "bersyukurlah kepada-Ku dan jangan ingkar kepada-Ku",
    "optsE": [
+    "gather as much wealth as possible",
     "thank Me and do not be ungrateful to Me",
     "argue and boast",
-    "gather as much wealth as possible",
     "abandon all worship"
    ],
    "corrE": "thank Me and do not be ungrateful to Me"
@@ -2774,17 +2774,17 @@
    "qe": "3. Translate: إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
    "t": "option",
    "opts": [
-    "sesungguhnya Allah bersama orang-orang yang sabar",
-    "sesungguhnya Allah membenci orang-orang yang sabar",
     "sesungguhnya Allah menjauh dari orang-orang yang sabar",
-    "sesungguhnya Allah tidak peduli dengan orang sabar"
+    "sesungguhnya Allah membenci orang-orang yang sabar",
+    "sesungguhnya Allah tidak peduli dengan orang sabar",
+    "sesungguhnya Allah bersama orang-orang yang sabar"
    ],
    "corr": "sesungguhnya Allah bersama orang-orang yang sabar",
    "optsE": [
-    "indeed Allah is with the patient",
-    "indeed Allah hates the patient",
     "indeed Allah is far from the patient",
-    "indeed Allah does not care about the patient"
+    "indeed Allah hates the patient",
+    "indeed Allah does not care about the patient",
+    "indeed Allah is with the patient"
    ],
    "corrE": "indeed Allah is with the patient"
   },
@@ -2795,17 +2795,17 @@
    "qe": "4. Through what are the believers asked to seek help?",
    "t": "option",
    "opts": [
-    "sabar dan shalat",
-    "harta dan keturunan",
     "pasukan dan senjata",
-    "ilmu dan kedudukan"
+    "ilmu dan kedudukan",
+    "harta dan keturunan",
+    "sabar dan shalat"
    ],
    "corr": "sabar dan shalat",
    "optsE": [
-    "patience and prayer",
-    "wealth and children",
     "armies and weapons",
-    "knowledge and status"
+    "knowledge and status",
+    "wealth and children",
+    "patience and prayer"
    ],
    "corrE": "patience and prayer"
   },
@@ -2816,17 +2816,17 @@
    "qe": "5. The active participle of صَبَرَ is...",
    "t": "option",
    "opts": [
-    "صَابِر",
     "صَبُور",
-    "يَصْبِرُ",
-    "صَبْر"
+    "صَابِر",
+    "صَبْر",
+    "يَصْبِرُ"
    ],
    "corr": "صَابِر",
    "optsE": [
-    "صَابِر",
     "صَبُور",
-    "يَصْبِرُ",
-    "صَبْر"
+    "صَابِر",
+    "صَبْر",
+    "يَصْبِرُ"
    ],
    "corrE": "صَابِر"
   },
@@ -2855,16 +2855,16 @@
    "t": "option",
    "opts": [
     "أَيْنَ مَا",
-    "تَكُونُوا",
+    "بِكُمُ اللَّهُ",
     "يَأْتِ",
-    "بِكُمُ اللَّهُ"
+    "تَكُونُوا"
    ],
    "corr": "أَيْنَ مَا",
    "optsE": [
     "أَيْنَ مَا",
-    "تَكُونُوا",
+    "بِكُمُ اللَّهُ",
     "يَأْتِ",
-    "بِكُمُ اللَّهُ"
+    "تَكُونُوا"
    ],
    "corrE": "أَيْنَ مَا"
   },
@@ -2896,17 +2896,17 @@
    "qe": "3. The clause after a condition word that states the condition is called...",
    "t": "option",
    "opts": [
-    "fi'l syarth",
     "jawab syarth",
     "khabar",
-    "sifat"
+    "sifat",
+    "fi'l syarth"
    ],
    "corr": "fi'l syarth",
    "optsE": [
-    "the condition clause",
     "the answer clause",
     "khabar",
-    "adjective"
+    "adjective",
+    "the condition clause"
    ],
    "corrE": "the condition clause"
   },
@@ -2917,16 +2917,16 @@
    "qe": "4. Translate: أَيْنَ مَا تَكُونُوا يَأْتِ بِكُمُ اللَّهُ جَمِيعًا",
    "t": "option",
    "opts": [
+    "di mana saja kamu sembunyi, musuh akan menemukanmu",
     "di mana saja kamu berada, Allah akan mendatangkan kamu semua",
     "kapan saja kamu bekerja, Allah akan memberikan rezeki",
-    "di mana saja kamu sembunyi, musuh akan menemukanmu",
     "siapa yang beriman, Allah akan memuliakannya"
    ],
    "corr": "di mana saja kamu berada, Allah akan mendatangkan kamu semua",
    "optsE": [
+    "wherever you hide, the enemy will find you",
     "wherever you may be, Allah will bring you all together",
     "whenever you work, Allah will give provision",
-    "wherever you hide, the enemy will find you",
     "whoever believes, Allah will honor him"
    ],
    "corrE": "wherever you may be, Allah will bring you all together"
@@ -2938,16 +2938,16 @@
    "qe": "5. Translate: وَحَيْثُ مَا كُنْتُمْ فَوَلُّوا وُجُوهَكُمْ شَطْرَهُ",
    "t": "option",
    "opts": [
+    "dan kapan saja kamu berdiri, berhentilah",
     "dan di mana saja kamu berada, hadapkanlah wajahmu ke arahnya",
     "dan di mana saja kamu berada, berpalinglah darinya",
-    "dan kapan saja kamu berdiri, berhentilah",
     "dan di mana saja kamu bertemu, berdebatlah"
    ],
    "corr": "dan di mana saja kamu berada, hadapkanlah wajahmu ke arahnya",
    "optsE": [
+    "and whenever you stand, stop",
     "and wherever you are, turn your faces toward it",
     "and wherever you are, turn away from it",
-    "and whenever you stand, stop",
     "and wherever you meet, argue"
    ],
    "corrE": "and wherever you are, turn your faces toward it"
@@ -2959,16 +2959,16 @@
    "qe": "6. The word حَيْثُ مَا indicates...",
    "t": "option",
    "opts": [
-    "tempat (di mana saja)",
-    "waktu (kapan saja)",
     "orang (siapa saja)",
+    "waktu (kapan saja)",
+    "tempat (di mana saja)",
     "jumlah (berapa saja)"
    ],
    "corr": "tempat (di mana saja)",
    "optsE": [
-    "place (wherever)",
-    "time (whenever)",
     "person (whoever)",
+    "time (whenever)",
+    "place (wherever)",
     "amount (however much)"
    ],
    "corrE": "place (wherever)"
@@ -2980,17 +2980,17 @@
    "qe": "7. In أَيْنَ مَا تَكُونُوا يَأْتِ بِكُمُ اللَّهُ, the answer clause is...",
    "t": "option",
    "opts": [
-    "يَأْتِ بِكُمُ اللَّهُ جَمِيعًا",
-    "تَكُونُوا",
     "أَيْنَ مَا",
-    "بِكُمُ اللَّهُ"
+    "بِكُمُ اللَّهُ",
+    "يَأْتِ بِكُمُ اللَّهُ جَمِيعًا",
+    "تَكُونُوا"
    ],
    "corr": "يَأْتِ بِكُمُ اللَّهُ جَمِيعًا",
    "optsE": [
-    "يَأْتِ بِكُمُ اللَّهُ جَمِيعًا",
-    "تَكُونُوا",
     "أَيْنَ مَا",
-    "بِكُمُ اللَّهُ"
+    "بِكُمُ اللَّهُ",
+    "يَأْتِ بِكُمُ اللَّهُ جَمِيعًا",
+    "تَكُونُوا"
    ],
    "corrE": "يَأْتِ بِكُمُ اللَّهُ جَمِيعًا"
   },
@@ -3019,16 +3019,16 @@
    "t": "option",
    "opts": [
     "dan janganlah kamu katakan terhadap orang yang gugur di jalan Allah bahwa mereka mati",
-    "dan janganlah kamu sebut orang yang berperang sebagai pengecut",
     "dan katakanlah bahwa orang yang gugur telah pergi",
-    "dan janganlah kamu berperang di jalan Allah"
+    "dan janganlah kamu berperang di jalan Allah",
+    "dan janganlah kamu sebut orang yang berperang sebagai pengecut"
    ],
    "corr": "dan janganlah kamu katakan terhadap orang yang gugur di jalan Allah bahwa mereka mati",
    "optsE": [
     "and do not say about those killed in the way of Allah that they are dead",
-    "and do not call the fighters cowards",
     "and say that the slain have gone away",
-    "and do not fight in the way of Allah"
+    "and do not fight in the way of Allah",
+    "and do not call the fighters cowards"
    ],
    "corrE": "and do not say about those killed in the way of Allah that they are dead"
   },
@@ -3039,17 +3039,17 @@
    "qe": "2. What is the real status of the martyrs?",
    "t": "option",
    "opts": [
-    "mereka hidup, tetapi kamu tidak menyadarinya",
     "mereka telah tiada selamanya",
     "mereka menunggu sampai hari kiamat",
-    "mereka tidur di dalam kubur"
+    "mereka tidur di dalam kubur",
+    "mereka hidup, tetapi kamu tidak menyadarinya"
    ],
    "corr": "mereka hidup, tetapi kamu tidak menyadarinya",
    "optsE": [
-    "they are alive, but you do not perceive it",
     "they are gone forever",
     "they wait until the Day of Judgment",
-    "they sleep in their graves"
+    "they sleep in their graves",
+    "they are alive, but you do not perceive it"
    ],
    "corrE": "they are alive, but you do not perceive it"
   },
@@ -3060,17 +3060,17 @@
    "qe": "3. With what does Allah test people in verse 155?",
    "t": "option",
    "opts": [
-    "ketakutan, kelaparan, dan kekurangan harta, jiwa, serta buah-buahan",
+    "harta yang melimpah ruah",
     "kemakmuran dan kesehatan semata",
-    "datangnya bencana tanpa sebab",
-    "harta yang melimpah ruah"
+    "ketakutan, kelaparan, dan kekurangan harta, jiwa, serta buah-buahan",
+    "datangnya bencana tanpa sebab"
    ],
    "corr": "ketakutan, kelaparan, dan kekurangan harta, jiwa, serta buah-buahan",
    "optsE": [
-    "fear, hunger, and loss of wealth, lives, and fruits",
+    "overwhelming wealth",
     "only prosperity and health",
-    "disasters without cause",
-    "overwhelming wealth"
+    "fear, hunger, and loss of wealth, lives, and fruits",
+    "disasters without cause"
    ],
    "corrE": "fear, hunger, and loss of wealth, lives, and fruits"
   },
@@ -3081,16 +3081,16 @@
    "qe": "4. Who receives the good tidings in this verse?",
    "t": "option",
    "opts": [
-    "orang-orang yang sabar",
     "orang-orang yang kaya",
     "orang-orang yang berkuasa",
+    "orang-orang yang sabar",
     "orang-orang yang cerdas"
    ],
    "corr": "orang-orang yang sabar",
    "optsE": [
-    "the patient ones",
     "the rich ones",
     "the powerful ones",
+    "the patient ones",
     "the intelligent ones"
    ],
    "corrE": "the patient ones"
@@ -3102,17 +3102,17 @@
    "qe": "5. Translate: وَبَشِّرِ الصَّابِرِينَ",
    "t": "option",
    "opts": [
-    "dan berilah kabar gembira kepada orang-orang yang sabar",
-    "dan peringatkanlah orang-orang yang sabar",
     "dan hina mereka yang bersabar",
-    "dan tinggalkan orang-orang yang sabar"
+    "dan tinggalkan orang-orang yang sabar",
+    "dan berilah kabar gembira kepada orang-orang yang sabar",
+    "dan peringatkanlah orang-orang yang sabar"
    ],
    "corr": "dan berilah kabar gembira kepada orang-orang yang sabar",
    "optsE": [
-    "and give good tidings to the patient",
-    "and warn the patient",
     "and humiliate the patient",
-    "and leave the patient"
+    "and leave the patient",
+    "and give good tidings to the patient",
+    "and warn the patient"
    ],
    "corrE": "and give good tidings to the patient"
   },
@@ -3123,13 +3123,13 @@
    "qe": "6. Does يُقْتَلُ mean is killed, slain?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -3140,17 +3140,17 @@
    "qe": "1. In لَا إِلَهَ إِلَّا هُوَ, the function of la is...",
    "t": "option",
    "opts": [
-    "menegasikan (النافية للجنس)",
+    "memanggil (الندائية)",
     "melarang (الناهية)",
     "bertanya (الاستفهامية)",
-    "memanggil (الندائية)"
+    "menegasikan (النافية للجنس)"
    ],
    "corr": "menegasikan (النافية للجنس)",
    "optsE": [
-    "negation (laa of gender)",
+    "vocative (nida)",
     "prohibition (nahiyah)",
     "question (istifham)",
-    "vocative (nida)"
+    "negation (laa of gender)"
    ],
    "corrE": "negation (laa of gender)"
   },
@@ -3161,17 +3161,17 @@
    "qe": "2. Translate: لَا إِلَهَ إِلَّا هُوَ الرَّحْمَنُ الرَّحِيمُ",
    "t": "option",
    "opts": [
-    "tidak ada tuhan yang berhak disembah selain Dia, Yang Maha Pengasih lagi Maha Penyayang",
     "tidak ada tuhan selain berhala-berhala",
+    "tidak ada Allah, hanya alam semesta",
     "ada banyak tuhan yang disembah manusia",
-    "tidak ada Allah, hanya alam semesta"
+    "tidak ada tuhan yang berhak disembah selain Dia, Yang Maha Pengasih lagi Maha Penyayang"
    ],
    "corr": "tidak ada tuhan yang berhak disembah selain Dia, Yang Maha Pengasih lagi Maha Penyayang",
    "optsE": [
-    "there is no god worthy of worship except Him, the Most Gracious, the Most Merciful",
     "there is no god except the idols",
+    "there is no God, only the universe",
     "there are many gods worshipped by men",
-    "there is no God, only the universe"
+    "there is no god worthy of worship except Him, the Most Gracious, the Most Merciful"
    ],
    "corrE": "there is no god worthy of worship except Him, the Most Gracious, the Most Merciful"
   },
@@ -3182,17 +3182,17 @@
    "qe": "3. The difference between laa nahiyah and laa nafiyah is...",
    "t": "option",
    "opts": [
-    "nahiyah melarang, sedangkan nafiyah menegasikan",
-    "keduanya sama saja",
     "nahiyah menegaskan, nafiyah melarang",
-    "nahiyah untuk masa lalu, nafiyah untuk masa depan"
+    "nahiyah untuk masa lalu, nafiyah untuk masa depan",
+    "nahiyah melarang, sedangkan nafiyah menegasikan",
+    "keduanya sama saja"
    ],
    "corr": "nahiyah melarang, sedangkan nafiyah menegasikan",
    "optsE": [
-    "nahiyah prohibits while nafiyah negates",
-    "both are the same",
     "nahiyah affirms while nafiyah prohibits",
-    "nahiyah is for the past and nafiyah for the future"
+    "nahiyah is for the past and nafiyah for the future",
+    "nahiyah prohibits while nafiyah negates",
+    "both are the same"
    ],
    "corrE": "nahiyah prohibits while nafiyah negates"
   },
@@ -3203,17 +3203,17 @@
    "qe": "4. Translate: وَلَا هُمْ يُنْظَرُونَ",
    "t": "option",
    "opts": [
-    "dan mereka tidak diberi penangguhan",
-    "dan mereka akan dibebaskan",
     "dan mereka diberi kesempatan",
-    "dan mereka dipanggil dengan hormat"
+    "dan mereka tidak diberi penangguhan",
+    "dan mereka dipanggil dengan hormat",
+    "dan mereka akan dibebaskan"
    ],
    "corr": "dan mereka tidak diberi penangguhan",
    "optsE": [
-    "and they will not be given respite",
-    "and they will be set free",
     "and they are given a chance",
-    "and they are called with honor"
+    "and they will not be given respite",
+    "and they are called with honor",
+    "and they will be set free"
    ],
    "corrE": "and they will not be given respite"
   },
@@ -3225,16 +3225,16 @@
    "t": "option",
    "opts": [
     "azab tidak akan diringankan dari mereka",
-    "azab mereka segera berakhir",
+    "mereka tidak akan merasakan azab",
     "azab mereka diganti dengan rahmat",
-    "mereka tidak akan merasakan azab"
+    "azab mereka segera berakhir"
    ],
    "corr": "azab tidak akan diringankan dari mereka",
    "optsE": [
     "the punishment will not be lightened for them",
-    "their punishment will soon end",
+    "they will not taste punishment",
     "their punishment is replaced with mercy",
-    "they will not taste punishment"
+    "their punishment will soon end"
    ],
    "corrE": "the punishment will not be lightened for them"
   },
@@ -3246,9 +3246,9 @@
    "t": "multi",
    "opts": [
     "لَا إِلَهَ إِلَّا هُوَ",
-    "وَلَا هُمْ يُنْظَرُونَ",
+    "وَلَا تَقُولُوا لِمَنْ يُقْتَلُ",
     "لَا يُخَفَّفُ عَنْهُمُ الْعَذَابُ",
-    "وَلَا تَقُولُوا لِمَنْ يُقْتَلُ"
+    "وَلَا هُمْ يُنْظَرُونَ"
    ],
    "corr": [
     "لَا إِلَهَ إِلَّا هُوَ",
@@ -3257,9 +3257,9 @@
    ],
    "optsE": [
     "لَا إِلَهَ إِلَّا هُوَ",
-    "وَلَا هُمْ يُنْظَرُونَ",
+    "وَلَا تَقُولُوا لِمَنْ يُقْتَلُ",
     "لَا يُخَفَّفُ عَنْهُمُ الْعَذَابُ",
-    "وَلَا تَقُولُوا لِمَنْ يُقْتَلُ"
+    "وَلَا هُمْ يُنْظَرُونَ"
    ],
    "corrE": [
     "لَا إِلَهَ إِلَّا هُوَ",
@@ -3274,17 +3274,17 @@
    "qe": "7. In لَا إِلَهَ إِلَّا هُوَ, the word إِلَهَ has the case...",
    "t": "option",
    "opts": [
-    "nasab",
     "rafa'",
+    "jazm",
     "jar",
-    "jazm"
+    "nasab"
    ],
    "corr": "nasab",
    "optsE": [
-    "accusative",
     "nominative",
+    "jussive",
     "genitive",
-    "jussive"
+    "accusative"
    ],
    "corrE": "accusative"
   },
@@ -3295,13 +3295,13 @@
    "qe": "8. Does لَا إِلَهَ إِلَّا هُوَ affirm that there is no god but Allah?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -3312,17 +3312,17 @@
    "qe": "1. Translate: الَّذِينَ إِذَا أَصَابَتْهُمْ مُصِيبَةٌ قَالُوا إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
    "t": "option",
    "opts": [
-    "orang-orang yang apabila ditimpa musibah berkata: sesungguhnya kami milik Allah dan kepada-Nya kami kembali",
-    "orang-orang yang apabila ditimpa musibah berkata: celaka lah kami",
+    "orang-orang yang tidak pernah tertimpa musibah",
     "orang-orang yang apabila ditimpa musibah mengeluh kepada sesama",
-    "orang-orang yang tidak pernah tertimpa musibah"
+    "orang-orang yang apabila ditimpa musibah berkata: sesungguhnya kami milik Allah dan kepada-Nya kami kembali",
+    "orang-orang yang apabila ditimpa musibah berkata: celaka lah kami"
    ],
    "corr": "orang-orang yang apabila ditimpa musibah berkata: sesungguhnya kami milik Allah dan kepada-Nya kami kembali",
    "optsE": [
-    "those who, when afflicted with adversity, say: indeed we belong to Allah and to Him we will return",
-    "those who, when afflicted, say: woe to us",
+    "those who are never afflicted",
     "those who, when afflicted, complain to each other",
-    "those who are never afflicted"
+    "those who, when afflicted with adversity, say: indeed we belong to Allah and to Him we will return",
+    "those who, when afflicted, say: woe to us"
    ],
    "corrE": "those who, when afflicted with adversity, say: indeed we belong to Allah and to Him we will return"
   },
@@ -3334,16 +3334,16 @@
    "t": "option",
    "opts": [
     "shalawat dari Rabb mereka dan rahmat",
-    "harta yang melimpah",
     "kemenangan di dunia saja",
-    "pangkat dan kedudukan"
+    "pangkat dan kedudukan",
+    "harta yang melimpah"
    ],
    "corr": "shalawat dari Rabb mereka dan rahmat",
    "optsE": [
     "blessings from their Lord and mercy",
-    "abundant wealth",
     "victory in this world only",
-    "rank and position"
+    "rank and position",
+    "abundant wealth"
    ],
    "corrE": "blessings from their Lord and mercy"
   },
@@ -3354,17 +3354,17 @@
    "qe": "3. Those who utter the istirja' are...",
    "t": "option",
    "opts": [
-    "orang-orang yang mendapat petunjuk",
-    "orang-orang yang tersesat",
+    "orang-orang yang ragu",
     "orang-orang munafik",
-    "orang-orang yang ragu"
+    "orang-orang yang mendapat petunjuk",
+    "orang-orang yang tersesat"
    ],
    "corr": "orang-orang yang mendapat petunjuk",
    "optsE": [
-    "the guided ones",
-    "the misguided ones",
+    "the doubtful ones",
     "the hypocrites",
-    "the doubtful ones"
+    "the guided ones",
+    "the misguided ones"
    ],
    "corrE": "the guided ones"
   },
@@ -3375,17 +3375,17 @@
    "qe": "4. Translate: أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَبِّهِمْ وَرَحْمَةٌ",
    "t": "option",
    "opts": [
-    "mereka itulah yang mendapat shalawat dari Rabb mereka dan rahmat",
-    "mereka itulah yang mendapat murka dan laknat",
     "mereka itulah yang hidup bebas tanpa hukum",
-    "mereka itulah yang menang tanpa usaha"
+    "mereka itulah yang menang tanpa usaha",
+    "mereka itulah yang mendapat murka dan laknat",
+    "mereka itulah yang mendapat shalawat dari Rabb mereka dan rahmat"
    ],
    "corr": "mereka itulah yang mendapat shalawat dari Rabb mereka dan rahmat",
    "optsE": [
-    "those are the ones upon whom are blessings from their Lord and mercy",
-    "those are the ones upon whom are wrath and curse",
     "those are the ones who live free without law",
-    "those are the ones who win without effort"
+    "those are the ones who win without effort",
+    "those are the ones upon whom are wrath and curse",
+    "those are the ones upon whom are blessings from their Lord and mercy"
    ],
    "corrE": "those are the ones upon whom are blessings from their Lord and mercy"
   },
@@ -3396,16 +3396,16 @@
    "qe": "5. Plural of مُصِيبَة is...",
    "t": "option",
    "opts": [
+    "مُصِيْبَات",
     "مَصَائِب",
     "مُصِيبَتَانِ",
-    "مُصِيْبَات",
     "مَصَابِيْب"
    ],
    "corr": "مَصَائِب",
    "optsE": [
+    "مُصِيْبَات",
     "مَصَائِب",
     "مُصِيبَتَانِ",
-    "مُصِيْبَات",
     "مَصَابِيْب"
    ],
    "corrE": "مَصَائِب"
@@ -3417,13 +3417,13 @@
    "qe": "6. Does إِنَّا لِلَّهِ mean indeed we belong to Allah?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -3436,15 +3436,15 @@
    "opts": [
     "pengecualian (istitsna)",
     "penguatan (taukid)",
-    "penyambung (athaf)",
-    "penanya (istifham)"
+    "penanya (istifham)",
+    "penyambung (athaf)"
    ],
    "corr": "pengecualian (istitsna)",
    "optsE": [
     "exception (istitsna)",
     "emphasis (taukid)",
-    "conjunction (athaf)",
-    "question (istifham)"
+    "question (istifham)",
+    "conjunction (athaf)"
    ],
    "corrE": "exception (istitsna)"
   },
@@ -3455,17 +3455,17 @@
    "qe": "2. Translate: إِلَّا الَّذِينَ تَابُوا وَأَصْلَحُوا وَبَيَّنُوا",
    "t": "option",
    "opts": [
-    "kecuali orang-orang yang bertobat, memperbaiki diri, dan menjelaskan (kebenaran)",
     "kecuali orang-orang yang terus menyembunyikan",
     "kecuali orang-orang yang keras kepala",
-    "kecuali mereka yang menambah kesalahan"
+    "kecuali mereka yang menambah kesalahan",
+    "kecuali orang-orang yang bertobat, memperbaiki diri, dan menjelaskan (kebenaran)"
    ],
    "corr": "kecuali orang-orang yang bertobat, memperbaiki diri, dan menjelaskan (kebenaran)",
    "optsE": [
-    "except those who repent, make amends, and make clear",
     "except those who continue to conceal",
     "except the stubborn ones",
-    "except those who add more sins"
+    "except those who add more sins",
+    "except those who repent, make amends, and make clear"
    ],
    "corrE": "except those who repent, make amends, and make clear"
   },
@@ -3476,17 +3476,17 @@
    "qe": "3. Translate: فَأُولَئِكَ أَتُوبُ عَلَيْهِمْ",
    "t": "option",
    "opts": [
-    "maka mereka itulah yang Aku terima tobatnya",
-    "maka mereka itulah yang Aku tinggalkan",
     "maka mereka itulah yang Aku masukkan neraka",
-    "maka mereka itulah yang dijauhkan dari rahmat"
+    "maka mereka itulah yang dijauhkan dari rahmat",
+    "maka mereka itulah yang Aku terima tobatnya",
+    "maka mereka itulah yang Aku tinggalkan"
    ],
    "corr": "maka mereka itulah yang Aku terima tobatnya",
    "optsE": [
-    "then those are the ones to whom I shall turn in forgiveness",
-    "then those are the ones I leave",
     "then those are the ones I put in hell",
-    "then those are the ones kept from mercy"
+    "then those are the ones kept from mercy",
+    "then those are the ones to whom I shall turn in forgiveness",
+    "then those are the ones I leave"
    ],
    "corrE": "then those are the ones to whom I shall turn in forgiveness"
   },
@@ -3497,17 +3497,17 @@
    "qe": "4. Who are excluded from the curse in verses 159-160?",
    "t": "option",
    "opts": [
-    "orang yang bertobat, memperbaiki diri, dan menjelaskan kebenaran",
-    "semua orang yang menyembunyikan",
     "orang-orang yang berkeras",
-    "mereka yang tidak beriman"
+    "semua orang yang menyembunyikan",
+    "mereka yang tidak beriman",
+    "orang yang bertobat, memperbaiki diri, dan menjelaskan kebenaran"
    ],
    "corr": "orang yang bertobat, memperbaiki diri, dan menjelaskan kebenaran",
    "optsE": [
-    "those who repent, make amends, and clarify the truth",
-    "all those who conceal",
     "the stubborn ones",
-    "those who do not believe"
+    "all those who conceal",
+    "those who do not believe",
+    "those who repent, make amends, and clarify the truth"
    ],
    "corrE": "those who repent, make amends, and clarify the truth"
   },
@@ -3519,15 +3519,15 @@
    "t": "option",
    "opts": [
     "dan Aku Maha Penerima tobat lagi Maha Penyayang",
-    "dan Aku Maha Kuat lagi Maha Perkasa",
     "dan Aku Maha Mengetahui lagi Maha Mendengar",
+    "dan Aku Maha Kuat lagi Maha Perkasa",
     "dan Aku Maha Kaya lagi Maha Mulia"
    ],
    "corr": "dan Aku Maha Penerima tobat lagi Maha Penyayang",
    "optsE": [
     "and I am the Accepter of repentance, the Most Merciful",
-    "and I am the Most Strong, the Almighty",
     "and I am the All-Knowing, the All-Hearing",
+    "and I am the Most Strong, the Almighty",
     "and I am the Self-Sufficient, the Most Generous"
    ],
    "corrE": "and I am the Accepter of repentance, the Most Merciful"
@@ -3539,17 +3539,17 @@
    "qe": "6. The active participle of تَابَ is...",
    "t": "option",
    "opts": [
-    "تَائِب",
-    "تَوَّاب",
     "يَتُوبُ",
-    "تَوْبَة"
+    "تَوَّاب",
+    "تَوْبَة",
+    "تَائِب"
    ],
    "corr": "تَائِب",
    "optsE": [
-    "تَائِب",
-    "تَوَّاب",
     "يَتُوبُ",
-    "تَوْبَة"
+    "تَوَّاب",
+    "تَوْبَة",
+    "تَائِب"
    ],
    "corrE": "تَائِب"
   },
@@ -3560,17 +3560,17 @@
    "qe": "7. In لَا إِلَهَ إِلَّا هُوَ, إِلَّا also functions as...",
    "t": "option",
    "opts": [
+    "tanbih",
     "istitsna mufarrag (pengecualian penuh)",
     "istifham",
-    "athaf",
-    "tanbih"
+    "athaf"
    ],
    "corr": "istitsna mufarrag (pengecualian penuh)",
    "optsE": [
+    "caution",
     "a complete exception (istitsna mufarrag)",
     "a question",
-    "conjunction",
-    "caution"
+    "conjunction"
    ],
    "corrE": "a complete exception (istitsna mufarrag)"
   },
@@ -3598,17 +3598,17 @@
    "qe": "1. Translate: إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ شَعَائِرِ اللَّهِ",
    "t": "option",
    "opts": [
-    "sesungguhnya Safa dan Marwah adalah termasuk syi'ar (tanda) Allah",
-    "sesungguhnya Safa dan Marwah adalah patung berhala",
     "sesungguhnya Safa dan Marwah milik bangsa Arab",
-    "sesungguhnya Safa dan Marwah tidak pernah dijadikan tempat ibadah"
+    "sesungguhnya Safa dan Marwah adalah patung berhala",
+    "sesungguhnya Safa dan Marwah tidak pernah dijadikan tempat ibadah",
+    "sesungguhnya Safa dan Marwah adalah termasuk syi'ar (tanda) Allah"
    ],
    "corr": "sesungguhnya Safa dan Marwah adalah termasuk syi'ar (tanda) Allah",
    "optsE": [
-    "indeed Safa and Marwah are among the symbols of Allah",
-    "indeed Safa and Marwah are idols",
     "indeed Safa and Marwah belong to the Arabs",
-    "indeed Safa and Marwah were never a place of worship"
+    "indeed Safa and Marwah are idols",
+    "indeed Safa and Marwah were never a place of worship",
+    "indeed Safa and Marwah are among the symbols of Allah"
    ],
    "corrE": "indeed Safa and Marwah are among the symbols of Allah"
   },
@@ -3619,17 +3619,17 @@
    "qe": "2. Who may perform sa'i between Safa and Marwah?",
    "t": "option",
    "opts": [
-    "orang yang menunaikan haji atau umrah",
-    "siapa saja yang lewat jalan itu",
+    "hanya para penguasa",
     "hanya para kabilah Quraisy",
-    "hanya para penguasa"
+    "orang yang menunaikan haji atau umrah",
+    "siapa saja yang lewat jalan itu"
    ],
    "corr": "orang yang menunaikan haji atau umrah",
    "optsE": [
-    "those performing hajj or umrah",
-    "anyone passing that road",
+    "only the rulers",
     "only the Quraysh tribe",
-    "only the rulers"
+    "those performing hajj or umrah",
+    "anyone passing that road"
    ],
    "corrE": "those performing hajj or umrah"
   },
@@ -3640,17 +3640,17 @@
    "qe": "3. Translate: فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ فَلَا جُنَاحَ عَلَيْهِ أَنْ يَطَّوَّفَ بِهِمَا",
    "t": "option",
    "opts": [
-    "maka siapa yang menunaikan haji atau umrah, tidak ada dosa baginya thawaf di antara keduanya",
     "maka siapa yang berhaji wajib meninggalkan sa'i",
-    "maka siapa yang berumrah dilarang mendekati Safa",
-    "maka thawaf di antara keduanya hanya untuk orang kaya"
+    "maka siapa yang menunaikan haji atau umrah, tidak ada dosa baginya thawaf di antara keduanya",
+    "maka thawaf di antara keduanya hanya untuk orang kaya",
+    "maka siapa yang berumrah dilarang mendekati Safa"
    ],
    "corr": "maka siapa yang menunaikan haji atau umrah, tidak ada dosa baginya thawaf di antara keduanya",
    "optsE": [
-    "so whoever performs hajj or umrah, there is no blame on him for going between them",
     "so whoever performs hajj must abandon sa'i",
-    "so whoever performs umrah is forbidden near Safa",
-    "so going between them is only for the rich"
+    "so whoever performs hajj or umrah, there is no blame on him for going between them",
+    "so going between them is only for the rich",
+    "so whoever performs umrah is forbidden near Safa"
    ],
    "corrE": "so whoever performs hajj or umrah, there is no blame on him for going between them"
   },
@@ -3663,15 +3663,15 @@
    "opts": [
     "dilaknat oleh Allah dan semua yang melaknat",
     "diberi pahala berlipat ganda",
-    "diperintahkan bertobat saja",
-    "dibiarkan saja di dunia"
+    "dibiarkan saja di dunia",
+    "diperintahkan bertobat saja"
    ],
    "corr": "dilaknat oleh Allah dan semua yang melaknat",
    "optsE": [
     "they are cursed by Allah and all who curse",
     "they are given multiplied reward",
-    "they are only told to repent",
-    "they are left alone in this world"
+    "they are left alone in this world",
+    "they are only told to repent"
    ],
    "corrE": "they are cursed by Allah and all who curse"
   },
@@ -3682,17 +3682,17 @@
    "qe": "5. Translate: إِنَّ الَّذِينَ يَكْتُمُونَ مَا أَنْزَلْنَا مِنَ الْبَيِّنَاتِ وَالْهُدَى",
    "t": "option",
    "opts": [
+    "sesungguhnya orang-orang yang mengubah makna Al-Qur'an",
     "sesungguhnya orang-orang yang menyembunyikan apa yang telah Kami turunkan berupa keterangan dan petunjuk",
     "sesungguhnya orang-orang yang menyebarkan berita-berita palsu",
-    "sesungguhnya orang-orang yang menghafal keterangan",
-    "sesungguhnya orang-orang yang mengubah makna Al-Qur'an"
+    "sesungguhnya orang-orang yang menghafal keterangan"
    ],
    "corr": "sesungguhnya orang-orang yang menyembunyikan apa yang telah Kami turunkan berupa keterangan dan petunjuk",
    "optsE": [
+    "indeed those who change the meaning of the Quran",
     "indeed those who conceal what We sent down of clear proofs and guidance",
     "indeed those who spread false news",
-    "indeed those who memorize the proofs",
-    "indeed those who change the meaning of the Quran"
+    "indeed those who memorize the proofs"
    ],
    "corrE": "indeed those who conceal what We sent down of clear proofs and guidance"
   },
@@ -3703,13 +3703,13 @@
    "qe": "6. Does شَعَائِر mean symbols, signs?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -3720,17 +3720,17 @@
    "qe": "1. Which is a conjunction (harf athaf)?",
    "t": "option",
    "opts": [
-    "فَ",
     "قَدْ",
-    "لَنْ",
-    "سَوْفَ"
+    "فَ",
+    "سَوْفَ",
+    "لَنْ"
    ],
    "corr": "فَ",
    "optsE": [
-    "فَ",
     "قَدْ",
-    "لَنْ",
-    "سَوْفَ"
+    "فَ",
+    "سَوْفَ",
+    "لَنْ"
    ],
    "corrE": "فَ"
   },
@@ -3742,16 +3742,16 @@
    "t": "option",
    "opts": [
     "pilihan (atau)",
-    "urutan (kemudian)",
     "hanya (saja)",
-    "sebab (lantaran)"
+    "sebab (lantaran)",
+    "urutan (kemudian)"
    ],
    "corr": "pilihan (atau)",
    "optsE": [
     "choice (or)",
-    "sequence (then)",
     "only",
-    "cause (because)"
+    "cause (because)",
+    "sequence (then)"
    ],
    "corrE": "choice (or)"
   },
@@ -3762,16 +3762,16 @@
    "qe": "3. In فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ, the letter أَوْ means...",
    "t": "option",
    "opts": [
-    "atau",
-    "dan",
     "kemudian",
+    "dan",
+    "atau",
     "tetapi"
    ],
    "corr": "atau",
    "optsE": [
-    "or",
-    "and",
     "then",
+    "and",
+    "or",
     "but"
    ],
    "corrE": "or"
@@ -3783,17 +3783,17 @@
    "qe": "4. The main function of a conjunction is...",
    "t": "option",
    "opts": [
-    "menghubungkan dua kata atau kalimat",
-    "mengakhiri kalimat",
     "mengganti kata kerja",
-    "menegaskan isim"
+    "menegaskan isim",
+    "mengakhiri kalimat",
+    "menghubungkan dua kata atau kalimat"
    ],
    "corr": "menghubungkan dua kata atau kalimat",
    "optsE": [
-    "joining two words or clauses",
-    "ending a sentence",
     "replacing a verb",
-    "emphasizing a noun"
+    "emphasizing a noun",
+    "ending a sentence",
+    "joining two words or clauses"
    ],
    "corrE": "joining two words or clauses"
   },
@@ -3804,17 +3804,17 @@
    "qe": "5. In أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَبِّهِمْ وَرَحْمَةٌ, the conjunction is...",
    "t": "option",
    "opts": [
+    "رَبِّهِمْ",
     "وَ",
-    "مِنْ",
     "عَلَى",
-    "رَبِّهِمْ"
+    "مِنْ"
    ],
    "corr": "وَ",
    "optsE": [
+    "رَبِّهِمْ",
     "وَ",
-    "مِنْ",
     "عَلَى",
-    "رَبِّهِمْ"
+    "مِنْ"
    ],
    "corrE": "وَ"
   },
@@ -3825,9 +3825,9 @@
    "qe": "6. Which are conjunctions? (Pick more than one)",
    "t": "multi",
    "opts": [
-    "وَ",
     "فَ",
     "أَوْ",
+    "وَ",
     "قَدْ"
    ],
    "corr": [
@@ -3836,9 +3836,9 @@
     "أَوْ"
    ],
    "optsE": [
-    "وَ",
     "فَ",
     "أَوْ",
+    "وَ",
     "قَدْ"
    ],
    "corrE": [
@@ -3854,16 +3854,16 @@
    "qe": "7. Translate: وَمَنْ تَطَوَّعَ خَيْرًا فَإِنَّ اللَّهَ شَاكِرٌ عَلِيمٌ",
    "t": "option",
    "opts": [
-    "dan siapa yang mengerjakan kebaikan dengan sukarela, maka sesungguhnya Allah Maha Menghargai lagi Maha Mengetahui",
-    "dan siapa yang berpaling, maka Allah membencinya",
     "dan siapa yang meninggalkan kebaikan, maka Allah murka",
+    "dan siapa yang berpaling, maka Allah membencinya",
+    "dan siapa yang mengerjakan kebaikan dengan sukarela, maka sesungguhnya Allah Maha Menghargai lagi Maha Mengetahui",
     "dan siapa yang berhaji, maka ia menjadi kaya"
    ],
    "corr": "dan siapa yang mengerjakan kebaikan dengan sukarela, maka sesungguhnya Allah Maha Menghargai lagi Maha Mengetahui",
    "optsE": [
-    "and whoever volunteers good, then indeed Allah is Appreciative and Knowing",
-    "and whoever turns away, Allah hates him",
     "and whoever abandons good, Allah is angry",
+    "and whoever turns away, Allah hates him",
+    "and whoever volunteers good, then indeed Allah is Appreciative and Knowing",
     "and whoever performs hajj becomes rich"
    ],
    "corrE": "and whoever volunteers good, then indeed Allah is Appreciative and Knowing"
@@ -3875,13 +3875,13 @@
    "qe": "8. Do conjunctions join two words or clauses?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -3892,17 +3892,17 @@
    "qe": "1. Translate: إِنَّ الَّذِينَ كَفَرُوا وَمَاتُوا وَهُمْ كُفَّارٌ",
    "t": "option",
    "opts": [
+    "sesungguhnya orang-orang yang ragu di akhir hayat",
     "sesungguhnya orang-orang yang kafir dan mati dalam keadaan kafir",
     "sesungguhnya orang-orang yang beriman dan mati beriman",
-    "sesungguhnya orang yang tobat sebelum mati",
-    "sesungguhnya orang-orang yang ragu di akhir hayat"
+    "sesungguhnya orang yang tobat sebelum mati"
    ],
    "corr": "sesungguhnya orang-orang yang kafir dan mati dalam keadaan kafir",
    "optsE": [
+    "indeed those who doubt at the end",
     "indeed those who disbelieve and die while disbelieving",
     "indeed those who believe and die believing",
-    "indeed those who repent before death",
-    "indeed those who doubt at the end"
+    "indeed those who repent before death"
    ],
    "corrE": "indeed those who disbelieve and die while disbelieving"
   },
@@ -3913,17 +3913,17 @@
    "qe": "2. The curse in verse 161 comes from...",
    "t": "option",
    "opts": [
-    "Allah, para malaikat, dan manusia seluruhnya",
+    "tidak ada yang melaknat",
     "hanya manusia",
     "hanya setan",
-    "tidak ada yang melaknat"
+    "Allah, para malaikat, dan manusia seluruhnya"
    ],
    "corr": "Allah, para malaikat, dan manusia seluruhnya",
    "optsE": [
-    "Allah, the angels, and all mankind",
+    "no one curses them",
     "only mankind",
     "only Satan",
-    "no one curses them"
+    "Allah, the angels, and all mankind"
    ],
    "corrE": "Allah, the angels, and all mankind"
   },
@@ -3935,16 +3935,16 @@
    "t": "option",
    "opts": [
     "kekal di dalamnya, azab tidak diringankan, dan tidak diberi tangguh",
-    "sebentar saja kemudian keluar",
     "azabnya ringan dan cepat berakhir",
-    "mereka tidur tanpa merasakan apa pun"
+    "mereka tidur tanpa merasakan apa pun",
+    "sebentar saja kemudian keluar"
    ],
    "corr": "kekal di dalamnya, azab tidak diringankan, dan tidak diberi tangguh",
    "optsE": [
     "they remain forever, punishment is not lightened, and they are granted no respite",
-    "only briefly then they leave",
     "the punishment is light and short",
-    "they sleep feeling nothing"
+    "they sleep feeling nothing",
+    "only briefly then they leave"
    ],
    "corrE": "they remain forever, punishment is not lightened, and they are granted no respite"
   },
@@ -3955,17 +3955,17 @@
    "qe": "4. Translate: وَإِلَهُكُمْ إِلَهٌ وَاحِدٌ",
    "t": "option",
    "opts": [
-    "dan Tuhanmu adalah Tuhan Yang Maha Esa",
-    "dan setiap kaum punya tuhan masing-masing",
+    "dan tidak ada Tuhan sama sekali",
     "dan tuhan-tuhan kalian berjumlah banyak",
-    "dan tidak ada Tuhan sama sekali"
+    "dan Tuhanmu adalah Tuhan Yang Maha Esa",
+    "dan setiap kaum punya tuhan masing-masing"
    ],
    "corr": "dan Tuhanmu adalah Tuhan Yang Maha Esa",
    "optsE": [
-    "and your God is one God",
-    "and every nation has its own god",
+    "and there is no god at all",
     "and your gods are many",
-    "and there is no god at all"
+    "and your God is one God",
+    "and every nation has its own god"
    ],
    "corrE": "and your God is one God"
   },
@@ -3976,17 +3976,17 @@
    "qe": "5. The continuation of لَا إِلَهَ إِلَّا هُوَ is...",
    "t": "option",
    "opts": [
-    "الرَّحْمَنُ الرَّحِيمُ",
-    "الْعَزِيزُ الْحَكِيمُ",
     "الْغَفُورُ الْوَدُودُ",
-    "السَّمِيعُ الْبَصِيرُ"
+    "السَّمِيعُ الْبَصِيرُ",
+    "الرَّحْمَنُ الرَّحِيمُ",
+    "الْعَزِيزُ الْحَكِيمُ"
    ],
    "corr": "الرَّحْمَنُ الرَّحِيمُ",
    "optsE": [
-    "الرَّحْمَنُ الرَّحِيمُ",
-    "الْعَزِيزُ الْحَكِيمُ",
     "الْغَفُورُ الْوَدُودُ",
-    "السَّمِيعُ الْبَصِيرُ"
+    "السَّمِيعُ الْبَصِيرُ",
+    "الرَّحْمَنُ الرَّحِيمُ",
+    "الْعَزِيزُ الْحَكِيمُ"
    ],
    "corrE": "الرَّحْمَنُ الرَّحِيمُ"
   },
@@ -4014,17 +4014,17 @@
    "qe": "1. Which is a nominal sentence?",
    "t": "option",
    "opts": [
-    "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَبِّهِمْ وَرَحْمَةٌ",
+    "يَكْتُمُونَ مَا أَنْزَلْنَا",
     "إِذَا أَصَابَتْهُمْ مُصِيبَةٌ قَالُوا",
     "فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ",
-    "يَكْتُمُونَ مَا أَنْزَلْنَا"
+    "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَبِّهِمْ وَرَحْمَةٌ"
    ],
    "corr": "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَبِّهِمْ وَرَحْمَةٌ",
    "optsE": [
-    "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَبِّهِمْ وَرَحْمَةٌ",
+    "يَكْتُمُونَ مَا أَنْزَلْنَا",
     "إِذَا أَصَابَتْهُمْ مُصِيبَةٌ قَالُوا",
     "فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ",
-    "يَكْتُمُونَ مَا أَنْزَلْنَا"
+    "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَبِّهِمْ وَرَحْمَةٌ"
    ],
    "corrE": "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَبِّهِمْ وَرَحْمَةٌ"
   },
@@ -4035,16 +4035,16 @@
    "qe": "2. In إِلَهُكُمْ إِلَهٌ وَاحِدٌ, the mubtada is...",
    "t": "option",
    "opts": [
-    "إِلَهُكُمْ",
-    "إِلَهٌ",
     "وَاحِدٌ",
+    "إِلَهٌ",
+    "إِلَهُكُمْ",
     "وَاحِدٌ إِلَهٌ"
    ],
    "corr": "إِلَهُكُمْ",
    "optsE": [
-    "إِلَهُكُمْ",
-    "إِلَهٌ",
     "وَاحِدٌ",
+    "إِلَهٌ",
+    "إِلَهُكُمْ",
     "وَاحِدٌ إِلَهٌ"
    ],
    "corrE": "إِلَهُكُمْ"
@@ -4056,17 +4056,17 @@
    "qe": "3. The main feature of a nominal sentence is that it begins with...",
    "t": "option",
    "opts": [
-    "ism (kata benda)",
+    "harf jar",
     "fi'l (kata kerja)",
     "harf athaf",
-    "harf jar"
+    "ism (kata benda)"
    ],
    "corr": "ism (kata benda)",
    "optsE": [
-    "a noun",
+    "a preposition",
     "a verb",
     "a conjunction",
-    "a preposition"
+    "a noun"
    ],
    "corrE": "a noun"
   },
@@ -4077,17 +4077,17 @@
    "qe": "4. A nominal sentence consists of two pillars, namely...",
    "t": "option",
    "opts": [
-    "mubtada dan khabar",
+    "jar dan majrur",
     "fi'l dan fa'il",
     "maf'ul dan hal",
-    "jar dan majrur"
+    "mubtada dan khabar"
    ],
    "corr": "mubtada dan khabar",
    "optsE": [
-    "mubtada and khabar",
+    "preposition and genitive",
     "verb and subject",
     "object and circumstance",
-    "preposition and genitive"
+    "mubtada and khabar"
    ],
    "corrE": "mubtada and khabar"
   },
@@ -4098,17 +4098,17 @@
    "qe": "5. Which is the mubtada in الْحَقُّ مِنْ رَبِّكَ?",
    "t": "option",
    "opts": [
-    "الْحَقُّ",
-    "مِنْ",
+    "الْحَقِّ",
     "رَبِّكَ",
-    "الْحَقِّ"
+    "الْحَقُّ",
+    "مِنْ"
    ],
    "corr": "الْحَقُّ",
    "optsE": [
-    "الْحَقُّ",
-    "مِنْ",
+    "الْحَقِّ",
     "رَبِّكَ",
-    "الْحَقِّ"
+    "الْحَقُّ",
+    "مِنْ"
    ],
    "corrE": "الْحَقُّ"
   },
@@ -4119,17 +4119,17 @@
    "qe": "6. Translate: الْحَقُّ مِنْ رَبِّكَ",
    "t": "option",
    "opts": [
-    "kebenaran itu dari Rabbmu",
-    "kebatilan itu dari Rabbmu",
     "kebenaran itu dari manusia",
-    "keberanian datang dari kekuatan"
+    "keberanian datang dari kekuatan",
+    "kebatilan itu dari Rabbmu",
+    "kebenaran itu dari Rabbmu"
    ],
    "corr": "kebenaran itu dari Rabbmu",
    "optsE": [
-    "the truth is from your Lord",
-    "falsehood is from your Lord",
     "the truth is from mankind",
-    "courage comes from strength"
+    "courage comes from strength",
+    "falsehood is from your Lord",
+    "the truth is from your Lord"
    ],
    "corrE": "the truth is from your Lord"
   },
@@ -4140,17 +4140,17 @@
    "qe": "7. In وَإِلَهُكُمْ إِلَهٌ وَاحِدٌ, the khabar is...",
    "t": "option",
    "opts": [
-    "إِلَهٌ وَاحِدٌ",
-    "إِلَهُكُمْ",
     "وَاحِدٌ فَقَط",
-    "لَكُمْ إِلَهٌ"
+    "إِلَهٌ وَاحِدٌ",
+    "لَكُمْ إِلَهٌ",
+    "إِلَهُكُمْ"
    ],
    "corr": "إِلَهٌ وَاحِدٌ",
    "optsE": [
-    "إِلَهٌ وَاحِدٌ",
-    "إِلَهُكُمْ",
     "وَاحِدٌ فَقَط",
-    "لَكُمْ إِلَهٌ"
+    "إِلَهٌ وَاحِدٌ",
+    "لَكُمْ إِلَهٌ",
+    "إِلَهُكُمْ"
    ],
    "corrE": "إِلَهٌ وَاحِدٌ"
   },
@@ -4179,15 +4179,15 @@
    "t": "option",
    "opts": [
     "tanda-tanda kekuasaan Allah di alam semesta",
-    "kisah para nabi yang lalu",
     "hukum warisan",
+    "kisah para nabi yang lalu",
     "keutamaan bersedekah"
    ],
    "corr": "tanda-tanda kekuasaan Allah di alam semesta",
    "optsE": [
     "the signs of Allah's power in the universe",
-    "the stories of former prophets",
     "the law of inheritance",
+    "the stories of former prophets",
     "the virtue of charity"
    ],
    "corrE": "the signs of Allah's power in the universe"
@@ -4199,16 +4199,16 @@
    "qe": "2. Which is among the signs mentioned in verse 164?",
    "t": "option",
    "opts": [
+    "pasar-pasar besar",
     "kapal yang berlayar di lautan",
     "istana para raja",
-    "pasar-pasar besar",
     "gunung emas"
    ],
    "corr": "kapal yang berlayar di lautan",
    "optsE": [
+    "great markets",
     "ships sailing in the sea",
     "the palaces of kings",
-    "great markets",
     "mountains of gold"
    ],
    "corrE": "ships sailing in the sea"
@@ -4221,15 +4221,15 @@
    "t": "option",
    "opts": [
     "dan apa yang Allah turunkan dari langit berupa air, lalu Dia hidupkan dengan air itu bumi",
-    "dan harta yang Allah titipkan di langit lalu diturunkan",
     "dan pasukan yang Allah turunkan untuk berperang",
+    "dan harta yang Allah titipkan di langit lalu diturunkan",
     "dan malaikat yang turun membawa rahmat"
    ],
    "corr": "dan apa yang Allah turunkan dari langit berupa air, lalu Dia hidupkan dengan air itu bumi",
    "optsE": [
     "and what Allah sends down from the sky of water, reviving the earth with it",
-    "and the wealth Allah deposited in the sky then sent down",
     "and armies sent down to fight",
+    "and the wealth Allah deposited in the sky then sent down",
     "and angels descending with mercy"
    ],
    "corrE": "and what Allah sends down from the sky of water, reviving the earth with it"
@@ -4241,17 +4241,17 @@
    "qe": "4. Translate: فَبَثَّ فِيهَا مِنْ كُلِّ دَابَّةٍ",
    "t": "option",
    "opts": [
-    "lalu Dia sebarkan di bumi segala jenis binatang melata",
     "lalu Dia turunkan hujan deras",
+    "lalu Dia ciptakan gunung-gunung",
     "lalu Dia tumbuhkan tanaman hijau",
-    "lalu Dia ciptakan gunung-gunung"
+    "lalu Dia sebarkan di bumi segala jenis binatang melata"
    ],
    "corr": "lalu Dia sebarkan di bumi segala jenis binatang melata",
    "optsE": [
-    "then He scattered therein every kind of moving creature",
     "then He sent heavy rain",
+    "then He created the mountains",
     "then He grew green plants",
-    "then He created the mountains"
+    "then He scattered therein every kind of moving creature"
    ],
    "corrE": "then He scattered therein every kind of moving creature"
   },
@@ -4262,17 +4262,17 @@
    "qe": "5. For whom are these signs instructive?",
    "t": "option",
    "opts": [
-    "kaum yang berakal",
     "kaum yang kaya raya",
-    "kaum yang kuat",
-    "kaum yang pandai berdagang"
+    "kaum yang berakal",
+    "kaum yang pandai berdagang",
+    "kaum yang kuat"
    ],
    "corr": "kaum yang berakal",
    "optsE": [
-    "people of reason",
     "the wealthy people",
-    "the strong people",
-    "the skilled merchants"
+    "people of reason",
+    "the skilled merchants",
+    "the strong people"
    ],
    "corrE": "people of reason"
   },
@@ -4300,17 +4300,17 @@
    "qe": "1. The word خَلْقِ in خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ is...",
    "t": "option",
    "opts": [
+    "ism fa'il",
     "masdar (kata benda kerja)",
-    "fi'l madhi",
     "fi'l mudhari'",
-    "ism fa'il"
+    "fi'l madhi"
    ],
    "corr": "masdar (kata benda kerja)",
    "optsE": [
+    "an active participle",
     "a verbal noun (masdar)",
-    "a past verb",
     "a present verb",
-    "an active participle"
+    "a past verb"
    ],
    "corrE": "a verbal noun (masdar)"
   },
@@ -4321,17 +4321,17 @@
    "qe": "2. The verbal noun of خَلَقَ is...",
    "t": "option",
    "opts": [
-    "خَلْق",
-    "خَالِق",
+    "خَلَّاق",
     "يَخْلُقُ",
-    "خَلَّاق"
+    "خَلْق",
+    "خَالِق"
    ],
    "corr": "خَلْق",
    "optsE": [
-    "خَلْق",
-    "خَالِق",
+    "خَلَّاق",
     "يَخْلُقُ",
-    "خَلَّاق"
+    "خَلْق",
+    "خَالِق"
    ],
    "corrE": "خَلْق"
   },
@@ -4342,17 +4342,17 @@
    "qe": "3. The verbal noun of اِخْتَلَفَ is...",
    "t": "option",
    "opts": [
+    "خِلَافَة",
     "اِخْتِلَاف",
     "مُخْتَلِف",
-    "يَخْتَلِفُ",
-    "خِلَافَة"
+    "يَخْتَلِفُ"
    ],
    "corr": "اِخْتِلَاف",
    "optsE": [
+    "خِلَافَة",
     "اِخْتِلَاف",
     "مُخْتَلِف",
-    "يَخْتَلِفُ",
-    "خِلَافَة"
+    "يَخْتَلِفُ"
    ],
    "corrE": "اِخْتِلَاف"
   },
@@ -4363,16 +4363,16 @@
    "qe": "4. The verbal noun of صَرَّفَ is...",
    "t": "option",
    "opts": [
-    "تَصْرِيف",
     "مُصَرِّف",
     "يُصَرِّفُ",
+    "تَصْرِيف",
     "صَرَّاف"
    ],
    "corr": "تَصْرِيف",
    "optsE": [
-    "تَصْرِيف",
     "مُصَرِّف",
     "يُصَرِّفُ",
+    "تَصْرِيف",
     "صَرَّاف"
    ],
    "corrE": "تَصْرِيف"
@@ -4384,17 +4384,17 @@
    "qe": "5. A masdar is a noun that indicates...",
    "t": "option",
    "opts": [
-    "perbuatan atau tindakan",
-    "pelaku perbuatan",
+    "alat perbuatan",
     "tempat perbuatan",
-    "alat perbuatan"
+    "pelaku perbuatan",
+    "perbuatan atau tindakan"
    ],
    "corr": "perbuatan atau tindakan",
    "optsE": [
-    "an action or deed",
-    "the doer of the action",
+    "the tool of the action",
     "the place of the action",
-    "the tool of the action"
+    "the doer of the action",
+    "an action or deed"
    ],
    "corrE": "an action or deed"
   },
@@ -4405,10 +4405,10 @@
    "qe": "6. Which are masdars? (Pick more than one)",
    "t": "multi",
    "opts": [
-    "خَلْقِ",
-    "اِخْتِلَافِ",
     "تَصْرِيفِ",
-    "سَمَاءِ"
+    "خَلْقِ",
+    "سَمَاءِ",
+    "اِخْتِلَافِ"
    ],
    "corr": [
     "خَلْقِ",
@@ -4416,10 +4416,10 @@
     "تَصْرِيفِ"
    ],
    "optsE": [
-    "خَلْقِ",
-    "اِخْتِلَافِ",
     "تَصْرِيفِ",
-    "سَمَاءِ"
+    "خَلْقِ",
+    "سَمَاءِ",
+    "اِخْتِلَافِ"
    ],
    "corrE": [
     "خَلْقِ",
@@ -4435,16 +4435,16 @@
    "t": "option",
    "opts": [
     "dan pergiliran angin",
-    "dan kekuatan angin",
+    "dan kecepatan angin",
     "dan pembuatan angin",
-    "dan kecepatan angin"
+    "dan kekuatan angin"
    ],
    "corr": "dan pergiliran angin",
    "optsE": [
     "and the alternating of the winds",
-    "and the strength of the winds",
+    "and the speed of the winds",
     "and the making of the winds",
-    "and the speed of the winds"
+    "and the strength of the winds"
    ],
    "corrE": "and the alternating of the winds"
   },
@@ -4455,13 +4455,13 @@
    "qe": "8. Can a masdar function like an ordinary noun in a sentence?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -4472,17 +4472,17 @@
    "qe": "1. Translate: وَمِنَ النَّاسِ مَنْ يَتَّخِذُ مِنْ دُونِ اللَّهِ أَنْدَادًا",
    "t": "option",
    "opts": [
-    "dan di antara manusia ada yang menjadikan tandingan-tandingan selain Allah",
-    "dan semua manusia menjadikan Allah satu-satunya",
     "dan di antara manusia ada yang menyembah Allah dengan ikhlas",
-    "dan manusia seluruhnya menjauhi tandingan"
+    "dan manusia seluruhnya menjauhi tandingan",
+    "dan semua manusia menjadikan Allah satu-satunya",
+    "dan di antara manusia ada yang menjadikan tandingan-tandingan selain Allah"
    ],
    "corr": "dan di antara manusia ada yang menjadikan tandingan-tandingan selain Allah",
    "optsE": [
-    "and among mankind are those who take rivals other than Allah",
-    "and all mankind make Allah the only one",
     "and among mankind are those who worship Allah sincerely",
-    "and all mankind avoid rivals"
+    "and all mankind avoid rivals",
+    "and all mankind make Allah the only one",
+    "and among mankind are those who take rivals other than Allah"
    ],
    "corrE": "and among mankind are those who take rivals other than Allah"
   },
@@ -4494,16 +4494,16 @@
    "t": "option",
    "opts": [
     "lebih sangat daripada segala cinta",
-    "sama seperti cinta kepada harta",
+    "tidak ada cinta kepada Allah",
     "kurang dari cinta kepada keluarga",
-    "tidak ada cinta kepada Allah"
+    "sama seperti cinta kepada harta"
    ],
    "corr": "lebih sangat daripada segala cinta",
    "optsE": [
     "stronger than all other love",
-    "the same as love for wealth",
+    "there is no love for Allah",
     "less than love for family",
-    "there is no love for Allah"
+    "the same as love for wealth"
    ],
    "corrE": "stronger than all other love"
   },
@@ -4514,17 +4514,17 @@
    "qe": "3. Translate: يُحِبُّونَهُمْ كَحُبِّ اللَّهِ",
    "t": "option",
    "opts": [
-    "mereka mencintainya seperti cinta mereka kepada Allah",
-    "mereka membencinya seperti mereka membenci Allah",
     "mereka mencintainya lebih dari Allah",
-    "mereka tidak mencintai apa pun"
+    "mereka membencinya seperti mereka membenci Allah",
+    "mereka tidak mencintai apa pun",
+    "mereka mencintainya seperti cinta mereka kepada Allah"
    ],
    "corr": "mereka mencintainya seperti cinta mereka kepada Allah",
    "optsE": [
-    "they love them like the love of Allah",
-    "they hate them like they hate Allah",
     "they love them more than Allah",
-    "they love nothing"
+    "they hate them like they hate Allah",
+    "they love nothing",
+    "they love them like the love of Allah"
    ],
    "corrE": "they love them like the love of Allah"
   },
@@ -4535,16 +4535,16 @@
    "qe": "4. What will the wrongdoers see one day?",
    "t": "option",
    "opts": [
+    "para penolong mereka menang",
     "azab dan bahwa seluruh kekuatan milik Allah",
     "keberuntungan dunia mereka",
-    "para penolong mereka menang",
     "bahwa tandingan mereka benar"
    ],
    "corr": "azab dan bahwa seluruh kekuatan milik Allah",
    "optsE": [
+    "their helpers winning",
     "the punishment and that all power belongs to Allah",
     "their worldly success",
-    "their helpers winning",
     "that their rivals were right"
    ],
    "corrE": "the punishment and that all power belongs to Allah"
@@ -4557,15 +4557,15 @@
    "t": "option",
    "opts": [
     "dan bahwa Allah sangat keras azab-Nya",
-    "dan bahwa Allah paling lembut azab-Nya",
     "dan bahwa Allah tidak memberi azab",
+    "dan bahwa Allah paling lembut azab-Nya",
     "dan bahwa azab Allah hanya di dunia"
    ],
    "corr": "dan bahwa Allah sangat keras azab-Nya",
    "optsE": [
     "and that Allah is severe in punishment",
-    "and that Allah's punishment is mild",
     "and that Allah gives no punishment",
+    "and that Allah's punishment is mild",
     "and that Allah's punishment is only in this world"
    ],
    "corrE": "and that Allah is severe in punishment"
@@ -4577,13 +4577,13 @@
    "qe": "6. Does أَنْدَادًا mean rivals?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -4594,17 +4594,17 @@
    "qe": "1. In يُحِبُّونَهُمْ كَحُبِّ اللَّهِ, the object is a...",
    "t": "option",
    "opts": [
-    "kata ganti هُمْ",
     "huruf kaf",
+    "kata اللَّهِ",
     "kata حُبِّ",
-    "kata اللَّهِ"
+    "kata ganti هُمْ"
    ],
    "corr": "kata ganti هُمْ",
    "optsE": [
-    "the pronoun هُمْ",
     "the letter kaf",
+    "the word اللَّهِ",
     "the word حُبِّ",
-    "the word اللَّهِ"
+    "the pronoun هُمْ"
    ],
    "corrE": "the pronoun هُمْ"
   },
@@ -4615,17 +4615,17 @@
    "qe": "2. In وَيَتَّخِذُ مِنْ دُونِ اللَّهِ أَنْدَادًا, the object is...",
    "t": "option",
    "opts": [
-    "أَنْدَادًا",
-    "مِنْ دُونِ",
+    "النَّاسِ",
     "اللَّهِ",
-    "النَّاسِ"
+    "أَنْدَادًا",
+    "مِنْ دُونِ"
    ],
    "corr": "أَنْدَادًا",
    "optsE": [
-    "أَنْدَادًا",
-    "مِنْ دُونِ",
+    "النَّاسِ",
     "اللَّهِ",
-    "النَّاسِ"
+    "أَنْدَادًا",
+    "مِنْ دُونِ"
    ],
    "corrE": "أَنْدَادًا"
   },
@@ -4637,16 +4637,16 @@
    "t": "option",
    "opts": [
     "jar-majrur",
-    "mubtada-khabar",
     "fi'l-fa'il",
-    "idhafah"
+    "idhafah",
+    "mubtada-khabar"
    ],
    "corr": "jar-majrur",
    "optsE": [
     "jar-majrur",
-    "mubtada-khabar",
     "fi'l-fa'il",
-    "idhafah"
+    "idhafah",
+    "mubtada-khabar"
    ],
    "corrE": "jar-majrur"
   },
@@ -4658,15 +4658,15 @@
    "t": "option",
    "opts": [
     "مِنْ دُونِ اللَّهِ",
-    "دُونِ فَقَط",
     "اللَّهِ فَقَط",
+    "دُونِ فَقَط",
     "مِنْ فَقَط"
    ],
    "corr": "مِنْ دُونِ اللَّهِ",
    "optsE": [
     "مِنْ دُونِ اللَّهِ",
-    "دُونِ only",
     "اللَّهِ only",
+    "دُونِ only",
     "مِنْ only"
    ],
    "corrE": "مِنْ دُونِ اللَّهِ"
@@ -4678,17 +4678,17 @@
    "qe": "5. A preposition makes the noun after it...",
    "t": "option",
    "opts": [
+    "majzum",
     "majrur",
-    "marfu'",
     "mansub",
-    "majzum"
+    "marfu'"
    ],
    "corr": "majrur",
    "optsE": [
+    "jussive",
     "genitive",
-    "nominative",
     "accusative",
-    "jussive"
+    "nominative"
    ],
    "corrE": "genitive"
   },
@@ -4720,17 +4720,17 @@
    "qe": "7. In كَحُبِّ اللَّهِ, the letter ك functions as...",
    "t": "option",
    "opts": [
-    "huruf tasybih (perumpamaan)",
+    "huruf nafi",
     "huruf jar biasa",
     "huruf athaf",
-    "huruf nafi"
+    "huruf tasybih (perumpamaan)"
    ],
    "corr": "huruf tasybih (perumpamaan)",
    "optsE": [
-    "a simile particle (tasybih)",
+    "a negation particle",
     "an ordinary preposition",
     "a conjunction",
-    "a negation particle"
+    "a simile particle (tasybih)"
    ],
    "corrE": "a simile particle (tasybih)"
   },
@@ -4758,17 +4758,17 @@
    "qe": "1. Translate: إِذْ تَبَرَّأَ الَّذِينَ اتُّبِعُوا مِنَ الَّذِينَ اتَّبَعُوا",
    "t": "option",
    "opts": [
-    "ketika orang-orang yang diikuti berlepas diri dari orang-orang yang mengikuti",
+    "ketika semuanya bertemu dengan rukun",
     "ketika orang-orang yang diikuti menerima pengikutnya",
-    "ketika para pengikut membela pemimpinnya",
-    "ketika semuanya bertemu dengan rukun"
+    "ketika orang-orang yang diikuti berlepas diri dari orang-orang yang mengikuti",
+    "ketika para pengikut membela pemimpinnya"
    ],
    "corr": "ketika orang-orang yang diikuti berlepas diri dari orang-orang yang mengikuti",
    "optsE": [
-    "when those who were followed disassociate from those who followed",
+    "when all meet peacefully",
     "when those who were followed accept their followers",
-    "when the followers defend their leaders",
-    "when all meet peacefully"
+    "when those who were followed disassociate from those who followed",
+    "when the followers defend their leaders"
    ],
    "corrE": "when those who were followed disassociate from those who followed"
   },
@@ -4779,17 +4779,17 @@
    "qe": "2. When does that event take place?",
    "t": "option",
    "opts": [
+    "ketika ada peperangan besar",
     "pada hari kiamat ketika melihat azab",
     "di dunia sebelum kematian",
-    "setelah pembagian warisan",
-    "ketika ada peperangan besar"
+    "setelah pembagian warisan"
    ],
    "corr": "pada hari kiamat ketika melihat azab",
    "optsE": [
+    "during a great war",
     "on the Day of Judgment when they see the punishment",
     "in this world before death",
-    "after dividing inheritance",
-    "during a great war"
+    "after dividing inheritance"
    ],
    "corrE": "on the Day of Judgment when they see the punishment"
   },
@@ -4800,17 +4800,17 @@
    "qe": "3. What is severed among them?",
    "t": "option",
    "opts": [
+    "tempat tinggal",
     "segala hubungan dan sebab (ikatan)",
-    "hubungan kekeluargaan saja",
     "jalan perdagangan",
-    "tempat tinggal"
+    "hubungan kekeluargaan saja"
    ],
    "corr": "segala hubungan dan sebab (ikatan)",
    "optsE": [
+    "dwellings",
     "all ties and connections",
-    "only family ties",
     "trade routes",
-    "dwellings"
+    "only family ties"
    ],
    "corrE": "all ties and connections"
   },
@@ -4821,17 +4821,17 @@
    "qe": "4. Translate: وَقَالَ الَّذِينَ اتَّبَعُوا لَوْ أَنَّ لَنَا كَرَّةً فَنَتَبَرَّأَ مِنْهُمْ",
    "t": "option",
    "opts": [
-    "dan pengikut-pengikut berkata: sekiranya kami dapat kembali maka kami berlepas diri dari mereka",
+    "dan para pengikut tidak berkata apa pun",
     "dan para pengikut berkata: kami senang dengan pemimpin kami",
-    "dan para pengikut berkata: ajaklah kami ke dunia agar bertambah kaya",
-    "dan para pengikut tidak berkata apa pun"
+    "dan pengikut-pengikut berkata: sekiranya kami dapat kembali maka kami berlepas diri dari mereka",
+    "dan para pengikut berkata: ajaklah kami ke dunia agar bertambah kaya"
    ],
    "corr": "dan pengikut-pengikut berkata: sekiranya kami dapat kembali maka kami berlepas diri dari mereka",
    "optsE": [
-    "and the followers say: if only we could return, then we would disassociate from them",
+    "and the followers say nothing",
     "and the followers say: we love our leaders",
-    "and the followers say: send us back to the world to gain more wealth",
-    "and the followers say nothing"
+    "and the followers say: if only we could return, then we would disassociate from them",
+    "and the followers say: send us back to the world to gain more wealth"
    ],
    "corrE": "and the followers say: if only we could return, then we would disassociate from them"
   },
@@ -4842,17 +4842,17 @@
    "qe": "5. Translate: وَمَا هُمْ بِخَارِجِينَ مِنَ النَّارِ",
    "t": "option",
    "opts": [
-    "dan mereka tidak akan keluar dari neraka",
+    "dan mereka tidak pernah masuk neraka",
     "dan mereka akan segera keluar dari neraka",
     "dan mereka hanya sebentar di neraka",
-    "dan mereka tidak pernah masuk neraka"
+    "dan mereka tidak akan keluar dari neraka"
    ],
    "corr": "dan mereka tidak akan keluar dari neraka",
    "optsE": [
-    "and they will never leave the Fire",
+    "and they never enter the Fire",
     "and they will soon leave the Fire",
     "and they will be briefly in the Fire",
-    "and they never enter the Fire"
+    "and they will never leave the Fire"
    ],
    "corrE": "and they will never leave the Fire"
   },
@@ -4880,16 +4880,16 @@
    "qe": "1. In يُحِبُّونَهُمْ, the subject is...",
    "t": "option",
    "opts": [
-    "waw jamaah (mereka)",
-    "kata ganti هُمْ",
     "huruf kaf",
+    "kata ganti هُمْ",
+    "waw jamaah (mereka)",
     "kata حُبِّ"
    ],
    "corr": "waw jamaah (mereka)",
    "optsE": [
-    "the plural waw (they)",
-    "the pronoun هُمْ",
     "the letter kaf",
+    "the pronoun هُمْ",
+    "the plural waw (they)",
     "the word حُبِّ"
    ],
    "corrE": "the plural waw (they)"
@@ -4901,17 +4901,17 @@
    "qe": "2. In يُحِبُّونَهُمْ, the object is...",
    "t": "option",
    "opts": [
-    "kata ganti هُمْ",
-    "waw jamaah",
     "kata يُحِبُّ",
-    "huruf nun"
+    "huruf nun",
+    "kata ganti هُمْ",
+    "waw jamaah"
    ],
    "corr": "kata ganti هُمْ",
    "optsE": [
-    "the pronoun هُمْ",
-    "the plural waw",
     "the verb يُحِبُّ",
-    "the letter nun"
+    "the letter nun",
+    "the pronoun هُمْ",
+    "the plural waw"
    ],
    "corrE": "the pronoun هُمْ"
   },
@@ -4922,17 +4922,17 @@
    "qe": "3. In أَصَابَتْهُمْ مُصِيبَةٌ, the object is...",
    "t": "option",
    "opts": [
-    "هُمْ",
-    "مُصِيبَةٌ",
     "أَصَابَتْ",
-    "الذِينَ"
+    "هُمْ",
+    "الذِينَ",
+    "مُصِيبَةٌ"
    ],
    "corr": "هُمْ",
    "optsE": [
-    "هُمْ",
-    "مُصِيبَةٌ",
     "أَصَابَتْ",
-    "الذِينَ"
+    "هُمْ",
+    "الذِينَ",
+    "مُصِيبَةٌ"
    ],
    "corrE": "هُمْ"
   },
@@ -4964,17 +4964,17 @@
    "qe": "5. The order of components in a verbal sentence is...",
    "t": "option",
    "opts": [
-    "fi'l + fa'il + maf'ul",
-    "maf'ul + fi'l + fa'il",
+    "fa'il + mubtada",
     "mubtada + khabar",
-    "fa'il + mubtada"
+    "maf'ul + fi'l + fa'il",
+    "fi'l + fa'il + maf'ul"
    ],
    "corr": "fi'l + fa'il + maf'ul",
    "optsE": [
-    "verb + subject + object",
-    "object + verb + subject",
+    "subject + mubtada",
     "mubtada + khabar",
-    "subject + mubtada"
+    "object + verb + subject",
+    "verb + subject + object"
    ],
    "corrE": "verb + subject + object"
   },
@@ -4985,10 +4985,10 @@
    "qe": "6. Which sentences begin with a verb? (Pick more than one)",
    "t": "multi",
    "opts": [
-    "يُحِبُّونَهُمْ كَحُبِّ اللَّهِ",
+    "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ",
     "إِذْ تَبَرَّأَ الَّذِينَ اتُّبِعُوا",
     "قَالُوا إِنَّا لِلَّهِ",
-    "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ"
+    "يُحِبُّونَهُمْ كَحُبِّ اللَّهِ"
    ],
    "corr": [
     "يُحِبُّونَهُمْ كَحُبِّ اللَّهِ",
@@ -4996,10 +4996,10 @@
     "قَالُوا إِنَّا لِلَّهِ"
    ],
    "optsE": [
-    "يُحِبُّونَهُمْ كَحُبِّ اللَّهِ",
+    "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ",
     "إِذْ تَبَرَّأَ الَّذِينَ اتُّبِعُوا",
     "قَالُوا إِنَّا لِلَّهِ",
-    "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ"
+    "يُحِبُّونَهُمْ كَحُبِّ اللَّهِ"
    ],
    "corrE": [
     "يُحِبُّونَهُمْ كَحُبِّ اللَّهِ",
@@ -5014,17 +5014,17 @@
    "qe": "7. In فَأَحْيَا بِهِ الْأَرْضَ, the object is...",
    "t": "option",
    "opts": [
-    "الْأَرْضَ",
-    "فَأَحْيَا",
     "بِهِ",
-    "الْحَيَاةَ"
+    "الْحَيَاةَ",
+    "الْأَرْضَ",
+    "فَأَحْيَا"
    ],
    "corr": "الْأَرْضَ",
    "optsE": [
-    "الْأَرْضَ",
-    "فَأَحْيَا",
     "بِهِ",
-    "الْحَيَاةَ"
+    "الْحَيَاةَ",
+    "الْأَرْضَ",
+    "فَأَحْيَا"
    ],
    "corrE": "الْأَرْضَ"
   },
@@ -5052,17 +5052,17 @@
    "qe": "1. Translate: يَا أَيُّهَا النَّاسُ كُلُوا مِمَّا فِي الْأَرْضِ حَلَالًا طَيِّبًا",
    "t": "option",
    "opts": [
-    "wahai manusia! makananlah dari apa yang ada di bumi yang halal lagi baik",
     "wahai manusia! tinggalkan semua makanan dunia",
+    "wahai manusia! berpuasalah sepanjang tahun",
     "wahai manusia! makanlah harta orang lain",
-    "wahai manusia! berpuasalah sepanjang tahun"
+    "wahai manusia! makananlah dari apa yang ada di bumi yang halal lagi baik"
    ],
    "corr": "wahai manusia! makananlah dari apa yang ada di bumi yang halal lagi baik",
    "optsE": [
-    "O mankind! eat from what is on the earth, lawful and good",
     "O mankind! leave all worldly food",
+    "O mankind! fast all year long",
     "O mankind! consume the wealth of others",
-    "O mankind! fast all year long"
+    "O mankind! eat from what is on the earth, lawful and good"
    ],
    "corrE": "O mankind! eat from what is on the earth, lawful and good"
   },
@@ -5074,15 +5074,15 @@
    "t": "option",
    "opts": [
     "jangan mengikuti langkah-langkah setan",
-    "jangan makan buah-buahan",
     "jangan bekerja mencari nafkah",
+    "jangan makan buah-buahan",
     "jangan berpuasa di musim panas"
    ],
    "corr": "jangan mengikuti langkah-langkah setan",
    "optsE": [
     "do not follow the footsteps of Satan",
-    "do not eat fruits",
     "do not work for a living",
+    "do not eat fruits",
     "do not fast in summer"
    ],
    "corrE": "do not follow the footsteps of Satan"
@@ -5095,16 +5095,16 @@
    "t": "option",
    "opts": [
     "dan janganlah kamu mengikuti langkah-langkah setan",
+    "dan janganlah kamu dekat dengan setan",
     "dan janganlah kamu berteman dengan setan",
-    "dan janganlah kamu menyebut nama setan",
-    "dan janganlah kamu dekat dengan setan"
+    "dan janganlah kamu menyebut nama setan"
    ],
    "corr": "dan janganlah kamu mengikuti langkah-langkah setan",
    "optsE": [
     "and do not follow the footsteps of Satan",
+    "and do not approach Satan",
     "and do not befriend Satan",
-    "and do not mention Satan's name",
-    "and do not approach Satan"
+    "and do not mention Satan's name"
    ],
    "corrE": "and do not follow the footsteps of Satan"
   },
@@ -5115,17 +5115,17 @@
    "qe": "4. What is Satan's position toward mankind?",
    "t": "option",
    "opts": [
-    "musuh yang nyata",
     "sahabat setia",
-    "penolong yang jujur",
-    "pemberi nasihat"
+    "musuh yang nyata",
+    "pemberi nasihat",
+    "penolong yang jujur"
    ],
    "corr": "musuh yang nyata",
    "optsE": [
-    "a clear enemy",
     "a loyal friend",
-    "an honest helper",
-    "a sincere advisor"
+    "a clear enemy",
+    "a sincere advisor",
+    "an honest helper"
    ],
    "corrE": "a clear enemy"
   },
@@ -5136,17 +5136,17 @@
    "qe": "5. What does Satan command?",
    "t": "option",
    "opts": [
-    "berbuat keji dan mungkar serta berkata tentang Allah tanpa ilmu",
     "beribadah kepada Allah",
-    "berbuat adil kepada semua orang",
-    "membantu orang miskin"
+    "membantu orang miskin",
+    "berbuat keji dan mungkar serta berkata tentang Allah tanpa ilmu",
+    "berbuat adil kepada semua orang"
    ],
    "corr": "berbuat keji dan mungkar serta berkata tentang Allah tanpa ilmu",
    "optsE": [
-    "evil and immorality and saying about Allah what one does not know",
     "worshiping Allah",
-    "dealing justly with all people",
-    "helping the poor"
+    "helping the poor",
+    "evil and immorality and saying about Allah what one does not know",
+    "dealing justly with all people"
    ],
    "corrE": "evil and immorality and saying about Allah what one does not know"
   },
@@ -5157,13 +5157,13 @@
    "qe": "6. Does حَلَالًا طَيِّبًا mean lawful and good?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -5174,17 +5174,17 @@
    "qe": "1. In لَوْ أَنَّ لَنَا كَرَّةً, لَوْ indicates...",
    "t": "option",
    "opts": [
-    "syarat untuk hal yang tidak mungkin terjadi (tamanni)",
     "syarat yang pasti terjadi",
-    "perintah yang tegas",
-    "larangan yang kuat"
+    "syarat untuk hal yang tidak mungkin terjadi (tamanni)",
+    "larangan yang kuat",
+    "perintah yang tegas"
    ],
    "corr": "syarat untuk hal yang tidak mungkin terjadi (tamanni)",
    "optsE": [
-    "a condition for an impossible wish",
     "a condition that certainly happens",
-    "a firm command",
-    "a strong prohibition"
+    "a condition for an impossible wish",
+    "a strong prohibition",
+    "a firm command"
    ],
    "corrE": "a condition for an impossible wish"
   },
@@ -5196,15 +5196,15 @@
    "t": "option",
    "opts": [
     "sekiranya kami dapat kembali (ke dunia)",
-    "sekiranya kami ditambah rezeki",
     "sekiranya kami menjadi pemimpin",
+    "sekiranya kami ditambah rezeki",
     "sekiranya kami dibangkitkan saja"
    ],
    "corr": "sekiranya kami dapat kembali (ke dunia)",
    "optsE": [
     "if only we could return (to the world)",
-    "if only our provision were increased",
     "if only we became leaders",
+    "if only our provision were increased",
     "if only we were resurrected"
    ],
    "corrE": "if only we could return (to the world)"
@@ -5216,16 +5216,16 @@
    "qe": "3. What do they wish if they could return?",
    "t": "option",
    "opts": [
-    "berlepas diri dari para pemimpin yang diikuti",
-    "mengumpulkan lebih banyak harta",
     "menjadi raja",
+    "mengumpulkan lebih banyak harta",
+    "berlepas diri dari para pemimpin yang diikuti",
     "memperbaiki istana mereka"
    ],
    "corr": "berlepas diri dari para pemimpin yang diikuti",
    "optsE": [
-    "to disassociate from the followed leaders",
-    "to gather more wealth",
     "to become kings",
+    "to gather more wealth",
+    "to disassociate from the followed leaders",
     "to repair their palaces"
    ],
    "corrE": "to disassociate from the followed leaders"
@@ -5237,16 +5237,16 @@
    "qe": "4. In وَلَوْ يَرَى الَّذِينَ ظَلَمُوا, the meaning of لَوْ is...",
    "t": "option",
    "opts": [
-    "seandainya / walaupun",
-    "karena",
     "ketika",
+    "karena",
+    "seandainya / walaupun",
     "agar"
    ],
    "corr": "seandainya / walaupun",
    "optsE": [
-    "if only / even if",
-    "because",
     "when",
+    "because",
+    "if only / even if",
     "so that"
    ],
    "corrE": "if only / even if"
@@ -5260,15 +5260,15 @@
    "opts": [
     "dan seandainya orang-orang zalim melihat ketika mereka melihat azab",
     "dan orang-orang zalim tidak akan pernah melihat azab",
-    "dan orang-orang zalim melihat azab di dunia",
-    "dan orang-orang zalim bahagia melihat kekuatan mereka"
+    "dan orang-orang zalim bahagia melihat kekuatan mereka",
+    "dan orang-orang zalim melihat azab di dunia"
    ],
    "corr": "dan seandainya orang-orang zalim melihat ketika mereka melihat azab",
    "optsE": [
     "and if only the wrongdoers saw when they see the punishment",
     "and the wrongdoers will never see the punishment",
-    "and the wrongdoers see punishment in this world",
-    "and the wrongdoers rejoice in their power"
+    "and the wrongdoers rejoice in their power",
+    "and the wrongdoers see punishment in this world"
    ],
    "corrE": "and if only the wrongdoers saw when they see the punishment"
   },
@@ -5280,16 +5280,16 @@
    "t": "option",
    "opts": [
     "madhi (bentuk lampau)",
+    "nahi (larangan)",
     "mudhari' (masa kini)",
-    "amr (perintah)",
-    "nahi (larangan)"
+    "amr (perintah)"
    ],
    "corr": "madhi (bentuk lampau)",
    "optsE": [
     "past tense",
+    "prohibition",
     "present tense",
-    "imperative",
-    "prohibition"
+    "imperative"
    ],
    "corrE": "past tense"
   },
@@ -5300,17 +5300,17 @@
    "qe": "7. The word كَرَّةٌ in verse 167 means...",
    "t": "option",
    "opts": [
-    "kembali (ke dunia)",
     "pergantian musim",
     "yang berkuasa",
-    "perjalanan jauh"
+    "perjalanan jauh",
+    "kembali (ke dunia)"
    ],
    "corr": "kembali (ke dunia)",
    "optsE": [
-    "a return (to the world)",
     "change of seasons",
     "the ruler",
-    "a long journey"
+    "a long journey",
+    "a return (to the world)"
    ],
    "corrE": "a return (to the world)"
   },
@@ -5338,17 +5338,17 @@
    "qe": "1. Translate: وَإِذَا قِيلَ لَهُمُ اتَّبِعُوا مَا أَنْزَلَ اللَّهُ",
    "t": "option",
    "opts": [
-    "dan apabila dikatakan kepada mereka: ikutilah apa yang telah Allah turunkan",
+    "dan apabila dikatakan kepada mereka: berperanglah melawan musuh",
     "dan apabila dikatakan kepada mereka: tinggalkanlah wahyu Allah",
     "dan apabila mereka disuruh beriman, mereka langsung menolak",
-    "dan apabila dikatakan kepada mereka: berperanglah melawan musuh"
+    "dan apabila dikatakan kepada mereka: ikutilah apa yang telah Allah turunkan"
    ],
    "corr": "dan apabila dikatakan kepada mereka: ikutilah apa yang telah Allah turunkan",
    "optsE": [
-    "and when it is said to them: follow what Allah has sent down",
+    "and when it is said to them: fight against the enemy",
     "and when it is said to them: abandon the revelation of Allah",
     "and when they are told to believe, they refuse at once",
-    "and when it is said to them: fight against the enemy"
+    "and when it is said to them: follow what Allah has sent down"
    ],
    "corrE": "and when it is said to them: follow what Allah has sent down"
   },
@@ -5359,17 +5359,17 @@
    "qe": "2. Translate: قَالُوا بَلْ نَتَّبِعُ مَا أَلْفَيْنَا عَلَيْهِ آبَاءَنَا",
    "t": "option",
    "opts": [
-    "mereka berkata: tidak! kami mengikuti apa yang kami dapati dari nenek moyang kami",
-    "mereka berkata: kami mengikuti kitab yang diturunkan",
     "mereka berkata: kami beribadah kepada Allah semata",
-    "mereka berkata: kami mengikuti para nabi itu"
+    "mereka berkata: kami mengikuti para nabi itu",
+    "mereka berkata: tidak! kami mengikuti apa yang kami dapati dari nenek moyang kami",
+    "mereka berkata: kami mengikuti kitab yang diturunkan"
    ],
    "corr": "mereka berkata: tidak! kami mengikuti apa yang kami dapati dari nenek moyang kami",
    "optsE": [
-    "they say: no! we follow what we found our fathers doing",
-    "they say: we follow the revealed book",
     "they say: we worship Allah alone",
-    "they say: we follow the prophets"
+    "they say: we follow the prophets",
+    "they say: no! we follow what we found our fathers doing",
+    "they say: we follow the revealed book"
    ],
    "corrE": "they say: no! we follow what we found our fathers doing"
   },
@@ -5380,17 +5380,17 @@
    "qe": "3. What weakness of the forefathers is stated in verse 170?",
    "t": "option",
    "opts": [
-    "mereka tidak berakal dan tidak mendapat petunjuk",
     "mereka tidak memiliki harta",
+    "mereka tidak pernah berperang",
     "mereka tidak terkenal",
-    "mereka tidak pernah berperang"
+    "mereka tidak berakal dan tidak mendapat petunjuk"
    ],
    "corr": "mereka tidak berakal dan tidak mendapat petunjuk",
    "optsE": [
-    "they had no reason and no guidance",
     "they owned no wealth",
+    "they never fought",
     "they were unknown",
-    "they never fought"
+    "they had no reason and no guidance"
    ],
    "corrE": "they had no reason and no guidance"
   },
@@ -5401,16 +5401,16 @@
    "qe": "4. In verse 171 the disbelievers are compared to...",
    "t": "option",
    "opts": [
-    "ternak yang dipanggil oleh penggembala",
-    "singa yang sedang mengaum",
     "burung yang terbang bebas",
+    "singa yang sedang mengaum",
+    "ternak yang dipanggil oleh penggembala",
     "kambing yang tersesat di malam hari"
    ],
    "corr": "ternak yang dipanggil oleh penggembala",
    "optsE": [
-    "livestock called by a shepherd",
-    "a roaring lion",
     "a bird flying free",
+    "a roaring lion",
+    "livestock called by a shepherd",
     "a goat lost at night"
    ],
    "corrE": "livestock called by a shepherd"
@@ -5422,17 +5422,17 @@
    "qe": "5. The attribute of the disbelievers at the end of verse 171 is...",
    "t": "option",
    "opts": [
+    "sangat cepat memahami",
     "tuli, bisu, dan buta sehingga tidak berpikir",
-    "tajam pendengaran dan penglihatan",
     "pandai berbicara",
-    "sangat cepat memahami"
+    "tajam pendengaran dan penglihatan"
    ],
    "corr": "tuli, bisu, dan buta sehingga tidak berpikir",
    "optsE": [
+    "very quick to understand",
     "deaf, dumb, and blind, so they do not think",
-    "sharp of hearing and sight",
     "eloquent speakers",
-    "very quick to understand"
+    "sharp of hearing and sight"
    ],
    "corrE": "deaf, dumb, and blind, so they do not think"
   },
@@ -5460,17 +5460,17 @@
    "qe": "1. In أَوَلَوْ كَانَ آبَاؤُهُمْ لَا يَعْقِلُونَ شَيْئًا, the khabar of كان is...",
    "t": "option",
    "opts": [
-    "لَا يَعْقِلُونَ شَيْئًا",
     "كَانَ آبَاؤُهُمْ",
     "آبَاؤُهُمْ فَقَط",
-    "أَوَلَوْ"
+    "أَوَلَوْ",
+    "لَا يَعْقِلُونَ شَيْئًا"
    ],
    "corr": "لَا يَعْقِلُونَ شَيْئًا",
    "optsE": [
-    "لَا يَعْقِلُونَ شَيْئًا",
     "كَانَ آبَاؤُهُمْ",
     "آبَاؤُهُمْ فَقَط",
-    "أَوَلَوْ"
+    "أَوَلَوْ",
+    "لَا يَعْقِلُونَ شَيْئًا"
    ],
    "corrE": "لَا يَعْقِلُونَ شَيْئًا"
   },
@@ -5481,17 +5481,17 @@
    "qe": "2. Kana and its sisters make the mubtada (its name) in the case of...",
    "t": "option",
    "opts": [
-    "rafa (marfu)",
-    "nasab (mansub)",
     "jar (majrur)",
-    "jazm (majzum)"
+    "rafa (marfu)",
+    "jazm (majzum)",
+    "nasab (mansub)"
    ],
    "corr": "rafa (marfu)",
    "optsE": [
-    "nominative",
-    "accusative",
     "genitive",
-    "jussive"
+    "nominative",
+    "jussive",
+    "accusative"
    ],
    "corrE": "nominative"
   },
@@ -5503,16 +5503,16 @@
    "t": "option",
    "opts": [
     "nasab (mansub)",
+    "jazm (majzum)",
     "rafa (marfu)",
-    "jar (majrur)",
-    "jazm (majzum)"
+    "jar (majrur)"
    ],
    "corr": "nasab (mansub)",
    "optsE": [
     "accusative",
+    "jussive",
     "nominative",
-    "genitive",
-    "jussive"
+    "genitive"
    ],
    "corrE": "accusative"
   },
@@ -5523,17 +5523,17 @@
    "qe": "4. The letter أ in أَوَلَوْ كَانَ in verse 170 functions as...",
    "t": "option",
    "opts": [
-    "pertanyaan pengingkar (istifham inkari)",
     "pertanyaan biasa",
+    "larangan (nahy)",
     "penegasan (taukid)",
-    "larangan (nahy)"
+    "pertanyaan pengingkar (istifham inkari)"
    ],
    "corr": "pertanyaan pengingkar (istifham inkari)",
    "optsE": [
-    "a rhetorical denial question",
     "an ordinary question",
+    "prohibition",
     "emphasis",
-    "prohibition"
+    "a rhetorical denial question"
    ],
    "corrE": "a rhetorical denial question"
   },
@@ -5544,16 +5544,16 @@
    "qe": "5. Translate: كَانَ آبَاؤُهُمْ لَا يَعْقِلُونَ شَيْئًا",
    "t": "option",
    "opts": [
-    "nenek moyang mereka tidak berakal sedikit pun",
     "nenek moyang mereka sangat cerdas",
     "nenek moyang mereka berilmu",
+    "nenek moyang mereka tidak berakal sedikit pun",
     "nenek moyang mereka kuat"
    ],
    "corr": "nenek moyang mereka tidak berakal sedikit pun",
    "optsE": [
-    "their forefathers had no reason at all",
     "their forefathers were very clever",
     "their forefathers were learned",
+    "their forefathers had no reason at all",
     "their forefathers were strong"
    ],
    "corrE": "their forefathers had no reason at all"
@@ -5565,17 +5565,17 @@
    "qe": "6. What does وَلَا يَهْتَدُونَ mean?",
    "t": "option",
    "opts": [
-    "dan tidak mendapat petunjuk",
-    "dan tidak berbuat baik",
     "dan tidak beriman kepada nabi",
-    "dan tidak bersedekah"
+    "dan tidak bersedekah",
+    "dan tidak berbuat baik",
+    "dan tidak mendapat petunjuk"
    ],
    "corr": "dan tidak mendapat petunjuk",
    "optsE": [
-    "and not guided",
-    "and not doing good",
     "and not believing the prophet",
-    "and not giving charity"
+    "and not giving charity",
+    "and not doing good",
+    "and not guided"
    ],
    "corrE": "and not guided"
   },
@@ -5586,17 +5586,17 @@
    "qe": "7. Translate: أَوَلَوْ كَانَ آبَاؤُهُمْ لَا يَعْقِلُونَ شَيْئًا وَلَا يَهْتَدُونَ",
    "t": "option",
    "opts": [
-    "apakah mereka tetap mengikuti walaupun nenek moyangnya tidak berakal dan tidak mendapat petunjuk?",
-    "apakah nenek moyang mereka menjadi pandai dan berakal?",
     "apakah mereka meninggalkan nenek moyangnya?",
-    "apakah nenek moyangnya mendapat hidayah?"
+    "apakah nenek moyang mereka menjadi pandai dan berakal?",
+    "apakah nenek moyangnya mendapat hidayah?",
+    "apakah mereka tetap mengikuti walaupun nenek moyangnya tidak berakal dan tidak mendapat petunjuk?"
    ],
    "corr": "apakah mereka tetap mengikuti walaupun nenek moyangnya tidak berakal dan tidak mendapat petunjuk?",
    "optsE": [
-    "would they still follow even if their forefathers had no reason and no guidance?",
-    "did their forefathers become wise?",
     "did they abandon their forefathers?",
-    "did their forefathers receive guidance?"
+    "did their forefathers become wise?",
+    "did their forefathers receive guidance?",
+    "would they still follow even if their forefathers had no reason and no guidance?"
    ],
    "corrE": "would they still follow even if their forefathers had no reason and no guidance?"
   },
@@ -5625,16 +5625,16 @@
    "t": "option",
    "opts": [
     "wahai orang-orang yang beriman! makanlah dari rezeki yang baik yang Kami berikan kepada kalian",
+    "wahai orang-orang yang beriman! makanlah apa saja",
     "wahai orang-orang yang beriman! tinggalkanlah makanan dunia",
-    "wahai manusia! berpuasalah setiap hari",
-    "wahai orang-orang yang beriman! makanlah apa saja"
+    "wahai manusia! berpuasalah setiap hari"
    ],
    "corr": "wahai orang-orang yang beriman! makanlah dari rezeki yang baik yang Kami berikan kepada kalian",
    "optsE": [
     "O you who believe! eat from the good things We have provided for you",
+    "O believers! eat anything",
     "O believers! leave worldly food",
-    "O mankind! fast every day",
-    "O believers! eat anything"
+    "O mankind! fast every day"
    ],
    "corrE": "O you who believe! eat from the good things We have provided for you"
   },
@@ -5645,17 +5645,17 @@
    "qe": "2. What command follows the command to eat good food?",
    "t": "option",
    "opts": [
-    "bersyukurlah kepada Allah jika hanya kepada-Nya kamu menyembah",
-    "berdebatlah tentang rezeki",
     "kumpulkan harta sebanyak-banyaknya",
-    "bagilah hasil panen"
+    "berdebatlah tentang rezeki",
+    "bagilah hasil panen",
+    "bersyukurlah kepada Allah jika hanya kepada-Nya kamu menyembah"
    ],
    "corr": "bersyukurlah kepada Allah jika hanya kepada-Nya kamu menyembah",
    "optsE": [
-    "be grateful to Allah if it is Him alone you worship",
-    "argue about provision",
     "gather as much wealth as possible",
-    "divide the harvest"
+    "argue about provision",
+    "divide the harvest",
+    "be grateful to Allah if it is Him alone you worship"
    ],
    "corrE": "be grateful to Allah if it is Him alone you worship"
   },
@@ -5666,17 +5666,17 @@
    "qe": "3. What is forbidden in verse 173?",
    "t": "option",
    "opts": [
+    "buah-buahan dan sayuran",
     "bangkai, darah, daging babi, dan sembelihan untuk selain Allah",
     "daging sapi, susu, dan madu",
-    "ikan, ayam, dan telur",
-    "buah-buahan dan sayuran"
+    "ikan, ayam, dan telur"
    ],
    "corr": "bangkai, darah, daging babi, dan sembelihan untuk selain Allah",
    "optsE": [
+    "fruits and vegetables",
     "carrion, blood, pig meat, and what is sacrificed to other than Allah",
     "beef, milk, and honey",
-    "fish, chicken, and eggs",
-    "fruits and vegetables"
+    "fish, chicken, and eggs"
    ],
    "corrE": "carrion, blood, pig meat, and what is sacrificed to other than Allah"
   },
@@ -5687,17 +5687,17 @@
    "qe": "4. Who is forgiven for eating the forbidden food?",
    "t": "option",
    "opts": [
-    "orang yang terpaksa tanpa melampaui batas dan tanpa bermaksiat",
     "siapa saja yang menginginkannya",
-    "orang yang kaya raya",
-    "orang yang sedang bepergian jauh"
+    "orang yang terpaksa tanpa melampaui batas dan tanpa bermaksiat",
+    "orang yang sedang bepergian jauh",
+    "orang yang kaya raya"
    ],
    "corr": "orang yang terpaksa tanpa melampaui batas dan tanpa bermaksiat",
    "optsE": [
-    "one who is forced without exceeding the limit and without sin",
     "anyone who wants it",
-    "the very rich",
-    "a long-distance traveler"
+    "one who is forced without exceeding the limit and without sin",
+    "a long-distance traveler",
+    "the very rich"
    ],
    "corrE": "one who is forced without exceeding the limit and without sin"
   },
@@ -5748,15 +5748,15 @@
    "opts": [
     "huruf tasybih (perumpamaan)",
     "huruf jar biasa",
-    "huruf athaf",
-    "huruf nafi"
+    "huruf nafi",
+    "huruf athaf"
    ],
    "corr": "huruf tasybih (perumpamaan)",
    "optsE": [
     "a simile particle (tasybih)",
     "an ordinary preposition",
-    "a conjunction",
-    "a negation particle"
+    "a negation particle",
+    "a conjunction"
    ],
    "corrE": "a simile particle (tasybih)"
   },
@@ -5767,17 +5767,17 @@
    "qe": "2. In the simile of verse 171, the disbelievers are compared to...",
    "t": "option",
    "opts": [
-    "ternak yang dipanggil oleh penggembala",
-    "pohon yang berbuah lebat",
     "gunung yang kokoh",
-    "lautan yang luas"
+    "lautan yang luas",
+    "ternak yang dipanggil oleh penggembala",
+    "pohon yang berbuah lebat"
    ],
    "corr": "ternak yang dipanggil oleh penggembala",
    "optsE": [
-    "livestock called by a shepherd",
-    "fruitful trees",
     "mighty mountains",
-    "vast oceans"
+    "vast oceans",
+    "livestock called by a shepherd",
+    "fruitful trees"
    ],
    "corrE": "livestock called by a shepherd"
   },
@@ -5789,16 +5789,16 @@
    "t": "option",
    "opts": [
     "memanggil (ternak)",
-    "menjual (ternak)",
+    "menggembalakan (ternak)",
     "memberi makan (ternak)",
-    "menggembalakan (ternak)"
+    "menjual (ternak)"
    ],
    "corr": "memanggil (ternak)",
    "optsE": [
     "to call (livestock)",
-    "to sell (livestock)",
+    "to herd (livestock)",
     "to feed (livestock)",
-    "to herd (livestock)"
+    "to sell (livestock)"
    ],
    "corrE": "to call (livestock)"
   },
@@ -5809,17 +5809,17 @@
    "qe": "4. Translate: يَنْعِقُ بِمَا لَا يَسْمَعُ إِلَّا دُعَاءً وَنِدَاءً",
    "t": "option",
    "opts": [
-    "memanggil apa yang tidak mendengar selain suara dan panggilan",
-    "memanggil apa yang mendengar dan menjawab",
+    "menggembalakan ternak di padang hijau",
     "memberi makan ternak yang patuh",
-    "menggembalakan ternak di padang hijau"
+    "memanggil apa yang mendengar dan menjawab",
+    "memanggil apa yang tidak mendengar selain suara dan panggilan"
    ],
    "corr": "memanggil apa yang tidak mendengar selain suara dan panggilan",
    "optsE": [
-    "calling what does not hear anything but a call and a cry",
-    "calling what hears and answers",
+    "herding livestock in a green pasture",
     "feeding obedient livestock",
-    "herding livestock in a green pasture"
+    "calling what hears and answers",
+    "calling what does not hear anything but a call and a cry"
    ],
    "corrE": "calling what does not hear anything but a call and a cry"
   },
@@ -5831,16 +5831,16 @@
    "t": "option",
    "opts": [
     "mereka tuli, bisu, dan buta maka mereka tidak mengerti",
-    "mereka mendengar, berkata, dan melihat dengan baik",
+    "mereka pandai berdebat",
     "mereka sangat memahami ayat-ayat",
-    "mereka pandai berdebat"
+    "mereka mendengar, berkata, dan melihat dengan baik"
    ],
    "corr": "mereka tuli, bisu, dan buta maka mereka tidak mengerti",
    "optsE": [
     "they are deaf, dumb, and blind, so they do not understand",
-    "they hear, speak, and see well",
+    "they are skilled debaters",
     "they understand the verses deeply",
-    "they are skilled debaters"
+    "they hear, speak, and see well"
    ],
    "corrE": "they are deaf, dumb, and blind, so they do not understand"
   },
@@ -5852,16 +5852,16 @@
    "t": "option",
    "opts": [
     "musyabbah dan musyabbah bih",
+    "jar dan majrur",
     "fa il dan maf ul",
-    "mubtada dan khabar",
-    "jar dan majrur"
+    "mubtada dan khabar"
    ],
    "corr": "musyabbah dan musyabbah bih",
    "optsE": [
     "the thing compared and the thing compared with",
+    "preposition and genitive",
     "subject and object",
-    "mubtada and khabar",
-    "preposition and genitive"
+    "mubtada and khabar"
    ],
    "corrE": "the thing compared and the thing compared with"
   },
@@ -5872,17 +5872,17 @@
    "qe": "7. Which is an example of tasybih on this page?",
    "t": "option",
    "opts": [
+    "كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ",
     "وَمَثَلُ الَّذِينَ كَفَرُوا كَمَثَلِ الَّذِي يَنْعِقُ",
-    "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
     "فَاذْكُرُونِي أَذْكُرْكُمْ",
-    "كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ"
+    "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ"
    ],
    "corr": "وَمَثَلُ الَّذِينَ كَفَرُوا كَمَثَلِ الَّذِي يَنْعِقُ",
    "optsE": [
+    "كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ",
     "وَمَثَلُ الَّذِينَ كَفَرُوا كَمَثَلِ الَّذِي يَنْعِقُ",
-    "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
     "فَاذْكُرُونِي أَذْكُرْكُمْ",
-    "كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ"
+    "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ"
    ],
    "corrE": "وَمَثَلُ الَّذِينَ كَفَرُوا كَمَثَلِ الَّذِي يَنْعِقُ"
   },
@@ -5910,17 +5910,17 @@
    "qe": "1. Translate: إِنَّ الَّذِينَ يَكْتُمُونَ مَا أَنْزَلَ اللَّهُ مِنَ الْكِتَابِ",
    "t": "option",
    "opts": [
-    "sesungguhnya orang-orang yang menyembunyikan apa yang telah Allah turunkan dari Kitab",
     "sesungguhnya orang-orang yang menghafal isi Kitab",
+    "sesungguhnya orang-orang yang menulis Kitab",
     "sesungguhnya orang-orang yang membacakan Kitab",
-    "sesungguhnya orang-orang yang menulis Kitab"
+    "sesungguhnya orang-orang yang menyembunyikan apa yang telah Allah turunkan dari Kitab"
    ],
    "corr": "sesungguhnya orang-orang yang menyembunyikan apa yang telah Allah turunkan dari Kitab",
    "optsE": [
-    "indeed those who conceal what Allah has sent down of the Book",
     "indeed those who memorize the Book",
+    "indeed those who write the Book",
     "indeed those who recite the Book",
-    "indeed those who write the Book"
+    "indeed those who conceal what Allah has sent down of the Book"
    ],
    "corrE": "indeed those who conceal what Allah has sent down of the Book"
   },
@@ -5931,17 +5931,17 @@
    "qe": "2. What do they gain from that deed?",
    "t": "option",
    "opts": [
-    "harga yang murah",
-    "keuntungan yang besar",
     "pujian manusia",
-    "ampunan dari Allah"
+    "harga yang murah",
+    "ampunan dari Allah",
+    "keuntungan yang besar"
    ],
    "corr": "harga yang murah",
    "optsE": [
-    "a small price",
-    "great profit",
     "praise of men",
-    "forgiveness from Allah"
+    "a small price",
+    "forgiveness from Allah",
+    "great profit"
    ],
    "corrE": "a small price"
   },
@@ -5952,17 +5952,17 @@
    "qe": "3. What is in their bellies?",
    "t": "option",
    "opts": [
-    "hanya api",
+    "racun yang mematikan",
     "makanan yang lezat",
-    "harta benda",
-    "racun yang mematikan"
+    "hanya api",
+    "harta benda"
    ],
    "corr": "hanya api",
    "optsE": [
-    "nothing but fire",
+    "deadly poison",
     "delicious food",
-    "treasures",
-    "deadly poison"
+    "nothing but fire",
+    "treasures"
    ],
    "corrE": "nothing but fire"
   },
@@ -5973,17 +5973,17 @@
    "qe": "4. On the Day of Judgment Allah will not...",
    "t": "option",
    "opts": [
-    "berbicara dengan mereka dan tidak menyucikan mereka",
     "memberi mereka rezeki",
     "menghisab amal mereka",
-    "memanggil nama mereka"
+    "memanggil nama mereka",
+    "berbicara dengan mereka dan tidak menyucikan mereka"
    ],
    "corr": "berbicara dengan mereka dan tidak menyucikan mereka",
    "optsE": [
-    "speak to them or purify them",
     "provide for them",
     "reckon their deeds",
-    "call their names"
+    "call their names",
+    "speak to them or purify them"
    ],
    "corrE": "speak to them or purify them"
   },
@@ -5994,16 +5994,16 @@
    "qe": "5. They exchange guidance for...",
    "t": "option",
    "opts": [
-    "kesesatan, dan ampunan dengan azab",
-    "ilmu dengan harta",
     "kebaikan dengan keburukan",
+    "ilmu dengan harta",
+    "kesesatan, dan ampunan dengan azab",
     "iman dengan dunia"
    ],
    "corr": "kesesatan, dan ampunan dengan azab",
    "optsE": [
-    "misguidance, and forgiveness with punishment",
-    "knowledge with wealth",
     "goodness with evil",
+    "knowledge with wealth",
+    "misguidance, and forgiveness with punishment",
     "faith with the world"
    ],
    "corrE": "misguidance, and forgiveness with punishment"
@@ -6033,16 +6033,16 @@
    "t": "option",
    "opts": [
     "pembatasan (hashr)",
+    "penggantian (badal)",
     "penegasan (taukid)",
-    "pengecualian (istitsna)",
-    "penggantian (badal)"
+    "pengecualian (istitsna)"
    ],
    "corr": "pembatasan (hashr)",
    "optsE": [
     "restriction (hashr)",
+    "substitution",
     "emphasis",
-    "exception",
-    "substitution"
+    "exception"
    ],
    "corrE": "restriction (hashr)"
   },
@@ -6053,17 +6053,17 @@
    "qe": "2. Translate: إِنَّمَا حَرَّمَ عَلَيْكُمُ الْمَيْتَةَ وَالدَّمَ وَلَحْمَ الْخِنْزِيرِ",
    "t": "option",
    "opts": [
-    "sesungguhnya hanya diharamkan bagimu bangkai, darah, dan daging babi",
-    "sesungguhnya dihalalkan bagimu bangkai dan darah",
     "sesungguhnya daging babi itu baik",
-    "sesungguhnya semua makanan haram"
+    "sesungguhnya hanya diharamkan bagimu bangkai, darah, dan daging babi",
+    "sesungguhnya semua makanan haram",
+    "sesungguhnya dihalalkan bagimu bangkai dan darah"
    ],
    "corr": "sesungguhnya hanya diharamkan bagimu bangkai, darah, dan daging babi",
    "optsE": [
-    "He has only forbidden to you carrion, blood, and pig meat",
-    "He has allowed you carrion and blood",
     "indeed pig meat is good",
-    "all food is forbidden"
+    "He has only forbidden to you carrion, blood, and pig meat",
+    "all food is forbidden",
+    "He has allowed you carrion and blood"
    ],
    "corrE": "He has only forbidden to you carrion, blood, and pig meat"
   },
@@ -6074,17 +6074,17 @@
    "qe": "3. In إِنَّمَا يَأْمُرُكُمْ بِالسُّوءِ وَالْفَحْشَاءِ, who is the one commanding?",
    "t": "option",
    "opts": [
-    "setan",
-    "para malaikat",
     "para nabi",
-    "penguasa yang adil"
+    "setan",
+    "penguasa yang adil",
+    "para malaikat"
    ],
    "corr": "setan",
    "optsE": [
-    "Satan",
-    "the angels",
     "the prophets",
-    "a just ruler"
+    "Satan",
+    "a just ruler",
+    "the angels"
    ],
    "corrE": "Satan"
   },
@@ -6095,17 +6095,17 @@
    "qe": "4. What does hashr mean?",
    "t": "option",
    "opts": [
-    "membatasi sesuatu hanya pada satu hal",
     "menegaskan dua hal sekaligus",
     "mengecualikan sebagian",
-    "meragukan sesuatu"
+    "meragukan sesuatu",
+    "membatasi sesuatu hanya pada satu hal"
    ],
    "corr": "membatasi sesuatu hanya pada satu hal",
    "optsE": [
-    "restricting something to only one thing",
     "emphasizing two things",
     "excluding a part",
-    "doubting something"
+    "doubting something",
+    "restricting something to only one thing"
    ],
    "corrE": "restricting something to only one thing"
   },
@@ -6116,17 +6116,17 @@
    "qe": "5. Translate: وَمَا أُهِلَّ بِهِ لِغَيْرِ اللَّهِ",
    "t": "option",
    "opts": [
-    "dan yang disembelih untuk selain Allah",
-    "dan yang dipersembahkan untuk Allah",
+    "dan yang dibagikan untuk tetangga",
     "dan yang dimasak untuk orang tua",
-    "dan yang dibagikan untuk tetangga"
+    "dan yang disembelih untuk selain Allah",
+    "dan yang dipersembahkan untuk Allah"
    ],
    "corr": "dan yang disembelih untuk selain Allah",
    "optsE": [
-    "and what is sacrificed to other than Allah",
-    "and what is offered to Allah",
+    "and what is shared with neighbors",
     "and what is cooked for parents",
-    "and what is shared with neighbors"
+    "and what is sacrificed to other than Allah",
+    "and what is offered to Allah"
    ],
    "corrE": "and what is sacrificed to other than Allah"
   },
@@ -6137,10 +6137,10 @@
    "qe": "6. Which are forbidden in verse 173? (Pick more than one)",
    "t": "multi",
    "opts": [
-    "الْمَيْتَةَ",
     "الدَّمَ",
-    "لَحْمَ الْخِنْزِيرِ",
-    "الطَّيِّبَاتِ"
+    "الْمَيْتَةَ",
+    "الطَّيِّبَاتِ",
+    "لَحْمَ الْخِنْزِيرِ"
    ],
    "corr": [
     "الْمَيْتَةَ",
@@ -6148,10 +6148,10 @@
     "لَحْمَ الْخِنْزِيرِ"
    ],
    "optsE": [
-    "الْمَيْتَةَ",
     "الدَّمَ",
-    "لَحْمَ الْخِنْزِيرِ",
-    "الطَّيِّبَاتِ"
+    "الْمَيْتَةَ",
+    "الطَّيِّبَاتِ",
+    "لَحْمَ الْخِنْزِيرِ"
    ],
    "corrE": [
     "الْمَيْتَةَ",
@@ -6167,16 +6167,16 @@
    "t": "option",
    "opts": [
     "dengan perbuatan keji dan mungkar",
-    "dengan kebaikan dan keadilan",
     "dengan sabar dan shalat",
-    "dengan ilmu dan amal"
+    "dengan ilmu dan amal",
+    "dengan kebaikan dan keadilan"
    ],
    "corr": "dengan perbuatan keji dan mungkar",
    "optsE": [
     "with evil and immorality",
-    "with goodness and justice",
     "with patience and prayer",
-    "with knowledge and deeds"
+    "with knowledge and deeds",
+    "with goodness and justice"
    ],
    "corrE": "with evil and immorality"
   },
@@ -6187,13 +6187,13 @@
    "qe": "8. Does إِنَّمَا in إِنَّمَا حَرَّمَ restrict the forbidden only to what is mentioned?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -6225,17 +6225,17 @@
    "qe": "2. Those who differ about the Book are in...",
    "t": "option",
    "opts": [
-    "permusuhan yang jauh",
-    "persaudaraan yang erat",
     "perdamaian yang abadi",
-    "kesepakatan yang baik"
+    "kesepakatan yang baik",
+    "persaudaraan yang erat",
+    "permusuhan yang jauh"
    ],
    "corr": "permusuhan yang jauh",
    "optsE": [
-    "a distant schism",
-    "close brotherhood",
     "lasting peace",
-    "a good agreement"
+    "a good agreement",
+    "close brotherhood",
+    "a distant schism"
    ],
    "corrE": "a distant schism"
   },
@@ -6246,17 +6246,17 @@
    "qe": "3. Translate: وَإِنَّ الَّذِينَ اخْتَلَفُوا فِي الْكِتَابِ لَفِي شِقَاقٍ بَعِيدٍ",
    "t": "option",
    "opts": [
-    "dan sesungguhnya orang-orang yang berselisih tentang Kitab benar-benar dalam permusuhan yang jauh",
     "dan orang-orang yang berselisih tentang Kitab berada dalam kebaikan",
-    "dan orang-orang yang mengikuti Kitab akan berpecah belah",
-    "dan semua manusia sepakat tentang Kitab"
+    "dan semua manusia sepakat tentang Kitab",
+    "dan sesungguhnya orang-orang yang berselisih tentang Kitab benar-benar dalam permusuhan yang jauh",
+    "dan orang-orang yang mengikuti Kitab akan berpecah belah"
    ],
    "corr": "dan sesungguhnya orang-orang yang berselisih tentang Kitab benar-benar dalam permusuhan yang jauh",
    "optsE": [
-    "and those who differ about the Book are in a distant schism",
     "and those who differ about the Book are in goodness",
-    "and those who follow the Book will split apart",
-    "and all mankind agree about the Book"
+    "and all mankind agree about the Book",
+    "and those who differ about the Book are in a distant schism",
+    "and those who follow the Book will split apart"
    ],
    "corrE": "and those who differ about the Book are in a distant schism"
   },
@@ -6267,17 +6267,17 @@
    "qe": "4. The Book was sent down with...",
    "t": "option",
    "opts": [
-    "kebenaran",
-    "kebatilan",
     "keraguan",
-    "kesenangan"
+    "kebatilan",
+    "kesenangan",
+    "kebenaran"
    ],
    "corr": "kebenaran",
    "optsE": [
-    "the truth",
-    "falsehood",
     "doubt",
-    "pleasure"
+    "falsehood",
+    "pleasure",
+    "the truth"
    ],
    "corrE": "the truth"
   },
@@ -6288,17 +6288,17 @@
    "qe": "5. The verbal noun of نَزَّلَ is...",
    "t": "option",
    "opts": [
+    "نَازِل",
     "تَنْزِيل",
-    "مُنَزِّل",
     "يُنَزِّلُ",
-    "نَازِل"
+    "مُنَزِّل"
    ],
    "corr": "تَنْزِيل",
    "optsE": [
+    "نَازِل",
     "تَنْزِيل",
-    "مُنَزِّل",
     "يُنَزِّلُ",
-    "نَازِل"
+    "مُنَزِّل"
    ],
    "corrE": "تَنْزِيل"
   },
@@ -6309,13 +6309,13 @@
    "qe": "6. Does ذَٰلِكَ بِأَنَّ mean that is because?",
    "t": "yesorno",
    "opts": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corr": "Yes",
    "optsE": [
-    "Yes",
-    "No"
+    "No",
+    "Yes"
    ],
    "corrE": "Yes"
   },
@@ -6328,15 +6328,15 @@
    "opts": [
     "142 sampai 176",
     "137 sampai 141",
-    "177 sampai 186",
-    "100 sampai 120"
+    "100 sampai 120",
+    "177 sampai 186"
    ],
    "corr": "142 sampai 176",
    "optsE": [
     "142 to 176",
     "137 to 141",
-    "177 to 186",
-    "100 to 120"
+    "100 to 120",
+    "177 to 186"
    ],
    "corrE": "142 to 176"
   },
@@ -6348,15 +6348,15 @@
    "t": "option",
    "opts": [
     "كُلُوا",
-    "أَكَلَ",
     "يَأْكُلُ",
+    "أَكَلَ",
     "أَكْل"
    ],
    "corr": "كُلُوا",
    "optsE": [
     "كُلُوا",
-    "أَكَلَ",
     "يَأْكُلُ",
+    "أَكَلَ",
     "أَكْل"
    ],
    "corrE": "كُلُوا"
@@ -6368,15 +6368,15 @@
    "qe": "3. Which contains laa nahiyah?",
    "t": "option",
    "opts": [
-    "وَلَا تَكْفُرُونِ",
     "يَعْرِفُونَهُ كَمَا يَعْرِفُونَ",
+    "وَلَا تَكْفُرُونِ",
     "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ",
     "فَمَنْ حَجَّ الْبَيْتَ"
    ],
    "corr": "وَلَا تَكْفُرُونِ",
    "optsE": [
-    "وَلَا تَكْفُرُونِ",
     "يَعْرِفُونَهُ كَمَا يَعْرِفُونَ",
+    "وَلَا تَكْفُرُونِ",
     "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ",
     "فَمَنْ حَجَّ الْبَيْتَ"
    ],
@@ -6389,17 +6389,17 @@
    "qe": "4. The condition word indicating place in these pages is...",
    "t": "option",
    "opts": [
+    "قَدْ",
     "أَيْنَ مَا",
     "لَوْ أَنَّ",
-    "لَمْ",
-    "قَدْ"
+    "لَمْ"
    ],
    "corr": "أَيْنَ مَا",
    "optsE": [
+    "قَدْ",
     "أَيْنَ مَا",
     "لَوْ أَنَّ",
-    "لَمْ",
-    "قَدْ"
+    "لَمْ"
    ],
    "corrE": "أَيْنَ مَا"
   },
@@ -6410,17 +6410,17 @@
    "qe": "5. The verbal noun of نَزَّلَ is...",
    "t": "option",
    "opts": [
-    "تَنْزِيل",
-    "نَازِل",
     "يُنَزِّلُ",
-    "مُنَزِّل"
+    "مُنَزِّل",
+    "تَنْزِيل",
+    "نَازِل"
    ],
    "corr": "تَنْزِيل",
    "optsE": [
-    "تَنْزِيل",
-    "نَازِل",
     "يُنَزِّلُ",
-    "مُنَزِّل"
+    "مُنَزِّل",
+    "تَنْزِيل",
+    "نَازِل"
    ],
    "corrE": "تَنْزِيل"
   },
@@ -6432,9 +6432,9 @@
    "t": "multi",
    "opts": [
     "فَوَلِّ وَجْهَكَ",
-    "فَاذْكُرُونِي",
     "اسْتَعِينُوا بِالصَّبْرِ",
-    "يَتَّبِعُ مَا أَلْفَيْنَا"
+    "يَتَّبِعُ مَا أَلْفَيْنَا",
+    "فَاذْكُرُونِي"
    ],
    "corr": [
     "فَوَلِّ وَجْهَكَ",
@@ -6443,9 +6443,9 @@
    ],
    "optsE": [
     "فَوَلِّ وَجْهَكَ",
-    "فَاذْكُرُونِي",
     "اسْتَعِينُوا بِالصَّبْرِ",
-    "يَتَّبِعُ مَا أَلْفَيْنَا"
+    "يَتَّبِعُ مَا أَلْفَيْنَا",
+    "فَاذْكُرُونِي"
    ],
    "corrE": [
     "فَوَلِّ وَجْهَكَ",
@@ -6462,15 +6462,15 @@
    "opts": [
     "makanlah dari rezeki yang baik yang Kami berikan kepadamu",
     "berpuasalah dari makanan yang baik",
-    "jauhilah semua rezeki",
-    "bagikan rezeki kepada kerabat"
+    "bagikan rezeki kepada kerabat",
+    "jauhilah semua rezeki"
    ],
    "corr": "makanlah dari rezeki yang baik yang Kami berikan kepadamu",
    "optsE": [
     "eat from the good things We have provided for you",
     "fast from good food",
-    "avoid all provision",
-    "share provision with relatives"
+    "share provision with relatives",
+    "avoid all provision"
    ],
    "corrE": "eat from the good things We have provided for you"
   },

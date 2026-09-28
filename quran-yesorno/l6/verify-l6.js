@@ -75,7 +75,7 @@ if (mode === 'local') {
   // soal tipe & corr
   for (const s of soal) {
     if (!['option', 'multi', 'yesorno'].includes(s.t)) problems.push(s.id + ': tipe tidak dikenal ' + s.t);
-    if (s.t === 'yesorno' && s.opts.join(',') !== 'Yes,No') problems.push(s.id + ': yesorno opts');
+    if (s.t === 'yesorno' && !['Yes,No', 'No,Yes'].includes(s.opts.join(','))) problems.push(s.id + ': yesorno opts');
     if (s.t === 'yesorno' && !['Yes', 'No'].includes(String(s.corr))) problems.push(s.id + ': yesorno corr');
     if (s.t !== 'yesorno') {
       if (s.opts.length !== 4 || s.optsE.length !== 4) problems.push(s.id + ': jumlah opsi');
@@ -91,8 +91,10 @@ if (mode === 'local') {
   }
 
   // ---- hex round-trip + ASCII literal dari file SQL ----
+  // 6 file import (00-05) + file shuffle opsi (zz_*) — keduanya wajib ASCII
   const sqlFiles = fs.readdirSync(dir).filter((f) => f.endsWith('.sql')).sort();
-  if (sqlFiles.length !== 6) problems.push('file sql != 6 (' + sqlFiles.join(',') + ')');
+  const importFiles = sqlFiles.filter((f) => /^0[0-5]_/.test(f));
+  if (importFiles.length !== 6) problems.push('file sql import != 6 (' + importFiles.join(',') + ')');
 
   const needHex = new Set();     // string tunggal ber-Arab -> CONVERT(0x hexM ...)
   const needPlain = new Set();   // string tunggal ASCII -> literal 'escaped'
