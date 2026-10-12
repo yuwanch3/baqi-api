@@ -156,12 +156,12 @@
         //ambil array terakhir (ekstensi gambar) dan diubah jd huruf kecil
         $extensi  = strtolower(end($extensi));
         //cek ekstensi di dalam array ekstensi yg valid
-        $foderfoto = "../../assets/img/";
-        $fodercrop = "../../assets/img/crop";
+        $foderfoto = "../assets/img/";
+        $fodercrop = "../assets/img/crop";
         $new       = $rand.'_'.$id."_".str_replace(' ', '-', $namaFile);;
         $mb_date   = date('Y-m-d H:i:s');
         $localIP   = $_SERVER['HTTP_HOST'];
-        $url       = $localIP.'/assets/img/';
+        $url       = $localIP.'/react/assets/img/';
         $urlold    = 'https://api.pondok-huda.com/assets/img/';
         //Foto
         // Get dimensions of the coriginal image
