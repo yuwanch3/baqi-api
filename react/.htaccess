@@ -60,3 +60,6 @@ RewriteRule ^progress/([a-zA-Z0-9]+)/?$ progress/index.php?api=$1 [NC,L]
 RewriteRule ^progress/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/?$ progress/index.php?uid=$1&api=$2 [NC,L]
 
 RewriteRule ^splash/([a-zA-Z0-9]+)/?$ splash/index.php?api=$1 [NC,L]
+
+RewriteRule ^banner/?$ banner/index.php [NC,L]
+RewriteRule ^banner/([a-zA-Z0-9]+)/?$ banner/index.php?api=$1 [NC,L]
