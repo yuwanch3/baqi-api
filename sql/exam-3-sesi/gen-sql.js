@@ -19,9 +19,11 @@ const OUT = path.join(DIR, 'output');
 const ID_PREFIX = 'FQT000000000092';
 let idCounter = 600;
 
+/* Kolom `excerpt` di tabel final_exam hanya varchar(15) -> nama sesi harus <= 15 karakter.
+   Label panjang tetap ditampilkan di aplikasi lewat FLOW_SESSIONS.label. */
 const SESI = {
-  inisialisasi: 'Soal Inisialisasi',
-  advanced: 'Final Test Advanced'
+  inisialisasi: 'Inisialisasi',
+  advanced: 'Final Advanced'
 };
 
 const CREATED = '2026-10-21 10:00:00';
