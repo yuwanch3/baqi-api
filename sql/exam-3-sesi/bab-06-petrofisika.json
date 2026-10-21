@@ -1,0 +1,278 @@
+{
+  "lid": "PFC000000006",
+  "nama": "Petrofisika Bab 6 - Capillary Pressure dan Relative Permeability",
+  "inisialisasi": [
+    {
+      "t": "option",
+      "q": "Tekanan kapiler (Pc) adalah...",
+      "qe": "Capillary pressure (Pc) is...",
+      "o": ["Perbedaan tekanan antara fasa non-wetting dan fasa wetting pada pori", "Tekanan total reservoir", "Tekanan overburden batuan", "Selisih tekanan dua sumur"],
+      "oe": ["The pressure difference between the non-wetting and wetting phases in a pore", "The total reservoir pressure", "The rock overburden pressure", "The pressure difference between two wells"],
+      "c": "Perbedaan tekanan antara fasa non-wetting dan fasa wetting pada pori",
+      "ce": "The pressure difference between the non-wetting and wetting phases in a pore"
+    },
+    {
+      "t": "option",
+      "q": "Persamaan tekanan kapiler untuk pori berbentuk tabung adalah...",
+      "qe": "The capillary pressure equation for a cylindrical pore is...",
+      "o": ["Pc = 2σ cosθ / r", "Pc = σ r / cosθ", "Pc = Δρ g h", "Pc = k / μ"],
+      "oe": ["Pc = 2σ cosθ / r", "Pc = σ r / cosθ", "Pc = Δρ g h", "Pc = k / μ"],
+      "c": "Pc = 2σ cosθ / r",
+      "ce": "Pc = 2σ cosθ / r"
+    },
+    {
+      "t": "option",
+      "q": "Proses drainage adalah proses di mana...",
+      "qe": "The drainage process is the process in which...",
+      "o": ["Fasa non-wetting mendesak fasa wetting keluar dari pori", "Fasa wetting mendesak fasa non-wetting", "Dua fasa mengalir bersamaan", "Tidak ada fluida yang bergerak"],
+      "oe": ["The non-wetting phase displaces the wetting phase out of the pores", "The wetting phase displaces the non-wetting phase", "Both phases flow together", "No fluid moves"],
+      "c": "Fasa non-wetting mendesak fasa wetting keluar dari pori",
+      "ce": "The non-wetting phase displaces the wetting phase out of the pores"
+    },
+    {
+      "t": "option",
+      "q": "Entry pressure adalah tekanan kapiler minimum yang diperlukan untuk...",
+      "qe": "Entry pressure is the minimum capillary pressure required to...",
+      "o": ["Memasukkan fasa non-wetting ke dalam pori terbesar", "Mengeluarkan seluruh fluida dari batuan", "Menghancurkan batuan", "Mengubah porositas total"],
+      "oe": ["Force the non-wetting phase into the largest pore", "Remove all fluid from the rock", "Crush the rock", "Change total porosity"],
+      "c": "Memasukkan fasa non-wetting ke dalam pori terbesar",
+      "ce": "Force the non-wetting phase into the largest pore"
+    },
+    {
+      "t": "option",
+      "q": "Permeabilitas relatif (kr) didefinisikan sebagai perbandingan antara...",
+      "qe": "Relative permeability (kr) is defined as the ratio between...",
+      "o": ["Permeabilitas efektif dan permeabilitas absolut", "Permeabilitas dan porositas", "Tekanan kapiler dan tekanan reservoir", "Viskositas dan densitas"],
+      "oe": ["Effective permeability and absolute permeability", "Permeability and porosity", "Capillary pressure and reservoir pressure", "Viscosity and density"],
+      "c": "Permeabilitas efektif dan permeabilitas absolut",
+      "ce": "Effective permeability and absolute permeability"
+    },
+    {
+      "t": "option",
+      "q": "Saturasi air ireduktibel (Swir) adalah saturasi air yang...",
+      "qe": "Irreducible water saturation (Swir) is the water saturation that...",
+      "o": ["Tidak dapat dikurangi lagi dengan cara mekanis biasa", "Selalu bernilai 100%", "Sama dengan saturasi minyak", "Terjadi pada tekanan nol"],
+      "oe": ["Cannot be reduced further by ordinary mechanical means", "Is always 100%", "Equals oil saturation", "Occurs at zero pressure"],
+      "c": "Tidak dapat dikurangi lagi dengan cara mekanis biasa",
+      "ce": "Cannot be reduced further by ordinary mechanical means"
+    },
+    {
+      "t": "option",
+      "q": "Saturasi minyak sisa (Sor) adalah...",
+      "qe": "Residual oil saturation (Sor) is...",
+      "o": ["Minyak yang tertinggal dan tidak dapat diproduksi lagi dengan metode konvensional", "Minyak yang baru terbentuk", "Minyak yang masih mengalir bebas", "Saturasi minyak di permukaan"],
+      "oe": ["Oil left behind that cannot be produced by conventional methods", "Newly formed oil", "Oil that still flows freely", "Oil saturation at the surface"],
+      "c": "Minyak yang tertinggal dan tidak dapat diproduksi lagi dengan metode konvensional",
+      "ce": "Oil left behind that cannot be produced by conventional methods"
+    },
+    {
+      "t": "multi",
+      "q": "Faktor apa saja yang memengaruhi tekanan kapiler?",
+      "qe": "Which factors affect capillary pressure?",
+      "o": ["Tegangan antarmuka (σ)", "Sudut kontak (wettability)", "Ukuran pori (r)", "Warna batuan"],
+      "oe": ["Interfacial tension (σ)", "Contact angle (wettability)", "Pore size (r)", "Rock color"],
+      "c": ["Tegangan antarmuka (σ)", "Sudut kontak (wettability)", "Ukuran pori (r)"],
+      "ce": ["Interfacial tension (σ)", "Contact angle (wettability)", "Pore size (r)"]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan proses dari kondisi batuan jenuh air sampai terbentuk saturasi air ireduktibel.",
+      "qe": "Arrange the process from a water-saturated rock to the formation of irreducible water saturation.",
+      "o": ["Batuan 100% terisi air", "Fasa non-wetting mulai masuk (drainage)", "Tekanan kapiler meningkat", "Air terdesak hingga tersisa Swir"],
+      "oe": ["Rock 100% water-filled", "Non-wetting phase begins to enter (drainage)", "Capillary pressure increases", "Water is displaced until Swir remains"],
+      "c": ["Batuan 100% terisi air", "Fasa non-wetting mulai masuk (drainage)", "Tekanan kapiler meningkat", "Air terdesak hingga tersisa Swir"],
+      "ce": ["Rock 100% water-filled", "Non-wetting phase begins to enter (drainage)", "Capillary pressure increases", "Water is displaced until Swir remains"]
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah kurva relative permeability bergantung pada wettability batuan?",
+      "qe": "Is it true that the relative permeability curve depends on rock wettability?",
+      "o": ["Yes", "No"],
+      "oe": ["Yes", "No"],
+      "c": "Yes",
+      "ce": "Yes"
+    }
+  ],
+  "advanced": [
+    {
+      "t": "option",
+      "q": "Diketahui σ = 0,03 N/m, θ = 30°, dan r = 1 µm. Berapa tekanan kapiler pada pori tersebut?",
+      "qe": "Given σ = 0.03 N/m, θ = 30°, and r = 1 µm. What is the capillary pressure in that pore?",
+      "o": ["0,052 bar", "0,52 bar", "5,2 bar", "52 bar"],
+      "oe": ["0.052 bar", "0.52 bar", "5.2 bar", "52 bar"],
+      "c": "0,52 bar",
+      "ce": "0.52 bar"
+    },
+    {
+      "t": "option",
+      "q": "Konversi tekanan kapiler dari data laboratorium ke kondisi reservoir dilakukan dengan mengalikan rasio...",
+      "qe": "Converting capillary pressure from laboratory data to reservoir conditions is done by multiplying the ratio of...",
+      "o": ["(σ cosθ) reservoir / (σ cosθ) laboratorium", "(σ r) reservoir / (σ r) laboratorium", "Porositas reservoir / porositas lab", "Viskositas reservoir / viskositas lab"],
+      "oe": ["(σ cosθ) reservoir / (σ cosθ) laboratory", "(σ r) reservoir / (σ r) laboratory", "Reservoir porosity / lab porosity", "Reservoir viscosity / lab viscosity"],
+      "c": "(σ cosθ) reservoir / (σ cosθ) laboratorium",
+      "ce": "(σ cosθ) reservoir / (σ cosθ) laboratory"
+    },
+    {
+      "t": "option",
+      "q": "Fungsi Leverett J digunakan untuk...",
+      "qe": "The Leverett J-function is used to...",
+      "o": ["Menyeragamkan kurva Pc dari berbagai batuan", "Menghitung laju produksi", "Menentukan kedalaman sumur", "Menghitung viskositas gas"],
+      "oe": ["Normalize Pc curves from different rocks", "Calculate production rate", "Determine well depth", "Calculate gas viscosity"],
+      "c": "Menyeragamkan kurva Pc dari berbagai batuan",
+      "ce": "Normalize Pc curves from different rocks"
+    },
+    {
+      "t": "option",
+      "q": "Jika Pc = 50 kPa, selisih densitas fluida 300 kg/m³, dan g = 9,81 m/s², berapa tinggi kolom di atas free water level?",
+      "qe": "If Pc = 50 kPa, fluid density difference = 300 kg/m³, and g = 9.81 m/s², what is the column height above the free water level?",
+      "o": ["1,7 m", "17 m", "50 m", "170 m"],
+      "oe": ["1.7 m", "17 m", "50 m", "170 m"],
+      "c": "17 m",
+      "ce": "17 m"
+    },
+    {
+      "t": "option",
+      "q": "Ketika saturasi air menurun dari Sw = 1, relative permeability minyak (kro) akan...",
+      "qe": "As water saturation decreases from Sw = 1, the relative permeability to oil (kro) will...",
+      "o": ["Meningkat dari 0 sampai nilai maksimum", "Menurun menuju 0", "Tetap konstan", "Menjadi negatif"],
+      "oe": ["Increase from 0 to a maximum value", "Decrease toward 0", "Remain constant", "Become negative"],
+      "c": "Meningkat dari 0 sampai nilai maksimum",
+      "ce": "Increase from 0 to a maximum value"
+    },
+    {
+      "t": "option",
+      "q": "Hysteresis pada kurva Pc menunjukkan bahwa...",
+      "qe": "Hysteresis in the Pc curve shows that...",
+      "o": ["Kurva drainage dan imbibition tidak berhimpit", "Tekanan kapiler selalu nol", "Kurva selalu linier", "Wettability tidak berpengaruh"],
+      "oe": ["The drainage and imbibition curves do not coincide", "Capillary pressure is always zero", "The curve is always linear", "Wettability has no effect"],
+      "c": "Kurva drainage dan imbibition tidak berhimpit",
+      "ce": "The drainage and imbibition curves do not coincide"
+    },
+    {
+      "t": "option",
+      "q": "Perubahan wettability dari water-wet menjadi oil-wet umumnya menyebabkan...",
+      "qe": "Changing wettability from water-wet to oil-wet generally causes...",
+      "o": ["Kurva krw bergeser ke kanan dan kro menurun", "Kurva krw bergeser ke kiri dan kro meningkat", "Tidak ada perubahan kurva", "Swir menjadi nol"],
+      "oe": ["The krw curve shifts right and kro decreases", "The krw curve shifts left and kro increases", "No change in the curves", "Swir becomes zero"],
+      "c": "Kurva krw bergeser ke kanan dan kro menurun",
+      "ce": "The krw curve shifts right and kro decreases"
+    },
+    {
+      "t": "option",
+      "q": "Bilangan kapiler (capillary number) yang meningkat menunjukkan...",
+      "qe": "An increasing capillary number indicates...",
+      "o": ["Gaya viskos lebih dominan sehingga saturasi minyak sisa menurun", "Gaya kapiler lebih dominan", "Tidak ada pengaruh terhadap saturasi sisa", "Porositas meningkat"],
+      "oe": ["Viscous forces are more dominant so residual oil saturation decreases", "Capillary forces are more dominant", "No effect on residual saturation", "Porosity increases"],
+      "c": "Gaya viskos lebih dominan sehingga saturasi minyak sisa menurun",
+      "ce": "Viscous forces are more dominant so residual oil saturation decreases"
+    },
+    {
+      "t": "option",
+      "q": "Pada kurva relative permeability, titik kro = 0 biasanya terjadi pada...",
+      "qe": "On the relative permeability curve, the point kro = 0 usually occurs at...",
+      "o": ["Saturasi air tinggi mendekati 1 - Sor", "Saturasi air ireduktibel", "Saturasi air 50%", "Saturasi minyak 100%"],
+      "oe": ["High water saturation approaching 1 - Sor", "Irreducible water saturation", "50% water saturation", "100% oil saturation"],
+      "c": "Saturasi air tinggi mendekati 1 - Sor",
+      "ce": "High water saturation approaching 1 - Sor"
+    },
+    {
+      "t": "option",
+      "q": "Mobility ratio (M) yang lebih besar dari 1 menunjukkan...",
+      "qe": "A mobility ratio (M) greater than 1 indicates...",
+      "o": ["Fluida pendesak lebih mobile daripada fluida terdesak (sweep kurang efisien)", "Sweep sangat efisien", "Tidak ada aliran", "Viskositas pendesak sangat tinggi"],
+      "oe": ["The displacing fluid is more mobile than the displaced fluid (poor sweep)", "Very efficient sweep", "No flow occurs", "The displacing fluid has very high viscosity"],
+      "c": "Fluida pendesak lebih mobile daripada fluida terdesak (sweep kurang efisien)",
+      "ce": "The displacing fluid is more mobile than the displaced fluid (poor sweep)"
+    },
+    {
+      "t": "option",
+      "q": "Metode Purcell digunakan untuk...",
+      "qe": "The Purcell method is used to...",
+      "o": ["Menghitung permeabilitas dari data tekanan kapiler", "Menghitung kedalaman sumur", "Menentukan jenis hidrokarbon", "Mengukur viskositas fluida"],
+      "oe": ["Calculate permeability from capillary pressure data", "Calculate well depth", "Determine hydrocarbon type", "Measure fluid viscosity"],
+      "c": "Menghitung permeabilitas dari data tekanan kapiler",
+      "ce": "Calculate permeability from capillary pressure data"
+    },
+    {
+      "t": "option",
+      "q": "Pengukuran relative permeability metode unsteady-state umumnya menggunakan...",
+      "qe": "The unsteady-state relative permeability measurement method generally uses...",
+      "o": ["Displacement fluida dengan laju tertentu sambil mencatat produksi terhadap waktu", "Pengukuran statis tanpa aliran", "Pengukuran warna fluida", "Pengukuran tekanan overburden saja"],
+      "oe": ["Fluid displacement at a given rate while recording production over time", "Static measurement without flow", "Fluid color measurement", "Overburden pressure measurement only"],
+      "c": "Displacement fluida dengan laju tertentu sambil mencatat produksi terhadap waktu",
+      "ce": "Fluid displacement at a given rate while recording production over time"
+    },
+    {
+      "t": "multi",
+      "q": "Manakah pernyataan yang benar tentang kurva tekanan kapiler?",
+      "qe": "Which statements about the capillary pressure curve are correct?",
+      "o": ["Pori kecil membutuhkan Pc lebih tinggi", "Entry pressure berkaitan dengan pori terbesar", "Kurva dipengaruhi wettability", "Pc tidak bergantung pada tegangan antarmuka"],
+      "oe": ["Small pores require higher Pc", "Entry pressure is related to the largest pore", "The curve is affected by wettability", "Pc does not depend on interfacial tension"],
+      "c": ["Pori kecil membutuhkan Pc lebih tinggi", "Entry pressure berkaitan dengan pori terbesar", "Kurva dipengaruhi wettability"],
+      "ce": ["Small pores require higher Pc", "Entry pressure is related to the largest pore", "The curve is affected by wettability"]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah yang memengaruhi bentuk kurva relative permeability?",
+      "qe": "Which factors affect the shape of the relative permeability curve?",
+      "o": ["Wettability batuan", "Distribusi ukuran pori", "Saturasi awal dan riwayat aliran", "Warna fluida"],
+      "oe": ["Rock wettability", "Pore size distribution", "Initial saturation and flow history", "Fluid color"],
+      "c": ["Wettability batuan", "Distribusi ukuran pori", "Saturasi awal dan riwayat aliran"],
+      "ce": ["Rock wettability", "Pore size distribution", "Initial saturation and flow history"]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah aplikasi data tekanan kapiler dalam industri?",
+      "qe": "Which are applications of capillary pressure data in the industry?",
+      "o": ["Menentukan zona transisi dan distribusi saturasi", "Menentukan ketinggian kolom hidrokarbon di atas FWL", "Mengestimasi permeabilitas", "Menentukan harga jual minyak"],
+      "oe": ["Determining the transition zone and saturation distribution", "Determining hydrocarbon column height above FWL", "Estimating permeability", "Determining the oil selling price"],
+      "c": ["Menentukan zona transisi dan distribusi saturasi", "Menentukan ketinggian kolom hidrokarbon di atas FWL", "Mengestimasi permeabilitas"],
+      "ce": ["Determining the transition zone and saturation distribution", "Determining hydrocarbon column height above FWL", "Estimating permeability"]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah pernyataan yang benar tentang saturasi sisa?",
+      "qe": "Which statements about residual saturation are correct?",
+      "o": ["Sor bergantung pada wettability dan sejarah aliran", "Swir dapat diperkirakan dari data Pc", "Sor dapat diturunkan dengan metode EOR", "Swir selalu sama dengan Sor"],
+      "oe": ["Sor depends on wettability and flow history", "Swir can be estimated from Pc data", "Sor can be reduced by EOR methods", "Swir is always equal to Sor"],
+      "c": ["Sor bergantung pada wettability dan sejarah aliran", "Swir dapat diperkirakan dari data Pc", "Sor dapat diturunkan dengan metode EOR"],
+      "ce": ["Sor depends on wettability and flow history", "Swir can be estimated from Pc data", "Sor can be reduced by EOR methods"]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan tahapan pengukuran kurva tekanan kapiler di laboratorium.",
+      "qe": "Arrange the laboratory capillary pressure curve measurement steps.",
+      "o": ["Persiapan sampel core", "Penjenuhan sampel dengan fasa wetting", "Pemberian tekanan bertahap dengan fasa non-wetting", "Pencatatan saturasi pada setiap tekanan", "Pembuatan kurva Pc"],
+      "oe": ["Core sample preparation", "Saturating the sample with the wetting phase", "Applying pressure in stages with the non-wetting phase", "Recording saturation at each pressure", "Plotting the Pc curve"],
+      "c": ["Persiapan sampel core", "Penjenuhan sampel dengan fasa wetting", "Pemberian tekanan bertahap dengan fasa non-wetting", "Pencatatan saturasi pada setiap tekanan", "Pembuatan kurva Pc"],
+      "ce": ["Core sample preparation", "Saturating the sample with the wetting phase", "Applying pressure in stages with the non-wetting phase", "Recording saturation at each pressure", "Plotting the Pc curve"]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan nilai saturasi air dari yang tertinggi ke terendah sepanjang proses drainage.",
+      "qe": "Arrange water saturation values from highest to lowest during drainage.",
+      "o": ["100% (jenuh air)", "Zona transisi (Sw menurun)", "Mendekati Swir", "Saturasi air minimum (Swir)"],
+      "oe": ["100% (water saturated)", "Transition zone (Sw decreasing)", "Approaching Swir", "Minimum water saturation (Swir)"],
+      "c": ["100% (jenuh air)", "Zona transisi (Sw menurun)", "Mendekati Swir", "Saturasi air minimum (Swir)"],
+      "ce": ["100% (water saturated)", "Transition zone (Sw decreasing)", "Approaching Swir", "Minimum water saturation (Swir)"]
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah pada batuan oil-wet, minyak cenderung menempati pori kecil?",
+      "qe": "Is it true that in oil-wet rock, oil tends to occupy small pores?",
+      "o": ["Yes", "No"],
+      "oe": ["Yes", "No"],
+      "c": "Yes",
+      "ce": "Yes"
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah tekanan kapiler dapat bernilai negatif pada proses imbibition?",
+      "qe": "Is it true that capillary pressure can be negative during imbibition?",
+      "o": ["Yes", "No"],
+      "oe": ["Yes", "No"],
+      "c": "No",
+      "ce": "No"
+    }
+  ]
+}

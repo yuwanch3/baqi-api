@@ -1,0 +1,278 @@
+{
+  "lid": "PFC000000012",
+  "nama": "CEOR Bab 5 - Perencanaan Proyek Ekonomi dan Aplikasi CEOR",
+  "inisialisasi": [
+    {
+      "t": "option",
+      "q": "Tujuan utama evaluasi ekonomi proyek EOR adalah...",
+      "qe": "The main purpose of EOR project economic evaluation is...",
+      "o": ["Menilai kelayakan investasi dan keuntungan proyek", "Menentukan warna map", "Menghitung jumlah pekerja", "Menentukan merek pompa"],
+      "oe": ["Assess investment feasibility and project profitability", "Determine map color", "Count the number of workers", "Choose a pump brand"],
+      "c": "Menilai kelayakan investasi dan keuntungan proyek",
+      "ce": "Assess investment feasibility and project profitability"
+    },
+    {
+      "t": "option",
+      "q": "NPV adalah singkatan dari...",
+      "qe": "NPV stands for...",
+      "o": ["Net Present Value", "New Production Volume", "Natural Polymer Viscosity", "Normal Pressure Value"],
+      "oe": ["Net Present Value", "New Production Volume", "Natural Polymer Viscosity", "Normal Pressure Value"],
+      "c": "Net Present Value",
+      "ce": "Net Present Value"
+    },
+    {
+      "t": "option",
+      "q": "IRR adalah...",
+      "qe": "IRR is...",
+      "o": ["Tingkat diskonto saat NPV sama dengan nol", "Total biaya proyek", "Volume minyak tambahan", "Laju injeksi"],
+      "oe": ["The discount rate at which NPV equals zero", "Total project cost", "Incremental oil volume", "Injection rate"],
+      "c": "Tingkat diskonto saat NPV sama dengan nol",
+      "ce": "The discount rate at which NPV equals zero"
+    },
+    {
+      "t": "option",
+      "q": "Pilot test pada proyek EOR bertujuan untuk...",
+      "qe": "A pilot test in an EOR project aims to...",
+      "o": ["Mengurangi risiko sebelum implementasi skala penuh", "Menggantikan simulasi reservoir", "Menghindari studi laboratorium", "Menentukan harga minyak"],
+      "oe": ["Reduce risk before full-scale implementation", "Replace reservoir simulation", "Avoid laboratory studies", "Determine oil prices"],
+      "c": "Mengurangi risiko sebelum implementasi skala penuh",
+      "ce": "Reduce risk before full-scale implementation"
+    },
+    {
+      "t": "option",
+      "q": "Incremental oil adalah...",
+      "qe": "Incremental oil is...",
+      "o": ["Minyak tambahan yang diperoleh akibat proyek EOR dibandingkan tanpa proyek", "Minyak yang hilang", "Total produksi kumulatif", "Minyak di tangki"],
+      "oe": ["Additional oil obtained from the EOR project compared with no project", "Lost oil", "Total cumulative production", "Oil in the tank"],
+      "c": "Minyak tambahan yang diperoleh akibat proyek EOR dibandingkan tanpa proyek",
+      "ce": "Additional oil obtained from the EOR project compared with no project"
+    },
+    {
+      "t": "option",
+      "q": "CAPEX adalah biaya...",
+      "qe": "CAPEX is the cost of...",
+      "o": ["Investasi modal awal", "Operasional harian", "Pajak", "Asuransi"],
+      "oe": ["Initial capital investment", "Daily operations", "Tax", "Insurance"],
+      "c": "Investasi modal awal",
+      "ce": "Initial capital investment"
+    },
+    {
+      "t": "option",
+      "q": "OPEX adalah biaya...",
+      "qe": "OPEX is the cost of...",
+      "o": ["Operasional dan pemeliharaan", "Pembelian rig", "Pembangunan fasilitas", "Eksplorasi awal"],
+      "oe": ["Operations and maintenance", "Rig purchase", "Facility construction", "Initial exploration"],
+      "c": "Operasional dan pemeliharaan",
+      "ce": "Operations and maintenance"
+    },
+    {
+      "t": "multi",
+      "q": "Manakah indikator ekonomi yang biasa dipakai menilai proyek EOR?",
+      "qe": "Which economic indicators are commonly used to evaluate EOR projects?",
+      "o": ["NPV", "IRR", "Payback period", "Warna minyak"],
+      "oe": ["NPV", "IRR", "Payback period", "Oil color"],
+      "c": ["NPV", "IRR", "Payback period"],
+      "ce": ["NPV", "IRR", "Payback period"]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan tahapan proyek EOR dari perencanaan sampai evaluasi.",
+      "qe": "Arrange the EOR project stages from planning to evaluation.",
+      "o": ["Studi kelayakan", "Uji pilot", "Implementasi lapangan", "Monitoring kinerja", "Evaluasi ekonomi akhir"],
+      "oe": ["Feasibility study", "Pilot test", "Field implementation", "Performance monitoring", "Final economic evaluation"],
+      "c": ["Studi kelayakan", "Uji pilot", "Implementasi lapangan", "Monitoring kinerja", "Evaluasi ekonomi akhir"],
+      "ce": ["Feasibility study", "Pilot test", "Field implementation", "Performance monitoring", "Final economic evaluation"]
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah proyek EOR selalu memberikan keuntungan ekonomi di semua kondisi harga minyak?",
+      "qe": "Is it true that EOR projects always provide economic benefits at all oil price conditions?",
+      "o": ["Yes", "No"],
+      "oe": ["Yes", "No"],
+      "c": "No",
+      "ce": "No"
+    }
+  ],
+  "advanced": [
+    {
+      "t": "option",
+      "q": "Proyek EOR menghasilkan arus kas bersih 10 juta USD per tahun selama 5 tahun dengan diskon 10%. Berapa kira-kira NPV-nya (tanpa CAPEX)?",
+      "qe": "An EOR project generates a net cash flow of 10 million USD per year for 5 years with a 10% discount rate. What is the approximate NPV (without CAPEX)?",
+      "o": ["37,9 juta USD", "50,0 juta USD", "10,0 juta USD", "25,0 juta USD"],
+      "oe": ["37.9 million USD", "50.0 million USD", "10.0 million USD", "25.0 million USD"],
+      "c": "37,9 juta USD",
+      "ce": "37.9 million USD"
+    },
+    {
+      "t": "option",
+      "q": "Payback period adalah...",
+      "qe": "Payback period is...",
+      "o": ["Waktu yang dibutuhkan untuk mengembalikan investasi awal", "Umur total reservoir", "Waktu injeksi polimer", "Lama uji laboratorium"],
+      "oe": ["The time needed to recover the initial investment", "Total reservoir life", "Polymer injection time", "Laboratory test duration"],
+      "c": "Waktu yang dibutuhkan untuk mengembalikan investasi awal",
+      "ce": "The time needed to recover the initial investment"
+    },
+    {
+      "t": "option",
+      "q": "Utility factor pada polymer flooding menyatakan...",
+      "qe": "The utility factor in polymer flooding expresses...",
+      "o": ["Jumlah polimer yang dipakai per barrel minyak tambahan", "Jumlah air yang diproduksi", "Perbandingan gas dan minyak", "Biaya listrik per bulan"],
+      "oe": ["The amount of polymer used per incremental barrel of oil", "The amount of produced water", "The gas-oil ratio", "The monthly electricity cost"],
+      "c": "Jumlah polimer yang dipakai per barrel minyak tambahan",
+      "ce": "The amount of polymer used per incremental barrel of oil"
+    },
+    {
+      "t": "option",
+      "q": "Analisis sensitivitas pada proyek EOR dilakukan untuk...",
+      "qe": "Sensitivity analysis in EOR projects is performed to...",
+      "o": ["Mengetahui parameter yang paling mempengaruhi keuntungan", "Mengubah harga minyak dunia", "Menghindari pajak", "Menentukan warna grafik"],
+      "oe": ["Identify the parameters that most affect profitability", "Change world oil prices", "Avoid taxes", "Choose chart colors"],
+      "c": "Mengetahui parameter yang paling mempengaruhi keuntungan",
+      "ce": "Identify the parameters that most affect profitability"
+    },
+    {
+      "t": "option",
+      "q": "Jika biaya kimia 5 USD/bbl dan harga minyak 60 USD/bbl, maka biaya kimia menyumbang sekitar... dari pendapatan.",
+      "qe": "If the chemical cost is 5 USD/bbl and the oil price is 60 USD/bbl, the chemical cost accounts for about... of the revenue.",
+      "o": ["8,3%", "0,83%", "83%", "50%"],
+      "oe": ["8.3%", "0.83%", "83%", "50%"],
+      "c": "8,3%",
+      "ce": "8.3%"
+    },
+    {
+      "t": "option",
+      "q": "Semakin tinggi tingkat diskonto (discount rate) yang digunakan, maka NPV proyek...",
+      "qe": "The higher the discount rate used, the NPV of the project...",
+      "o": ["Semakin kecil", "Semakin besar", "Tidak berubah", "Menjadi negatif selalu"],
+      "oe": ["Becomes smaller", "Becomes larger", "Remains unchanged", "Always becomes negative"],
+      "c": "Semakin kecil",
+      "ce": "Becomes smaller"
+    },
+    {
+      "t": "option",
+      "q": "Proyek EOR sebaiknya dilanjutkan ke skala penuh apabila...",
+      "qe": "An EOR project should proceed to full scale when...",
+      "o": ["Hasil pilot menunjukkan peningkatan produksi dan ekonomi yang layak", "Harga minyak sedang rendah", "Belum ada studi laboratorium", "Tidak ada monitoring"],
+      "oe": ["Pilot results show incremental production and acceptable economics", "Oil prices are low", "No laboratory study has been done", "There is no monitoring"],
+      "c": "Hasil pilot menunjukkan peningkatan produksi dan ekonomi yang layak",
+      "ce": "Pilot results show incremental production and acceptable economics"
+    },
+    {
+      "t": "option",
+      "q": "Program monitoring pada proyek EOR bertujuan untuk...",
+      "qe": "The monitoring program in an EOR project aims to...",
+      "o": ["Memantau respons reservoir dan mendeteksi masalah lebih awal", "Mengurangi jumlah sumur", "Menghindari pengambilan data", "Menurunkan biaya pajak"],
+      "oe": ["Monitor reservoir response and detect problems early", "Reduce the number of wells", "Avoid data acquisition", "Reduce tax costs"],
+      "c": "Memantau respons reservoir dan mendeteksi masalah lebih awal",
+      "ce": "Monitor reservoir response and detect problems early"
+    },
+    {
+      "t": "option",
+      "q": "Kegagalan proyek EOR sering disebabkan oleh...",
+      "qe": "EOR project failures are often caused by...",
+      "o": ["Karakterisasi reservoir yang kurang dan desain yang tidak sesuai", "Terlalu banyak data", "Harga minyak terlalu tinggi", "Terlalu banyak simulasi"],
+      "oe": ["Poor reservoir characterization and inappropriate design", "Too much data", "Oil prices being too high", "Too much simulation"],
+      "c": "Karakterisasi reservoir yang kurang dan desain yang tidak sesuai",
+      "ce": "Poor reservoir characterization and inappropriate design"
+    },
+    {
+      "t": "option",
+      "q": "Biaya per barrel minyak tambahan (cost per incremental bbl) dihitung dengan...",
+      "qe": "The cost per incremental barrel is calculated by...",
+      "o": ["Total biaya proyek dibagi volume minyak tambahan", "Volume minyak dikali harga", "NPV dibagi umur proyek", "CAPEX dikali OPEX"],
+      "oe": ["Total project cost divided by incremental oil volume", "Oil volume multiplied by price", "NPV divided by project life", "CAPEX multiplied by OPEX"],
+      "c": "Total biaya proyek dibagi volume minyak tambahan",
+      "ce": "Total project cost divided by incremental oil volume"
+    },
+    {
+      "t": "option",
+      "q": "NPV positif menunjukkan bahwa proyek...",
+      "qe": "A positive NPV indicates that the project...",
+      "o": ["Memberikan nilai tambah melebihi tingkat diskonto yang disyaratkan", "Pasti gagal", "Tidak menghasilkan apa pun", "Harus dihentikan"],
+      "oe": ["Adds value above the required discount rate", "Will definitely fail", "Produces nothing", "Must be stopped"],
+      "c": "Memberikan nilai tambah melebihi tingkat diskonto yang disyaratkan",
+      "ce": "Adds value above the required discount rate"
+    },
+    {
+      "t": "option",
+      "q": "Faktor ekonomi paling sensitif pada proyek chemical EOR adalah...",
+      "qe": "The most sensitive economic factor in chemical EOR projects is...",
+      "o": ["Harga minyak, biaya kimia, dan volume minyak tambahan", "Warna minyak", "Kedalaman sumur", "Jenis casing"],
+      "oe": ["Oil price, chemical cost, and incremental oil volume", "Oil color", "Well depth", "Casing type"],
+      "c": "Harga minyak, biaya kimia, dan volume minyak tambahan",
+      "ce": "Oil price, chemical cost, and incremental oil volume"
+    },
+    {
+      "t": "multi",
+      "q": "Manakah komponen biaya yang termasuk dalam evaluasi ekonomi EOR?",
+      "qe": "Which cost components are included in EOR economic evaluation?",
+      "o": ["Biaya kimia", "Biaya fasilitas injeksi", "Biaya operasional", "Biaya iklan"],
+      "oe": ["Chemical cost", "Injection facility cost", "Operating cost", "Advertising cost"],
+      "c": ["Biaya kimia", "Biaya fasilitas injeksi", "Biaya operasional"],
+      "ce": ["Chemical cost", "Injection facility cost", "Operating cost"]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah indikator kinerja (KPI) yang dipantau selama proyek EOR?",
+      "qe": "Which key performance indicators (KPIs) are monitored during an EOR project?",
+      "o": ["Laju produksi minyak", "Water cut", "Konsumsi kimia", "Warna batuan"],
+      "oe": ["Oil production rate", "Water cut", "Chemical consumption", "Rock color"],
+      "c": ["Laju produksi minyak", "Water cut", "Konsumsi kimia"],
+      "ce": ["Oil production rate", "Water cut", "Chemical consumption"]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah risiko yang perlu dipertimbangkan dalam proyek EOR?",
+      "qe": "Which risks must be considered in an EOR project?",
+      "o": ["Fluktuasi harga minyak", "Kegagalan injeksi/kerusakan formasi", "Ketidakpastian respons reservoir", "Perubahan warna minyak"],
+      "oe": ["Oil price fluctuation", "Injection failure/formation damage", "Uncertainty in reservoir response", "Change in oil color"],
+      "c": ["Fluktuasi harga minyak", "Kegagalan injeksi/kerusakan formasi", "Ketidakpastian respons reservoir"],
+      "ce": ["Oil price fluctuation", "Injection failure/formation damage", "Uncertainty in reservoir response"]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah yang termasuk manfaat non-ekonomi dari EOR?",
+      "qe": "Which are non-economic benefits of EOR?",
+      "o": ["Peningkatan ultimate recovery factor", "Pemanfaatan kembali lapangan tua", "Pengurangan emisi melalui CO2 sequestration", "Peningkatan harga minyak"],
+      "oe": ["Increase in ultimate recovery factor", "Rejuvenation of mature fields", "Emission reduction through CO2 sequestration", "Increase in oil price"],
+      "c": ["Peningkatan ultimate recovery factor", "Pemanfaatan kembali lapangan tua", "Pengurangan emisi melalui CO2 sequestration"],
+      "ce": ["Increase in ultimate recovery factor", "Rejuvenation of mature fields", "Emission reduction through CO2 sequestration"]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan langkah evaluasi ekonomi proyek EOR.",
+      "qe": "Arrange the EOR project economic evaluation steps.",
+      "o": ["Perkiraan volume minyak tambahan", "Perkiraan CAPEX dan OPEX", "Proyeksi arus kas", "Perhitungan NPV/IRR", "Analisis sensitivitas dan keputusan"],
+      "oe": ["Estimate incremental oil volume", "Estimate CAPEX and OPEX", "Project cash flow", "Calculate NPV/IRR", "Sensitivity analysis and decision"],
+      "c": ["Perkiraan volume minyak tambahan", "Perkiraan CAPEX dan OPEX", "Proyeksi arus kas", "Perhitungan NPV/IRR", "Analisis sensitivitas dan keputusan"],
+      "ce": ["Estimate incremental oil volume", "Estimate CAPEX and OPEX", "Project cash flow", "Calculate NPV/IRR", "Sensitivity analysis and decision"]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan tahapan dari pengumpulan data sampai implementasi EOR di lapangan.",
+      "qe": "Arrange the stages from data acquisition to EOR field implementation.",
+      "o": ["Pengumpulan data reservoir", "Karakterisasi dan pemodelan", "Screening dan pemilihan metode", "Studi laboratorium dan pilot", "Implementasi skala penuh"],
+      "oe": ["Reservoir data acquisition", "Characterization and modeling", "Screening and method selection", "Laboratory study and pilot", "Full-scale implementation"],
+      "c": ["Pengumpulan data reservoir", "Karakterisasi dan pemodelan", "Screening dan pemilihan metode", "Studi laboratorium dan pilot", "Implementasi skala penuh"],
+      "ce": ["Reservoir data acquisition", "Characterization and modeling", "Screening and method selection", "Laboratory study and pilot", "Full-scale implementation"]
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah IRR lebih kecil dari tingkat diskonto yang disyaratkan berarti proyek tidak layak?",
+      "qe": "Is it true that an IRR lower than the required discount rate means the project is not feasible?",
+      "o": ["Yes", "No"],
+      "oe": ["Yes", "No"],
+      "c": "Yes",
+      "ce": "Yes"
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah biaya kimia pada chemical EOR tidak dipengaruhi oleh adsorpsi di reservoir?",
+      "qe": "Is it true that chemical costs in chemical EOR are not affected by reservoir adsorption?",
+      "o": ["Yes", "No"],
+      "oe": ["Yes", "No"],
+      "c": "No",
+      "ce": "No"
+    }
+  ]
+}
