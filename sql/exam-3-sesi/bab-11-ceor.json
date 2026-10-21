@@ -96,8 +96,8 @@
   "advanced": [
     {
       "t": "option",
-      "q": "Kenaikan suhu reservoir dari 40 °C ke 200 °C pada minyak berat umumnya menurunkan viskositas hingga...",
-      "qe": "Raising reservoir temperature from 40 °C to 200 °C in heavy oil generally reduces viscosity by up to...",
+      "q": "Kenaikan suhu reservoir dari 40 Â°C ke 200 Â°C pada minyak berat umumnya menurunkan viskositas hingga...",
+      "qe": "Raising reservoir temperature from 40 Â°C to 200 Â°C in heavy oil generally reduces viscosity by up to...",
       "o": ["Beberapa orde besaran (ratusan hingga ribuan kali)", "Hanya 2 kali", "Tidak berubah", "Menjadi lebih tinggi"],
       "oe": ["Several orders of magnitude (hundreds to thousands of times)", "Only 2 times", "No change", "Becoming higher"],
       "c": "Beberapa orde besaran (ratusan hingga ribuan kali)",
@@ -276,3 +276,6 @@
     }
   ]
 }
+
+
+

@@ -96,7 +96,7 @@
   "advanced": [
     {
       "t": "option",
-      "q": "Proyek EOR menghasilkan arus kas bersih 10 juta USD per tahun selama 5 tahun dengan diskon 10%. Berapa kira-kira NPV-nya (tanpa CAPEX)?",
+      "q": "Proyek EOR menghasilkan arus kas bersih 10 juta USD per tahun selama 5 tahun dengan diskon 10%. Berapa kir×kira NPV-nya (tanpa CAPEX)?",
       "qe": "An EOR project generates a net cash flow of 10 million USD per year for 5 years with a 10% discount rate. What is the approximate NPV (without CAPEX)?",
       "o": ["37,9 juta USD", "50,0 juta USD", "10,0 juta USD", "25,0 juta USD"],
       "oe": ["37.9 million USD", "50.0 million USD", "10.0 million USD", "25.0 million USD"],
@@ -276,3 +276,6 @@
     }
   ]
 }
+
+
+

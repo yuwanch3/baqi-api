@@ -98,10 +98,10 @@
       "t": "option",
       "q": "Efisiensi displacement (Ed) dihitung dengan...",
       "qe": "Displacement efficiency (Ed) is calculated as...",
-      "o": ["(Soi - Sor) / Soi", "(Sor - Soi) / Sor", "Soi / Sor", "Sor × Soi"],
-      "oe": ["(Soi - Sor) / Soi", "(Sor - Soi) / Sor", "Soi / Sor", "Sor × Soi"],
-      "c": "(Soi - Sor) / Soi",
-      "ce": "(Soi - Sor) / Soi"
+      "o": ["(Soi × Sor) / Soi", "(Sor × Soi) / Sor", "Soi / Sor", "Sor Ã— Soi"],
+      "oe": ["(Soi × Sor) / Soi", "(Sor × Soi) / Sor", "Soi / Sor", "Sor Ã— Soi"],
+      "c": "(Soi × Sor) / Soi",
+      "ce": "(Soi × Sor) / Soi"
     },
     {
       "t": "option",
@@ -116,10 +116,10 @@
       "t": "option",
       "q": "Mobility ratio M didefinisikan sebagai...",
       "qe": "Mobility ratio M is defined as...",
-      "o": ["(krw/μw) / (kro/μo)", "(kro/μo) / (krw/μw)", "(μw/μo) × (kro/krw)", "μw × μo"],
-      "oe": ["(krw/μw) / (kro/μo)", "(kro/μo) / (krw/μw)", "(μw/μo) × (kro/krw)", "μw × μo"],
-      "c": "(krw/μw) / (kro/μo)",
-      "ce": "(krw/μw) / (kro/μo)"
+      "o": ["(krw/Î¼w) / (kro/Î¼o)", "(kro/Î¼o) / (krw/Î¼w)", "(Î¼w/Î¼o) Ã— (kro/krw)", "Î¼w Ã— Î¼o"],
+      "oe": ["(krw/Î¼w) / (kro/Î¼o)", "(kro/Î¼o) / (krw/Î¼w)", "(Î¼w/Î¼o) Ã— (kro/krw)", "Î¼w Ã— Î¼o"],
+      "c": "(krw/Î¼w) / (kro/Î¼o)",
+      "ce": "(krw/Î¼w) / (kro/Î¼o)"
     },
     {
       "t": "option",
@@ -276,3 +276,6 @@
     }
   ]
 }
+
+
+
