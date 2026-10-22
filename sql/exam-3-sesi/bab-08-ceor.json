@@ -7,16 +7,16 @@
       "q": "Enhanced Oil Recovery (EOR) adalah metode untuk...",
       "qe": "Enhanced Oil Recovery (EOR) is a method to...",
       "o": [
-        "Mengurangi jumlah pekerja rig",
+        "Meningkatkan perolehan minyak melampaui metode konvensional",
         "Menghitung harga minyak",
-        "Mengebor sumur baru di lapangan baru",
-        "Meningkatkan perolehan minyak melampaui metode konvensional"
+        "Mengurangi jumlah pekerja rig",
+        "Mengebor sumur baru di lapangan baru"
       ],
       "oe": [
-        "Reduce the number of rig workers",
+        "Increase oil recovery beyond conventional methods",
         "Calculate oil prices",
-        "Drill new wells in a new field",
-        "Increase oil recovery beyond conventional methods"
+        "Reduce the number of rig workers",
+        "Drill new wells in a new field"
       ],
       "c": "Meningkatkan perolehan minyak melampaui metode konvensional",
       "ce": "Increase oil recovery beyond conventional methods"
@@ -26,16 +26,16 @@
       "q": "Urutan tahapan perolehan minyak yang umum adalah...",
       "qe": "The common sequence of oil recovery stages is...",
       "o": [
-        "Primary, secondary, tertiary (EOR)",
-        "Tertiary, secondary, primary",
         "Secondary, primary, EOR",
-        "EOR, primary, secondary"
+        "Primary, secondary, tertiary (EOR)",
+        "EOR, primary, secondary",
+        "Tertiary, secondary, primary"
       ],
       "oe": [
-        "Primary, secondary, tertiary (EOR)",
-        "Tertiary, secondary, primary",
         "Secondary, primary, EOR",
-        "EOR, primary, secondary"
+        "Primary, secondary, tertiary (EOR)",
+        "EOR, primary, secondary",
+        "Tertiary, secondary, primary"
       ],
       "c": "Primary, secondary, tertiary (EOR)",
       "ce": "Primary, secondary, tertiary (EOR)"
@@ -47,14 +47,14 @@
       "o": [
         "Secondary recovery",
         "Primary recovery",
-        "Tertiary recovery",
-        "Eksplorasi"
+        "Eksplorasi",
+        "Tertiary recovery"
       ],
       "oe": [
         "Secondary recovery",
         "Primary recovery",
-        "Tertiary recovery",
-        "Exploration"
+        "Exploration",
+        "Tertiary recovery"
       ],
       "c": "Secondary recovery",
       "ce": "Secondary recovery"
@@ -64,16 +64,16 @@
       "q": "Polimer, surfaktan, dan alkali termasuk dalam kelompok...",
       "qe": "Polymers, surfactants, and alkalis belong to the group...",
       "o": [
-        "Chemical EOR",
+        "Primary recovery",
         "Thermal EOR",
         "Gas EOR",
-        "Primary recovery"
+        "Chemical EOR"
       ],
       "oe": [
-        "Chemical EOR",
+        "Primary recovery",
         "Thermal EOR",
         "Gas EOR",
-        "Primary recovery"
+        "Chemical EOR"
       ],
       "c": "Chemical EOR",
       "ce": "Chemical EOR"
@@ -83,16 +83,16 @@
       "q": "Steam flooding dan in-situ combustion termasuk dalam kelompok...",
       "qe": "Steam flooding and in-situ combustion belong to the group...",
       "o": [
-        "Gas EOR",
         "Chemical EOR",
-        "Thermal EOR",
-        "Secondary recovery"
+        "Secondary recovery",
+        "Gas EOR",
+        "Thermal EOR"
       ],
       "oe": [
-        "Gas EOR",
         "Chemical EOR",
-        "Thermal EOR",
-        "Secondary recovery"
+        "Secondary recovery",
+        "Gas EOR",
+        "Thermal EOR"
       ],
       "c": "Thermal EOR",
       "ce": "Thermal EOR"
@@ -102,16 +102,16 @@
       "q": "Injeksi CO2 dan gas hidrokarbon termasuk dalam kelompok...",
       "qe": "CO2 and hydrocarbon gas injection belong to the group...",
       "o": [
-        "Gas EOR",
-        "Thermal EOR",
+        "Primary recovery",
         "Chemical EOR",
-        "Primary recovery"
+        "Thermal EOR",
+        "Gas EOR"
       ],
       "oe": [
-        "Gas EOR",
-        "Thermal EOR",
+        "Primary recovery",
         "Chemical EOR",
-        "Primary recovery"
+        "Thermal EOR",
+        "Gas EOR"
       ],
       "c": "Gas EOR",
       "ce": "Gas EOR"
@@ -122,14 +122,14 @@
       "qe": "The main target of EOR is the oil that...",
       "o": [
         "Tertinggal di reservoir setelah metode konvensional",
-        "Belum ditemukan",
         "Berada di permukaan",
+        "Belum ditemukan",
         "Sudah terproduksi"
       ],
       "oe": [
         "Remains in the reservoir after conventional methods",
-        "Has not been discovered",
         "Is at the surface",
+        "Has not been discovered",
         "Has already been produced"
       ],
       "c": "Tertinggal di reservoir setelah metode konvensional",
@@ -141,15 +141,15 @@
       "qe": "Which of the following belong to EOR method groups?",
       "o": [
         "Chemical EOR",
+        "Thermal EOR",
         "Primary depletion",
-        "Gas EOR",
-        "Thermal EOR"
+        "Gas EOR"
       ],
       "oe": [
         "Chemical EOR",
+        "Thermal EOR",
         "Primary depletion",
-        "Gas EOR",
-        "Thermal EOR"
+        "Gas EOR"
       ],
       "c": [
         "Chemical EOR",
@@ -211,34 +211,34 @@
       "q": "Efisiensi displacement (Ed) dihitung dengan...",
       "qe": "Displacement efficiency (Ed) is calculated as...",
       "o": [
-        "(Soi x Sor) / Soi",
-        "(Sor x Soi) / Sor",
+        "Sor x Soi",
+        "(Soi - Sor) / Soi",
         "Soi / Sor",
-        "Sor x Soi"
+        "(Sor - Soi) / Sor"
       ],
       "oe": [
-        "(Soi x Sor) / Soi",
-        "(Sor x Soi) / Sor",
+        "Sor x Soi",
+        "(Soi - Sor) / Soi",
         "Soi / Sor",
-        "Sor x Soi"
+        "(Sor - Soi) / Sor"
       ],
-      "c": "(Soi x Sor) / Soi",
-      "ce": "(Soi x Sor) / Soi"
+      "c": "(Soi - Sor) / Soi",
+      "ce": "(Soi - Sor) / Soi"
     },
     {
       "t": "option",
       "q": "Recovery factor total secara sederhana merupakan hasil kali antara...",
       "qe": "The total recovery factor is simply the product of...",
       "o": [
-        "Efisiensi displacement dan efisiensi volumetric sweep",
-        "Porositas dan permeabilitas",
         "Viskositas dan densitas",
+        "Porositas dan permeabilitas",
+        "Efisiensi displacement dan efisiensi volumetric sweep",
         "Tekanan dan suhu"
       ],
       "oe": [
-        "Displacement efficiency and volumetric sweep efficiency",
-        "Porosity and permeability",
         "Viscosity and density",
+        "Porosity and permeability",
+        "Displacement efficiency and volumetric sweep efficiency",
         "Pressure and temperature"
       ],
       "c": "Efisiensi displacement dan efisiensi volumetric sweep",
@@ -250,15 +250,15 @@
       "qe": "Mobility ratio M is defined as...",
       "o": [
         "(kro/muo) / (krw/muw)",
+        "(muw/muo) x (kro/krw)",
         "muw x muo",
-        "(krw/muw) / (kro/muo)",
-        "(muw/muo) x (kro/krw)"
+        "(krw/muw) / (kro/muo)"
       ],
       "oe": [
         "(kro/muo) / (krw/muw)",
+        "(muw/muo) x (kro/krw)",
         "muw x muo",
-        "(krw/muw) / (kro/muo)",
-        "(muw/muo) x (kro/krw)"
+        "(krw/muw) / (kro/muo)"
       ],
       "c": "(krw/muw) / (kro/muo)",
       "ce": "(krw/muw) / (kro/muo)"
@@ -268,16 +268,16 @@
       "q": "Mobility ratio yang kurang dari 1 menunjukkan...",
       "qe": "A mobility ratio of less than 1 indicates...",
       "o": [
+        "Sweep yang baik (favorable)",
         "Viskositas minyak nol",
-        "Tidak ada aliran",
         "Sweep yang buruk",
-        "Sweep yang baik (favorable)"
+        "Tidak ada aliran"
       ],
       "oe": [
+        "Good (favorable) sweep",
         "Zero oil viscosity",
-        "No flow",
         "Poor sweep",
-        "Good (favorable) sweep"
+        "No flow"
       ],
       "c": "Sweep yang baik (favorable)",
       "ce": "Good (favorable) sweep"
@@ -288,15 +288,15 @@
       "qe": "The capillary number is increased in EOR to...",
       "o": [
         "Menurunkan permeabilitas",
-        "Menaikkan saturasi minyak sisa",
+        "Menurunkan saturasi minyak sisa",
         "Menaikkan porositas",
-        "Menurunkan saturasi minyak sisa"
+        "Menaikkan saturasi minyak sisa"
       ],
       "oe": [
         "Decrease permeability",
-        "Increase residual oil saturation",
+        "Reduce residual oil saturation",
         "Increase porosity",
-        "Reduce residual oil saturation"
+        "Increase residual oil saturation"
       ],
       "c": "Menurunkan saturasi minyak sisa",
       "ce": "Reduce residual oil saturation"
@@ -306,16 +306,16 @@
       "q": "Injeksi polimer pada EOR bertujuan utama untuk...",
       "qe": "Polymer injection in EOR mainly aims to...",
       "o": [
+        "Menurunkan porositas",
         "Meningkatkan viskositas air sehingga mobility ratio membaik",
-        "Menurunkan viskositas minyak",
         "Menaikkan tegangan antarmuka",
-        "Menurunkan porositas"
+        "Menurunkan viskositas minyak"
       ],
       "oe": [
+        "Decrease porosity",
         "Increase water viscosity so the mobility ratio improves",
-        "Decrease oil viscosity",
         "Increase interfacial tension",
-        "Decrease porosity"
+        "Decrease oil viscosity"
       ],
       "c": "Meningkatkan viskositas air sehingga mobility ratio membaik",
       "ce": "Increase water viscosity so the mobility ratio improves"
@@ -325,15 +325,15 @@
       "q": "Injeksi surfaktan pada EOR bekerja dengan cara...",
       "qe": "Surfactant injection in EOR works by...",
       "o": [
-        "Menurunkan porositas batuan",
-        "Menurunkan tegangan antarmuka antara minyak dan air",
         "Menaikkan viskositas minyak",
+        "Menurunkan tegangan antarmuka antara minyak dan air",
+        "Menurunkan porositas batuan",
         "Menaikkan tekanan reservoir"
       ],
       "oe": [
-        "Reducing rock porosity",
-        "Reducing interfacial tension between oil and water",
         "Increasing oil viscosity",
+        "Reducing interfacial tension between oil and water",
+        "Reducing rock porosity",
         "Increasing reservoir pressure"
       ],
       "c": "Menurunkan tegangan antarmuka antara minyak dan air",
@@ -344,16 +344,16 @@
       "q": "Injeksi alkali pada EOR umumnya memanfaatkan reaksi dengan...",
       "qe": "Alkali injection in EOR generally utilizes reactions with...",
       "o": [
-        "Air formasi murni",
+        "Asam naftenat dalam minyak untuk membentuk surfaktan in-situ",
         "Kuarsa dalam batuan",
-        "Gas CO2 di reservoir",
-        "Asam naftenat dalam minyak untuk membentuk surfaktan in-situ"
+        "Air formasi murni",
+        "Gas CO2 di reservoir"
       ],
       "oe": [
-        "Pure formation water",
+        "Naphthenic acids in the oil to form in-situ surfactants",
         "Quartz in the rock",
-        "CO2 gas in the reservoir",
-        "Naphthenic acids in the oil to form in-situ surfactants"
+        "Pure formation water",
+        "CO2 gas in the reservoir"
       ],
       "c": "Asam naftenat dalam minyak untuk membentuk surfaktan in-situ",
       "ce": "Naphthenic acids in the oil to form in-situ surfactants"
@@ -363,16 +363,16 @@
       "q": "Metode thermal EOR paling cocok untuk reservoir dengan...",
       "qe": "Thermal EOR methods are most suitable for reservoirs with...",
       "o": [
-        "Batuan tight tanpa minyak",
-        "Minyak berat dan viskositas tinggi",
+        "Gas kering",
         "Minyak ringan dan viskositas rendah",
-        "Gas kering"
+        "Minyak berat dan viskositas tinggi",
+        "Batuan tight tanpa minyak"
       ],
       "oe": [
-        "Tight rock without oil",
-        "Heavy oil and high viscosity",
+        "Dry gas",
         "Light oil and low viscosity",
-        "Dry gas"
+        "Heavy oil and high viscosity",
+        "Tight rock without oil"
       ],
       "c": "Minyak berat dan viskositas tinggi",
       "ce": "Heavy oil and high viscosity"
@@ -382,16 +382,16 @@
       "q": "Injeksi CO2 dapat meningkatkan perolehan minyak melalui mekanisme...",
       "qe": "CO2 injection can increase oil recovery through the mechanisms...",
       "o": [
+        "Peningkatan saturasi air",
         "Penurunan permeabilitas",
         "Pencampuran (miscible) dan penurunan viskositas minyak",
-        "Peningkatan viskositas minyak",
-        "Peningkatan saturasi air"
+        "Peningkatan viskositas minyak"
       ],
       "oe": [
+        "Increasing water saturation",
         "Reducing permeability",
         "Miscibility and reduction of oil viscosity",
-        "Increasing oil viscosity",
-        "Increasing water saturation"
+        "Increasing oil viscosity"
       ],
       "c": "Pencampuran (miscible) dan penurunan viskositas minyak",
       "ce": "Miscibility and reduction of oil viscosity"
@@ -401,16 +401,16 @@
       "q": "Screening criteria EOR digunakan untuk...",
       "qe": "EOR screening criteria are used to...",
       "o": [
-        "Menyaring metode EOR yang paling sesuai dengan karakteristik reservoir",
-        "Menghitung harga minyak",
         "Menentukan jumlah rig",
-        "Mengukur kedalaman sumur"
+        "Mengukur kedalaman sumur",
+        "Menghitung harga minyak",
+        "Menyaring metode EOR yang paling sesuai dengan karakteristik reservoir"
       ],
       "oe": [
-        "Screen the most suitable EOR method for reservoir characteristics",
-        "Calculate oil prices",
         "Determine the number of rigs",
-        "Measure well depth"
+        "Measure well depth",
+        "Calculate oil prices",
+        "Screen the most suitable EOR method for reservoir characteristics"
       ],
       "c": "Menyaring metode EOR yang paling sesuai dengan karakteristik reservoir",
       "ce": "Screen the most suitable EOR method for reservoir characteristics"
@@ -420,16 +420,16 @@
       "q": "Mekanisme utama SAGD (steam assisted gravity drainage) adalah...",
       "qe": "The main mechanism of SAGD (steam assisted gravity drainage) is...",
       "o": [
-        "Peningkatan viskositas air",
-        "Penurunan permeabilitas",
+        "Peningkatan tegangan antarmuka",
         "Gravitasi dan panas steam menurunkan viskositas minyak",
-        "Peningkatan tegangan antarmuka"
+        "Peningkatan viskositas air",
+        "Penurunan permeabilitas"
       ],
       "oe": [
-        "Increasing water viscosity",
-        "Reducing permeability",
+        "Increasing interfacial tension",
         "Gravity and steam heat reduce oil viscosity",
-        "Increasing interfacial tension"
+        "Increasing water viscosity",
+        "Reducing permeability"
       ],
       "c": "Gravitasi dan panas steam menurunkan viskositas minyak",
       "ce": "Gravity and steam heat reduce oil viscosity"
@@ -439,16 +439,16 @@
       "q": "Manakah mekanisme yang dapat meningkatkan perolehan minyak pada EOR?",
       "qe": "Which mechanisms can increase oil recovery in EOR?",
       "o": [
+        "Perbaikan mobility ratio",
         "Peningkatan efisiensi sweep",
-        "Peningkatan porositas total batuan",
         "Penurunan saturasi minyak sisa",
-        "Perbaikan mobility ratio"
+        "Peningkatan porositas total batuan"
       ],
       "oe": [
+        "Improvement of mobility ratio",
         "Increase in sweep efficiency",
-        "Increase in total rock porosity",
         "Reduction of residual oil saturation",
-        "Improvement of mobility ratio"
+        "Increase in total rock porosity"
       ],
       "c": [
         "Penurunan saturasi minyak sisa",
@@ -466,16 +466,16 @@
       "q": "Manakah data yang dibutuhkan dalam screening metode EOR?",
       "qe": "Which data are needed in EOR method screening?",
       "o": [
+        "Porositas, permeabilitas, dan saturasi",
         "Kedalaman dan suhu reservoir",
         "Viskositas dan API gravity minyak",
-        "Warna batuan",
-        "Porositas, permeabilitas, dan saturasi"
+        "Warna batuan"
       ],
       "oe": [
+        "Porosity, permeability, and saturation",
         "Reservoir depth and temperature",
         "Oil viscosity and API gravity",
-        "Rock color",
-        "Porosity, permeability, and saturation"
+        "Rock color"
       ],
       "c": [
         "Viskositas dan API gravity minyak",
@@ -493,16 +493,16 @@
       "q": "Manakah pernyataan yang benar tentang chemical EOR?",
       "qe": "Which statements about chemical EOR are correct?",
       "o": [
-        "Polimer meningkatkan viskositas air",
-        "Surfaktan menurunkan IFT",
         "Alkali dapat membentuk surfaktan in-situ",
-        "Polimer menurunkan viskositas minyak"
+        "Surfaktan menurunkan IFT",
+        "Polimer menurunkan viskositas minyak",
+        "Polimer meningkatkan viskositas air"
       ],
       "oe": [
-        "Polymer increases water viscosity",
-        "Surfactant reduces IFT",
         "Alkali can form in-situ surfactants",
-        "Polymer reduces oil viscosity"
+        "Surfactant reduces IFT",
+        "Polymer reduces oil viscosity",
+        "Polymer increases water viscosity"
       ],
       "c": [
         "Polimer meningkatkan viskositas air",
@@ -520,16 +520,16 @@
       "q": "Manakah kelemahan/keterbatasan penerapan EOR?",
       "qe": "Which are disadvantages/limitations of EOR implementation?",
       "o": [
-        "Biaya investasi tinggi",
+        "Tidak memerlukan studi laboratorium",
         "Risiko kerusakan formasi",
         "Kebutuhan fasilitas permukaan tambahan",
-        "Tidak memerlukan studi laboratorium"
+        "Biaya investasi tinggi"
       ],
       "oe": [
-        "High investment cost",
+        "No laboratory study required",
         "Risk of formation damage",
         "Need for additional surface facilities",
-        "No laboratory study required"
+        "High investment cost"
       ],
       "c": [
         "Biaya investasi tinggi",

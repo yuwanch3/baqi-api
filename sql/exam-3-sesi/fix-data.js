@@ -18,6 +18,10 @@ const DIR = __dirname;
 function toAscii(s) {
   if (typeof s !== 'string') return s;
   let out = s
+    // koreksi hasil penggantian lama yang salah (minus jadi x / kata terpotong)
+    .replace(/\(Soi x Sor\) \/ Soi/g, '(Soi - Sor) / Soi')
+    .replace(/\(Sor x Soi\) \/ Sor/g, '(Sor - Soi) / Sor')
+    .replace(/kirxkira/g, 'kira-kira')
     .replace(/Î¼/g, 'mu')     // μ yang ter-encode ganda
     .replace(/Ã—/g, 'x')      // × yang ter-encode ganda
     .replace(/Â°/g, '°')
@@ -147,10 +151,9 @@ for (const file of files) {
 
       // 3) acak opsi (option & multi), permutasi sama untuk o dan oe
       if ((q.t === 'option' || q.t === 'multi') && q.o.length > 1) {
-        const rnd = mulberry32(hash(file + '|' + sec + '|' + idx + '|' + q.q));
         const order = q.o.map((_, i) => i);
         for (let i = order.length - 1; i > 0; i--) {
-          const j = Math.floor(rnd() * (i + 1));
+          const j = Math.floor(Math.random() * (i + 1));
           [order[i], order[j]] = [order[j], order[i]];
         }
         // (pengacakan murni / uniform: posisi jawaban benar tersebar merata)

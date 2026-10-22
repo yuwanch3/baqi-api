@@ -7,15 +7,15 @@
       "q": "Viskositas fluida adalah ukuran...",
       "qe": "Fluid viscosity is a measure of...",
       "o": [
-        "Berat jenis fluida",
-        "Kandungan gas dalam minyak",
         "Kemampuan fluida mengalir (resistensi terhadap aliran)",
+        "Kandungan gas dalam minyak",
+        "Berat jenis fluida",
         "Tekanan fluida di reservoir"
       ],
       "oe": [
-        "The specific gravity of the fluid",
-        "The gas content in oil",
         "The ability of a fluid to flow (resistance to flow)",
+        "The gas content in oil",
+        "The specific gravity of the fluid",
         "The fluid pressure in the reservoir"
       ],
       "c": "Kemampuan fluida mengalir (resistensi terhadap aliran)",
@@ -26,16 +26,16 @@
       "q": "Faktor volume formasi minyak (Bo) menyatakan...",
       "qe": "The oil formation volume factor (Bo) expresses...",
       "o": [
-        "Perbandingan volume minyak di reservoir terhadap volume di permukaan",
+        "Berat minyak per satuan volume",
         "Perbandingan volume gas terhadap minyak",
         "Kadar air dalam minyak",
-        "Berat minyak per satuan volume"
+        "Perbandingan volume minyak di reservoir terhadap volume di permukaan"
       ],
       "oe": [
-        "The ratio of oil volume in the reservoir to its volume at the surface",
+        "The weight of oil per unit volume",
         "The ratio of gas volume to oil volume",
         "The water content in the oil",
-        "The weight of oil per unit volume"
+        "The ratio of oil volume in the reservoir to its volume at the surface"
       ],
       "c": "Perbandingan volume minyak di reservoir terhadap volume di permukaan",
       "ce": "The ratio of oil volume in the reservoir to its volume at the surface"
@@ -45,16 +45,16 @@
       "q": "Kelarutan gas dalam minyak biasanya dinyatakan dengan simbol...",
       "qe": "Gas solubility in oil is usually denoted by the symbol...",
       "o": [
-        "Z",
-        "Bw",
+        "Rs",
         "Bo",
-        "Rs"
+        "Bw",
+        "Z"
       ],
       "oe": [
-        "Z",
-        "Bw",
+        "Rs",
         "Bo",
-        "Rs"
+        "Bw",
+        "Z"
       ],
       "c": "Rs",
       "ce": "Rs"
@@ -64,16 +64,16 @@
       "q": "Bubble point pressure adalah tekanan ketika...",
       "qe": "Bubble point pressure is the pressure at which...",
       "o": [
-        "Porositas batuan berubah",
         "Minyak membeku",
-        "Air mulai menguap",
-        "Gas pertama kali keluar dari larutan minyak"
+        "Gas pertama kali keluar dari larutan minyak",
+        "Porositas batuan berubah",
+        "Air mulai menguap"
       ],
       "oe": [
-        "Rock porosity changes",
         "Oil freezes",
-        "Water starts to evaporate",
-        "Gas first comes out of the oil solution"
+        "Gas first comes out of the oil solution",
+        "Rock porosity changes",
+        "Water starts to evaporate"
       ],
       "c": "Gas pertama kali keluar dari larutan minyak",
       "ce": "Gas first comes out of the oil solution"
@@ -83,16 +83,16 @@
       "q": "Dew point pressure pada reservoir gas adalah tekanan ketika...",
       "qe": "Dew point pressure in a gas reservoir is the pressure at which...",
       "o": [
-        "Gas berhenti mengalir",
+        "Gas mulai mengembun menjadi cairan",
         "Air mulai terproduksi",
-        "Minyak mulai menguap",
-        "Gas mulai mengembun menjadi cairan"
+        "Gas berhenti mengalir",
+        "Minyak mulai menguap"
       ],
       "oe": [
-        "Gas stops flowing",
+        "Gas begins to condense into liquid",
         "Water begins to be produced",
-        "Oil begins to vaporize",
-        "Gas begins to condense into liquid"
+        "Gas stops flowing",
+        "Oil begins to vaporize"
       ],
       "c": "Gas mulai mengembun menjadi cairan",
       "ce": "Gas begins to condense into liquid"
@@ -102,16 +102,16 @@
       "q": "Minyak dengan nilai API gravity tinggi umumnya bersifat...",
       "qe": "Oil with a high API gravity value is generally...",
       "o": [
-        "Selalu mengandung banyak sulfur",
+        "Ringan dan kurang kental",
         "Tidak dapat mengalir",
-        "Berat dan sangat kental",
-        "Ringan dan kurang kental"
+        "Selalu mengandung banyak sulfur",
+        "Berat dan sangat kental"
       ],
       "oe": [
-        "Always high in sulfur",
+        "Light and less viscous",
         "Unable to flow",
-        "Heavy and very viscous",
-        "Light and less viscous"
+        "Always high in sulfur",
+        "Heavy and very viscous"
       ],
       "c": "Ringan dan kurang kental",
       "ce": "Light and less viscous"
@@ -121,15 +121,15 @@
       "q": "Kompresibilitas fluida menggambarkan...",
       "qe": "Fluid compressibility describes...",
       "o": [
+        "Kemampuan fluida melarutkan batuan",
         "Perubahan volume fluida akibat perubahan tekanan",
         "Perubahan warna fluida",
-        "Kemampuan fluida melarutkan batuan",
         "Kecepatan aliran fluida"
       ],
       "oe": [
+        "The ability of the fluid to dissolve rock",
         "The change in fluid volume due to a pressure change",
         "The change in fluid color",
-        "The ability of the fluid to dissolve rock",
         "The fluid flow velocity"
       ],
       "c": "Perubahan volume fluida akibat perubahan tekanan",
@@ -140,16 +140,16 @@
       "q": "Manakah yang termasuk sifat fisik fluida reservoir?",
       "qe": "Which of the following are physical properties of reservoir fluids?",
       "o": [
-        "Porositas batuan",
-        "Kelarutan gas",
+        "Faktor volume formasi",
         "Viskositas",
-        "Faktor volume formasi"
+        "Porositas batuan",
+        "Kelarutan gas"
       ],
       "oe": [
-        "Rock porosity",
-        "Gas solubility",
+        "Formation volume factor",
         "Viscosity",
-        "Formation volume factor"
+        "Rock porosity",
+        "Gas solubility"
       ],
       "c": [
         "Viskositas",
@@ -215,16 +215,16 @@
       "q": "Minyak memiliki specific gravity 0,85. Berapa API gravity-nya?",
       "qe": "An oil has a specific gravity of 0.85. What is its API gravity?",
       "o": [
-        "85,0 API",
-        "45,1 API",
         "34,9 API",
-        "15,0 API"
+        "15,0 API",
+        "45,1 API",
+        "85,0 API"
       ],
       "oe": [
-        "85.0 API",
-        "45.1 API",
         "34.9 API",
-        "15.0 API"
+        "15.0 API",
+        "45.1 API",
+        "85.0 API"
       ],
       "c": "34,9 API",
       "ce": "34.9 API"
@@ -234,15 +234,15 @@
       "q": "Jika Bo = 1,3 RB/STB, maka 1000 STB minyak di permukaan setara dengan... di reservoir.",
       "qe": "If Bo = 1.3 RB/STB, then 1000 STB of oil at the surface corresponds to... in the reservoir.",
       "o": [
+        "1300 RB",
         "770 RB",
         "1000 RB",
-        "1300 RB",
         "13000 RB"
       ],
       "oe": [
+        "1300 RB",
         "770 RB",
         "1000 RB",
-        "1300 RB",
         "13000 RB"
       ],
       "c": "1300 RB",
@@ -253,16 +253,16 @@
       "q": "Ketika tekanan reservoir turun di bawah bubble point, gas yang keluar dari larutan menyebabkan...",
       "qe": "When reservoir pressure drops below the bubble point, gas coming out of solution causes...",
       "o": [
+        "Bo menurun dan viskositas minyak meningkat",
         "Minyak menjadi lebih ringan",
         "Bo meningkat dan viskositas menurun",
-        "Tidak ada perubahan sifat fluida",
-        "Bo menurun dan viskositas minyak meningkat"
+        "Tidak ada perubahan sifat fluida"
       ],
       "oe": [
+        "Bo to decrease and oil viscosity to increase",
         "The oil to become lighter",
         "Bo to increase and viscosity to decrease",
-        "No change in fluid properties",
-        "Bo to decrease and oil viscosity to increase"
+        "No change in fluid properties"
       ],
       "c": "Bo menurun dan viskositas minyak meningkat",
       "ce": "Bo to decrease and oil viscosity to increase"
@@ -272,15 +272,15 @@
       "q": "Faktor kompresibilitas gas (Z) digunakan untuk...",
       "qe": "The gas compressibility factor (Z) is used to...",
       "o": [
-        "Mengoreksi perilaku gas nyata terhadap gas ideal",
-        "Menghitung porositas batuan",
         "Menentukan wettability",
+        "Menghitung porositas batuan",
+        "Mengoreksi perilaku gas nyata terhadap gas ideal",
         "Mengukur permeabilitas relatif"
       ],
       "oe": [
-        "Correct real gas behavior relative to ideal gas",
-        "Calculate rock porosity",
         "Determine wettability",
+        "Calculate rock porosity",
+        "Correct real gas behavior relative to ideal gas",
         "Measure relative permeability"
       ],
       "c": "Mengoreksi perilaku gas nyata terhadap gas ideal",
@@ -291,16 +291,16 @@
       "q": "Reservoir dikategorikan undersaturated apabila tekanan reservoir...",
       "qe": "A reservoir is classified as undersaturated when the reservoir pressure is...",
       "o": [
-        "Sama dengan tekanan atmosfer",
         "Lebih tinggi dari bubble point",
+        "Sama dengan bubble point",
         "Lebih rendah dari bubble point",
-        "Sama dengan bubble point"
+        "Sama dengan tekanan atmosfer"
       ],
       "oe": [
-        "Equal to atmospheric pressure",
         "Higher than the bubble point",
+        "Equal to the bubble point",
         "Lower than the bubble point",
-        "Equal to the bubble point"
+        "Equal to atmospheric pressure"
       ],
       "c": "Lebih tinggi dari bubble point",
       "ce": "Higher than the bubble point"
@@ -310,16 +310,16 @@
       "q": "Retrograde condensation terjadi pada reservoir gas-kondensat ketika tekanan...",
       "qe": "Retrograde condensation occurs in a gas-condensate reservoir when the pressure...",
       "o": [
-        "Turun di bawah dew point sehingga cairan mengembun",
         "Naik di atas dew point sehingga cairan menguap",
-        "Tetap konstan sepanjang produksi",
-        "Sama dengan tekanan kritis air"
+        "Sama dengan tekanan kritis air",
+        "Turun di bawah dew point sehingga cairan mengembun",
+        "Tetap konstan sepanjang produksi"
       ],
       "oe": [
-        "Falls below the dew point so liquid condenses",
         "Rises above the dew point so liquid vaporizes",
-        "Remains constant throughout production",
-        "Equals the critical pressure of water"
+        "Equals the critical pressure of water",
+        "Falls below the dew point so liquid condenses",
+        "Remains constant throughout production"
       ],
       "c": "Turun di bawah dew point sehingga cairan mengembun",
       "ce": "Falls below the dew point so liquid condenses"
@@ -329,16 +329,16 @@
       "q": "Gradien tekanan fluida di reservoir digunakan untuk menentukan...",
       "qe": "Fluid pressure gradients in a reservoir are used to determine...",
       "o": [
-        "Porositas batuan",
         "Kontak fluida (GOC/WOC) dan densitas fluida",
         "Kadar lempung",
-        "Kekuatan semen sumur"
+        "Kekuatan semen sumur",
+        "Porositas batuan"
       ],
       "oe": [
-        "Rock porosity",
         "Fluid contacts (GOC/WOC) and fluid densities",
         "Clay content",
-        "Well cement strength"
+        "Well cement strength",
+        "Rock porosity"
       ],
       "c": "Kontak fluida (GOC/WOC) dan densitas fluida",
       "ce": "Fluid contacts (GOC/WOC) and fluid densities"
@@ -349,15 +349,15 @@
       "qe": "Heavy oil generally has...",
       "o": [
         "API tinggi dan viskositas rendah",
-        "API rendah dan viskositas tinggi",
+        "API rendah dan viskositas rendah",
         "API tinggi dan viskositas tinggi",
-        "API rendah dan viskositas rendah"
+        "API rendah dan viskositas tinggi"
       ],
       "oe": [
         "High API and low viscosity",
-        "Low API and high viscosity",
+        "Low API and low viscosity",
         "High API and high viscosity",
-        "Low API and low viscosity"
+        "Low API and high viscosity"
       ],
       "c": "API rendah dan viskositas tinggi",
       "ce": "Low API and high viscosity"
@@ -367,16 +367,16 @@
       "q": "Kelarutan gas (Rs) yang tinggi pada minyak umumnya menyebabkan...",
       "qe": "High gas solubility (Rs) in oil generally causes...",
       "o": [
-        "Bo meningkat dan viskositas menurun",
         "Bo menurun dan viskositas meningkat",
         "Tidak berpengaruh pada Bo",
-        "Minyak menjadi lebih berat"
+        "Minyak menjadi lebih berat",
+        "Bo meningkat dan viskositas menurun"
       ],
       "oe": [
-        "Bo to increase and viscosity to decrease",
         "Bo to decrease and viscosity to increase",
         "No effect on Bo",
-        "The oil to become heavier"
+        "The oil to become heavier",
+        "Bo to increase and viscosity to decrease"
       ],
       "c": "Bo meningkat dan viskositas menurun",
       "ce": "Bo to increase and viscosity to decrease"
@@ -386,16 +386,16 @@
       "q": "Salinitas air formasi penting diketahui karena memengaruhi...",
       "qe": "Formation water salinity is important because it affects...",
       "o": [
-        "Pembacaan log resistivitas dan perhitungan saturasi air",
-        "Warna minyak",
         "Porositas total batuan",
-        "Kedalaman sumur"
+        "Kedalaman sumur",
+        "Warna minyak",
+        "Pembacaan log resistivitas dan perhitungan saturasi air"
       ],
       "oe": [
-        "Resistivity log readings and water saturation calculations",
-        "Oil color",
         "Total rock porosity",
-        "Well depth"
+        "Well depth",
+        "Oil color",
+        "Resistivity log readings and water saturation calculations"
       ],
       "c": "Pembacaan log resistivitas dan perhitungan saturasi air",
       "ce": "Resistivity log readings and water saturation calculations"
@@ -405,16 +405,16 @@
       "q": "Tegangan antarmuka (IFT) yang rendah antara minyak dan air berpengaruh terhadap...",
       "qe": "Low interfacial tension (IFT) between oil and water affects...",
       "o": [
-        "Meningkatnya densitas batuan",
         "Meningkatnya bilangan kapiler sehingga mobilisasi minyak lebih mudah",
-        "Menurunnya porositas efektif",
-        "Meningkatnya viskositas air"
+        "Meningkatnya viskositas air",
+        "Meningkatnya densitas batuan",
+        "Menurunnya porositas efektif"
       ],
       "oe": [
-        "An increase in rock density",
         "An increase in capillary number, making oil mobilization easier",
-        "A decrease in effective porosity",
-        "An increase in water viscosity"
+        "An increase in water viscosity",
+        "An increase in rock density",
+        "A decrease in effective porosity"
       ],
       "c": "Meningkatnya bilangan kapiler sehingga mobilisasi minyak lebih mudah",
       "ce": "An increase in capillary number, making oil mobilization easier"
@@ -425,15 +425,15 @@
       "qe": "The water formation volume factor (Bw) is generally...",
       "o": [
         "Jauh di bawah 0,5",
+        "Selalu tepat 2,0",
         "Sedikit di atas 1,0",
-        "Sama dengan Bo",
-        "Selalu tepat 2,0"
+        "Sama dengan Bo"
       ],
       "oe": [
         "Far below 0.5",
+        "Always exactly 2.0",
         "Slightly above 1.0",
-        "Equal to Bo",
-        "Always exactly 2.0"
+        "Equal to Bo"
       ],
       "c": "Sedikit di atas 1,0",
       "ce": "Slightly above 1.0"
@@ -443,16 +443,16 @@
       "q": "Manakah data fluida yang diperlukan untuk perhitungan material balance reservoir minyak?",
       "qe": "Which fluid data are required for oil reservoir material balance calculations?",
       "o": [
-        "Viskositas dan kompresibilitas",
         "Warna minyak",
+        "Rs",
         "Bo",
-        "Rs"
+        "Viskositas dan kompresibilitas"
       ],
       "oe": [
-        "Viscosity and compressibility",
         "Oil color",
+        "Rs",
         "Bo",
-        "Rs"
+        "Viscosity and compressibility"
       ],
       "c": [
         "Bo",
@@ -470,14 +470,14 @@
       "q": "Manakah yang memengaruhi viskositas minyak reservoir?",
       "qe": "Which of the following affect reservoir oil viscosity?",
       "o": [
-        "Suhu reservoir",
         "Kandungan gas terlarut",
+        "Suhu reservoir",
         "Warna batuan reservoir",
         "Komposisi dan berat molekul minyak"
       ],
       "oe": [
-        "Reservoir temperature",
         "Dissolved gas content",
+        "Reservoir temperature",
         "Reservoir rock color",
         "Oil composition and molecular weight"
       ],
@@ -497,16 +497,16 @@
       "q": "Manakah pernyataan yang benar tentang gas alam?",
       "qe": "Which statements about natural gas are correct?",
       "o": [
-        "Specific gravity gas biasanya kurang dari 1",
-        "Viskositas gas jauh lebih kecil dari viskositas minyak",
+        "Mengikuti persamaan gas nyata dengan faktor Z",
         "Gas tidak dapat larut dalam air",
-        "Mengikuti persamaan gas nyata dengan faktor Z"
+        "Viskositas gas jauh lebih kecil dari viskositas minyak",
+        "Specific gravity gas biasanya kurang dari 1"
       ],
       "oe": [
-        "Gas specific gravity is usually less than 1",
-        "Gas viscosity is much lower than oil viscosity",
+        "It follows the real gas equation with a Z factor",
         "Gas cannot dissolve in water",
-        "It follows the real gas equation with a Z factor"
+        "Gas viscosity is much lower than oil viscosity",
+        "Gas specific gravity is usually less than 1"
       ],
       "c": [
         "Mengikuti persamaan gas nyata dengan faktor Z",
@@ -524,16 +524,16 @@
       "q": "Manakah yang perlu diukur dalam analisis PVT laboratorium?",
       "qe": "Which of the following must be measured in laboratory PVT analysis?",
       "o": [
-        "Bubble point atau dew point pressure",
-        "Bo, Bg, dan Bw",
         "Rs dan viskositas pada berbagai tekanan",
-        "Warna core"
+        "Bo, Bg, dan Bw",
+        "Warna core",
+        "Bubble point atau dew point pressure"
       ],
       "oe": [
-        "Bubble point or dew point pressure",
-        "Bo, Bg, and Bw",
         "Rs and viscosity at various pressures",
-        "Core color"
+        "Bo, Bg, and Bw",
+        "Core color",
+        "Bubble point or dew point pressure"
       ],
       "c": [
         "Bubble point atau dew point pressure",

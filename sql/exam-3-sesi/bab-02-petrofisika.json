@@ -8,14 +8,14 @@
       "qe": "Rock permeability is a measure of the rock's ability to...",
       "o": [
         "Menyimpan fluida",
-        "Mengalirkan fluida",
         "Menahan tekanan overburden",
+        "Mengalirkan fluida",
         "Menyerap panas"
       ],
       "oe": [
         "Store fluids",
-        "Flow fluids",
         "Withstand overburden pressure",
+        "Flow fluids",
         "Absorb heat"
       ],
       "c": "Mengalirkan fluida",
@@ -26,16 +26,16 @@
       "q": "Satuan yang paling umum dipakai untuk permeabilitas batuan reservoir adalah...",
       "qe": "The most common unit used for reservoir rock permeability is...",
       "o": [
-        "gram/cc",
-        "miliDarcy (mD)",
         "psi",
-        "%"
+        "%",
+        "miliDarcy (mD)",
+        "gram/cc"
       ],
       "oe": [
-        "gram/cc",
-        "milliDarcy (mD)",
         "psi",
-        "%"
+        "%",
+        "milliDarcy (mD)",
+        "gram/cc"
       ],
       "c": "miliDarcy (mD)",
       "ce": "milliDarcy (mD)"
@@ -45,15 +45,15 @@
       "q": "Permeabilitas absolut diukur ketika batuan dijenuhi oleh...",
       "qe": "Absolute permeability is measured when the rock is saturated with...",
       "o": [
-        "Gas dan air bersamaan",
         "Dua fluida sekaligus",
         "Satu jenis fluida saja (100% saturasi)",
+        "Gas dan air bersamaan",
         "Fluida dengan saturasi 50%"
       ],
       "oe": [
-        "Gas and water together",
         "Two fluids at once",
         "A single fluid only (100% saturation)",
+        "Gas and water together",
         "A fluid at 50% saturation"
       ],
       "c": "Satu jenis fluida saja (100% saturasi)",
@@ -65,15 +65,15 @@
       "qe": "Effective permeability is the permeability to a given fluid under conditions of...",
       "o": [
         "Tekanan atmosfer saja",
-        "Saturasi fluida tertentu di dalam pori",
         "Batuan kosong",
-        "Aliran turbulen"
+        "Aliran turbulen",
+        "Saturasi fluida tertentu di dalam pori"
       ],
       "oe": [
         "Atmospheric pressure only",
-        "A specific fluid saturation within the pores",
         "An empty rock",
-        "Turbulent flow"
+        "Turbulent flow",
+        "A specific fluid saturation within the pores"
       ],
       "c": "Saturasi fluida tertentu di dalam pori",
       "ce": "A specific fluid saturation within the pores"
@@ -83,16 +83,16 @@
       "q": "Hukum Darcy menghubungkan laju alir fluida dengan...",
       "qe": "Darcy's law relates fluid flow rate to...",
       "o": [
+        "Gradien tekanan, luas penampang, dan viskositas",
         "Warna batuan dan porositas",
         "Kedalaman sumur saja",
-        "Kadar lempung dan suhu",
-        "Gradien tekanan, luas penampang, dan viskositas"
+        "Kadar lempung dan suhu"
       ],
       "oe": [
+        "Pressure gradient, cross-sectional area, and viscosity",
         "Rock color and porosity",
         "Well depth only",
-        "Clay content and temperature",
-        "Pressure gradient, cross-sectional area, and viscosity"
+        "Clay content and temperature"
       ],
       "c": "Gradien tekanan, luas penampang, dan viskositas",
       "ce": "Pressure gradient, cross-sectional area, and viscosity"
@@ -102,15 +102,15 @@
       "q": "Batuan dengan permeabilitas 1 mD termasuk kategori...",
       "qe": "A rock with 1 mD permeability falls into the category...",
       "o": [
-        "Sangat tinggi",
         "Rendah",
         "Sangat tinggi sekali",
+        "Sangat tinggi",
         "Tidak dapat diukur"
       ],
       "oe": [
-        "Very high",
         "Low",
         "Extremely high",
+        "Very high",
         "Unmeasurable"
       ],
       "c": "Rendah",
@@ -122,14 +122,14 @@
       "qe": "The correct statement about the relationship between porosity and permeability is...",
       "o": [
         "Porositas tinggi selalu berarti permeabilitas tinggi",
-        "Keduanya tidak selalu berkorelasi langsung",
         "Keduanya selalu bernilai sama",
+        "Keduanya tidak selalu berkorelasi langsung",
         "Permeabilitas selalu lebih besar dari porositas"
       ],
       "oe": [
         "High porosity always means high permeability",
-        "They are not always directly correlated",
         "They are always equal",
+        "They are not always directly correlated",
         "Permeability is always greater than porosity"
       ],
       "c": "Keduanya tidak selalu berkorelasi langsung",
@@ -140,14 +140,14 @@
       "q": "Faktor apa saja yang memengaruhi permeabilitas batuan?",
       "qe": "Which factors affect rock permeability?",
       "o": [
-        "Tingkat sementasi",
         "Warna batuan",
+        "Tingkat sementasi",
         "Ukuran butir",
         "Pemilahan (sorting) butir"
       ],
       "oe": [
-        "Degree of cementation",
         "Rock color",
+        "Degree of cementation",
         "Grain size",
         "Grain sorting"
       ],
@@ -219,16 +219,16 @@
       "q": "Aliran 10 cm3/s melewati core dengan luas 20 cm2 dan panjang 10 cm pada beda tekanan 2 atm, viskositas 1 cp. Berapa permeabilitasnya?",
       "qe": "A flow of 10 cm3/s passes through a core of 20 cm2 area and 10 cm length at a pressure difference of 2 atm and viscosity of 1 cp. What is the permeability?",
       "o": [
+        "250 Darcy",
         "0,25 Darcy",
-        "2,5 Darcy",
         "25 Darcy",
-        "250 Darcy"
+        "2,5 Darcy"
       ],
       "oe": [
+        "250 Darcy",
         "0.25 Darcy",
-        "2.5 Darcy",
         "25 Darcy",
-        "250 Darcy"
+        "2.5 Darcy"
       ],
       "c": "2,5 Darcy",
       "ce": "2.5 Darcy"
@@ -238,16 +238,16 @@
       "q": "Nilai 1 Darcy setara dengan...",
       "qe": "A value of 1 Darcy is equivalent to...",
       "o": [
-        "1 x 10-15 m2",
-        "1 x 10-3 m2",
         "9,87 x 10-13 m2",
-        "9,87 x 10-9 m2"
+        "1 x 10-15 m2",
+        "9,87 x 10-9 m2",
+        "1 x 10-3 m2"
       ],
       "oe": [
-        "1 x 10-15 m2",
-        "1 x 10-3 m2",
         "9.87 x 10-13 m2",
-        "9.87 x 10-9 m2"
+        "1 x 10-15 m2",
+        "9.87 x 10-9 m2",
+        "1 x 10-3 m2"
       ],
       "c": "9,87 x 10-13 m2",
       "ce": "9.87 x 10-13 m2"
@@ -258,15 +258,15 @@
       "qe": "The Klinkenberg effect causes permeability measured with gas to be...",
       "o": [
         "Lebih tinggi dari permeabilitas cairan",
-        "Tidak terukur",
         "Lebih rendah dari permeabilitas cairan",
-        "Sama persis dengan permeabilitas cairan"
+        "Sama persis dengan permeabilitas cairan",
+        "Tidak terukur"
       ],
       "oe": [
         "Higher than liquid permeability",
-        "Unmeasurable",
         "Lower than liquid permeability",
-        "Exactly equal to liquid permeability"
+        "Exactly equal to liquid permeability",
+        "Unmeasurable"
       ],
       "c": "Lebih tinggi dari permeabilitas cairan",
       "ce": "Higher than liquid permeability"
@@ -276,15 +276,15 @@
       "q": "Pada batuan berlapis (bedded), rasio permeabilitas vertikal terhadap horizontal (kv/kh) umumnya...",
       "qe": "In bedded rocks, the ratio of vertical to horizontal permeability (kv/kh) is generally...",
       "o": [
-        "Selalu sama dengan 1",
-        "Tidak dapat ditentukan",
         "Lebih besar dari 1",
+        "Tidak dapat ditentukan",
+        "Selalu sama dengan 1",
         "Lebih kecil dari 1"
       ],
       "oe": [
-        "Always equal to 1",
-        "Impossible to determine",
         "Greater than 1",
+        "Impossible to determine",
+        "Always equal to 1",
         "Less than 1"
       ],
       "c": "Lebih kecil dari 1",
@@ -295,16 +295,16 @@
       "q": "Pada kurva relative permeability, titik di mana kro dan krw berpotongan disebut...",
       "qe": "On a relative permeability curve, the point where kro and krw intersect is called...",
       "o": [
-        "Endpoint saturation",
-        "Residual oil point",
+        "Irreducible water saturation",
         "Crossover point",
-        "Irreducible water saturation"
+        "Residual oil point",
+        "Endpoint saturation"
       ],
       "oe": [
-        "Endpoint saturation",
-        "Residual oil point",
+        "Irreducible water saturation",
         "Crossover point",
-        "Irreducible water saturation"
+        "Residual oil point",
+        "Endpoint saturation"
       ],
       "c": "Crossover point",
       "ce": "Crossover point"
@@ -314,16 +314,16 @@
       "q": "Pada batuan water-wet, air cenderung menempati...",
       "qe": "In a water-wet rock, water tends to occupy...",
       "o": [
+        "Rongga pelarutan besar",
         "Hanya rekahan",
-        "Pori kecil dan permukaan butir",
         "Pori-pori besar di bagian tengah",
-        "Rongga pelarutan besar"
+        "Pori kecil dan permukaan butir"
       ],
       "oe": [
+        "Large dissolution cavities",
         "Fractures only",
-        "Small pores and grain surfaces",
         "Large pores in the center",
-        "Large dissolution cavities"
+        "Small pores and grain surfaces"
       ],
       "c": "Pori kecil dan permukaan butir",
       "ce": "Small pores and grain surfaces"
@@ -333,16 +333,16 @@
       "q": "Bertambahnya tegangan efektif (effective stress) pada batuan reservoir umumnya menyebabkan...",
       "qe": "Increasing effective stress in a reservoir rock generally causes...",
       "o": [
-        "Porositas meningkat",
-        "Porositas dan permeabilitas menurun",
+        "Permeabilitas meningkat",
         "Tidak ada perubahan",
-        "Permeabilitas meningkat"
+        "Porositas meningkat",
+        "Porositas dan permeabilitas menurun"
       ],
       "oe": [
-        "Porosity to increase",
-        "Porosity and permeability to decrease",
+        "Permeability to increase",
         "No change",
-        "Permeability to increase"
+        "Porosity to increase",
+        "Porosity and permeability to decrease"
       ],
       "c": "Porositas dan permeabilitas menurun",
       "ce": "Porosity and permeability to decrease"
@@ -352,15 +352,15 @@
       "q": "Persamaan Kozeny-Carman menunjukkan bahwa permeabilitas berbanding lurus dengan...",
       "qe": "The Kozeny-Carman equation shows that permeability is directly proportional to...",
       "o": [
-        "Kadar air terikat",
         "Viskositas fluida",
         "Kuadrat diameter butir rata-rata",
+        "Kadar air terikat",
         "Tegangan overburden"
       ],
       "oe": [
-        "Bound water content",
         "Fluid viscosity",
         "The square of the mean grain diameter",
+        "Bound water content",
         "Overburden stress"
       ],
       "c": "Kuadrat diameter butir rata-rata",
@@ -371,16 +371,16 @@
       "q": "Rekahan pada reservoir tight umumnya berfungsi untuk...",
       "qe": "Fractures in a tight reservoir generally serve to...",
       "o": [
-        "Menurunkan tekanan reservoir",
-        "Menyediakan jalur aliran berpermeabilitas tinggi",
         "Mengurangi porositas matriks",
-        "Meningkatkan saturasi air"
+        "Meningkatkan saturasi air",
+        "Menyediakan jalur aliran berpermeabilitas tinggi",
+        "Menurunkan tekanan reservoir"
       ],
       "oe": [
-        "Reduce reservoir pressure",
-        "Provide high-permeability flow paths",
         "Reduce matrix porosity",
-        "Increase water saturation"
+        "Increase water saturation",
+        "Provide high-permeability flow paths",
+        "Reduce reservoir pressure"
       ],
       "c": "Menyediakan jalur aliran berpermeabilitas tinggi",
       "ce": "Provide high-permeability flow paths"
@@ -391,15 +391,15 @@
       "qe": "Adding clay to sandstone reduces permeability mainly because...",
       "o": [
         "Lempung melarutkan kuarsa",
+        "Lempung menyumbat pori dan menambah tortuositas",
         "Lempung meningkatkan porositas efektif",
-        "Lempung menambah ukuran butir",
-        "Lempung menyumbat pori dan menambah tortuositas"
+        "Lempung menambah ukuran butir"
       ],
       "oe": [
         "Clay dissolves quartz",
+        "Clay plugs pores and increases tortuosity",
         "Clay increases effective porosity",
-        "Clay increases grain size",
-        "Clay plugs pores and increases tortuosity"
+        "Clay increases grain size"
       ],
       "c": "Lempung menyumbat pori dan menambah tortuositas",
       "ce": "Clay plugs pores and increases tortuosity"
@@ -409,16 +409,16 @@
       "q": "Hukum Darcy berlaku paling tepat pada kondisi aliran...",
       "qe": "Darcy's law applies most appropriately under conditions of...",
       "o": [
-        "Aliran melalui pipa terbuka",
-        "Turbulen",
         "Laminer",
-        "Dua fase dengan viskositas tak terbatas"
+        "Dua fase dengan viskositas tak terbatas",
+        "Turbulen",
+        "Aliran melalui pipa terbuka"
       ],
       "oe": [
-        "Flow through an open pipe",
-        "Turbulent",
         "Laminar",
-        "Two-phase with unbounded viscosity"
+        "Two-phase with unbounded viscosity",
+        "Turbulent",
+        "Flow through an open pipe"
       ],
       "c": "Laminer",
       "ce": "Laminar"
@@ -428,16 +428,16 @@
       "q": "Saturasi air ireduktibel (Swir) adalah saturasi air minimum yang...",
       "qe": "Irreducible water saturation (Swir) is the minimum water saturation that...",
       "o": [
+        "Selalu bernilai nol",
         "Masih dapat mengalir saat produksi",
-        "Tidak dapat terproduksikan lagi",
         "Sama dengan saturasi air awal",
-        "Selalu bernilai nol"
+        "Tidak dapat terproduksikan lagi"
       ],
       "oe": [
+        "Is always zero",
         "Can still flow during production",
-        "Can no longer be produced",
         "Equals the initial water saturation",
-        "Is always zero"
+        "Can no longer be produced"
       ],
       "c": "Tidak dapat terproduksikan lagi",
       "ce": "Can no longer be produced"
@@ -447,16 +447,16 @@
       "q": "Manakah metode yang dapat digunakan untuk menentukan permeabilitas reservoir?",
       "qe": "Which methods can be used to determine reservoir permeability?",
       "o": [
-        "Analisis core di laboratorium",
+        "Pengukuran warna batuan",
         "Uji sumur (well test)",
-        "Korelasi dari data log",
-        "Pengukuran warna batuan"
+        "Analisis core di laboratorium",
+        "Korelasi dari data log"
       ],
       "oe": [
-        "Core analysis in the laboratory",
+        "Rock color measurement",
         "Well testing",
-        "Correlation from log data",
-        "Rock color measurement"
+        "Core analysis in the laboratory",
+        "Correlation from log data"
       ],
       "c": [
         "Analisis core di laboratorium",
@@ -475,15 +475,15 @@
       "qe": "Which statements about relative permeability are correct?",
       "o": [
         "Selalu bernilai sama untuk air dan minyak",
+        "Dipengaruhi wettability batuan",
         "Nilai berkisar antara 0 dan 1",
-        "Bergantung pada saturasi fluida",
-        "Dipengaruhi wettability batuan"
+        "Bergantung pada saturasi fluida"
       ],
       "oe": [
         "It is always equal for water and oil",
+        "It is influenced by rock wettability",
         "Its value ranges between 0 and 1",
-        "It depends on fluid saturation",
-        "It is influenced by rock wettability"
+        "It depends on fluid saturation"
       ],
       "c": [
         "Nilai berkisar antara 0 dan 1",
@@ -501,16 +501,16 @@
       "q": "Manakah yang dapat menurunkan permeabilitas di sekitar lubang sumur (formation damage)?",
       "qe": "Which of the following can reduce permeability around the wellbore (formation damage)?",
       "o": [
-        "Migrasi partikel halus (fines migration)",
+        "Peningkatan tekanan reservoir",
         "Pengendapan scaling",
         "Pembengkakan lempung",
-        "Peningkatan tekanan reservoir"
+        "Migrasi partikel halus (fines migration)"
       ],
       "oe": [
-        "Fines migration",
+        "Increasing reservoir pressure",
         "Scale deposition",
         "Clay swelling",
-        "Increasing reservoir pressure"
+        "Fines migration"
       ],
       "c": [
         "Migrasi partikel halus (fines migration)",
@@ -528,16 +528,16 @@
       "q": "Manakah sifat fisik batuan yang termasuk parameter petrofisika dasar?",
       "qe": "Which rock physical properties are basic petrophysical parameters?",
       "o": [
-        "Porositas",
         "Permeabilitas",
-        "Harga minyak",
-        "Saturasi fluida"
+        "Porositas",
+        "Saturasi fluida",
+        "Harga minyak"
       ],
       "oe": [
-        "Porosity",
         "Permeability",
-        "Oil price",
-        "Fluid saturation"
+        "Porosity",
+        "Fluid saturation",
+        "Oil price"
       ],
       "c": [
         "Porositas",

@@ -7,15 +7,15 @@
       "q": "Rumus volumetrik OOIP (original oil in place) memuat faktor konversi acre-ft ke barrel sebesar...",
       "qe": "The volumetric OOIP (original oil in place) formula includes the acre-ft to barrel conversion factor of...",
       "o": [
+        "7.758.000",
         "7.758",
         "775,8",
-        "7.758.000",
         "1.000"
       ],
       "oe": [
+        "7,758,000",
         "7,758",
         "775.8",
-        "7,758,000",
         "1,000"
       ],
       "c": "7.758",
@@ -26,16 +26,16 @@
       "q": "Net-to-gross ratio (NTG) adalah perbandingan antara...",
       "qe": "The net-to-gross ratio (NTG) is the ratio between...",
       "o": [
-        "Porositas dan permeabilitas",
+        "Volume reservoir dan volume permukaan",
         "Ketebalan net pay dan ketebalan total formasi",
-        "Saturasi minyak dan saturasi air",
-        "Volume reservoir dan volume permukaan"
+        "Porositas dan permeabilitas",
+        "Saturasi minyak dan saturasi air"
       ],
       "oe": [
-        "Porosity and permeability",
+        "Reservoir volume and surface volume",
         "Net pay thickness and total formation thickness",
-        "Oil saturation and water saturation",
-        "Reservoir volume and surface volume"
+        "Porosity and permeability",
+        "Oil saturation and water saturation"
       ],
       "c": "Ketebalan net pay dan ketebalan total formasi",
       "ce": "Net pay thickness and total formation thickness"
@@ -45,15 +45,15 @@
       "q": "Recovery factor (RF) menyatakan...",
       "qe": "The recovery factor (RF) expresses...",
       "o": [
-        "Perbandingan OOIP terhadap luas area",
         "Perbandingan cadangan terproduksi terhadap OOIP",
         "Perbandingan porositas dan saturasi",
+        "Perbandingan OOIP terhadap luas area",
         "Perbandingan tekanan awal dan akhir"
       ],
       "oe": [
-        "The ratio of OOIP to areal extent",
         "The ratio of recoverable reserves to OOIP",
         "The ratio of porosity to saturation",
+        "The ratio of OOIP to areal extent",
         "The ratio of initial and final pressure"
       ],
       "c": "Perbandingan cadangan terproduksi terhadap OOIP",
@@ -65,15 +65,15 @@
       "qe": "OOIP stands for...",
       "o": [
         "Operating Oil Index Program",
-        "Overburden Oil Initial Pressure",
         "Oil Output Injection Pressure",
-        "Original Oil In Place"
+        "Original Oil In Place",
+        "Overburden Oil Initial Pressure"
       ],
       "oe": [
         "Operating Oil Index Program",
-        "Overburden Oil Initial Pressure",
         "Oil Output Injection Pressure",
-        "Original Oil In Place"
+        "Original Oil In Place",
+        "Overburden Oil Initial Pressure"
       ],
       "c": "Original Oil In Place",
       "ce": "Original Oil In Place"
@@ -84,15 +84,15 @@
       "qe": "The volumetric method is used to...",
       "o": [
         "Mengukur laju produksi harian",
-        "Menentukan harga gas",
         "Menghitung biaya pengeboran",
-        "Menghitung volume hidrokarbon dari parameter batuan dan fluida"
+        "Menghitung volume hidrokarbon dari parameter batuan dan fluida",
+        "Menentukan harga gas"
       ],
       "oe": [
         "Measure daily production rate",
-        "Determine gas prices",
         "Calculate drilling costs",
-        "Calculate hydrocarbon volume from rock and fluid parameters"
+        "Calculate hydrocarbon volume from rock and fluid parameters",
+        "Determine gas prices"
       ],
       "c": "Menghitung volume hidrokarbon dari parameter batuan dan fluida",
       "ce": "Calculate hydrocarbon volume from rock and fluid parameters"
@@ -102,16 +102,16 @@
       "q": "Dalam estimasi cadangan probabilistik, P90 berarti...",
       "qe": "In probabilistic reserves estimation, P90 means...",
       "o": [
+        "Nilai rata-rata",
         "Nilai dengan probabilitas 10%",
-        "Nilai maksimum absolut",
         "Nilai dengan probabilitas 90% volume aktual lebih besar dari nilai tersebut",
-        "Nilai rata-rata"
+        "Nilai maksimum absolut"
       ],
       "oe": [
+        "The average value",
         "The value with a 10% probability",
-        "The absolute maximum value",
         "The value with a 90% probability that actual volume is greater",
-        "The average value"
+        "The absolute maximum value"
       ],
       "c": "Nilai dengan probabilitas 90% volume aktual lebih besar dari nilai tersebut",
       "ce": "The value with a 90% probability that actual volume is greater"
@@ -121,16 +121,16 @@
       "q": "Saturasi hidrokarbon (So) dihitung dari...",
       "qe": "Hydrocarbon saturation (So) is calculated from...",
       "o": [
-        "1 + Sw",
-        "1 - Sw",
+        "phi / Sw",
         "Sw / phi",
-        "phi / Sw"
+        "1 - Sw",
+        "1 + Sw"
       ],
       "oe": [
-        "1 + Sw",
-        "1 - Sw",
+        "phi / Sw",
         "Sw / phi",
-        "phi / Sw"
+        "1 - Sw",
+        "1 + Sw"
       ],
       "c": "1 - Sw",
       "ce": "1 - Sw"
@@ -140,16 +140,16 @@
       "q": "Manakah parameter yang dibutuhkan dalam perhitungan volumetrik OOIP?",
       "qe": "Which parameters are required in the volumetric OOIP calculation?",
       "o": [
-        "Porositas dan saturasi minyak",
+        "Ketebalan net pay",
         "Faktor volume formasi (Bo)",
-        "Luas area",
-        "Ketebalan net pay"
+        "Porositas dan saturasi minyak",
+        "Luas area"
       ],
       "oe": [
-        "Porosity and oil saturation",
+        "Net pay thickness",
         "Formation volume factor (Bo)",
-        "Areal extent",
-        "Net pay thickness"
+        "Porosity and oil saturation",
+        "Areal extent"
       ],
       "c": [
         "Luas area",
@@ -221,16 +221,16 @@
       "q": "Diketahui A = 1000 acre, h = 20 ft, phi = 0,2, So = 0,7, dan Bo = 1,2 RB/STB. Berapa OOIP-nya?",
       "qe": "Given A = 1000 acres, h = 20 ft, phi = 0.2, So = 0.7, and Bo = 1.2 RB/STB. What is the OOIP?",
       "o": [
-        "1,8 MMSTB",
-        "18,1 MMSTB",
         "181 MMSTB",
-        "2,2 MMSTB"
+        "1,8 MMSTB",
+        "2,2 MMSTB",
+        "18,1 MMSTB"
       ],
       "oe": [
-        "1.8 MMSTB",
-        "18.1 MMSTB",
         "181 MMSTB",
-        "2.2 MMSTB"
+        "1.8 MMSTB",
+        "2.2 MMSTB",
+        "18.1 MMSTB"
       ],
       "c": "18,1 MMSTB",
       "ce": "18.1 MMSTB"
@@ -241,15 +241,15 @@
       "qe": "Given A = 640 acres, h = 30 ft, phi = 0.18, Sw = 0.30, and Bg = 0.005 ft3/SCF. What is the OGIP?",
       "o": [
         "2,1 BSCF",
+        "1,05 BSCF",
         "21,1 BSCF",
-        "211 BSCF",
-        "1,05 BSCF"
+        "211 BSCF"
       ],
       "oe": [
         "2.1 BSCF",
+        "1.05 BSCF",
         "21.1 BSCF",
-        "211 BSCF",
-        "1.05 BSCF"
+        "211 BSCF"
       ],
       "c": "21,1 BSCF",
       "ce": "21.1 BSCF"
@@ -259,16 +259,16 @@
       "q": "Recovery factor pada reservoir dengan water drive yang kuat umumnya...",
       "qe": "The recovery factor in a reservoir with strong water drive is generally...",
       "o": [
-        "Lebih rendah dibanding solution gas drive",
+        "Tidak dipengaruhi mekanisme drive",
         "Lebih tinggi dibanding solution gas drive",
-        "Sama dengan nol",
-        "Tidak dipengaruhi mekanisme drive"
+        "Lebih rendah dibanding solution gas drive",
+        "Sama dengan nol"
       ],
       "oe": [
-        "Lower than solution gas drive",
+        "Not affected by the drive mechanism",
         "Higher than solution gas drive",
-        "Equal to zero",
-        "Not affected by the drive mechanism"
+        "Lower than solution gas drive",
+        "Equal to zero"
       ],
       "c": "Lebih tinggi dibanding solution gas drive",
       "ce": "Higher than solution gas drive"
@@ -278,16 +278,16 @@
       "q": "Penerapan cutoff yang terlalu ketat pada perhitungan net pay akan menyebabkan...",
       "qe": "Applying cutoffs that are too strict in net pay calculation will cause...",
       "o": [
-        "OOIP menjadi lebih kecil (underestimate)",
         "OOIP menjadi lebih besar (overestimate)",
+        "Porositas menjadi negatif",
         "OOIP tidak berubah",
-        "Porositas menjadi negatif"
+        "OOIP menjadi lebih kecil (underestimate)"
       ],
       "oe": [
-        "OOIP to become smaller (underestimate)",
         "OOIP to become larger (overestimate)",
+        "Porosity to become negative",
         "OOIP to remain unchanged",
-        "Porosity to become negative"
+        "OOIP to become smaller (underestimate)"
       ],
       "c": "OOIP menjadi lebih kecil (underestimate)",
       "ce": "OOIP to become smaller (underestimate)"
@@ -298,15 +298,15 @@
       "qe": "The 2P reserves classification consists of...",
       "o": [
         "Proven + Probable",
+        "Proven saja",
         "Proven + Possible",
-        "Probable + Possible",
-        "Proven saja"
+        "Probable + Possible"
       ],
       "oe": [
         "Proven + Probable",
+        "Proven only",
         "Proven + Possible",
-        "Probable + Possible",
-        "Proven only"
+        "Probable + Possible"
       ],
       "c": "Proven + Probable",
       "ce": "Proven + Probable"
@@ -316,16 +316,16 @@
       "q": "Metode Monte Carlo dalam estimasi volume digunakan untuk...",
       "qe": "The Monte Carlo method in volume estimation is used to...",
       "o": [
-        "Menentukan kedalaman sumur",
-        "Menghitung laju alir sumur",
         "Mengukur viskositas minyak",
-        "Menggabungkan ketidakpastian beberapa parameter secara probabilistik"
+        "Menghitung laju alir sumur",
+        "Menggabungkan ketidakpastian beberapa parameter secara probabilistik",
+        "Menentukan kedalaman sumur"
       ],
       "oe": [
-        "Determine well depth",
-        "Calculate well flow rate",
         "Measure oil viscosity",
-        "Combine the uncertainty of several parameters probabilistically"
+        "Calculate well flow rate",
+        "Combine the uncertainty of several parameters probabilistically",
+        "Determine well depth"
       ],
       "c": "Menggabungkan ketidakpastian beberapa parameter secara probabilistik",
       "ce": "Combine the uncertainty of several parameters probabilistically"
@@ -335,16 +335,16 @@
       "q": "Perbedaan hasil antara perhitungan volumetrik dan material balance umumnya menunjukkan...",
       "qe": "A difference between volumetric and material balance results generally indicates...",
       "o": [
+        "Tidak ada artinya",
         "Perhitungan pasti benar",
-        "Perlu evaluasi ulang data (misalnya tekanan, geologi, atau parameter batuan)",
         "Reservoir tidak memiliki hidrokarbon",
-        "Tidak ada artinya"
+        "Perlu evaluasi ulang data (misalnya tekanan, geologi, atau parameter batuan)"
       ],
       "oe": [
+        "Nothing meaningful",
         "The calculation is definitely correct",
-        "A need to re-evaluate the data (e.g., pressure, geology, or rock parameters)",
         "The reservoir has no hydrocarbons",
-        "Nothing meaningful"
+        "A need to re-evaluate the data (e.g., pressure, geology, or rock parameters)"
       ],
       "c": "Perlu evaluasi ulang data (misalnya tekanan, geologi, atau parameter batuan)",
       "ce": "A need to re-evaluate the data (e.g., pressure, geology, or rock parameters)"
@@ -354,16 +354,16 @@
       "q": "Upscaling parameter petrofisika dari core ke skala reservoir bertujuan untuk...",
       "qe": "Upscaling petrophysical parameters from core to reservoir scale aims to...",
       "o": [
-        "Menghilangkan data core",
-        "Memperoleh nilai representatif untuk simulasi reservoir",
         "Menentukan harga minyak",
-        "Mengurangi jumlah sumur"
+        "Mengurangi jumlah sumur",
+        "Menghilangkan data core",
+        "Memperoleh nilai representatif untuk simulasi reservoir"
       ],
       "oe": [
-        "Eliminate core data",
-        "Obtain representative values for reservoir simulation",
         "Determine oil prices",
-        "Reduce the number of wells"
+        "Reduce the number of wells",
+        "Eliminate core data",
+        "Obtain representative values for reservoir simulation"
       ],
       "c": "Memperoleh nilai representatif untuk simulasi reservoir",
       "ce": "Obtain representative values for reservoir simulation"
@@ -373,16 +373,16 @@
       "q": "Parameter yang paling sensitif mempengaruhi hasil OOIP pada rumus volumetrik adalah...",
       "qe": "The parameter that most sensitively affects the OOIP result in the volumetric formula is...",
       "o": [
+        "Porositas, saturasi, ketebalan, dan luas area",
         "Jenis lumpur pengeboran",
-        "Warna batuan",
         "Kedalaman sumur",
-        "Porositas, saturasi, ketebalan, dan luas area"
+        "Warna batuan"
       ],
       "oe": [
+        "Porosity, saturation, thickness, and areal extent",
         "Drilling mud type",
-        "Rock color",
         "Well depth",
-        "Porosity, saturation, thickness, and areal extent"
+        "Rock color"
       ],
       "c": "Porositas, saturasi, ketebalan, dan luas area",
       "ce": "Porosity, saturation, thickness, and areal extent"
@@ -392,15 +392,15 @@
       "q": "Saturasi air yang digunakan untuk perhitungan volumetrik sebaiknya berasal dari...",
       "qe": "The water saturation used for volumetric calculation should come from...",
       "o": [
-        "Data dari sumur tetangga tanpa koreksi",
         "Asumsi 50%",
         "Data log yang dikalibrasi dengan core dan data tekanan kapiler",
+        "Data dari sumur tetangga tanpa koreksi",
         "Warna batuan"
       ],
       "oe": [
-        "Neighboring well data without correction",
         "A 50% assumption",
         "Log data calibrated with core and capillary pressure data",
+        "Neighboring well data without correction",
         "Rock color"
       ],
       "c": "Data log yang dikalibrasi dengan core dan data tekanan kapiler",
@@ -411,16 +411,16 @@
       "q": "Sweep efficiency memengaruhi...",
       "qe": "Sweep efficiency affects...",
       "o": [
-        "Porositas total batuan",
-        "Fraksi volume reservoir yang benar-benar tersapu oleh fluida pendesak",
         "Densitas matriks",
-        "Kedalaman sumur"
+        "Porositas total batuan",
+        "Kedalaman sumur",
+        "Fraksi volume reservoir yang benar-benar tersapu oleh fluida pendesak"
       ],
       "oe": [
-        "Total rock porosity",
-        "The fraction of reservoir volume actually swept by the displacing fluid",
         "Matrix density",
-        "Well depth"
+        "Total rock porosity",
+        "Well depth",
+        "The fraction of reservoir volume actually swept by the displacing fluid"
       ],
       "c": "Fraksi volume reservoir yang benar-benar tersapu oleh fluida pendesak",
       "ce": "The fraction of reservoir volume actually swept by the displacing fluid"
@@ -432,14 +432,14 @@
       "o": [
         "Volume OOIP",
         "Produksi harian saat ini",
-        "Jumlah sumur yang akan dibor",
-        "Total perkiraan produksi kumulatif sampai akhir umur sumur/reservoir"
+        "Total perkiraan produksi kumulatif sampai akhir umur sumur/reservoir",
+        "Jumlah sumur yang akan dibor"
       ],
       "oe": [
         "OOIP volume",
         "Current daily production",
-        "The number of wells to be drilled",
-        "The total estimated cumulative production until the end of the well/reservoir life"
+        "The total estimated cumulative production until the end of the well/reservoir life",
+        "The number of wells to be drilled"
       ],
       "c": "Total perkiraan produksi kumulatif sampai akhir umur sumur/reservoir",
       "ce": "The total estimated cumulative production until the end of the well/reservoir life"
@@ -449,16 +449,16 @@
       "q": "Manakah penyebab perbedaan antara OOIP volumetrik dan hasil material balance?",
       "qe": "Which are causes of differences between volumetric OOIP and material balance results?",
       "o": [
-        "Ketidakpastian geometri reservoir",
-        "Data tekanan yang kurang akurat",
         "Warna minyak yang berbeda",
-        "Parameter batuan yang tidak representatif"
+        "Ketidakpastian geometri reservoir",
+        "Parameter batuan yang tidak representatif",
+        "Data tekanan yang kurang akurat"
       ],
       "oe": [
-        "Uncertain reservoir geometry",
-        "Inaccurate pressure data",
         "Different oil color",
-        "Non-representative rock parameters"
+        "Uncertain reservoir geometry",
+        "Non-representative rock parameters",
+        "Inaccurate pressure data"
       ],
       "c": [
         "Data tekanan yang kurang akurat",
@@ -476,16 +476,16 @@
       "q": "Manakah yang termasuk sumber ketidakpastian dalam estimasi cadangan?",
       "qe": "Which of the following are sources of uncertainty in reserves estimation?",
       "o": [
-        "Kontak fluida dan batas reservoir",
-        "Distribusi porositas dan permeabilitas",
         "Kualitas data log dan core",
-        "Jumlah pekerja di rig"
+        "Kontak fluida dan batas reservoir",
+        "Jumlah pekerja di rig",
+        "Distribusi porositas dan permeabilitas"
       ],
       "oe": [
-        "Fluid contacts and reservoir boundaries",
-        "Porosity and permeability distribution",
         "Log and core data quality",
-        "Number of workers on the rig"
+        "Fluid contacts and reservoir boundaries",
+        "Number of workers on the rig",
+        "Porosity and permeability distribution"
       ],
       "c": [
         "Distribusi porositas dan permeabilitas",
@@ -504,15 +504,15 @@
       "qe": "Which of the following should be reported along with the volume estimate?",
       "o": [
         "Rentang ketidakpastian (P90/P50/P10)",
-        "Metode perhitungan",
+        "Asumsi dan parameter yang dipakai",
         "Warna peta reservoir",
-        "Asumsi dan parameter yang dipakai"
+        "Metode perhitungan"
       ],
       "oe": [
         "Uncertainty range (P90/P50/P10)",
-        "Calculation method",
+        "Assumptions and parameters used",
         "Reservoir map color",
-        "Assumptions and parameters used"
+        "Calculation method"
       ],
       "c": [
         "Asumsi dan parameter yang dipakai",
@@ -530,16 +530,16 @@
       "q": "Manakah pernyataan yang benar tentang NTG?",
       "qe": "Which statements about NTG are correct?",
       "o": [
-        "NTG mempengaruhi OOIP",
-        "NTG selalu sama dengan porositas",
         "NTG bernilai antara 0 dan 1",
-        "NTG memperhitungkan zona non-produktif"
+        "NTG mempengaruhi OOIP",
+        "NTG memperhitungkan zona non-produktif",
+        "NTG selalu sama dengan porositas"
       ],
       "oe": [
-        "NTG affects OOIP",
-        "NTG is always equal to porosity",
         "NTG ranges between 0 and 1",
-        "NTG accounts for non-productive zones"
+        "NTG affects OOIP",
+        "NTG accounts for non-productive zones",
+        "NTG is always equal to porosity"
       ],
       "c": [
         "NTG bernilai antara 0 dan 1",

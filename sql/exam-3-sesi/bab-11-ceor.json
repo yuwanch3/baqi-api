@@ -8,15 +8,15 @@
       "qe": "The main principle of thermal EOR is...",
       "o": [
         "Memanaskan reservoir untuk menurunkan viskositas minyak",
+        "Menurunkan porositas",
         "Mendinginkan reservoir",
-        "Menambah tekanan overburden",
-        "Menurunkan porositas"
+        "Menambah tekanan overburden"
       ],
       "oe": [
         "Heating the reservoir to reduce oil viscosity",
+        "Reducing porosity",
         "Cooling the reservoir",
-        "Increasing overburden pressure",
-        "Reducing porosity"
+        "Increasing overburden pressure"
       ],
       "c": "Memanaskan reservoir untuk menurunkan viskositas minyak",
       "ce": "Heating the reservoir to reduce oil viscosity"
@@ -26,16 +26,16 @@
       "q": "Steam flooding dilakukan dengan cara...",
       "qe": "Steam flooding is performed by...",
       "o": [
+        "Menginjeksikan polimer",
         "Menginjeksikan gas nitrogen",
         "Menginjeksikan air dingin",
-        "Menginjeksikan steam secara kontinu melalui sumur injeksi",
-        "Menginjeksikan polimer"
+        "Menginjeksikan steam secara kontinu melalui sumur injeksi"
       ],
       "oe": [
+        "Injecting polymer",
         "Injecting nitrogen gas",
         "Injecting cold water",
-        "Continuously injecting steam through an injection well",
-        "Injecting polymer"
+        "Continuously injecting steam through an injection well"
       ],
       "c": "Menginjeksikan steam secara kontinu melalui sumur injeksi",
       "ce": "Continuously injecting steam through an injection well"
@@ -45,16 +45,16 @@
       "q": "Cyclic steam stimulation (CSS) juga dikenal sebagai...",
       "qe": "Cyclic steam stimulation (CSS) is also known as...",
       "o": [
-        "WAG",
-        "Waterflood",
         "Huff and puff",
-        "Surfactant flooding"
+        "WAG",
+        "Surfactant flooding",
+        "Waterflood"
       ],
       "oe": [
-        "WAG",
-        "Waterflood",
         "Huff and puff",
-        "Surfactant flooding"
+        "WAG",
+        "Surfactant flooding",
+        "Waterflood"
       ],
       "c": "Huff and puff",
       "ce": "Huff and puff"
@@ -64,15 +64,15 @@
       "q": "SAGD menggunakan...",
       "qe": "SAGD uses...",
       "o": [
+        "Sepasang sumur horizontal (injeksi dan produksi)",
         "Satu sumur vertikal",
         "Empat sumur vertikal",
-        "Sepasang sumur horizontal (injeksi dan produksi)",
         "Sumur multilateral tanpa injeksi"
       ],
       "oe": [
+        "A pair of horizontal wells (injector and producer)",
         "One vertical well",
         "Four vertical wells",
-        "A pair of horizontal wells (injector and producer)",
         "Multilateral wells without injection"
       ],
       "c": "Sepasang sumur horizontal (injeksi dan produksi)",
@@ -83,16 +83,16 @@
       "q": "In-situ combustion adalah metode di mana...",
       "qe": "In-situ combustion is a method where...",
       "o": [
-        "Gas dibakar di flare",
         "Air dipanaskan di permukaan",
-        "Sebagian minyak dibakar di reservoir untuk menghasilkan panas",
-        "Batuan dipanaskan dengan listrik"
+        "Batuan dipanaskan dengan listrik",
+        "Gas dibakar di flare",
+        "Sebagian minyak dibakar di reservoir untuk menghasilkan panas"
       ],
       "oe": [
-        "Gas is burned in a flare",
         "Water is heated at the surface",
-        "Part of the oil is burned in the reservoir to generate heat",
-        "The rock is heated electrically"
+        "The rock is heated electrically",
+        "Gas is burned in a flare",
+        "Part of the oil is burned in the reservoir to generate heat"
       ],
       "c": "Sebagian minyak dibakar di reservoir untuk menghasilkan panas",
       "ce": "Part of the oil is burned in the reservoir to generate heat"
@@ -102,16 +102,16 @@
       "q": "Gas yang paling umum digunakan pada gas EOR untuk pencampuran (miscible) adalah...",
       "qe": "The gas most commonly used in gas EOR for miscibility is...",
       "o": [
+        "Udara",
         "CO2",
         "Helium",
-        "Argon",
-        "Udara"
+        "Argon"
       ],
       "oe": [
+        "Air",
         "CO2",
         "Helium",
-        "Argon",
-        "Air"
+        "Argon"
       ],
       "c": "CO2",
       "ce": "CO2"
@@ -121,15 +121,15 @@
       "q": "Injeksi gas dikatakan miscible apabila...",
       "qe": "Gas injection is said to be miscible when...",
       "o": [
+        "Gas tidak larut dalam minyak",
         "Gas dan minyak terpisah sempurna",
         "Gas dan minyak bercampur tanpa tegangan antarmuka",
-        "Gas tidak larut dalam minyak",
         "Tidak ada aliran"
       ],
       "oe": [
+        "Gas does not dissolve in oil",
         "Gas and oil separate completely",
         "Gas and oil mix without interfacial tension",
-        "Gas does not dissolve in oil",
         "There is no flow"
       ],
       "c": "Gas dan minyak bercampur tanpa tegangan antarmuka",
@@ -140,15 +140,15 @@
       "q": "Manakah yang termasuk metode thermal EOR?",
       "qe": "Which of the following are thermal EOR methods?",
       "o": [
-        "Steam flooding",
-        "Cyclic steam stimulation",
         "In-situ combustion",
+        "Cyclic steam stimulation",
+        "Steam flooding",
         "Polymer flooding"
       ],
       "oe": [
-        "Steam flooding",
-        "Cyclic steam stimulation",
         "In-situ combustion",
+        "Cyclic steam stimulation",
+        "Steam flooding",
         "Polymer flooding"
       ],
       "c": [
@@ -215,16 +215,16 @@
       "q": "Kenaikan suhu reservoir dari 40 C ke 200 C pada minyak berat umumnya menurunkan viskositas hingga...",
       "qe": "Raising reservoir temperature from 40 C to 200 C in heavy oil generally reduces viscosity by up to...",
       "o": [
-        "Tidak berubah",
         "Hanya 2 kali",
+        "Menjadi lebih tinggi",
         "Beberapa orde besaran (ratusan hingga ribuan kali)",
-        "Menjadi lebih tinggi"
+        "Tidak berubah"
       ],
       "oe": [
-        "No change",
         "Only 2 times",
+        "Becoming higher",
         "Several orders of magnitude (hundreds to thousands of times)",
-        "Becoming higher"
+        "No change"
       ],
       "c": "Beberapa orde besaran (ratusan hingga ribuan kali)",
       "ce": "Several orders of magnitude (hundreds to thousands of times)"
@@ -234,16 +234,16 @@
       "q": "Steam quality (kualitas steam) menyatakan...",
       "qe": "Steam quality expresses...",
       "o": [
-        "Suhu steam",
         "Kecepatan injeksi",
+        "Fraksi massa steam (uap) dalam campuran uap-air",
         "Tekanan steam",
-        "Fraksi massa steam (uap) dalam campuran uap-air"
+        "Suhu steam"
       ],
       "oe": [
-        "Steam temperature",
         "Injection rate",
+        "The mass fraction of steam (vapor) in the steam-water mixture",
         "Steam pressure",
-        "The mass fraction of steam (vapor) in the steam-water mixture"
+        "Steam temperature"
       ],
       "c": "Fraksi massa steam (uap) dalam campuran uap-air",
       "ce": "The mass fraction of steam (vapor) in the steam-water mixture"
@@ -253,16 +253,16 @@
       "q": "Steam-oil ratio (SOR) adalah...",
       "qe": "The steam-oil ratio (SOR) is...",
       "o": [
-        "Perbandingan tekanan dan suhu",
         "Volume steam yang diinjeksi per volume minyak yang diproduksi",
         "Perbandingan minyak dan air formasi",
-        "Perbandingan gas dan minyak"
+        "Perbandingan gas dan minyak",
+        "Perbandingan tekanan dan suhu"
       ],
       "oe": [
-        "The ratio of pressure to temperature",
         "The volume of steam injected per volume of oil produced",
         "The ratio of oil to formation water",
-        "The ratio of gas to oil"
+        "The ratio of gas to oil",
+        "The ratio of pressure to temperature"
       ],
       "c": "Volume steam yang diinjeksi per volume minyak yang diproduksi",
       "ce": "The volume of steam injected per volume of oil produced"
@@ -272,16 +272,16 @@
       "q": "Minimum miscibility pressure (MMP) adalah tekanan minimum agar...",
       "qe": "Minimum miscibility pressure (MMP) is the minimum pressure for...",
       "o": [
-        "Batuan retak",
-        "Polimer larut",
         "Gas dan minyak tercampur sempurna (miscible)",
-        "Air mendidih"
+        "Batuan retak",
+        "Air mendidih",
+        "Polimer larut"
       ],
       "oe": [
-        "The rock to fracture",
-        "Polymer to dissolve",
         "Gas and oil to become fully miscible",
-        "Water to boil"
+        "The rock to fracture",
+        "Water to boil",
+        "Polymer to dissolve"
       ],
       "c": "Gas dan minyak tercampur sempurna (miscible)",
       "ce": "Gas and oil to become fully miscible"
@@ -291,16 +291,16 @@
       "q": "CO2 miscible flooding umumnya memerlukan tekanan reservoir...",
       "qe": "CO2 miscible flooding generally requires reservoir pressure...",
       "o": [
+        "Tidak bergantung tekanan",
         "Di atas MMP",
         "Di bawah MMP",
-        "Sama dengan tekanan atmosfer",
-        "Tidak bergantung tekanan"
+        "Sama dengan tekanan atmosfer"
       ],
       "oe": [
+        "Independent of pressure",
         "Above the MMP",
         "Below the MMP",
-        "Equal to atmospheric pressure",
-        "Independent of pressure"
+        "Equal to atmospheric pressure"
       ],
       "c": "Di atas MMP",
       "ce": "Above the MMP"
@@ -311,15 +311,15 @@
       "qe": "The main problem with gas injection in oil reservoirs is...",
       "o": [
         "Viscous fingering dan gravity override akibat mobilitas gas tinggi",
-        "Gas terlalu berat",
+        "Gas menaikkan viskositas minyak",
         "Gas tidak dapat mengalir",
-        "Gas menaikkan viskositas minyak"
+        "Gas terlalu berat"
       ],
       "oe": [
         "Viscous fingering and gravity override due to high gas mobility",
-        "Gas is too heavy",
+        "Gas increases oil viscosity",
         "Gas cannot flow",
-        "Gas increases oil viscosity"
+        "Gas is too heavy"
       ],
       "c": "Viscous fingering dan gravity override akibat mobilitas gas tinggi",
       "ce": "Viscous fingering and gravity override due to high gas mobility"
@@ -329,16 +329,16 @@
       "q": "Metode WAG (water alternating gas) dilakukan untuk...",
       "qe": "The WAG (water alternating gas) method is applied to...",
       "o": [
-        "Menaikkan viskositas gas",
-        "Menambah produksi air",
         "Mengurangi fingering gas dan memperbaiki sweep",
-        "Menurunkan tekanan reservoir"
+        "Menurunkan tekanan reservoir",
+        "Menambah produksi air",
+        "Menaikkan viskositas gas"
       ],
       "oe": [
-        "Increase gas viscosity",
-        "Increase water production",
         "Reduce gas fingering and improve sweep",
-        "Lower reservoir pressure"
+        "Lower reservoir pressure",
+        "Increase water production",
+        "Increase gas viscosity"
       ],
       "c": "Mengurangi fingering gas dan memperbaiki sweep",
       "ce": "Reduce gas fingering and improve sweep"
@@ -348,15 +348,15 @@
       "q": "Pada in-situ combustion, zona di depan front pembakaran tempat minyak ringan menguap disebut...",
       "qe": "In in-situ combustion, the zone ahead of the combustion front where light oil vaporizes is called...",
       "o": [
+        "Zona terbakar",
         "Zona overburden",
         "Zona distilasi (vaporization)",
-        "Zona terbakar",
         "Zona air"
       ],
       "oe": [
+        "Burned zone",
         "Overburden zone",
         "Distillation (vaporization) zone",
-        "Burned zone",
         "Water zone"
       ],
       "c": "Zona distilasi (vaporization)",
@@ -367,16 +367,16 @@
       "q": "Kehilangan panas (heat loss) pada steam flooding terutama terjadi melalui...",
       "qe": "Heat loss in steam flooding mainly occurs through...",
       "o": [
-        "Radiasi ke angkasa",
-        "Konduksi ke formasi sekitar dan permukaan",
+        "Aliran listrik",
         "Pendinginan pompa",
-        "Aliran listrik"
+        "Konduksi ke formasi sekitar dan permukaan",
+        "Radiasi ke angkasa"
       ],
       "oe": [
-        "Radiation to the sky",
-        "Conduction to surrounding formations and the surface",
+        "Electrical current",
         "Pump cooling",
-        "Electrical current"
+        "Conduction to surrounding formations and the surface",
+        "Radiation to the sky"
       ],
       "c": "Konduksi ke formasi sekitar dan permukaan",
       "ce": "Conduction to surrounding formations and the surface"
@@ -386,16 +386,16 @@
       "q": "Injeksi CO2 juga menurunkan viskositas minyak karena...",
       "qe": "CO2 injection also reduces oil viscosity because...",
       "o": [
+        "CO2 menambah lempung",
         "CO2 larut dalam minyak",
         "CO2 membekukan minyak",
-        "CO2 mengubah porositas",
-        "CO2 menambah lempung"
+        "CO2 mengubah porositas"
       ],
       "oe": [
+        "CO2 adds clay",
         "CO2 dissolves in the oil",
         "CO2 freezes the oil",
-        "CO2 changes porosity",
-        "CO2 adds clay"
+        "CO2 changes porosity"
       ],
       "c": "CO2 larut dalam minyak",
       "ce": "CO2 dissolves in the oil"
@@ -405,16 +405,16 @@
       "q": "Kebutuhan udara (air requirement) pada in-situ combustion dinyatakan sebagai...",
       "qe": "Air requirement in in-situ combustion is expressed as...",
       "o": [
-        "Perbandingan gas dan air",
-        "Kecepatan kipas",
+        "Tekanan udara",
         "Volume udara per volume minyak yang diproduksi",
-        "Tekanan udara"
+        "Perbandingan gas dan air",
+        "Kecepatan kipas"
       ],
       "oe": [
-        "The ratio of gas to water",
-        "Fan speed",
+        "Air pressure",
         "Volume of air per volume of oil produced",
-        "Air pressure"
+        "The ratio of gas to water",
+        "Fan speed"
       ],
       "c": "Volume udara per volume minyak yang diproduksi",
       "ce": "Volume of air per volume of oil produced"
@@ -425,15 +425,15 @@
       "qe": "Thermal EOR is generally less suitable for reservoirs that are...",
       "o": [
         "Sangat tipis dengan lapisan overburden tipis",
-        "Tebal dan dalam",
         "Mengandung minyak berat",
-        "Memiliki viskositas tinggi"
+        "Memiliki viskositas tinggi",
+        "Tebal dan dalam"
       ],
       "oe": [
         "Very thin with a thin overburden",
-        "Thick and deep",
         "Containing heavy oil",
-        "Having high viscosity"
+        "Having high viscosity",
+        "Thick and deep"
       ],
       "c": "Sangat tipis dengan lapisan overburden tipis",
       "ce": "Very thin with a thin overburden"
@@ -443,16 +443,16 @@
       "q": "Manakah faktor yang memengaruhi kelayakan steam flooding?",
       "qe": "Which factors affect the feasibility of steam flooding?",
       "o": [
-        "Warna batuan",
         "Kedalaman reservoir (tekanan hidrostatik)",
         "Ketebalan reservoir",
-        "Viskositas minyak dan kualitas steam"
+        "Viskositas minyak dan kualitas steam",
+        "Warna batuan"
       ],
       "oe": [
-        "Rock color",
         "Reservoir depth (hydrostatic pressure)",
         "Reservoir thickness",
-        "Oil viscosity and steam quality"
+        "Oil viscosity and steam quality",
+        "Rock color"
       ],
       "c": [
         "Kedalaman reservoir (tekanan hidrostatik)",
@@ -470,16 +470,16 @@
       "q": "Manakah mekanisme peningkatan perolehan pada injeksi CO2?",
       "qe": "Which are oil recovery mechanisms in CO2 injection?",
       "o": [
-        "Pencampuran (miscibility) dengan minyak",
         "Penurunan viskositas minyak",
-        "Peningkatan tekanan reservoir",
-        "Peningkatan viskositas minyak"
+        "Pencampuran (miscibility) dengan minyak",
+        "Peningkatan viskositas minyak",
+        "Peningkatan tekanan reservoir"
       ],
       "oe": [
-        "Miscibility with oil",
         "Reduction of oil viscosity",
-        "Increase in reservoir pressure",
-        "Increase in oil viscosity"
+        "Miscibility with oil",
+        "Increase in oil viscosity",
+        "Increase in reservoir pressure"
       ],
       "c": [
         "Pencampuran (miscibility) dengan minyak",
@@ -497,15 +497,15 @@
       "q": "Manakah tantangan operasional in-situ combustion?",
       "qe": "Which are operational challenges of in-situ combustion?",
       "o": [
-        "Peningkatan porositas berlebihan",
-        "Risiko ledakan di permukaan",
         "Kualitas gas buang dan korosi",
+        "Risiko ledakan di permukaan",
+        "Peningkatan porositas berlebihan",
         "Kontrol front pembakaran sulit"
       ],
       "oe": [
-        "Excessive porosity increase",
-        "Surface explosion risk",
         "Exhaust gas quality and corrosion",
+        "Surface explosion risk",
+        "Excessive porosity increase",
         "Difficult control of the combustion front"
       ],
       "c": [
@@ -524,16 +524,16 @@
       "q": "Manakah pernyataan yang benar tentang gas EOR?",
       "qe": "Which statements about gas EOR are correct?",
       "o": [
-        "Gas memiliki mobilitas tinggi sehingga mudah fingering",
-        "MMP bergantung pada komposisi minyak dan suhu",
+        "Gas selalu meningkatkan viskositas minyak",
         "WAG digunakan untuk memperbaiki sweep",
-        "Gas selalu meningkatkan viskositas minyak"
+        "MMP bergantung pada komposisi minyak dan suhu",
+        "Gas memiliki mobilitas tinggi sehingga mudah fingering"
       ],
       "oe": [
-        "Gas has high mobility so it fingers easily",
-        "MMP depends on oil composition and temperature",
+        "Gas always increases oil viscosity",
         "WAG is used to improve sweep",
-        "Gas always increases oil viscosity"
+        "MMP depends on oil composition and temperature",
+        "Gas has high mobility so it fingers easily"
       ],
       "c": [
         "Gas memiliki mobilitas tinggi sehingga mudah fingering",

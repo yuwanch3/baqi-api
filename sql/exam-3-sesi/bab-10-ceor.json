@@ -7,16 +7,16 @@
       "q": "Surfaktan adalah zat yang dapat...",
       "qe": "A surfactant is a substance that can...",
       "o": [
-        "Menurunkan tekanan reservoir",
-        "Menaikkan porositas batuan",
         "Meningkatkan viskositas minyak",
-        "Menurunkan tegangan antarmuka antara minyak dan air"
+        "Menurunkan tegangan antarmuka antara minyak dan air",
+        "Menaikkan porositas batuan",
+        "Menurunkan tekanan reservoir"
       ],
       "oe": [
-        "Lower reservoir pressure",
-        "Increase rock porosity",
         "Increase oil viscosity",
-        "Reduce interfacial tension between oil and water"
+        "Reduce interfacial tension between oil and water",
+        "Increase rock porosity",
+        "Lower reservoir pressure"
       ],
       "c": "Menurunkan tegangan antarmuka antara minyak dan air",
       "ce": "Reduce interfacial tension between oil and water"
@@ -27,15 +27,15 @@
       "qe": "A surfactant molecule has a part that is...",
       "o": [
         "Bersifat gas",
-        "Hanya hidrofilik",
+        "Hidrofilik (suka air) dan lipofilik (suka minyak)",
         "Hanya lipofilik",
-        "Hidrofilik (suka air) dan lipofilik (suka minyak)"
+        "Hanya hidrofilik"
       ],
       "oe": [
         "Gaseous",
-        "Only hydrophilic",
+        "Hydrophilic (water-loving) and lipophilic (oil-loving)",
         "Only lipophilic",
-        "Hydrophilic (water-loving) and lipophilic (oil-loving)"
+        "Only hydrophilic"
       ],
       "c": "Hidrofilik (suka air) dan lipofilik (suka minyak)",
       "ce": "Hydrophilic (water-loving) and lipophilic (oil-loving)"
@@ -45,16 +45,16 @@
       "q": "Contoh surfaktan anionik yang umum dipakai pada EOR adalah...",
       "qe": "An example of an anionic surfactant commonly used in EOR is...",
       "o": [
-        "Metana",
+        "Sulfonat",
         "CO2",
         "NaCl",
-        "Sulfonat"
+        "Metana"
       ],
       "oe": [
-        "Methane",
+        "Sulfonate",
         "CO2",
         "NaCl",
-        "Sulfonate"
+        "Methane"
       ],
       "c": "Sulfonat",
       "ce": "Sulfonate"
@@ -64,16 +64,16 @@
       "q": "Alkali yang sering digunakan pada alkaline flooding adalah...",
       "qe": "Alkalis often used in alkaline flooding are...",
       "o": [
-        "CO2 dan N2",
-        "CH4 dan C2H6",
         "HCl dan H2SO4",
-        "NaOH dan Na2CO3"
+        "CO2 dan N2",
+        "NaOH dan Na2CO3",
+        "CH4 dan C2H6"
       ],
       "oe": [
-        "CO2 and N2",
-        "CH4 and C2H6",
         "HCl and H2SO4",
-        "NaOH and Na2CO3"
+        "CO2 and N2",
+        "NaOH and Na2CO3",
+        "CH4 and C2H6"
       ],
       "c": "NaOH dan Na2CO3",
       "ce": "NaOH and Na2CO3"
@@ -84,15 +84,15 @@
       "qe": "Alkaline flooding works through the formation of...",
       "o": [
         "Mineral baru",
-        "Gas metana",
+        "Semen",
         "Surfaktan in-situ dari reaksi dengan asam naftenat",
-        "Semen"
+        "Gas metana"
       ],
       "oe": [
         "New minerals",
-        "Methane gas",
+        "Cement",
         "In-situ surfactants from reaction with naphthenic acids",
-        "Cement"
+        "Methane gas"
       ],
       "c": "Surfaktan in-situ dari reaksi dengan asam naftenat",
       "ce": "In-situ surfactants from reaction with naphthenic acids"
@@ -102,16 +102,16 @@
       "q": "ASP flooding merupakan kombinasi dari...",
       "qe": "ASP flooding is a combination of...",
       "o": [
-        "Air, Steam, dan Polimer",
+        "Alkaline, Surfaktan, dan Polimer",
         "Asam, Sulfur, dan Propana",
-        "Alkaline, Steam, dan Propana",
-        "Alkaline, Surfaktan, dan Polimer"
+        "Air, Steam, dan Polimer",
+        "Alkaline, Steam, dan Propana"
       ],
       "oe": [
-        "Air, Steam, and Polymer",
+        "Alkaline, Surfactant, and Polymer",
         "Acid, Sulfur, and Propane",
-        "Alkaline, Steam, and Propane",
-        "Alkaline, Surfactant, and Polymer"
+        "Air, Steam, and Polymer",
+        "Alkaline, Steam, and Propane"
       ],
       "c": "Alkaline, Surfaktan, dan Polimer",
       "ce": "Alkaline, Surfactant, and Polymer"
@@ -121,16 +121,16 @@
       "q": "Mikroemulsi pada surfaktan flooding terbentuk ketika...",
       "qe": "A microemulsion in surfactant flooding forms when...",
       "o": [
-        "Minyak, air, dan surfaktan membentuk fasa campuran stabil",
         "Air dan gas bercampur",
-        "Batuan larut dalam air",
-        "Polimer terdegradasi"
+        "Minyak, air, dan surfaktan membentuk fasa campuran stabil",
+        "Polimer terdegradasi",
+        "Batuan larut dalam air"
       ],
       "oe": [
-        "Oil, water, and surfactant form a stable mixed phase",
         "Water and gas mix",
-        "Rock dissolves in water",
-        "Polymer degrades"
+        "Oil, water, and surfactant form a stable mixed phase",
+        "Polymer degrades",
+        "Rock dissolves in water"
       ],
       "c": "Minyak, air, dan surfaktan membentuk fasa campuran stabil",
       "ce": "Oil, water, and surfactant form a stable mixed phase"
@@ -140,16 +140,16 @@
       "q": "Manakah jenis surfaktan yang umum digunakan pada EOR?",
       "qe": "Which surfactant types are commonly used in EOR?",
       "o": [
-        "Anionik",
+        "Nonionik",
         "Logam berat",
         "Kationik",
-        "Nonionik"
+        "Anionik"
       ],
       "oe": [
-        "Anionic",
+        "Nonionic",
         "Heavy metal",
         "Cationic",
-        "Nonionic"
+        "Anionic"
       ],
       "c": [
         "Anionik",
@@ -215,15 +215,15 @@
       "q": "Penurunan IFT dari 30 mN/m menjadi 0,003 mN/m akan menaikkan bilangan kapiler sekitar...",
       "qe": "Reducing IFT from 30 mN/m to 0.003 mN/m will increase the capillary number by about...",
       "o": [
-        "10 kali",
-        "100 kali",
         "Tidak berubah",
+        "100 kali",
+        "10 kali",
         "10.000 kali"
       ],
       "oe": [
-        "10 times",
-        "100 times",
         "No change",
+        "100 times",
+        "10 times",
         "10,000 times"
       ],
       "c": "10.000 kali",
@@ -234,16 +234,16 @@
       "q": "Pada klasifikasi Winsor, tipe III menggambarkan sistem...",
       "qe": "In the Winsor classification, type III describes a system...",
       "o": [
-        "Dua fasa dengan minyak di atas",
-        "Tiga fasa dengan mikroemulsi di tengah",
+        "Satu fasa",
         "Dua fasa dengan air di atas",
-        "Satu fasa"
+        "Dua fasa dengan minyak di atas",
+        "Tiga fasa dengan mikroemulsi di tengah"
       ],
       "oe": [
-        "Two phases with oil on top",
-        "Three phases with a microemulsion in the middle",
+        "One phase",
         "Two phases with water on top",
-        "One phase"
+        "Two phases with oil on top",
+        "Three phases with a microemulsion in the middle"
       ],
       "c": "Tiga fasa dengan mikroemulsi di tengah",
       "ce": "Three phases with a microemulsion in the middle"
@@ -253,16 +253,16 @@
       "q": "Optimum salinity pada surfaktan flooding adalah kondisi di mana...",
       "qe": "Optimum salinity in surfactant flooding is the condition where...",
       "o": [
-        "Surfaktan terdegradasi",
+        "Polimer mengendap",
         "Tidak ada mikroemulsi",
-        "Tegangan antarmuka mencapai minimum dan recovery maksimum",
-        "Polimer mengendap"
+        "Surfaktan terdegradasi",
+        "Tegangan antarmuka mencapai minimum dan recovery maksimum"
       ],
       "oe": [
-        "Surfactant degrades",
+        "Polymer precipitates",
         "No microemulsion forms",
-        "Interfacial tension reaches a minimum and recovery is maximum",
-        "Polymer precipitates"
+        "Surfactant degrades",
+        "Interfacial tension reaches a minimum and recovery is maximum"
       ],
       "c": "Tegangan antarmuka mencapai minimum dan recovery maksimum",
       "ce": "Interfacial tension reaches a minimum and recovery is maximum"
@@ -272,15 +272,15 @@
       "q": "Nilai HLB (hydrophile-lipophile balance) yang tinggi menunjukkan surfaktan lebih...",
       "qe": "A high HLB (hydrophile-lipophile balance) value indicates the surfactant is more...",
       "o": [
-        "Lipofilik (larut minyak)",
         "Tidak larut sama sekali",
         "Hidrofilik (larut air)",
+        "Lipofilik (larut minyak)",
         "Bersifat gas"
       ],
       "oe": [
-        "Lipophilic (oil-soluble)",
         "Completely insoluble",
         "Hydrophilic (water-soluble)",
+        "Lipophilic (oil-soluble)",
         "Gaseous"
       ],
       "c": "Hidrofilik (larut air)",
@@ -291,16 +291,16 @@
       "q": "Konsumsi alkali di reservoir terutama disebabkan oleh...",
       "qe": "Alkali consumption in the reservoir is mainly caused by...",
       "o": [
-        "Pembentukan gas",
-        "Penguapan ke udara",
         "Reaksi dengan mineral batuan dan ion divalen",
-        "Pencampuran dengan minyak ringan"
+        "Pencampuran dengan minyak ringan",
+        "Pembentukan gas",
+        "Penguapan ke udara"
       ],
       "oe": [
-        "Gas formation",
-        "Evaporation to the air",
         "Reactions with rock minerals and divalent ions",
-        "Mixing with light oil"
+        "Mixing with light oil",
+        "Gas formation",
+        "Evaporation to the air"
       ],
       "c": "Reaksi dengan mineral batuan dan ion divalen",
       "ce": "Reactions with rock minerals and divalent ions"
@@ -310,16 +310,16 @@
       "q": "Risiko utama injeksi alkali pada batupasir adalah...",
       "qe": "The main risk of alkali injection in sandstone is...",
       "o": [
-        "Peningkatan porositas",
-        "Pembentukan scale dan kerusakan formasi",
+        "Penurunan viskositas air",
         "Peningkatan permeabilitas",
-        "Penurunan viskositas air"
+        "Peningkatan porositas",
+        "Pembentukan scale dan kerusakan formasi"
       ],
       "oe": [
-        "Increased porosity",
-        "Scale formation and formation damage",
+        "Reduced water viscosity",
         "Increased permeability",
-        "Reduced water viscosity"
+        "Increased porosity",
+        "Scale formation and formation damage"
       ],
       "c": "Pembentukan scale dan kerusakan formasi",
       "ce": "Scale formation and formation damage"
@@ -329,16 +329,16 @@
       "q": "Surfaktan flooding umumnya paling efektif bila diikuti oleh...",
       "qe": "Surfactant flooding is generally most effective when followed by...",
       "o": [
-        "Semen",
+        "Injeksi gas CO2",
         "Air tawar tanpa aditif",
-        "Slug polimer untuk mengendalikan mobilitas",
-        "Injeksi gas CO2"
+        "Semen",
+        "Slug polimer untuk mengendalikan mobilitas"
       ],
       "oe": [
-        "Cement",
+        "CO2 gas injection",
         "Fresh water without additives",
-        "A polymer slug for mobility control",
-        "CO2 gas injection"
+        "Cement",
+        "A polymer slug for mobility control"
       ],
       "c": "Slug polimer untuk mengendalikan mobilitas",
       "ce": "A polymer slug for mobility control"
@@ -348,16 +348,16 @@
       "q": "Surfaktan anionik umumnya kurang cocok pada air formasi dengan...",
       "qe": "Anionic surfactants are generally less suitable in formation water with...",
       "o": [
-        "Salinitas rendah",
         "Kadar kalsium dan magnesium tinggi",
-        "Suhu rendah",
-        "pH netral"
+        "pH netral",
+        "Salinitas rendah",
+        "Suhu rendah"
       ],
       "oe": [
-        "Low salinity",
         "High calcium and magnesium content",
-        "Low temperature",
-        "Neutral pH"
+        "Neutral pH",
+        "Low salinity",
+        "Low temperature"
       ],
       "c": "Kadar kalsium dan magnesium tinggi",
       "ce": "High calcium and magnesium content"
@@ -367,16 +367,16 @@
       "q": "Adsorpsi surfaktan pada batuan menyebabkan...",
       "qe": "Surfactant adsorption on rock causes...",
       "o": [
-        "Peningkatan konsentrasi surfaktan",
-        "Kehilangan surfaktan sehingga slug menjadi kurang efektif",
         "Peningkatan porositas",
-        "Peningkatan IFT"
+        "Kehilangan surfaktan sehingga slug menjadi kurang efektif",
+        "Peningkatan IFT",
+        "Peningkatan konsentrasi surfaktan"
       ],
       "oe": [
-        "Increased surfactant concentration",
-        "Surfactant loss so the slug becomes less effective",
         "Increased porosity",
-        "Increased IFT"
+        "Surfactant loss so the slug becomes less effective",
+        "Increased IFT",
+        "Increased surfactant concentration"
       ],
       "c": "Kehilangan surfaktan sehingga slug menjadi kurang efektif",
       "ce": "Surfactant loss so the slug becomes less effective"
@@ -386,16 +386,16 @@
       "q": "Pada alkaline flooding, penurunan IFT terjadi karena...",
       "qe": "In alkaline flooding, IFT reduction occurs because...",
       "o": [
-        "Alkali melarutkan kuarsa",
-        "Alkali menaikkan viskositas air",
         "Terbentuk gas CO2",
-        "Terbentuk surfaktan alami (soap) dari asam naftenat"
+        "Alkali melarutkan kuarsa",
+        "Terbentuk surfaktan alami (soap) dari asam naftenat",
+        "Alkali menaikkan viskositas air"
       ],
       "oe": [
-        "Alkali dissolves quartz",
-        "Alkali increases water viscosity",
         "CO2 gas forms",
-        "Natural surfactants (soap) form from naphthenic acids"
+        "Alkali dissolves quartz",
+        "Natural surfactants (soap) form from naphthenic acids",
+        "Alkali increases water viscosity"
       ],
       "c": "Terbentuk surfaktan alami (soap) dari asam naftenat",
       "ce": "Natural surfactants (soap) form from naphthenic acids"
@@ -405,16 +405,16 @@
       "q": "Kombinasi alkali dan surfaktan bersifat sinergis karena...",
       "qe": "The combination of alkali and surfactant is synergistic because...",
       "o": [
-        "Alkali menghilangkan minyak",
-        "Alkali menaikkan IFT",
         "Alkali menurunkan viskositas polimer",
-        "Alkali menurunkan adsorpsi surfaktan dan menambah surfaktan in-situ"
+        "Alkali menghilangkan minyak",
+        "Alkali menurunkan adsorpsi surfaktan dan menambah surfaktan in-situ",
+        "Alkali menaikkan IFT"
       ],
       "oe": [
-        "Alkali removes the oil",
-        "Alkali increases IFT",
         "Alkali reduces polymer viscosity",
-        "Alkali reduces surfactant adsorption and adds in-situ surfactant"
+        "Alkali removes the oil",
+        "Alkali reduces surfactant adsorption and adds in-situ surfactant",
+        "Alkali increases IFT"
       ],
       "c": "Alkali menurunkan adsorpsi surfaktan dan menambah surfaktan in-situ",
       "ce": "Alkali reduces surfactant adsorption and adds in-situ surfactant"
@@ -424,16 +424,16 @@
       "q": "Surfaktan flooding pada reservoir karbonat umumnya lebih menantang karena...",
       "qe": "Surfactant flooding in carbonate reservoirs is generally more challenging because...",
       "o": [
-        "Permukaan batuan cenderung positif sehingga adsorpsi surfaktan anionik tinggi",
-        "Porositas terlalu tinggi",
         "Tidak ada minyak",
-        "Suhu selalu rendah"
+        "Porositas terlalu tinggi",
+        "Suhu selalu rendah",
+        "Permukaan batuan cenderung positif sehingga adsorpsi surfaktan anionik tinggi"
       ],
       "oe": [
-        "Rock surfaces tend to be positive so anionic surfactant adsorption is high",
-        "Porosity is too high",
         "There is no oil",
-        "Temperature is always low"
+        "Porosity is too high",
+        "Temperature is always low",
+        "Rock surfaces tend to be positive so anionic surfactant adsorption is high"
       ],
       "c": "Permukaan batuan cenderung positif sehingga adsorpsi surfaktan anionik tinggi",
       "ce": "Rock surfaces tend to be positive so anionic surfactant adsorption is high"
@@ -443,16 +443,16 @@
       "q": "Manakah mekanisme yang berperan pada alkaline flooding?",
       "qe": "Which mechanisms play a role in alkaline flooding?",
       "o": [
-        "Penurunan IFT melalui surfaktan in-situ",
         "Perubahan wettability",
         "Emulsifikasi",
-        "Peningkatan viskositas minyak"
+        "Peningkatan viskositas minyak",
+        "Penurunan IFT melalui surfaktan in-situ"
       ],
       "oe": [
-        "IFT reduction through in-situ surfactants",
         "Wettability alteration",
         "Emulsification",
-        "Increasing oil viscosity"
+        "Increasing oil viscosity",
+        "IFT reduction through in-situ surfactants"
       ],
       "c": [
         "Penurunan IFT melalui surfaktan in-situ",
@@ -472,14 +472,14 @@
       "o": [
         "Jenis dan konsentrasi surfaktan",
         "Salinitas dan hardness air",
-        "Warna batuan",
-        "Suhu reservoir"
+        "Suhu reservoir",
+        "Warna batuan"
       ],
       "oe": [
         "Surfactant type and concentration",
         "Water salinity and hardness",
-        "Rock color",
-        "Reservoir temperature"
+        "Reservoir temperature",
+        "Rock color"
       ],
       "c": [
         "Salinitas dan hardness air",
@@ -497,16 +497,16 @@
       "q": "Manakah fungsi polimer dalam proses ASP?",
       "qe": "Which are the functions of polymer in the ASP process?",
       "o": [
-        "Mengendalikan mobilitas fluida pendesak",
-        "Meningkatkan efisiensi sweep",
         "Mengurangi fingering",
-        "Menurunkan IFT secara langsung"
+        "Mengendalikan mobilitas fluida pendesak",
+        "Menurunkan IFT secara langsung",
+        "Meningkatkan efisiensi sweep"
       ],
       "oe": [
-        "Control the mobility of the displacing fluid",
-        "Improve sweep efficiency",
         "Reduce fingering",
-        "Directly reduce IFT"
+        "Control the mobility of the displacing fluid",
+        "Directly reduce IFT",
+        "Improve sweep efficiency"
       ],
       "c": [
         "Mengendalikan mobilitas fluida pendesak",
@@ -524,14 +524,14 @@
       "q": "Manakah keterbatasan alkaline flooding?",
       "qe": "Which are limitations of alkaline flooding?",
       "o": [
-        "Konsumsi alkali tinggi pada batuan reaktif",
         "Risiko scale",
+        "Konsumsi alkali tinggi pada batuan reaktif",
         "Tidak efektif pada minyak tanpa asam naftenat",
         "Selalu menaikkan permeabilitas"
       ],
       "oe": [
-        "High alkali consumption in reactive rocks",
         "Scale risk",
+        "High alkali consumption in reactive rocks",
         "Ineffective for oils without naphthenic acids",
         "Always increases permeability"
       ],
