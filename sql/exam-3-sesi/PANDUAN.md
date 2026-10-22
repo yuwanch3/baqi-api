@@ -44,8 +44,10 @@ Distribusi tipe soal:
 3. Jalankan `verifikasi.sql`.
 
 `update-3-sesi.sql` / `fix-final-test-bab02.sql` juga tersedia terpisah bila ingin
-dijalankan satu per satu. Isinya: teks ASCII, opsi yang sudah diacak, dan soal drag
-dengan jumlah pilihan = jumlah slot + 1.
+dijalankan satu per satu. Jika import 1 file besar gagal karena batas server,
+import per bab memakai `output/bab-XX-*-update.sql` (12 file kecil).
+Isinya: teks ASCII, opsi yang sudah diacak, dan soal drag dengan jumlah pilihan =
+jumlah slot + 1.
 
 ### B. Instalasi baru (belum ada 360 soal)
 

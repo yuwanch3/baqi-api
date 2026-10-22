@@ -71,15 +71,19 @@ const out = [
 let total = 0;
 for (const file of files) {
   const raw = JSON.parse(fs.readFileSync(path.join(DIR, file), 'utf8'));
+  const babOut = [`-- ${file} : ${raw.nama} (${raw.lid})`];
   out.push(`-- ${file} : ${raw.nama} (${raw.lid})`);
   for (const key of ['inisialisasi', 'advanced']) {
     raw[key].forEach(item => {
       const id = nextId();
-      out.push(buildUpdate(item, raw.lid, SESI[key], id));
+      const stmt = buildUpdate(item, raw.lid, SESI[key], id);
+      out.push(stmt);
+      babOut.push(stmt);
       total++;
     });
   }
   out.push('');
+  fs.writeFileSync(path.join(OUT, file.replace(/\.json$/, '') + '-update.sql'), babOut.join('\n') + '\n', 'utf8');
 }
 
 fs.writeFileSync(path.join(OUT, 'update-3-sesi.sql'), out.join('\n'), 'utf8');
