@@ -111,6 +111,22 @@ const fixOld = [
 ].join('\n');
 fs.writeFileSync(path.join(OUT, 'fix-final-test-bab02.sql'), fixOld, 'utf8');
 
+/* ---- file gabungan: cukup import 1 file ---- */
+fs.writeFileSync(
+  path.join(OUT, 'import-perbaikan.sql'),
+  ['-- =====================================================================',
+   '-- IMPORT PERBAIKAN UJIAN 3 SESI (jalankan 1 file ini saja)',
+   '-- 1) update 360 soal Inisialisasi + Final Advanced',
+   '-- 2) perbaiki 1 soal lama Final Test Bab 2',
+   '-- ID soal tidak berubah.',
+   '-- =====================================================================',
+   '',
+   ...out,
+   fixOld].join('\n'),
+  'utf8'
+);
+
 console.log('update-3-sesi.sql     :', total, 'UPDATE');
 console.log('fix-final-test-bab02  : 1 UPDATE');
+console.log('import-perbaikan.sql  :', total + 1, 'UPDATE (gabungan)');
 console.log('ID terakhir           :', ID_PREFIX + String(idCounter - 1).padStart(8, '0'));

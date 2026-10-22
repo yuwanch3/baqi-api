@@ -14,6 +14,7 @@ Tidak ada perubahan struktur tabel, tidak ada perubahan `.htaccess`, dan
 | `output/insert-semua-bab.sql` | INSERT 360 soal (untuk instalasi baru) |
 | `output/update-3-sesi.sql` | **UPDATE 360 soal** (untuk database yang sudah pernah import v0.6.0) |
 | `output/fix-final-test-bab02.sql` | Perbaikan 1 soal lama Final Test Bab 2 (`FQT...0389`) |
+| `output/import-perbaikan.sql` | **Gabungan keduanya — cukup import file ini** |
 | `verifikasi.sql` | Query pengecekan setelah import |
 
 ## Rancangan sesi
@@ -38,13 +39,13 @@ Distribusi tipe soal:
 ### A. Database yang sudah pernah import v0.6.0 (kasus saat ini)
 
 1. Backup dulu tabel `final_exam` (Export → SQL).
-2. Buka tab **SQL** / **Import**, jalankan **`output/update-3-sesi.sql`** (360 UPDATE).
-3. Jalankan **`output/fix-final-test-bab02.sql`** (1 UPDATE, soal lama Bab 2).
-4. Jalankan `verifikasi.sql`.
+2. Buka tab **Import** (atau tab **SQL**), pilih **`output/import-perbaikan.sql`**, lalu **Go**.
+   File ini berisi 361 `UPDATE` (360 soal baru + 1 soal lama Bab 2) dan **tidak mengubah ID**.
+3. Jalankan `verifikasi.sql`.
 
-`update-3-sesi.sql` **tidak mengubah ID** dan tidak menghapus apa pun, jadi
-riwayat skor pengguna tetap aman. Isinya: teks ASCII, opsi yang sudah diacak,
-dan soal drag dengan jumlah pilihan = jumlah slot + 1.
+`update-3-sesi.sql` / `fix-final-test-bab02.sql` juga tersedia terpisah bila ingin
+dijalankan satu per satu. Isinya: teks ASCII, opsi yang sudah diacak, dan soal drag
+dengan jumlah pilihan = jumlah slot + 1.
 
 ### B. Instalasi baru (belum ada 360 soal)
 
