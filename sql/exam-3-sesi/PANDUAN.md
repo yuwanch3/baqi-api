@@ -11,16 +11,20 @@ Tidak ada perubahan struktur tabel, tidak ada perubahan `.htaccess`, dan
 | `bab-01-petrofisika.json` … `bab-12-ceor.json` | Sumber soal (ID + EN), 30 soal per bab |
 | `gen-sql.js` | Generator JSON → SQL (PHP serialize otomatis + validasi) |
 | `output/bab-XX-*.sql` | Hasil SQL per bab |
-| `output/insert-semua-bab.sql` | **File yang diimport** (360 soal, 12 bab) |
+| `output/insert-semua-bab.sql` | INSERT 360 soal (untuk instalasi baru) |
+| `output/update-3-sesi.sql` | **UPDATE 360 soal** (untuk database yang sudah pernah import v0.6.0) |
+| `output/fix-final-test-bab02.sql` | Perbaikan 1 soal lama Final Test Bab 2 (`FQT...0389`) |
 | `verifikasi.sql` | Query pengecekan setelah import |
 
 ## Rancangan sesi
 
-| Sesi | `excerpt` | Jumlah | Ambang lulus |
-|---|---|---|---|
-| 1 | `Soal Inisialisasi` | 10 soal | **8/10** |
-| 2 | `Final Test` (soal lama) | 20 soal | **18/20** |
-| 3 | `Final Test Advanced` | 20 soal | **18/20** |
+| Sesi | `excerpt` (DB) | Label di aplikasi | Jumlah | Ambang lulus |
+|---|---|---|---|---|
+| 1 | `Inisialisasi` | Soal Inisialisasi | 10 soal | **8/10** |
+| 2 | `Final Test` (soal lama) | Final Test | 20 soal | **18/20** |
+| 3 | `Final Advanced` | Final Test Advanced | 20 soal | **18/20** |
+
+> Nama `excerpt` sengaja pendek karena kolomnya `varchar(15)`.
 
 Distribusi tipe soal:
 
@@ -29,15 +33,29 @@ Distribusi tipe soal:
 | Soal Inisialisasi (10) | 7 | 1 | 1 | 1 |
 | Final Test Advanced (20) | 12 | 4 | 2 | 2 |
 
-## Cara import (phpMyAdmin)
+## Cara import
+
+### A. Database yang sudah pernah import v0.6.0 (kasus saat ini)
 
 1. Backup dulu tabel `final_exam` (Export → SQL).
-2. Buka tab **Import**, pilih `output/insert-semua-bab.sql`, lalu **Go**.
-3. Jalankan `verifikasi.sql` dan cocokkan hasilnya:
+2. Buka tab **SQL** / **Import**, jalankan **`output/update-3-sesi.sql`** (360 UPDATE).
+3. Jalankan **`output/fix-final-test-bab02.sql`** (1 UPDATE, soal lama Bab 2).
+4. Jalankan `verifikasi.sql`.
+
+`update-3-sesi.sql` **tidak mengubah ID** dan tidak menghapus apa pun, jadi
+riwayat skor pengguna tetap aman. Isinya: teks ASCII, opsi yang sudah diacak,
+dan soal drag dengan jumlah pilihan = jumlah slot + 1.
+
+### B. Instalasi baru (belum ada 360 soal)
+
+1. Backup dulu tabel `final_exam`.
+2. Import **`output/insert-semua-bab.sql`** (360 INSERT).
+3. Jalankan **`output/fix-final-test-bab02.sql`** (1 UPDATE, soal lama Bab 2).
+4. Jalankan `verifikasi.sql` dan cocokkan hasilnya:
    - total soal baru = **360**
    - tiap bab: 10 + 20 + 20
    - distribusi tipe sesuai tabel di atas
-4. Rollback bila perlu: bagian `DELETE` di akhir `verifikasi.sql`
+5. Rollback bila perlu: bagian `DELETE` di akhir `verifikasi.sql`
    (hanya menghapus ID `...0600`–`...0959`, soal lama aman).
 
 ## Alur di aplikasi (hanya Petrofisika & CEOR)
