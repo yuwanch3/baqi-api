@@ -1,0 +1,3255 @@
+{
+ "now": "2026-09-28 00:00:00",
+ "exams": [
+  {
+   "slv": 1,
+   "lid": "SLV000000000037",
+   "pelajaran": [
+    {
+     "id": "FQT00000000090000000000",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Pelajaran",
+     "q": "1. Apa arti سَيَقُولُ السُّفَهَاءُ مِنَ النَّاسِ?",
+     "qe": "1. What is the meaning of سَيَقُولُ السُّفَهَاءُ مِنَ النَّاسِ?",
+     "t": "option",
+     "opts": [
+      "akan berpaling orang-orang yang pandai di antara manusia",
+      "akan berkata orang-orang yang bodoh di antara manusia",
+      "akan bertanya orang-orang yang bodoh di antara manusia",
+      "akan berkata orang-orang yang mulia dari manusia"
+     ],
+     "corr": "akan berkata orang-orang yang bodoh di antara manusia",
+     "optsE": [
+      "the wise among the people will turn away",
+      "the foolish among the people will say",
+      "the foolish among the people will ask",
+      "the noble among the people will say"
+     ],
+     "corrE": "the foolish among the people will say"
+    },
+    {
+     "id": "FQT00000000090000000001",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Pelajaran",
+     "q": "2. Apa yang diminta oleh orang-orang yang bertanya tentang kiblat?",
+     "qe": "2. What do those who ask about the qiblah demand?",
+     "t": "option",
+     "opts": [
+      "penghapusan ibadah shalat",
+      "kembalinya mereka ke Baitul Maqdis",
+      "kiblat baru yang khusus bagi orang Arab",
+      "penjelasan tentang apa yang memalingkan mereka dari kiblat yang dahulu"
+     ],
+     "corr": "penjelasan tentang apa yang memalingkan mereka dari kiblat yang dahulu",
+     "optsE": [
+      "the removal of the prayer",
+      "their return to Baitul Maqdis",
+      "a new qiblah only for the Arabs",
+      "an explanation of what turned them away from their former qiblah"
+     ],
+     "corrE": "an explanation of what turned them away from their former qiblah"
+    },
+    {
+     "id": "FQT00000000090000000002",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Pelajaran",
+     "q": "3. Apakah makna وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا?",
+     "qe": "3. What is the meaning of وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا?",
+     "t": "option",
+     "opts": [
+      "demikianlah Kami ciptakan kamu umat yang lemah",
+      "demikianlah Kami beri kamu umat yang besar",
+      "demikianlah Kami jadikan kamu umat pertengahan",
+      "seperti itu Kami jadikan kamu umat terakhir"
+     ],
+     "corr": "demikianlah Kami jadikan kamu umat pertengahan",
+     "optsE": [
+      "thus We created you a weak nation",
+      "thus We gave you a great nation",
+      "thus We made you a middle nation",
+      "thus We made you the last nation"
+     ],
+     "corrE": "thus We made you a middle nation"
+    },
+    {
+     "id": "FQT00000000090000000003",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Pelajaran",
+     "q": "4. Terjemahkan: قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ",
+     "qe": "4. Translate: قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ",
+     "t": "option",
+     "opts": [
+      "sungguh Kami mendengar doamu di malam hari",
+      "sungguh Kami melihat wajahmu menengadah ke langit",
+      "sungguh Kami melihat hatimu gelisah",
+      "sungguh Kami melihat wajahmu tertunduk ke bumi"
+     ],
+     "corr": "sungguh Kami melihat wajahmu menengadah ke langit",
+     "optsE": [
+      "We hear your prayer at night",
+      "We certainly see the turning of your face to the sky",
+      "We certainly see your heart restless",
+      "We certainly see your face bowed to the ground"
+     ],
+     "corrE": "We certainly see the turning of your face to the sky"
+    },
+    {
+     "id": "FQT00000000090000000004",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Pelajaran",
+     "q": "5. Ke arah mana Nabi diperintahkan menghadapkan wajah?",
+     "qe": "5. Toward which direction was the Prophet ordered to turn his face?",
+     "t": "option",
+     "opts": [
+      "Masjidil Haram",
+      "Baitul Maqdis",
+      "arah timur",
+      "gunung Sinai"
+     ],
+     "corr": "Masjidil Haram",
+     "optsE": [
+      "the Sacred Mosque",
+      "Baitul Maqdis",
+      "the east",
+      "Mount Sinai"
+     ],
+     "corrE": "the Sacred Mosque"
+    },
+    {
+     "id": "FQT00000000090000000005",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Pelajaran",
+     "q": "6. Terjemahkan: فَلَنُوَلِّيَنَّكَ قِبْلَةً تَرْضَاهَا",
+     "qe": "6. Translate: فَلَنُوَلِّيَنَّكَ قِبْلَةً تَرْضَاهَا",
+     "t": "option",
+     "opts": [
+      "maka kami turunkan kepadamu kitab baru",
+      "maka kami jadikan kamu pemimpin bangsa",
+      "maka sungguh Kami akan palingkan kamu ke kiblat yang kamu sukai",
+      "maka sungguh Kami akan menghalangi keinginanmu"
+     ],
+     "corr": "maka sungguh Kami akan palingkan kamu ke kiblat yang kamu sukai",
+     "optsE": [
+      "so We will send down to you a new book",
+      "so We will make you a leader of the nations",
+      "so We will surely turn you toward a qiblah you like",
+      "so We will certainly prevent your wish"
+     ],
+     "corrE": "so We will surely turn you toward a qiblah you like"
+    },
+    {
+     "id": "FQT00000000090000000006",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Pelajaran",
+     "q": "7. Apa konsekuensi mengikuti hawa nafsu mereka setelah datang ilmu?",
+     "qe": "7. What is the consequence of following their desires after knowledge has come?",
+     "t": "option",
+     "opts": [
+      "kamu menjadi orang yang arif",
+      "kamu menjadi pemimpin",
+      "kamu tetap beriman",
+      "kamu termasuk orang-orang yang zalim"
+     ],
+     "corr": "kamu termasuk orang-orang yang zalim",
+     "optsE": [
+      "you would become wise",
+      "you would become a leader",
+      "you would remain a believer",
+      "you would be among the wrongdoers"
+     ],
+     "corrE": "you would be among the wrongdoers"
+    },
+    {
+     "id": "FQT00000000090000000007",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Pelajaran",
+     "q": "8. Jamak dari مَشْرِق adalah...",
+     "qe": "8. The plural of مَشْرِق is...",
+     "t": "option",
+     "opts": [
+      "مَشْرِقَانِ",
+      "مَشَارِق",
+      "مَشْرُوْق",
+      "مَشَارِيْق"
+     ],
+     "corr": "مَشَارِق",
+     "optsE": [
+      "مَشْرِقَانِ",
+      "مَشَارِق",
+      "مَشْرُوْق",
+      "مَشَارِيْق"
+     ],
+     "corrE": "مَشَارِق"
+    },
+    {
+     "id": "FQT00000000090000000008",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Pelajaran",
+     "q": "9. Manakah pernyataan yang benar tentang perubahan kiblat? (Pilih lebih dari satu jawaban)",
+     "qe": "9. Which statements about the change of the qiblah are true? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "perubahan kiblat adalah kesalahan Nabi",
+      "Ahlul Kitab tidak akan mengikuti kiblatmu",
+      "perubahan kiblat berasal dari hawa nafsu",
+      "perubahan kiblat adalah kebenaran dari Rabb mereka"
+     ],
+     "corr": [
+      "perubahan kiblat adalah kebenaran dari Rabb mereka",
+      "Ahlul Kitab tidak akan mengikuti kiblatmu"
+     ],
+     "optsE": [
+      "the change of the qiblah is the mistake of the Prophet",
+      "the People of the Book would not follow your qiblah",
+      "the change of the qiblah comes from desire",
+      "the change of the qiblah is the truth from their Lord"
+     ],
+     "corrE": [
+      "the change of the qiblah is the truth from their Lord",
+      "the People of the Book would not follow your qiblah"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000009",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Pelajaran",
+     "q": "10. Manakah pernyataan yang benar tentang umat pertengahan? (Pilih lebih dari satu jawaban)",
+     "qe": "10. Which statements about the middle nation are true? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "umat pertengahan adalah umat yang paling kaya",
+      "umat pertengahan menjadi saksi atas manusia",
+      "umat pertengahan adalah penguasa dunia",
+      "Allah menjadikan kamu umat pertengahan"
+     ],
+     "corr": [
+      "Allah menjadikan kamu umat pertengahan",
+      "umat pertengahan menjadi saksi atas manusia"
+     ],
+     "optsE": [
+      "the middle nation is the richest nation",
+      "the middle nation becomes a witness over mankind",
+      "the middle nation rules the world",
+      "Allah made you a middle nation"
+     ],
+     "corrE": [
+      "Allah made you a middle nation",
+      "the middle nation becomes a witness over mankind"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000010",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Pelajaran",
+     "q": "11. Benarkah لِلَّهِ الْمَشْرِقُ وَالْمَغْرِبُ berarti milik Allah timur dan barat?",
+     "qe": "11. Is it true that لِلَّهِ الْمَشْرِقُ وَالْمَغْرِبُ means to Allah belong the east and the west?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "Yes",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "Yes"
+    },
+    {
+     "id": "FQT00000000090000000011",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Pelajaran",
+     "q": "12. Benarkah Ahlul Kitab akan mengikuti kiblatmu jika kamu datangkan segala ayat?",
+     "qe": "12. Is it true that the People of the Book will follow your qiblah even if you bring every sign?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "No",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "No"
+    }
+   ],
+   "grammer": [
+    {
+     "id": "FQT00000000090000000012",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "1. فعل أمر dari قَالَ adalah...",
+     "qe": "1. The imperative of قَالَ is...",
+     "t": "option",
+     "opts": [
+      "قَالَ",
+      "قُلْ",
+      "قَوْلٌ",
+      "يَقُولُ"
+     ],
+     "corr": "قُلْ",
+     "optsE": [
+      "قَالَ",
+      "قُلْ",
+      "قَوْلٌ",
+      "يَقُولُ"
+     ],
+     "corrE": "قُلْ"
+    },
+    {
+     "id": "FQT00000000090000000013",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "2. فعل أمر untuk banyak orang (jamak) dari وَلَّى adalah...",
+     "qe": "2. The plural imperative of وَلَّى is...",
+     "t": "option",
+     "opts": [
+      "وَلِّيْنَ",
+      "وَلِّ",
+      "وَلُّوا",
+      "وَلُّوْا لَكَ"
+     ],
+     "corr": "وَلُّوا",
+     "optsE": [
+      "وَلِّيْنَ",
+      "وَلِّ",
+      "وَلُّوا",
+      "وَلُّوْا لَكَ"
+     ],
+     "corrE": "وَلُّوا"
+    },
+    {
+     "id": "FQT00000000090000000014",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "3. Yang menjadi فاعل dalam سَيَقُولُ السُّفَهَاءُ adalah...",
+     "qe": "3. The subject (fa il) in سَيَقُولُ السُّفَهَاءُ is...",
+     "t": "option",
+     "opts": [
+      "مِنَ النَّاسِ",
+      "سَيَقُولُ",
+      "الْقَوْلُ",
+      "السُّفَهَاءُ"
+     ],
+     "corr": "السُّفَهَاءُ",
+     "optsE": [
+      "مِنَ النَّاسِ",
+      "سَيَقُولُ",
+      "الْقَوْلُ",
+      "السُّفَهَاءُ"
+     ],
+     "corrE": "السُّفَهَاءُ"
+    },
+    {
+     "id": "FQT00000000090000000015",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "4. Dalam عَنْ قِبْلَتِهِمْ, fungsi huruf عَنْ adalah...",
+     "qe": "4. In عَنْ قِبْلَتِهِمْ, the function of عَنْ is...",
+     "t": "option",
+     "opts": [
+      "kata depan yang berarti dari",
+      "kata tanya apa",
+      "kata sambung dan",
+      "huruf penegas sungguh"
+     ],
+     "corr": "kata depan yang berarti dari",
+     "optsE": [
+      "a preposition meaning from or away from",
+      "the question word what",
+      "the conjunction and",
+      "an emphatic particle"
+     ],
+     "corrE": "a preposition meaning from or away from"
+    },
+    {
+     "id": "FQT00000000090000000016",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "5. Yang menjadi maf ul bih dalam قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ adalah...",
+     "qe": "5. The object (maf ul bih) in قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ is...",
+     "t": "option",
+     "opts": [
+      "نَرَىٰ",
+      "تَقَلُّبَ وَجْهِكَ",
+      "فِي السَّمَاءِ",
+      "قَدْ"
+     ],
+     "corr": "تَقَلُّبَ وَجْهِكَ",
+     "optsE": [
+      "نَرَىٰ",
+      "تَقَلُّبَ وَجْهِكَ",
+      "فِي السَّمَاءِ",
+      "قَدْ"
+     ],
+     "corrE": "تَقَلُّبَ وَجْهِكَ"
+    },
+    {
+     "id": "FQT00000000090000000017",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "6. Kata berharakat dhammah disebut...",
+     "qe": "6. A word with dhammah is called...",
+     "t": "option",
+     "opts": [
+      "mansub",
+      "majrur",
+      "majzum",
+      "marfu"
+     ],
+     "corr": "marfu",
+     "optsE": [
+      "mansub (accusative)",
+      "majrur (genitive)",
+      "majzum (jussive)",
+      "marfu (nominative)"
+     ],
+     "corrE": "marfu (nominative)"
+    },
+    {
+     "id": "FQT00000000090000000018",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "7. Mengapa أُمَّةً dalam جَعَلْنَاكُمْ أُمَّةً وَسَطًا beri rab nasab?",
+     "qe": "7. Why is أُمَّةً in جَعَلْنَاكُمْ أُمَّةً وَسَطًا accusative?",
+     "t": "option",
+     "opts": [
+      "karena menjadi mubtada",
+      "karena menjadi maf ul bih",
+      "karena setelah huruf jar",
+      "karena menjadi fa il"
+     ],
+     "corr": "karena menjadi maf ul bih",
+     "optsE": [
+      "because it is the mubtada",
+      "because it is the object",
+      "because it follows a preposition",
+      "because it is the subject"
+     ],
+     "corrE": "because it is the object"
+    },
+    {
+     "id": "FQT00000000090000000019",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "8. Terjemahkan: فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ",
+     "qe": "8. Translate: فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ",
+     "t": "option",
+     "opts": [
+      "maka hadapkanlah wajahmu ke arah Masjidil Haram",
+      "maka palingkanlah kiblatmu dari Kabah",
+      "maka berdiri menghadap kota Makkah",
+      "maka berdoalah menghadap Baitul Maqdis"
+     ],
+     "corr": "maka hadapkanlah wajahmu ke arah Masjidil Haram",
+     "optsE": [
+      "turn your face toward the Sacred Mosque",
+      "turn your qiblah away from the Kabah",
+      "stand facing the city of Makkah",
+      "pray facing Baitul Maqdis"
+     ],
+     "corrE": "turn your face toward the Sacred Mosque"
+    },
+    {
+     "id": "FQT00000000090000000020",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "9. Manakah yang termasuk huruf jar? (Pilih lebih dari satu jawaban)",
+     "qe": "9. Which of these are prepositions? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "قَدْ",
+      "عَنْ",
+      "إِلَىٰ",
+      "هَلْ"
+     ],
+     "corr": [
+      "إِلَىٰ",
+      "عَنْ"
+     ],
+     "optsE": [
+      "قَدْ",
+      "عَنْ",
+      "إِلَىٰ",
+      "هَلْ"
+     ],
+     "corrE": [
+      "إِلَىٰ",
+      "عَنْ"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000021",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "10. Manakah yang termasuk bentuk i rab? (Pilih lebih dari satu jawaban)",
+     "qe": "10. Which of these are forms of i rab? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "nasab",
+      "tasybih",
+      "idhafah",
+      "rafa"
+     ],
+     "corr": [
+      "rafa",
+      "nasab"
+     ],
+     "optsE": [
+      "nasab (accusative)",
+      "tasybih",
+      "idhafah",
+      "rafa (nominative)"
+     ],
+     "corrE": [
+      "rafa (nominative)",
+      "nasab (accusative)"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000022",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "11. Manakah pernyataan yang benar tentang jumlatu fi liyah? (Pilih lebih dari satu jawaban)",
+     "qe": "11. Which statements about a verbal sentence are true? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "mubtada mendahului fi l",
+      "maf ul dapat disebutkan setelah fa il",
+      "urutan utamanya adalah fi l lalu fa il",
+      "fa il mendahului fi l"
+     ],
+     "corr": [
+      "urutan utamanya adalah fi l lalu fa il",
+      "maf ul dapat disebutkan setelah fa il"
+     ],
+     "optsE": [
+      "the mubtada precedes the verb",
+      "the object may come after the subject",
+      "the main order is verb then subject",
+      "the subject precedes the verb"
+     ],
+     "corrE": [
+      "the main order is verb then subject",
+      "the object may come after the subject"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000023",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "12. Benarkah kata setelah huruf jar beri rab majrur?",
+     "qe": "12. Is it true that the word after a preposition has the case majrur?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "Yes",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "Yes"
+    },
+    {
+     "id": "FQT00000000090000000024",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "13. Benarkah urutan utama dalam jumlatu fi liyah adalah fa il lalu fi l?",
+     "qe": "13. Is it true that the main order of a verbal sentence is subject then verb?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "No",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "No"
+    },
+    {
+     "id": "FQT00000000090000000025",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "14. Benarkah dalam فَوَلُّوا wawu di akhir menunjukkan pelaku jamak (waw jamaah)?",
+     "qe": "14. Is it true that in فَوَلُّوا the waw at the end indicates a plural subject (the waw of plurality)?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "Yes",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "Yes"
+    },
+    {
+     "id": "FQT00000000090000000026",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "15. 3 Kunci kata kerja هَدَى adalah: (madi, mudari, masdar)",
+     "qe": "15. The 3 keys of the verb هَدَى are: (past, present, verbal noun)",
+     "t": "drag",
+     "opts": [
+      "هَدَى",
+      "يَهْدِي",
+      "هُدًى",
+      "هَادٍ"
+     ],
+     "corr": [
+      "هَدَى",
+      "يَهْدِي",
+      "هُدًى"
+     ],
+     "optsE": [
+      "هَدَى",
+      "يَهْدِي",
+      "هُدًى",
+      "هَادٍ"
+     ],
+     "corrE": [
+      "هَدَى",
+      "يَهْدِي",
+      "هُدًى"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000027",
+     "lid": "SLV000000000037",
+     "excerpt": "Ujian Grammer",
+     "q": "16. 3 Kunci kata kerja رَأَى adalah: (madi, mudari, masdar)",
+     "qe": "16. The 3 keys of the verb رَأَى are: (past, present, verbal noun)",
+     "t": "drag",
+     "opts": [
+      "رَأَى",
+      "يَرَى",
+      "رُؤْيَة",
+      "رَاءٍ"
+     ],
+     "corr": [
+      "رَأَى",
+      "يَرَى",
+      "رُؤْيَة"
+     ],
+     "optsE": [
+      "رَأَى",
+      "يَرَى",
+      "رُؤْيَة",
+      "رَاءٍ"
+     ],
+     "corrE": [
+      "رَأَى",
+      "يَرَى",
+      "رُؤْيَة"
+     ]
+    }
+   ]
+  },
+  {
+   "slv": 2,
+   "lid": "SLV000000000038",
+   "pelajaran": [
+    {
+     "id": "FQT00000000090000000028",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Pelajaran",
+     "q": "1. Seperti apa Ahlul Kitab mengenal kebenaran itu?",
+     "qe": "1. How well do the People of the Book recognize the truth?",
+     "t": "option",
+     "opts": [
+      "hanya sebagian kecil yang mengenalnya",
+      "seperti mereka mengenal anak-anak mereka sendiri",
+      "tidak mengenalnya sama sekali",
+      "mengenalnya seperti nama kota"
+     ],
+     "corr": "seperti mereka mengenal anak-anak mereka sendiri",
+     "optsE": [
+      "only a few know it",
+      "as they recognize their own sons",
+      "they do not recognize it at all",
+      "they know it like city names"
+     ],
+     "corrE": "as they recognize their own sons"
+    },
+    {
+     "id": "FQT00000000090000000029",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Pelajaran",
+     "q": "2. Apa yang dilakukan sebagian Ahlul Kitab padahal mereka mengetahui kebenaran?",
+     "qe": "2. What do some of the People of the Book do while knowing the truth?",
+     "t": "option",
+     "opts": [
+      "menyebarkan kebenaran dengan bangga",
+      "menyembunyikan kebenaran",
+      "menolak petunjuk tanpa ilmu",
+      "mengikuti petunjuk sepenuhnya"
+     ],
+     "corr": "menyembunyikan kebenaran",
+     "optsE": [
+      "they spread the truth proudly",
+      "they conceal the truth",
+      "they reject guidance without knowledge",
+      "they fully follow guidance"
+     ],
+     "corrE": "they conceal the truth"
+    },
+    {
+     "id": "FQT00000000090000000030",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Pelajaran",
+     "q": "3. Terjemahkan: الْحَقُّ مِنْ رَبِّكَ فَلَا تَكُونَنَّ مِنَ الْمُمْتَرِينَ",
+     "qe": "3. Translate: الْحَقُّ مِنْ رَبِّكَ فَلَا تَكُونَنَّ مِنَ الْمُمْتَرِينَ",
+     "t": "option",
+     "opts": [
+      "kebohongan itu dari Rabbmu, maka berhati-hatilah",
+      "kebatilan itu datang dari setan, maka jauhilah",
+      "kebenaran itu dari Rabbmu, maka janganlah engkau termasuk orang-orang yang ragu",
+      "kebenaran itu dari manusia, maka percayalah"
+     ],
+     "corr": "kebenaran itu dari Rabbmu, maka janganlah engkau termasuk orang-orang yang ragu",
+     "optsE": [
+      "the lie is from your Lord, so beware",
+      "falsehood is from Satan, so avoid it",
+      "the truth is from your Lord, so never be among the doubters",
+      "the truth is from people, so believe it"
+     ],
+     "corrE": "the truth is from your Lord, so never be among the doubters"
+    },
+    {
+     "id": "FQT00000000090000000031",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Pelajaran",
+     "q": "4. Apakah makna وَلِكُلٍّ وِجْهَةٌ هُوَ مُوَلِّيهَا?",
+     "qe": "4. What is the meaning of وَلِكُلٍّ وِجْهَةٌ هُوَ مُوَلِّيهَا?",
+     "t": "option",
+     "opts": [
+      "dan bagi setiap umat ada istana yang mereka banggakan",
+      "dan bagi setiap umat ada harta yang mereka kumpulkan",
+      "dan bagi setiap umat ada kiblat yang dia menghadap kepadanya",
+      "dan bagi setiap umat ada pemimpin yang mereka taati"
+     ],
+     "corr": "dan bagi setiap umat ada kiblat yang dia menghadap kepadanya",
+     "optsE": [
+      "and for every nation is a palace they boast about",
+      "and for every nation is wealth they collect",
+      "and for every nation is a direction to which it turns",
+      "and for every nation is a leader whom they obey"
+     ],
+     "corrE": "and for every nation is a direction to which it turns"
+    },
+    {
+     "id": "FQT00000000090000000032",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Pelajaran",
+     "q": "5. Terjemahkan: أَيْنَ مَا تَكُونُوا يَأْتِ بِكُمُ اللَّهُ جَمِيعًا",
+     "qe": "5. Translate: أَيْنَ مَا تَكُونُوا يَأْتِ بِكُمُ اللَّهُ جَمِيعًا",
+     "t": "option",
+     "opts": [
+      "di mana saja kamu pergi, orang lain akan mengikutimu",
+      "kapan saja kamu berada, kamu harus bekerja keras",
+      "di mana saja kamu berada, setan akan menyesatkanmu",
+      "di mana saja kamu berada, Allah akan mendatangkan kamu semuanya"
+     ],
+     "corr": "di mana saja kamu berada, Allah akan mendatangkan kamu semuanya",
+     "optsE": [
+      "wherever you go, others will follow you",
+      "whenever you are, you must work hard",
+      "wherever you are, Satan will mislead you",
+      "wherever you may be, Allah will bring you all together"
+     ],
+     "corrE": "wherever you may be, Allah will bring you all together"
+    },
+    {
+     "id": "FQT00000000090000000033",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Pelajaran",
+     "q": "6. Apa tujuan لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ?",
+     "qe": "6. What is the purpose of لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ?",
+     "t": "option",
+     "opts": [
+      "agar tidak ada alasan bagi manusia atasmu",
+      "agar manusia tidak perlu beribadah",
+      "agar manusia mendapat banyak alasan atasmu",
+      "agar manusia tidak melupakanmu"
+     ],
+     "corr": "agar tidak ada alasan bagi manusia atasmu",
+     "optsE": [
+      "so that people may have no argument against you",
+      "so that people need not worship",
+      "so that people may have many arguments against you",
+      "so that people do not forget you"
+     ],
+     "corrE": "so that people may have no argument against you"
+    },
+    {
+     "id": "FQT00000000090000000034",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Pelajaran",
+     "q": "7. Terjemahkan: فَاذْكُرُونِي أَذْكُرْكُمْ",
+     "qe": "7. Translate: فَاذْكُرُونِي أَذْكُرْكُمْ",
+     "t": "option",
+     "opts": [
+      "maka berzikirlah, setan akan lari",
+      "maka lupakanlah Aku, Aku pun akan melupakanmu",
+      "maka sebutlah nama-Ku, Aku pun akan memanggilmu",
+      "maka ingatlah kepada-Ku, Aku pun akan ingat kepadamu"
+     ],
+     "corr": "maka ingatlah kepada-Ku, Aku pun akan ingat kepadamu",
+     "optsE": [
+      "so remember, Satan will flee",
+      "so forget Me, I will forget you",
+      "so mention My name, I will call you",
+      "so remember Me, I will remember you"
+     ],
+     "corrE": "so remember Me, I will remember you"
+    },
+    {
+     "id": "FQT00000000090000000035",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Pelajaran",
+     "q": "8. Kata الَّذِينَ sebagai isim maushul berarti...",
+     "qe": "8. The relative pronoun الَّذِينَ means...",
+     "t": "option",
+     "opts": [
+      "anak-anak yang",
+      "umat yang",
+      "orang-orang yang",
+      "kitab yang"
+     ],
+     "corr": "orang-orang yang",
+     "optsE": [
+      "sons who",
+      "a nation that",
+      "those who",
+      "the book that"
+     ],
+     "corrE": "those who"
+    },
+    {
+     "id": "FQT00000000090000000036",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Pelajaran",
+     "q": "9. Manakah yang termasuk tugas Rasul dalam ayat 151? (Pilih lebih dari satu jawaban)",
+     "qe": "9. Which are among the tasks of the Messenger in verse 151? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "menyucikan dan mengajarkan Kitab dan Hikmah",
+      "memungut pajak dan zakat",
+      "memerintah dengan kekuatan militer",
+      "membacakan ayat-ayat"
+     ],
+     "corr": [
+      "membacakan ayat-ayat",
+      "menyucikan dan mengajarkan Kitab dan Hikmah"
+     ],
+     "optsE": [
+      "purifying and teaching the Book and wisdom",
+      "collecting taxes and zakat",
+      "ruling by military force",
+      "reciting verses"
+     ],
+     "corrE": [
+      "reciting verses",
+      "purifying and teaching the Book and wisdom"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000037",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Pelajaran",
+     "q": "10. Manakah pernyataan yang benar tentang ayat 150? (Pilih lebih dari satu jawaban)",
+     "qe": "10. Which statements about verse 150 are true? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "Allah memerintahkan menghadapkan wajah ke Masjidil Haram",
+      "orang-orang beriman bebas memilih kiblat",
+      "orang-orang beriman jangan takut kepada mereka, tetapi takutlah kepada-Ku",
+      "Allah memerintahkan menghadap Baitul Maqdis"
+     ],
+     "corr": [
+      "Allah memerintahkan menghadapkan wajah ke Masjidil Haram",
+      "orang-orang beriman jangan takut kepada mereka, tetapi takutlah kepada-Ku"
+     ],
+     "optsE": [
+      "Allah commanded turning the face toward the Sacred Mosque",
+      "the believers are free to choose a direction",
+      "the believers should not fear them but fear Me",
+      "Allah commanded facing Baitul Maqdis"
+     ],
+     "corrE": [
+      "Allah commanded turning the face toward the Sacred Mosque",
+      "the believers should not fear them but fear Me"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000038",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Pelajaran",
+     "q": "11. Benarkah الْحَقُّ مِنْ رَبِّكَ berarti kebenaran itu dari Rabbmu?",
+     "qe": "11. Is it true that الْحَقُّ مِنْ رَبِّكَ means the truth is from your Lord?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "Yes",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "Yes"
+    },
+    {
+     "id": "FQT00000000090000000039",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Pelajaran",
+     "q": "12. Benarkah orang-orang beriman meminta pertolongan dengan harta dan pasukan?",
+     "qe": "12. Is it true that the believers seek help through wealth and armies?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "No",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "No"
+    }
+   ],
+   "grammer": [
+    {
+     "id": "FQT00000000090000000040",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "1. فعل أمر dari اِسْتَبَقَ adalah...",
+     "qe": "1. The imperative of اِسْتَبَقَ is...",
+     "t": "option",
+     "opts": [
+      "اِسْتَبِقُوا",
+      "مُسْتَبِقَيْنَ",
+      "يَسْتَبِقُ",
+      "اِسْتِبَاق"
+     ],
+     "corr": "اِسْتَبِقُوا",
+     "optsE": [
+      "اِسْتَبِقُوا",
+      "مُسْتَبِقَيْنَ",
+      "يَسْتَبِقُ",
+      "اِسْتِبَاق"
+     ],
+     "corrE": "اِسْتَبِقُوا"
+    },
+    {
+     "id": "FQT00000000090000000041",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "2. Mengapa اسْتَعِينُوا diawali dengan hamzah?",
+     "qe": "2. Why does اسْتَعِينُوا begin with a hamzah?",
+     "t": "option",
+     "opts": [
+      "karena merupakan isim",
+      "karena berasal dari wazan اِسْتَفْعَلَ",
+      "karena menunjukkan masa depan",
+      "karena merupakan fi l madhi"
+     ],
+     "corr": "karena berasal dari wazan اِسْتَفْعَلَ",
+     "optsE": [
+      "because it is a noun",
+      "because it is from the istaf ala pattern",
+      "because it indicates the future",
+      "because it is a past verb"
+     ],
+     "corrE": "because it is from the istaf ala pattern"
+    },
+    {
+     "id": "FQT00000000090000000042",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "3. Dalam يَعْرِفُونَهُ, kata ganti هُ menunjuk kepada...",
+     "qe": "3. In يَعْرِفُونَهُ, the pronoun هُ refers to...",
+     "t": "option",
+     "opts": [
+      "kami",
+      "dia (laki-laki)",
+      "kamu",
+      "dia (perempuan)"
+     ],
+     "corr": "dia (laki-laki)",
+     "optsE": [
+      "we",
+      "he (male)",
+      "you",
+      "she (female)"
+     ],
+     "corrE": "he (male)"
+    },
+    {
+     "id": "FQT00000000090000000043",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "4. Kata ganti yang menempel pada kata lain disebut...",
+     "qe": "4. A pronoun attached to another word is called...",
+     "t": "option",
+     "opts": [
+      "الاسم الموصول",
+      "اسم الإشارة",
+      "الضمير المتصل",
+      "الضمير المنفصل"
+     ],
+     "corr": "الضمير المتصل",
+     "optsE": [
+      "the relative pronoun",
+      "the demonstrative pronoun",
+      "the attached pronoun",
+      "the detached pronoun"
+     ],
+     "corrE": "the attached pronoun"
+    },
+    {
+     "id": "FQT00000000090000000044",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "5. Dalam وَلَا تَكْفُرُونِ, huruf لا berfungsi sebagai...",
+     "qe": "5. In وَلَا تَكْفُرُونِ, the particle لا functions as...",
+     "t": "option",
+     "opts": [
+      "larangan (nahy)",
+      "penegasan (taukid)",
+      "peringatan (tahzir)",
+      "pertanyaan (istifham)"
+     ],
+     "corr": "larangan (nahy)",
+     "optsE": [
+      "a prohibition (nahy)",
+      "emphasis (taukid)",
+      "a warning",
+      "a question (istifham)"
+     ],
+     "corrE": "a prohibition (nahy)"
+    },
+    {
+     "id": "FQT00000000090000000045",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "6. Tanda jazm pada تَكْفُرُونِ (bentuk jamak) adalah...",
+     "qe": "6. The jussive sign of تَكْفُرُونِ (plural form) is...",
+     "t": "option",
+     "opts": [
+      "mengganti harakat",
+      "membuang nun",
+      "menambah ya",
+      "membuang wawu"
+     ],
+     "corr": "membuang nun",
+     "optsE": [
+      "changing the vowel",
+      "dropping the nun",
+      "adding a ya",
+      "dropping the waw"
+     ],
+     "corrE": "dropping the nun"
+    },
+    {
+     "id": "FQT00000000090000000046",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "7. أَيْنَ مَا sebagai adat syarth menunjukkan...",
+     "qe": "7. أَيْنَ مَا as a condition word indicates...",
+     "t": "option",
+     "opts": [
+      "orang",
+      "sebab",
+      "tempat",
+      "waktu"
+     ],
+     "corr": "tempat",
+     "optsE": [
+      "person",
+      "cause",
+      "place",
+      "time"
+     ],
+     "corrE": "place"
+    },
+    {
+     "id": "FQT00000000090000000047",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "8. Terjemahkan: اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ",
+     "qe": "8. Translate: اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ",
+     "t": "option",
+     "opts": [
+      "ikatlah dengan tali yang kuat",
+      "mintalah pertolongan dengan sabar dan shalat",
+      "bersungguh-sungguhlah dalam bekerja",
+      "mintalah pertolongan dengan harta dan pasukan"
+     ],
+     "corr": "mintalah pertolongan dengan sabar dan shalat",
+     "optsE": [
+      "tie it with a strong rope",
+      "seek help through patience and prayer",
+      "strive hard in work",
+      "seek help through wealth and armies"
+     ],
+     "corrE": "seek help through patience and prayer"
+    },
+    {
+     "id": "FQT00000000090000000048",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "9. Manakah yang termasuk fi l amr? (Pilih lebih dari satu jawaban)",
+     "qe": "9. Which of these are imperative verbs? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "اِسْتَبِقُوا",
+      "اُذْكُرْ",
+      "اِسْتِبَاق",
+      "يَسْتَبِقُ"
+     ],
+     "corr": [
+      "اِسْتَبِقُوا",
+      "اُذْكُرْ"
+     ],
+     "optsE": [
+      "اِسْتَبِقُوا",
+      "اُذْكُرْ",
+      "اِسْتِبَاق",
+      "يَسْتَبِقُ"
+     ],
+     "corrE": [
+      "اِسْتَبِقُوا",
+      "اُذْكُرْ"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000049",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "10. Manakah pernyataan yang benar tentang لا الناهية? (Pilih lebih dari satu jawaban)",
+     "qe": "10. Which statements about laa nahiyah are true? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "kata kerja setelahnya beri rab rafa",
+      "berfungsi sebagai larangan",
+      "kata kerja setelahnya beri rab jazm",
+      "berfungsi sebagai penegasan"
+     ],
+     "corr": [
+      "berfungsi sebagai larangan",
+      "kata kerja setelahnya beri rab jazm"
+     ],
+     "optsE": [
+      "the verb after it has the case rafa",
+      "it functions as a prohibition",
+      "the verb after it has the case jazm",
+      "it functions as emphasis"
+     ],
+     "corrE": [
+      "it functions as a prohibition",
+      "the verb after it has the case jazm"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000050",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "11. Manakah yang termasuk dhamir (kata ganti)? (Pilih lebih dari satu jawaban)",
+     "qe": "11. Which of these are pronouns? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "مِنْ",
+      "عَلَى",
+      "هُمْ",
+      "هُ"
+     ],
+     "corr": [
+      "هُ",
+      "هُمْ"
+     ],
+     "optsE": [
+      "مِنْ",
+      "عَلَى",
+      "هُمْ",
+      "هُ"
+     ],
+     "corrE": [
+      "هُ",
+      "هُمْ"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000051",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "12. Benarkah kata kerja setelah لا الناهية beri rab jazm?",
+     "qe": "12. Is it true that the verb after laa nahiyah has the case jazm?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "Yes",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "Yes"
+    },
+    {
+     "id": "FQT00000000090000000052",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "13. Benarkah kata ganti yang menempel pada kata lain disebut الضمير المنفصل?",
+     "qe": "13. Is it true that a pronoun attached to another word is called the detached pronoun?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "No",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "No"
+    },
+    {
+     "id": "FQT00000000090000000053",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "14. Benarkah dalam آتَيْنَاهُمُ الْكِتَابَ kata ganti هُمُ berarti kami?",
+     "qe": "14. Is it true that in آتَيْنَاهُمُ الْكِتَابَ the pronoun هُمُ means we?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "No",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "No"
+    },
+    {
+     "id": "FQT00000000090000000054",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "15. 3 Kunci kata kerja اِسْتَبَقَ adalah: (madi, mudari, masdar)",
+     "qe": "15. The 3 keys of the verb اِسْتَبَقَ are: (past, present, verbal noun)",
+     "t": "drag",
+     "opts": [
+      "اِسْتَبَقَ",
+      "يَسْتَبِقُ",
+      "اِسْتِبَاق",
+      "مُسْتَبِقٌ"
+     ],
+     "corr": [
+      "اِسْتَبَقَ",
+      "يَسْتَبِقُ",
+      "اِسْتِبَاق"
+     ],
+     "optsE": [
+      "اِسْتَبَقَ",
+      "يَسْتَبِقُ",
+      "اِسْتِبَاق",
+      "مُسْتَبِقٌ"
+     ],
+     "corrE": [
+      "اِسْتَبَقَ",
+      "يَسْتَبِقُ",
+      "اِسْتِبَاق"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000055",
+     "lid": "SLV000000000038",
+     "excerpt": "Ujian Grammer",
+     "q": "16. 3 Kunci kata kerja ذَكَرَ adalah: (madi, mudari, masdar)",
+     "qe": "16. The 3 keys of the verb ذَكَرَ are: (past, present, verbal noun)",
+     "t": "drag",
+     "opts": [
+      "ذَكَرَ",
+      "يَذْكُرُ",
+      "ذِكْر",
+      "ذَاكِرٌ"
+     ],
+     "corr": [
+      "ذَكَرَ",
+      "يَذْكُرُ",
+      "ذِكْر"
+     ],
+     "optsE": [
+      "ذَكَرَ",
+      "يَذْكُرُ",
+      "ذِكْر",
+      "ذَاكِرٌ"
+     ],
+     "corrE": [
+      "ذَكَرَ",
+      "يَذْكُرُ",
+      "ذِكْر"
+     ]
+    }
+   ]
+  },
+  {
+   "slv": 3,
+   "lid": "SLV000000000039",
+   "pelajaran": [
+    {
+     "id": "FQT00000000090000000056",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Pelajaran",
+     "q": "1. Bagaimana kedudukan para syuhada yang gugur di jalan Allah?",
+     "qe": "1. What is the status of those killed in the way of Allah?",
+     "t": "option",
+     "opts": [
+      "mereka menunggu sampai hari kiamat",
+      "mereka telah tiada selamanya",
+      "mereka hidup, tetapi kamu tidak menyadarinya",
+      "mereka tidur di dalam kubur"
+     ],
+     "corr": "mereka hidup, tetapi kamu tidak menyadarinya",
+     "optsE": [
+      "they wait until the Day of Judgment",
+      "they are gone forever",
+      "they are alive, but you do not perceive it",
+      "they sleep in their graves"
+     ],
+     "corrE": "they are alive, but you do not perceive it"
+    },
+    {
+     "id": "FQT00000000090000000057",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Pelajaran",
+     "q": "2. Terjemahkan: وَبَشِّرِ الصَّابِرِينَ",
+     "qe": "2. Translate: وَبَشِّرِ الصَّابِرِينَ",
+     "t": "option",
+     "opts": [
+      "dan berilah kabar gembira kepada orang-orang yang sabar",
+      "dan peringatkanlah orang-orang yang sabar",
+      "dan tinggalkan orang-orang yang sabar",
+      "dan hina mereka yang bersabar"
+     ],
+     "corr": "dan berilah kabar gembira kepada orang-orang yang sabar",
+     "optsE": [
+      "and give good tidings to the patient",
+      "and warn the patient",
+      "and leave the patient",
+      "and humiliate the patient"
+     ],
+     "corrE": "and give good tidings to the patient"
+    },
+    {
+     "id": "FQT00000000090000000058",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Pelajaran",
+     "q": "3. Apa kalimat yang diucapkan orang-orang mukmin ketika tertimpa musibah?",
+     "qe": "3. What do the believers say when afflicted with a calamity?",
+     "t": "option",
+     "opts": [
+      "kami tidak peduli dengan musibah",
+      "sesungguhnya kami milik Allah dan kepada-Nya kami kembali",
+      "mengapa ini terjadi pada kami",
+      "celaka lah kami dan harta kami"
+     ],
+     "corr": "sesungguhnya kami milik Allah dan kepada-Nya kami kembali",
+     "optsE": [
+      "we do not care about the calamity",
+      "indeed we belong to Allah and to Him we will return",
+      "why did this happen to us",
+      "woe to us and our wealth"
+     ],
+     "corrE": "indeed we belong to Allah and to Him we will return"
+    },
+    {
+     "id": "FQT00000000090000000059",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Pelajaran",
+     "q": "4. Apa balasan bagi orang-orang yang mengucapkan kalimat istirja?",
+     "qe": "4. What reward is for those who utter the words of istirja?",
+     "t": "option",
+     "opts": [
+      "shalawat dari Rabb mereka dan rahmat",
+      "pangkat dan kedudukan",
+      "harta yang melimpah",
+      "kemenangan di dunia saja"
+     ],
+     "corr": "shalawat dari Rabb mereka dan rahmat",
+     "optsE": [
+      "blessings from their Lord and mercy",
+      "rank and position",
+      "abundant wealth",
+      "victory in this world only"
+     ],
+     "corrE": "blessings from their Lord and mercy"
+    },
+    {
+     "id": "FQT00000000090000000060",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Pelajaran",
+     "q": "5. Apa fungsi إِلَّا dalam إِلَّا الَّذِينَ تَابُوا?",
+     "qe": "5. What is the function of إِلَّا in إِلَّا الَّذِينَ تَابُوا?",
+     "t": "option",
+     "opts": [
+      "pengecualian (istitsna)",
+      "penanya (istifham)",
+      "penyambung (athaf)",
+      "penguatan (taukid)"
+     ],
+     "corr": "pengecualian (istitsna)",
+     "optsE": [
+      "exception (istitsna)",
+      "question (istifham)",
+      "conjunction (athaf)",
+      "emphasis (taukid)"
+     ],
+     "corrE": "exception (istitsna)"
+    },
+    {
+     "id": "FQT00000000090000000061",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Pelajaran",
+     "q": "6. Siapa yang dikecualikan dari laknat pada ayat 160?",
+     "qe": "6. Who are excluded from the curse in verse 160?",
+     "t": "option",
+     "opts": [
+      "orang-orang yang berkeras kepala",
+      "orang yang bertobat, memperbaiki diri, dan menjelaskan kebenaran",
+      "mereka yang tidak beriman",
+      "semua orang yang menyembunyikan"
+     ],
+     "corr": "orang yang bertobat, memperbaiki diri, dan menjelaskan kebenaran",
+     "optsE": [
+      "the stubborn ones",
+      "those who repent, make amends, and clarify the truth",
+      "those who do not believe",
+      "all those who conceal"
+     ],
+     "corrE": "those who repent, make amends, and clarify the truth"
+    },
+    {
+     "id": "FQT00000000090000000062",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Pelajaran",
+     "q": "7. Siapa yang boleh melakukan sai antara Safa dan Marwah?",
+     "qe": "7. Who may perform sai between Safa and Marwah?",
+     "t": "option",
+     "opts": [
+      "hanya para penguasa",
+      "orang yang menunaikan haji atau umrah",
+      "hanya kabilah Quraisy",
+      "siapa saja yang lewat jalan itu"
+     ],
+     "corr": "orang yang menunaikan haji atau umrah",
+     "optsE": [
+      "only the rulers",
+      "those performing hajj or umrah",
+      "only the Quraysh tribe",
+      "anyone passing that road"
+     ],
+     "corrE": "those performing hajj or umrah"
+    },
+    {
+     "id": "FQT00000000090000000063",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Pelajaran",
+     "q": "8. Terjemahkan: وَإِلَهُكُمْ إِلَهٌ وَاحِدٌ",
+     "qe": "8. Translate: وَإِلَهُكُمْ إِلَهٌ وَاحِدٌ",
+     "t": "option",
+     "opts": [
+      "dan tidak ada Tuhan sama sekali",
+      "dan Tuhanmu adalah Tuhan Yang Maha Esa",
+      "dan tuhan-tuhan kalian berjumlah banyak",
+      "dan setiap kaum punya tuhan masing-masing"
+     ],
+     "corr": "dan Tuhanmu adalah Tuhan Yang Maha Esa",
+     "optsE": [
+      "and there is no god at all",
+      "and your God is one God",
+      "and your gods are many",
+      "and every nation has its own god"
+     ],
+     "corrE": "and your God is one God"
+    },
+    {
+     "id": "FQT00000000090000000064",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Pelajaran",
+     "q": "9. Manakah pernyataan yang benar tentang ayat 155? (Pilih lebih dari satu jawaban)",
+     "qe": "9. Which statements about verse 155 are true? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "Allah menguji manusia dengan ketakutan dan kelaparan",
+      "Allah menguji hanya dengan kemakmuran",
+      "Allah menguji dengan datangnya bencana tanpa sebab",
+      "Allah menguji dengan kekurangan harta, jiwa, dan buah-buahan"
+     ],
+     "corr": [
+      "Allah menguji manusia dengan ketakutan dan kelaparan",
+      "Allah menguji dengan kekurangan harta, jiwa, dan buah-buahan"
+     ],
+     "optsE": [
+      "Allah tests people with fear and hunger",
+      "Allah tests only with prosperity",
+      "Allah tests with disasters without cause",
+      "Allah tests with loss of wealth, lives, and fruits"
+     ],
+     "corrE": [
+      "Allah tests people with fear and hunger",
+      "Allah tests with loss of wealth, lives, and fruits"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000065",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Pelajaran",
+     "q": "10. Manakah pernyataan yang benar tentang orang yang menyembunyikan keterangan? (Pilih lebih dari satu jawaban)",
+     "qe": "10. Which statements about those who conceal clear proofs are true? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "mereka dibiarkan di dunia tanpa hisab",
+      "mereka diberi pahala berlipat ganda",
+      "mereka dapat bertobat, memperbaiki diri, dan menjelaskan kebenaran",
+      "mereka dilaknat oleh Allah dan semua yang melaknat"
+     ],
+     "corr": [
+      "mereka dilaknat oleh Allah dan semua yang melaknat",
+      "mereka dapat bertobat, memperbaiki diri, dan menjelaskan kebenaran"
+     ],
+     "optsE": [
+      "they are left alone without reckoning",
+      "they receive multiplied reward",
+      "they may repent, make amends, and clarify the truth",
+      "they are cursed by Allah and all who curse"
+     ],
+     "corrE": [
+      "they are cursed by Allah and all who curse",
+      "they may repent, make amends, and clarify the truth"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000066",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Pelajaran",
+     "q": "11. Benarkah وَإِلَهُكُمْ إِلَهٌ وَاحِدٌ berarti dan Tuhanmu adalah Tuhan Yang Maha Esa?",
+     "qe": "11. Is it true that وَإِلَهُكُمْ إِلَهٌ وَاحِدٌ means and your God is one God?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "Yes",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "Yes"
+    },
+    {
+     "id": "FQT00000000090000000067",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Pelajaran",
+     "q": "12. Benarkah azab penghuni neraka dalam ayat 162 diringankan?",
+     "qe": "12. Is it true that the punishment of the people of the Fire in verse 162 is lightened?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "No",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "No"
+    }
+   ],
+   "grammer": [
+    {
+     "id": "FQT00000000090000000068",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "1. Dalam لَا إِلَهَ إِلَّا هُوَ, fungsi la adalah...",
+     "qe": "1. In لَا إِلَهَ إِلَّا هُوَ, the function of la is...",
+     "t": "option",
+     "opts": [
+      "menegasikan (النافية للجنس)",
+      "bertanya (الاستفهامية)",
+      "melarang (الناهية)",
+      "memanggil (الندائية)"
+     ],
+     "corr": "menegasikan (النافية للجنس)",
+     "optsE": [
+      "negation of the genus",
+      "question (istifham)",
+      "prohibition (nahiyah)",
+      "vocative (nida)"
+     ],
+     "corrE": "negation of the genus"
+    },
+    {
+     "id": "FQT00000000090000000069",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "2. Perbedaan la nahiyah dan la nafiyah adalah...",
+     "qe": "2. The difference between laa nahiyah and laa nafiyah is...",
+     "t": "option",
+     "opts": [
+      "nahiyah menegaskan, nafiyah melarang",
+      "nahiyah melarang, nafiyah menegasikan",
+      "nahiyah untuk masa lalu, nafiyah untuk masa depan",
+      "keduanya sama saja"
+     ],
+     "corr": "nahiyah melarang, nafiyah menegasikan",
+     "optsE": [
+      "nahiyah affirms, nafiyah prohibits",
+      "nahiyah prohibits, nafiyah negates",
+      "nahiyah for the past, nafiyah for the future",
+      "both are the same"
+     ],
+     "corrE": "nahiyah prohibits, nafiyah negates"
+    },
+    {
+     "id": "FQT00000000090000000070",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "3. Terjemahkan: لَا يُخَفَّفُ عَنْهُمُ الْعَذَابُ",
+     "qe": "3. Translate: لَا يُخَفَّفُ عَنْهُمُ الْعَذَابُ",
+     "t": "option",
+     "opts": [
+      "azab tidak akan diringankan dari mereka",
+      "mereka tidak akan merasakan azab",
+      "azab mereka segera berakhir",
+      "azab mereka diganti dengan rahmat"
+     ],
+     "corr": "azab tidak akan diringankan dari mereka",
+     "optsE": [
+      "the punishment will not be lightened for them",
+      "they will not taste punishment",
+      "their punishment will soon end",
+      "their punishment is replaced with mercy"
+     ],
+     "corrE": "the punishment will not be lightened for them"
+    },
+    {
+     "id": "FQT00000000090000000071",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "4. Terjemahkan: إِلَّا الَّذِينَ تَابُوا وَأَصْلَحُوا وَبَيَّنُوا",
+     "qe": "4. Translate: إِلَّا الَّذِينَ تَابُوا وَأَصْلَحُوا وَبَيَّنُوا",
+     "t": "option",
+     "opts": [
+      "kecuali orang-orang yang terus menyembunyikan",
+      "kecuali orang-orang yang keras kepala",
+      "kecuali mereka yang menambah kesalahan",
+      "kecuali orang-orang yang bertobat, memperbaiki diri, dan menjelaskan kebenaran"
+     ],
+     "corr": "kecuali orang-orang yang bertobat, memperbaiki diri, dan menjelaskan kebenaran",
+     "optsE": [
+      "except those who continue to conceal",
+      "except the stubborn ones",
+      "except those who add more sins",
+      "except those who repent, make amends, and make clear"
+     ],
+     "corrE": "except those who repent, make amends, and make clear"
+    },
+    {
+     "id": "FQT00000000090000000072",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "5. Huruf athaf أَوْ menunjukkan makna...",
+     "qe": "5. The conjunction أَوْ indicates...",
+     "t": "option",
+     "opts": [
+      "hanya (saja)",
+      "sebab (lantaran)",
+      "pilihan (atau)",
+      "urutan (kemudian)"
+     ],
+     "corr": "pilihan (atau)",
+     "optsE": [
+      "only",
+      "cause (because)",
+      "choice (or)",
+      "sequence (then)"
+     ],
+     "corrE": "choice (or)"
+    },
+    {
+     "id": "FQT00000000090000000073",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "6. Dalam فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ, huruf أَوْ berarti...",
+     "qe": "6. In فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ, the letter أَوْ means...",
+     "t": "option",
+     "opts": [
+      "kemudian",
+      "dan",
+      "tetapi",
+      "atau"
+     ],
+     "corr": "atau",
+     "optsE": [
+      "then",
+      "and",
+      "but",
+      "or"
+     ],
+     "corrE": "or"
+    },
+    {
+     "id": "FQT00000000090000000074",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "7. Fungsi utama huruf athaf adalah...",
+     "qe": "7. The main function of a conjunction is...",
+     "t": "option",
+     "opts": [
+      "menegaskan isim",
+      "menghubungkan dua kata atau kalimat",
+      "mengganti kata kerja",
+      "mengakhiri kalimat"
+     ],
+     "corr": "menghubungkan dua kata atau kalimat",
+     "optsE": [
+      "emphasizing a noun",
+      "joining two words or clauses",
+      "replacing a verb",
+      "ending a sentence"
+     ],
+     "corrE": "joining two words or clauses"
+    },
+    {
+     "id": "FQT00000000090000000075",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "8. Manakah yang merupakan jumlatu ismiyah?",
+     "qe": "8. Which of these is a nominal sentence?",
+     "t": "option",
+     "opts": [
+      "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَبِّهِمْ وَرَحْمَةٌ",
+      "إِذَا أَصَابَتْهُمْ مُصِيبَةٌ قَالُوا",
+      "فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ",
+      "يَكْتُمُونَ مَا أَنْزَلْنَا"
+     ],
+     "corr": "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَبِّهِمْ وَرَحْمَةٌ",
+     "optsE": [
+      "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَبِّهِمْ وَرَحْمَةٌ",
+      "إِذَا أَصَابَتْهُمْ مُصِيبَةٌ قَالُوا",
+      "فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ",
+      "يَكْتُمُونَ مَا أَنْزَلْنَا"
+     ],
+     "corrE": "أُولَئِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَبِّهِمْ وَرَحْمَةٌ"
+    },
+    {
+     "id": "FQT00000000090000000076",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "9. Manakah yang termasuk huruf athaf? (Pilih lebih dari satu jawaban)",
+     "qe": "9. Which of these are conjunctions? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "وَ",
+      "عَنْ",
+      "أَوْ",
+      "قَدْ"
+     ],
+     "corr": [
+      "وَ",
+      "أَوْ"
+     ],
+     "optsE": [
+      "وَ",
+      "عَنْ",
+      "أَوْ",
+      "قَدْ"
+     ],
+     "corrE": [
+      "وَ",
+      "أَوْ"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000077",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "10. Manakah yang termasuk rukun jumlatu ismiyah? (Pilih lebih dari satu jawaban)",
+     "qe": "10. Which are the two pillars of a nominal sentence? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "فِعْل",
+      "فَاعِل",
+      "خَبَر",
+      "مُبْتَدَأ"
+     ],
+     "corr": [
+      "مُبْتَدَأ",
+      "خَبَر"
+     ],
+     "optsE": [
+      "فِعْل",
+      "فَاعِل",
+      "خَبَر",
+      "مُبْتَدَأ"
+     ],
+     "corrE": [
+      "مُبْتَدَأ",
+      "خَبَر"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000078",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "11. Manakah pernyataan yang benar tentang إِلَّا? (Pilih lebih dari satu jawaban)",
+     "qe": "11. Which statements about إِلَّا are true? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "berfungsi sebagai penguatan",
+      "berfungsi sebagai pengecualian (istitsna)",
+      "berfungsi sebagai athaf",
+      "dalam إِلَّا الَّذِينَ تَابُوا mengecualikan orang yang bertobat"
+     ],
+     "corr": [
+      "berfungsi sebagai pengecualian (istitsna)",
+      "dalam إِلَّا الَّذِينَ تَابُوا mengecualikan orang yang bertobat"
+     ],
+     "optsE": [
+      "it functions as emphasis",
+      "it functions as an exception",
+      "it functions as a conjunction",
+      "in إِلَّا الَّذِينَ تَابُوا it excludes those who repent"
+     ],
+     "corrE": [
+      "it functions as an exception",
+      "in إِلَّا الَّذِينَ تَابُوا it excludes those who repent"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000079",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "12. Benarkah jumlatu ismiyah terdiri atas mubtada dan khabar?",
+     "qe": "12. Is it true that a nominal sentence consists of mubtada and khabar?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "Yes",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "Yes"
+    },
+    {
+     "id": "FQT00000000090000000080",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "13. Benarkah huruf athaf أَوْ menunjukkan makna kemudian (urutan)?",
+     "qe": "13. Is it true that the conjunction أَوْ indicates sequence (then)?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "No",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "No"
+    },
+    {
+     "id": "FQT00000000090000000081",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "14. Benarkah masdar dari تَابَ adalah تَائِب?",
+     "qe": "14. Is it true that the verbal noun of تَابَ is تَائِب?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "No",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "No"
+    },
+    {
+     "id": "FQT00000000090000000082",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "15. 3 Kunci kata kerja بَشَّرَ adalah: (madi, mudari, masdar)",
+     "qe": "15. The 3 keys of the verb بَشَّرَ are: (past, present, verbal noun)",
+     "t": "drag",
+     "opts": [
+      "بَشَّرَ",
+      "يُبَشِّرُ",
+      "تَبْشِير",
+      "مُبَشِّرٌ"
+     ],
+     "corr": [
+      "بَشَّرَ",
+      "يُبَشِّرُ",
+      "تَبْشِير"
+     ],
+     "optsE": [
+      "بَشَّرَ",
+      "يُبَشِّرُ",
+      "تَبْشِير",
+      "مُبَشِّرٌ"
+     ],
+     "corrE": [
+      "بَشَّرَ",
+      "يُبَشِّرُ",
+      "تَبْشِير"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000083",
+     "lid": "SLV000000000039",
+     "excerpt": "Ujian Grammer",
+     "q": "16. 3 Kunci kata kerja كَتَمَ adalah: (madi, mudari, masdar)",
+     "qe": "16. The 3 keys of the verb كَتَمَ are: (past, present, verbal noun)",
+     "t": "drag",
+     "opts": [
+      "كَتَمَ",
+      "يَكْتُمُ",
+      "كِتْمَان",
+      "كَاتِمٌ"
+     ],
+     "corr": [
+      "كَتَمَ",
+      "يَكْتُمُ",
+      "كِتْمَان"
+     ],
+     "optsE": [
+      "كَتَمَ",
+      "يَكْتُمُ",
+      "كِتْمَان",
+      "كَاتِمٌ"
+     ],
+     "corrE": [
+      "كَتَمَ",
+      "يَكْتُمُ",
+      "كِتْمَان"
+     ]
+    }
+   ]
+  },
+  {
+   "slv": 4,
+   "lid": "SLV000000000040",
+   "pelajaran": [
+    {
+     "id": "FQT00000000090000000084",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Pelajaran",
+     "q": "1. Tentang apakah ayat 164 berbicara?",
+     "qe": "1. What is verse 164 about?",
+     "t": "option",
+     "opts": [
+      "hukum warisan",
+      "kisah para nabi yang lalu",
+      "keutamaan bersedekah",
+      "tanda-tanda kekuasaan Allah di alam semesta"
+     ],
+     "corr": "tanda-tanda kekuasaan Allah di alam semesta",
+     "optsE": [
+      "the law of inheritance",
+      "the stories of former prophets",
+      "the virtue of charity",
+      "the signs of Allah power in the universe"
+     ],
+     "corrE": "the signs of Allah power in the universe"
+    },
+    {
+     "id": "FQT00000000090000000085",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Pelajaran",
+     "q": "2. Untuk siapa tanda-tanda itu menjadi pelajaran?",
+     "qe": "2. For whom are these signs instructive?",
+     "t": "option",
+     "opts": [
+      "kaum yang kuat",
+      "kaum yang berakal",
+      "kaum yang kaya raya",
+      "kaum yang pandai berdagang"
+     ],
+     "corr": "kaum yang berakal",
+     "optsE": [
+      "the strong people",
+      "people of reason",
+      "the wealthy people",
+      "the skilled merchants"
+     ],
+     "corrE": "people of reason"
+    },
+    {
+     "id": "FQT00000000090000000086",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Pelajaran",
+     "q": "3. Apa yang dilakukan sebagian manusia selain menyembah Allah?",
+     "qe": "3. What do some people do besides worshiping Allah?",
+     "t": "option",
+     "opts": [
+      "membantu orang miskin",
+      "menjadikan tandingan-tandingan selain Allah",
+      "menunaikan haji",
+      "menghormati para nabi"
+     ],
+     "corr": "menjadikan tandingan-tandingan selain Allah",
+     "optsE": [
+      "they help the poor",
+      "they take rivals other than Allah",
+      "they perform hajj",
+      "they honor the prophets"
+     ],
+     "corrE": "they take rivals other than Allah"
+    },
+    {
+     "id": "FQT00000000090000000087",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Pelajaran",
+     "q": "4. Bagaimana cinta orang-orang beriman kepada Allah?",
+     "qe": "4. How is the love of the believers for Allah?",
+     "t": "option",
+     "opts": [
+      "sama seperti cinta kepada harta",
+      "lebih sangat daripada segala cinta",
+      "kurang dari cinta kepada keluarga",
+      "tidak ada cinta kepada Allah"
+     ],
+     "corr": "lebih sangat daripada segala cinta",
+     "optsE": [
+      "the same as love for wealth",
+      "stronger than all other love",
+      "less than love for family",
+      "there is no love for Allah"
+     ],
+     "corrE": "stronger than all other love"
+    },
+    {
+     "id": "FQT00000000090000000088",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Pelajaran",
+     "q": "5. Kapan orang-orang yang diikuti berlepas diri dari para pengikutnya?",
+     "qe": "5. When do those who were followed disassociate from their followers?",
+     "t": "option",
+     "opts": [
+      "di dunia sebelum kematian",
+      "setelah pembagian warisan",
+      "ketika ada peperangan besar",
+      "pada hari kiamat ketika melihat azab"
+     ],
+     "corr": "pada hari kiamat ketika melihat azab",
+     "optsE": [
+      "in this world before death",
+      "after dividing inheritance",
+      "during a great war",
+      "on the Day of Judgment when they see the punishment"
+     ],
+     "corrE": "on the Day of Judgment when they see the punishment"
+    },
+    {
+     "id": "FQT00000000090000000089",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Pelajaran",
+     "q": "6. Terjemahkan: وَمَا هُمْ بِخَارِجِينَ مِنَ النَّارِ",
+     "qe": "6. Translate: وَمَا هُمْ بِخَارِجِينَ مِنَ النَّارِ",
+     "t": "option",
+     "opts": [
+      "dan mereka tidak akan keluar dari neraka",
+      "dan mereka tidak pernah masuk neraka",
+      "dan mereka hanya sebentar di neraka",
+      "dan mereka akan segera keluar dari neraka"
+     ],
+     "corr": "dan mereka tidak akan keluar dari neraka",
+     "optsE": [
+      "and they will never leave the Fire",
+      "and they never enter the Fire",
+      "and they will be briefly in the Fire",
+      "and they will soon leave the Fire"
+     ],
+     "corrE": "and they will never leave the Fire"
+    },
+    {
+     "id": "FQT00000000090000000090",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Pelajaran",
+     "q": "7. Apa yang diinginkan para pengikut jika dapat kembali ke dunia?",
+     "qe": "7. What do the followers wish if they could return to the world?",
+     "t": "option",
+     "opts": [
+      "memperbaiki istana mereka",
+      "menjadi raja",
+      "mengumpulkan lebih banyak harta",
+      "berlepas diri dari para pemimpin yang diikuti"
+     ],
+     "corr": "berlepas diri dari para pemimpin yang diikuti",
+     "optsE": [
+      "to repair their palaces",
+      "to become kings",
+      "to gather more wealth",
+      "to disassociate from the followed leaders"
+     ],
+     "corrE": "to disassociate from the followed leaders"
+    },
+    {
+     "id": "FQT00000000090000000091",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Pelajaran",
+     "q": "8. Apa larangan dalam ayat 168?",
+     "qe": "8. What prohibition is in verse 168?",
+     "t": "option",
+     "opts": [
+      "jangan bekerja mencari nafkah",
+      "jangan mengikuti langkah-langkah setan",
+      "jangan makan buah-buahan",
+      "jangan berpuasa di musim panas"
+     ],
+     "corr": "jangan mengikuti langkah-langkah setan",
+     "optsE": [
+      "do not work for a living",
+      "do not follow the footsteps of Satan",
+      "do not eat fruits",
+      "do not fast in summer"
+     ],
+     "corrE": "do not follow the footsteps of Satan"
+    },
+    {
+     "id": "FQT00000000090000000092",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Pelajaran",
+     "q": "9. Manakah yang termasuk tanda-tanda kekuasaan Allah dalam ayat 164? (Pilih lebih dari satu jawaban)",
+     "qe": "9. Which are among the signs mentioned in verse 164? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "istana para raja",
+      "air yang diturunkan agar bumi hidup setelah matinya",
+      "kapal yang berlayar di lautan",
+      "pasar-pasar besar"
+     ],
+     "corr": [
+      "kapal yang berlayar di lautan",
+      "air yang diturunkan agar bumi hidup setelah matinya"
+     ],
+     "optsE": [
+      "the palaces of kings",
+      "water sent down to revive the earth after its death",
+      "ships sailing in the sea",
+      "great markets"
+     ],
+     "corrE": [
+      "ships sailing in the sea",
+      "water sent down to revive the earth after its death"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000093",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Pelajaran",
+     "q": "10. Manakah pernyataan yang benar tentang cinta orang-orang beriman? (Pilih lebih dari satu jawaban)",
+     "qe": "10. Which statements about the love of the believers are true? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "sebagian manusia menjadikan tandingan-tandingan selain Allah",
+      "mereka tidak memiliki cinta kepada Allah",
+      "cinta mereka kepada Allah sama dengan cinta kepada harta",
+      "cinta mereka kepada Allah lebih sangat dari segala cinta"
+     ],
+     "corr": [
+      "cinta mereka kepada Allah lebih sangat dari segala cinta",
+      "sebagian manusia menjadikan tandingan-tandingan selain Allah"
+     ],
+     "optsE": [
+      "some people take rivals other than Allah",
+      "they have no love for Allah",
+      "their love for Allah equals love for wealth",
+      "their love for Allah is stronger than all love"
+     ],
+     "corrE": [
+      "their love for Allah is stronger than all love",
+      "some people take rivals other than Allah"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000094",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Pelajaran",
+     "q": "11. Benarkah يَا أَيُّهَا النَّاسُ كُلُوا مِمَّا فِي الْأَرْضِ حَلَالًا طَيِّبًا berarti wahai manusia, makanlah dari apa yang ada di bumi yang halal lagi baik?",
+     "qe": "11. Is it true that يَا أَيُّهَا النَّاسُ كُلُوا مِمَّا فِي الْأَرْضِ حَلَالًا طَيِّبًا means O mankind, eat from what is on the earth, lawful and good?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "Yes",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "Yes"
+    },
+    {
+     "id": "FQT00000000090000000095",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Pelajaran",
+     "q": "12. Benarkah setan memerintahkan untuk beribadah kepada Allah?",
+     "qe": "12. Is it true that Satan commands the worship of Allah?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "No",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "No"
+    }
+   ],
+   "grammer": [
+    {
+     "id": "FQT00000000090000000096",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "1. Kata خَلْقِ dalam خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ adalah...",
+     "qe": "1. The word خَلْقِ in خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ is...",
+     "t": "option",
+     "opts": [
+      "fi l mudhari",
+      "masdar (kata benda kerja)",
+      "fi l madhi",
+      "ism fa il"
+     ],
+     "corr": "masdar (kata benda kerja)",
+     "optsE": [
+      "a present verb",
+      "a verbal noun (masdar)",
+      "a past verb",
+      "an active participle"
+     ],
+     "corrE": "a verbal noun (masdar)"
+    },
+    {
+     "id": "FQT00000000090000000097",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "2. Masdar adalah kata benda yang menunjukkan...",
+     "qe": "2. A masdar is a noun that indicates...",
+     "t": "option",
+     "opts": [
+      "tempat perbuatan",
+      "pelaku perbuatan",
+      "alat perbuatan",
+      "perbuatan atau tindakan"
+     ],
+     "corr": "perbuatan atau tindakan",
+     "optsE": [
+      "the place of the action",
+      "the doer of the action",
+      "the tool of the action",
+      "an action or deed"
+     ],
+     "corrE": "an action or deed"
+    },
+    {
+     "id": "FQT00000000090000000098",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "3. Masdar dari اِخْتَلَفَ adalah...",
+     "qe": "3. The verbal noun of اِخْتَلَفَ is...",
+     "t": "option",
+     "opts": [
+      "اِخْتِلَاف",
+      "خِلَافَة",
+      "يَخْتَلِفُ",
+      "مُخْتَلِف"
+     ],
+     "corr": "اِخْتِلَاف",
+     "optsE": [
+      "اِخْتِلَاف",
+      "خِلَافَة",
+      "يَخْتَلِفُ",
+      "مُخْتَلِف"
+     ],
+     "corrE": "اِخْتِلَاف"
+    },
+    {
+     "id": "FQT00000000090000000099",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "4. Dalam يُحِبُّونَهُمْ كَحُبِّ اللَّهِ, objek (maf ul bih) berupa...",
+     "qe": "4. In يُحِبُّونَهُمْ كَحُبِّ اللَّهِ, the object is a...",
+     "t": "option",
+     "opts": [
+      "kata حُبِّ",
+      "kata ganti هُمْ",
+      "huruf kaf",
+      "kata اللَّهِ"
+     ],
+     "corr": "kata ganti هُمْ",
+     "optsE": [
+      "the word حُبِّ",
+      "the pronoun هُمْ",
+      "the letter kaf",
+      "the word اللَّهِ"
+     ],
+     "corrE": "the pronoun هُمْ"
+    },
+    {
+     "id": "FQT00000000090000000100",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "5. Dalam وَيَتَّخِذُ مِنْ دُونِ اللَّهِ أَنْدَادًا, yang menjadi maf ul bih adalah...",
+     "qe": "5. In وَيَتَّخِذُ مِنْ دُونِ اللَّهِ أَنْدَادًا, the object is...",
+     "t": "option",
+     "opts": [
+      "أَنْدَادًا",
+      "النَّاسِ",
+      "اللَّهِ",
+      "مِنْ دُونِ"
+     ],
+     "corr": "أَنْدَادًا",
+     "optsE": [
+      "أَنْدَادًا",
+      "النَّاسِ",
+      "اللَّهِ",
+      "مِنْ دُونِ"
+     ],
+     "corrE": "أَنْدَادًا"
+    },
+    {
+     "id": "FQT00000000090000000101",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "6. Dalam مِنْ دُونِ اللَّهِ, jar-majrurnya adalah...",
+     "qe": "6. In مِنْ دُونِ اللَّهِ, the jar-majrur is...",
+     "t": "option",
+     "opts": [
+      "مِنْ فَقَط",
+      "اللَّهِ فَقَط",
+      "مِنْ دُونِ اللَّهِ",
+      "دُونِ فَقَط"
+     ],
+     "corr": "مِنْ دُونِ اللَّهِ",
+     "optsE": [
+      "مِنْ only",
+      "اللَّهِ only",
+      "مِنْ دُونِ اللَّهِ",
+      "دُونِ only"
+     ],
+     "corrE": "مِنْ دُونِ اللَّهِ"
+    },
+    {
+     "id": "FQT00000000090000000102",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "7. Dalam يُحِبُّونَهُمْ, فاعلnya adalah...",
+     "qe": "7. In يُحِبُّونَهُمْ, the subject is...",
+     "t": "option",
+     "opts": [
+      "huruf kaf",
+      "kata ganti هُمْ",
+      "waw jamaah (mereka)",
+      "kata حُبِّ"
+     ],
+     "corr": "waw jamaah (mereka)",
+     "optsE": [
+      "the letter kaf",
+      "the pronoun هُمْ",
+      "the plural waw (they)",
+      "the word حُبِّ"
+     ],
+     "corrE": "the plural waw (they)"
+    },
+    {
+     "id": "FQT00000000090000000103",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "8. Urutan komponen jumlatu fi liyah adalah...",
+     "qe": "8. The order of components in a verbal sentence is...",
+     "t": "option",
+     "opts": [
+      "fa il + mubtada",
+      "mubtada + khabar",
+      "maf ul + fi l + fa il",
+      "fi l + fa il + maf ul"
+     ],
+     "corr": "fi l + fa il + maf ul",
+     "optsE": [
+      "subject + mubtada",
+      "mubtada + khabar",
+      "object + verb + subject",
+      "verb + subject + object"
+     ],
+     "corrE": "verb + subject + object"
+    },
+    {
+     "id": "FQT00000000090000000104",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "9. Manakah yang termasuk huruf jar? (Pilih lebih dari satu jawaban)",
+     "qe": "9. Which of these are prepositions? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "فِي",
+      "مِنْ",
+      "هُمْ",
+      "أَنْدَادًا"
+     ],
+     "corr": [
+      "مِنْ",
+      "فِي"
+     ],
+     "optsE": [
+      "فِي",
+      "مِنْ",
+      "هُمْ",
+      "أَنْدَادًا"
+     ],
+     "corrE": [
+      "مِنْ",
+      "فِي"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000105",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "10. Manakah yang termasuk maf ul bih? (Pilih lebih dari satu jawaban)",
+     "qe": "10. Which of these are objects (maf ul bih)? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "مِنْ دُونِ",
+      "فَأَحْيَا",
+      "أَنْدَادًا",
+      "الْأَرْضَ"
+     ],
+     "corr": [
+      "أَنْدَادًا",
+      "الْأَرْضَ"
+     ],
+     "optsE": [
+      "مِنْ دُونِ",
+      "فَأَحْيَا",
+      "أَنْدَادًا",
+      "الْأَرْضَ"
+     ],
+     "corrE": [
+      "أَنْدَادًا",
+      "الْأَرْضَ"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000106",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "11. Manakah pernyataan yang benar tentang masdar? (Pilih lebih dari satu jawaban)",
+     "qe": "11. Which statements about the masdar are true? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "contohnya مُخْتَلِف",
+      "menunjukkan pelaku perbuatan",
+      "menunjukkan perbuatan atau tindakan",
+      "contohnya اِخْتِلَاف"
+     ],
+     "corr": [
+      "menunjukkan perbuatan atau tindakan",
+      "contohnya اِخْتِلَاف"
+     ],
+     "optsE": [
+      "an example is مُخْتَلِف",
+      "it indicates the doer of the action",
+      "it indicates an action or deed",
+      "an example is اِخْتِلَاف"
+     ],
+     "corrE": [
+      "it indicates an action or deed",
+      "an example is اِخْتِلَاف"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000107",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "12. Benarkah huruf jar membuat isim sesudahnya beri rab majrur?",
+     "qe": "12. Is it true that a preposition makes the noun after it genitive?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "Yes",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "Yes"
+    },
+    {
+     "id": "FQT00000000090000000108",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "13. Benarkah dalam لَوْ أَنَّ لَنَا كَرَّةً لَوْ menunjukkan syarat yang pasti terjadi?",
+     "qe": "13. Is it true that in لَوْ أَنَّ لَنَا كَرَّةً لَوْ indicates a condition that certainly happens?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "No",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "No"
+    },
+    {
+     "id": "FQT00000000090000000109",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "14. Benarkah kata كَرَّةٌ pada ayat 167 berarti kembali (ke dunia)?",
+     "qe": "14. Is it true that the word كَرَّةٌ in verse 167 means a return (to the world)?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "Yes",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "Yes"
+    },
+    {
+     "id": "FQT00000000090000000110",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "15. 3 Kunci kata kerja أَنْزَلَ adalah: (madi, mudari, masdar)",
+     "qe": "15. The 3 keys of the verb أَنْزَلَ are: (past, present, verbal noun)",
+     "t": "drag",
+     "opts": [
+      "أَنْزَلَ",
+      "يُنْزِلُ",
+      "إِنْزَال",
+      "مُنْزِلٌ"
+     ],
+     "corr": [
+      "أَنْزَلَ",
+      "يُنْزِلُ",
+      "إِنْزَال"
+     ],
+     "optsE": [
+      "أَنْزَلَ",
+      "يُنْزِلُ",
+      "إِنْزَال",
+      "مُنْزِلٌ"
+     ],
+     "corrE": [
+      "أَنْزَلَ",
+      "يُنْزِلُ",
+      "إِنْزَال"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000111",
+     "lid": "SLV000000000040",
+     "excerpt": "Ujian Grammer",
+     "q": "16. 3 Kunci kata kerja اِتَّخَذَ adalah: (madi, mudari, masdar)",
+     "qe": "16. The 3 keys of the verb اِتَّخَذَ are: (past, present, verbal noun)",
+     "t": "drag",
+     "opts": [
+      "اِتَّخَذَ",
+      "يَتَّخِذُ",
+      "اِتِّخَاذ",
+      "مُتَّخِذٌ"
+     ],
+     "corr": [
+      "اِتَّخَذَ",
+      "يَتَّخِذُ",
+      "اِتِّخَاذ"
+     ],
+     "optsE": [
+      "اِتَّخَذَ",
+      "يَتَّخِذُ",
+      "اِتِّخَاذ",
+      "مُتَّخِذٌ"
+     ],
+     "corrE": [
+      "اِتَّخَذَ",
+      "يَتَّخِذُ",
+      "اِتِّخَاذ"
+     ]
+    }
+   ]
+  },
+  {
+   "slv": 5,
+   "lid": "SLV000000000041",
+   "pelajaran": [
+    {
+     "id": "FQT00000000090000000112",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Pelajaran",
+     "q": "1. Apa jawaban orang-orang kafir ketika disuruh mengikuti wahyu Allah?",
+     "qe": "1. How do the disbelievers answer when told to follow the revelation of Allah?",
+     "t": "option",
+     "opts": [
+      "kami mengikuti apa yang kami dapati dari nenek moyang kami",
+      "kami beribadah kepada Allah semata",
+      "kami mengikuti kitab yang diturunkan",
+      "kami mengikuti para nabi itu"
+     ],
+     "corr": "kami mengikuti apa yang kami dapati dari nenek moyang kami",
+     "optsE": [
+      "we follow what we found our fathers doing",
+      "we worship Allah alone",
+      "we follow the revealed book",
+      "we follow the prophets"
+     ],
+     "corrE": "we follow what we found our fathers doing"
+    },
+    {
+     "id": "FQT00000000090000000113",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Pelajaran",
+     "q": "2. Apa kelemahan nenek moyang yang disebut dalam ayat 170?",
+     "qe": "2. What weakness of the forefathers is stated in verse 170?",
+     "t": "option",
+     "opts": [
+      "mereka tidak berakal dan tidak mendapat petunjuk",
+      "mereka tidak terkenal",
+      "mereka tidak memiliki harta",
+      "mereka tidak pernah berperang"
+     ],
+     "corr": "mereka tidak berakal dan tidak mendapat petunjuk",
+     "optsE": [
+      "they had no reason and no guidance",
+      "they were unknown",
+      "they owned no wealth",
+      "they never fought"
+     ],
+     "corrE": "they had no reason and no guidance"
+    },
+    {
+     "id": "FQT00000000090000000114",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Pelajaran",
+     "q": "3. Dalam ayat 171 orang kafir diserupakan dengan...",
+     "qe": "3. In verse 171 the disbelievers are compared to...",
+     "t": "option",
+     "opts": [
+      "kambing yang tersesat di malam hari",
+      "ternak yang dipanggil oleh penggembala",
+      "burung yang terbang bebas",
+      "singa yang sedang mengaum"
+     ],
+     "corr": "ternak yang dipanggil oleh penggembala",
+     "optsE": [
+      "a goat lost at night",
+      "livestock called by a shepherd",
+      "a bird flying free",
+      "a roaring lion"
+     ],
+     "corrE": "livestock called by a shepherd"
+    },
+    {
+     "id": "FQT00000000090000000115",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Pelajaran",
+     "q": "4. Sifat orang kafir pada akhir ayat 171 adalah...",
+     "qe": "4. The attribute of the disbelievers at the end of verse 171 is...",
+     "t": "option",
+     "opts": [
+      "tuli, bisu, dan buta sehingga tidak berpikir",
+      "tajam pendengaran dan penglihatan",
+      "sangat cepat memahami",
+      "pandai berbicara"
+     ],
+     "corr": "tuli, bisu, dan buta sehingga tidak berpikir",
+     "optsE": [
+      "deaf, dumb, and blind, so they do not think",
+      "sharp of hearing and sight",
+      "very quick to understand",
+      "eloquent speakers"
+     ],
+     "corrE": "deaf, dumb, and blind, so they do not think"
+    },
+    {
+     "id": "FQT00000000090000000116",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Pelajaran",
+     "q": "5. Apa perintah setelah perintah makan yang baik dalam ayat 172?",
+     "qe": "5. What command follows the command to eat good food in verse 172?",
+     "t": "option",
+     "opts": [
+      "kumpulkan harta sebanyak-banyaknya",
+      "berdebatlah tentang rezeki",
+      "bersyukurlah kepada Allah jika hanya kepada-Nya kamu menyembah",
+      "bagilah hasil panen"
+     ],
+     "corr": "bersyukurlah kepada Allah jika hanya kepada-Nya kamu menyembah",
+     "optsE": [
+      "gather as much wealth as possible",
+      "argue about provision",
+      "be grateful to Allah if it is Him alone you worship",
+      "divide the harvest"
+     ],
+     "corrE": "be grateful to Allah if it is Him alone you worship"
+    },
+    {
+     "id": "FQT00000000090000000117",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Pelajaran",
+     "q": "6. Siapa yang diampuni makan makanan yang diharamkan?",
+     "qe": "6. Who is forgiven for eating the forbidden food?",
+     "t": "option",
+     "opts": [
+      "siapa saja yang menginginkannya",
+      "orang yang sedang bepergian jauh",
+      "orang yang terpaksa tanpa melampaui batas dan tanpa bermaksiat",
+      "orang yang kaya raya"
+     ],
+     "corr": "orang yang terpaksa tanpa melampaui batas dan tanpa bermaksiat",
+     "optsE": [
+      "anyone who wants it",
+      "a long-distance traveler",
+      "one who is forced without exceeding the limit and without sin",
+      "the very rich"
+     ],
+     "corrE": "one who is forced without exceeding the limit and without sin"
+    },
+    {
+     "id": "FQT00000000090000000118",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Pelajaran",
+     "q": "7. Apa yang dimasukkan ke dalam perut orang yang menyembunyikan Kitab?",
+     "qe": "7. What is placed in the bellies of those who conceal the Book?",
+     "t": "option",
+     "opts": [
+      "harta benda",
+      "makanan yang lezat",
+      "racun yang mematikan",
+      "hanya api"
+     ],
+     "corr": "hanya api",
+     "optsE": [
+      "treasures",
+      "delicious food",
+      "deadly poison",
+      "nothing but fire"
+     ],
+     "corrE": "nothing but fire"
+    },
+    {
+     "id": "FQT00000000090000000119",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Pelajaran",
+     "q": "8. Terjemahkan: ذَٰلِكَ بِأَنَّ اللَّهَ نَزَّلَ الْكِتَابَ بِالْحَقِّ",
+     "qe": "8. Translate: ذَٰلِكَ بِأَنَّ اللَّهَ نَزَّلَ الْكِتَابَ بِالْحَقِّ",
+     "t": "option",
+     "opts": [
+      "yang demikian itu karena Allah telah menurunkan Kitab dengan kebenaran",
+      "yang demikian itu karena Al-Quran buatan manusia",
+      "yang demikian itu karena Kitab berisi kebatilan",
+      "yang demikian itu karena manusia menulis Kitab"
+     ],
+     "corr": "yang demikian itu karena Allah telah menurunkan Kitab dengan kebenaran",
+     "optsE": [
+      "that is because Allah has sent down the Book in truth",
+      "that is because the Quran is man made",
+      "that is because the Book contains falsehood",
+      "that is because men wrote the Book"
+     ],
+     "corrE": "that is because Allah has sent down the Book in truth"
+    },
+    {
+     "id": "FQT00000000090000000120",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Pelajaran",
+     "q": "9. Manakah yang termasuk makanan yang diharamkan dalam ayat 173? (Pilih lebih dari satu jawaban)",
+     "qe": "9. Which are among the forbidden foods in verse 173? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "buah-buahan dan sayuran",
+      "ikan dan telur",
+      "darah",
+      "bangkai"
+     ],
+     "corr": [
+      "bangkai",
+      "darah"
+     ],
+     "optsE": [
+      "fruits and vegetables",
+      "fish and eggs",
+      "blood",
+      "carrion"
+     ],
+     "corrE": [
+      "carrion",
+      "blood"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000121",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Pelajaran",
+     "q": "10. Manakah pernyataan yang benar tentang orang yang menyembunyikan Kitab? (Pilih lebih dari satu jawaban)",
+     "qe": "10. Which statements about those who conceal the Book are true? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "Allah tidak berbicara dan tidak menyucikan mereka pada hari kiamat",
+      "mereka mendapat pahala berlipat ganda",
+      "mereka akan dihisab dengan ringan",
+      "dalam perut mereka hanya api"
+     ],
+     "corr": [
+      "dalam perut mereka hanya api",
+      "Allah tidak berbicara dan tidak menyucikan mereka pada hari kiamat"
+     ],
+     "optsE": [
+      "Allah will not speak to them or purify them on the Day of Judgment",
+      "they receive multiplied reward",
+      "they will be reckoned lightly",
+      "nothing but fire is in their bellies"
+     ],
+     "corrE": [
+      "nothing but fire is in their bellies",
+      "Allah will not speak to them or purify them on the Day of Judgment"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000122",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Pelajaran",
+     "q": "11. Benarkah mereka menukar petunjuk dengan kesesatan dan ampunan dengan azab?",
+     "qe": "11. Is it true that they exchange guidance for misguidance and forgiveness for punishment?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "Yes",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "Yes"
+    },
+    {
+     "id": "FQT00000000090000000123",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Pelajaran",
+     "q": "12. Benarkah orang-orang yang berselisih tentang Kitab berada dalam persaudaraan yang erat?",
+     "qe": "12. Is it true that those who differ about the Book are in close brotherhood?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "No",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "No"
+    }
+   ],
+   "grammer": [
+    {
+     "id": "FQT00000000090000000124",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "1. Dalam أَوَلَوْ كَانَ آبَاؤُهُمْ لَا يَعْقِلُونَ شَيْئًا, khabar dari كان adalah...",
+     "qe": "1. In أَوَلَوْ كَانَ آبَاؤُهُمْ لَا يَعْقِلُونَ شَيْئًا, the khabar of كان is...",
+     "t": "option",
+     "opts": [
+      "أَوَلَوْ",
+      "آبَاؤُهُمْ فَقَط",
+      "كَانَ آبَاؤُهُمْ",
+      "لَا يَعْقِلُونَ شَيْئًا"
+     ],
+     "corr": "لَا يَعْقِلُونَ شَيْئًا",
+     "optsE": [
+      "أَوَلَوْ",
+      "آبَاؤُهُمْ فَقَط",
+      "كَانَ آبَاؤُهُمْ",
+      "لَا يَعْقِلُونَ شَيْئًا"
+     ],
+     "corrE": "لَا يَعْقِلُونَ شَيْئًا"
+    },
+    {
+     "id": "FQT00000000090000000125",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "2. كان dan saudara-saudaranya menjadikan isim (mubtada) beri rab...",
+     "qe": "2. Kana and its sisters make the mubtada (its name) in the case of...",
+     "t": "option",
+     "opts": [
+      "jar (majrur)",
+      "rafa (marfu)",
+      "jazm (majzum)",
+      "nasab (mansub)"
+     ],
+     "corr": "rafa (marfu)",
+     "optsE": [
+      "genitive",
+      "nominative",
+      "jussive",
+      "accusative"
+     ],
+     "corrE": "nominative"
+    },
+    {
+     "id": "FQT00000000090000000126",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "3. كان dan saudara-saudaranya menjadikan khabar beri rab...",
+     "qe": "3. Kana and its sisters make the khabar in the case of...",
+     "t": "option",
+     "opts": [
+      "rafa (marfu)",
+      "nasab (mansub)",
+      "jar (majrur)",
+      "jazm (majzum)"
+     ],
+     "corr": "nasab (mansub)",
+     "optsE": [
+      "nominative",
+      "accusative",
+      "genitive",
+      "jussive"
+     ],
+     "corrE": "accusative"
+    },
+    {
+     "id": "FQT00000000090000000127",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "4. Huruf أ dalam أَوَلَوْ كَانَ pada ayat 170 berfungsi sebagai...",
+     "qe": "4. The letter أ in أَوَلَوْ كَانَ in verse 170 functions as...",
+     "t": "option",
+     "opts": [
+      "penegasan (taukid)",
+      "larangan (nahy)",
+      "pertanyaan pengingkar (istifham inkari)",
+      "pertanyaan biasa"
+     ],
+     "corr": "pertanyaan pengingkar (istifham inkari)",
+     "optsE": [
+      "emphasis",
+      "prohibition",
+      "a rhetorical denial question",
+      "an ordinary question"
+     ],
+     "corrE": "a rhetorical denial question"
+    },
+    {
+     "id": "FQT00000000090000000128",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "5. Dalam وَمَثَلُ الَّذِينَ كَفَرُوا كَمَثَلِ الَّذِي يَنْعِقُ, huruf ك berfungsi...",
+     "qe": "5. In وَمَثَلُ الَّذِينَ كَفَرُوا كَمَثَلِ الَّذِي يَنْعِقُ, the letter ك functions as...",
+     "t": "option",
+     "opts": [
+      "huruf tasybih (perumpamaan)",
+      "huruf jar biasa",
+      "huruf nafi",
+      "huruf athaf"
+     ],
+     "corr": "huruf tasybih (perumpamaan)",
+     "optsE": [
+      "a simile particle (tasybih)",
+      "an ordinary preposition",
+      "a negation particle",
+      "a conjunction"
+     ],
+     "corrE": "a simile particle (tasybih)"
+    },
+    {
+     "id": "FQT00000000090000000129",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "6. Unsur pokok tasybih antara lain adalah...",
+     "qe": "6. The main elements of a simile include...",
+     "t": "option",
+     "opts": [
+      "fa il dan maf ul",
+      "musyabbah dan musyabbah bih",
+      "jar dan majrur",
+      "mubtada dan khabar"
+     ],
+     "corr": "musyabbah dan musyabbah bih",
+     "optsE": [
+      "subject and object",
+      "the thing compared and the thing compared with",
+      "preposition and genitive",
+      "mubtada and khabar"
+     ],
+     "corrE": "the thing compared and the thing compared with"
+    },
+    {
+     "id": "FQT00000000090000000130",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "7. Terjemahkan: صُمٌّ بُكْمٌ عُمْيٌ فَهُمْ لَا يَعْقِلُونَ",
+     "qe": "7. Translate: صُمٌّ بُكْمٌ عُمْيٌ فَهُمْ لَا يَعْقِلُونَ",
+     "t": "option",
+     "opts": [
+      "mereka sangat memahami ayat-ayat",
+      "mereka mendengar, berkata, dan melihat dengan baik",
+      "mereka pandai berdebat",
+      "mereka tuli, bisu, dan buta maka mereka tidak mengerti"
+     ],
+     "corr": "mereka tuli, bisu, dan buta maka mereka tidak mengerti",
+     "optsE": [
+      "they understand the verses deeply",
+      "they hear, speak, and see well",
+      "they are skilled debaters",
+      "they are deaf, dumb, and blind, so they do not understand"
+     ],
+     "corrE": "they are deaf, dumb, and blind, so they do not understand"
+    },
+    {
+     "id": "FQT00000000090000000131",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "8. Fungsi إِنَّمَا dalam إِنَّمَا حَرَّمَ عَلَيْكُمُ adalah...",
+     "qe": "8. The function of إِنَّمَا in إِنَّمَا حَرَّمَ عَلَيْكُمُ is...",
+     "t": "option",
+     "opts": [
+      "penggantian (badal)",
+      "pembatasan (hashr)",
+      "penegasan (taukid)",
+      "pengecualian (istitsna)"
+     ],
+     "corr": "pembatasan (hashr)",
+     "optsE": [
+      "substitution",
+      "restriction (hashr)",
+      "emphasis",
+      "exception"
+     ],
+     "corrE": "restriction (hashr)"
+    },
+    {
+     "id": "FQT00000000090000000132",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "9. Manakah yang termasuk unsur tasybih? (Pilih lebih dari satu jawaban)",
+     "qe": "9. Which are the main elements of a simile? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "musyabbah",
+      "musyabbah bih",
+      "maf ul",
+      "jar-majrur"
+     ],
+     "corr": [
+      "musyabbah",
+      "musyabbah bih"
+     ],
+     "optsE": [
+      "musyabbah",
+      "musyabbah bih",
+      "maf ul",
+      "jar-majrur"
+     ],
+     "corrE": [
+      "musyabbah",
+      "musyabbah bih"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000133",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "10. Manakah pernyataan yang benar tentang إِنَّمَا? (Pilih lebih dari satu jawaban)",
+     "qe": "10. Which statements about إِنَّمَا are true? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "membatasi sesuatu hanya pada satu hal",
+      "berfungsi sebagai athaf",
+      "berfungsi sebagai pembatasan (hashr)",
+      "berfungsi sebagai tasybih"
+     ],
+     "corr": [
+      "berfungsi sebagai pembatasan (hashr)",
+      "membatasi sesuatu hanya pada satu hal"
+     ],
+     "optsE": [
+      "it restricts something to only one thing",
+      "it functions as a conjunction",
+      "it functions as restriction (hashr)",
+      "it functions as tasybih"
+     ],
+     "corrE": [
+      "it functions as restriction (hashr)",
+      "it restricts something to only one thing"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000134",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "11. Manakah yang termasuk fi l madhi? (Pilih lebih dari satu jawaban)",
+     "qe": "11. Which of these are past verbs? (Choose more than one answer)",
+     "t": "multi",
+     "opts": [
+      "يَرْزُقُ",
+      "يُحَرِّمُ",
+      "نَزَّلَ",
+      "كَانَ"
+     ],
+     "corr": [
+      "كَانَ",
+      "نَزَّلَ"
+     ],
+     "optsE": [
+      "يَرْزُقُ",
+      "يُحَرِّمُ",
+      "نَزَّلَ",
+      "كَانَ"
+     ],
+     "corrE": [
+      "كَانَ",
+      "نَزَّلَ"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000135",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "12. Benarkah كان dan saudara-saudaranya menjadikan khabar beri rab nasab?",
+     "qe": "12. Is it true that kana and its sisters make the khabar accusative?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "Yes",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "Yes"
+    },
+    {
+     "id": "FQT00000000090000000136",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "13. Benarkah makna hashr adalah menegaskan dua hal sekaligus?",
+     "qe": "13. Is it true that hashr (restriction) means emphasizing two things at once?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "No",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "No"
+    },
+    {
+     "id": "FQT00000000090000000137",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "14. Benarkah unsur pokok tasybih adalah musyabbah dan musyabbah bih?",
+     "qe": "14. Is it true that the main elements of a simile are the thing compared and the thing compared with?",
+     "t": "yesorno",
+     "opts": [
+      "Yes",
+      "No"
+     ],
+     "corr": "Yes",
+     "optsE": [
+      "Yes",
+      "No"
+     ],
+     "corrE": "Yes"
+    },
+    {
+     "id": "FQT00000000090000000138",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "15. 3 Kunci kata kerja رَزَقَ adalah: (madi, mudari, masdar)",
+     "qe": "15. The 3 keys of the verb رَزَقَ are: (past, present, verbal noun)",
+     "t": "drag",
+     "opts": [
+      "رَزَقَ",
+      "يَرْزُقُ",
+      "رِزْق",
+      "رَازِقٌ"
+     ],
+     "corr": [
+      "رَزَقَ",
+      "يَرْزُقُ",
+      "رِزْق"
+     ],
+     "optsE": [
+      "رَزَقَ",
+      "يَرْزُقُ",
+      "رِزْق",
+      "رَازِقٌ"
+     ],
+     "corrE": [
+      "رَزَقَ",
+      "يَرْزُقُ",
+      "رِزْق"
+     ]
+    },
+    {
+     "id": "FQT00000000090000000139",
+     "lid": "SLV000000000041",
+     "excerpt": "Ujian Grammer",
+     "q": "16. 3 Kunci kata kerja حَرَّمَ adalah: (madi, mudari, masdar)",
+     "qe": "16. The 3 keys of the verb حَرَّمَ are: (past, present, verbal noun)",
+     "t": "drag",
+     "opts": [
+      "حَرَّمَ",
+      "يُحَرِّمُ",
+      "تَحْرِيم",
+      "مُحَرِّمٌ"
+     ],
+     "corr": [
+      "حَرَّمَ",
+      "يُحَرِّمُ",
+      "تَحْرِيم"
+     ],
+     "optsE": [
+      "حَرَّمَ",
+      "يُحَرِّمُ",
+      "تَحْرِيم",
+      "مُحَرِّمٌ"
+     ],
+     "corrE": [
+      "حَرَّمَ",
+      "يُحَرِّمُ",
+      "تَحْرِيم"
+     ]
+    }
+   ]
+  }
+ ]
+}

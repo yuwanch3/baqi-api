@@ -1,0 +1,654 @@
+{
+  "lid": "PFC000000009",
+  "nama": "CEOR Bab 2 - Chemical EOR Polymer Flooding",
+  "inisialisasi": [
+    {
+      "t": "option",
+      "q": "Polymer flooding dilakukan dengan cara...",
+      "qe": "Polymer flooding is performed by...",
+      "o": [
+        "Menambahkan garam ke minyak",
+        "Menambahkan polimer ke air injeksi untuk meningkatkan viskositas",
+        "Memanaskan reservoir",
+        "Menginjeksikan gas CO2"
+      ],
+      "oe": [
+        "Adding salt to the oil",
+        "Adding polymer to injection water to increase its viscosity",
+        "Heating the reservoir",
+        "Injecting CO2 gas"
+      ],
+      "c": "Menambahkan polimer ke air injeksi untuk meningkatkan viskositas",
+      "ce": "Adding polymer to injection water to increase its viscosity"
+    },
+    {
+      "t": "option",
+      "q": "Tujuan utama polymer flooding adalah...",
+      "qe": "The main purpose of polymer flooding is...",
+      "o": [
+        "Menurunkan porositas",
+        "Menurunkan tekanan injeksi",
+        "Memperbaiki mobility ratio dan efisiensi sweep",
+        "Menaikkan tegangan antarmuka"
+      ],
+      "oe": [
+        "Reduce porosity",
+        "Lower injection pressure",
+        "Improve the mobility ratio and sweep efficiency",
+        "Increase interfacial tension"
+      ],
+      "c": "Memperbaiki mobility ratio dan efisiensi sweep",
+      "ce": "Improve the mobility ratio and sweep efficiency"
+    },
+    {
+      "t": "option",
+      "q": "Jenis polimer yang paling umum digunakan adalah...",
+      "qe": "The most commonly used polymer type is...",
+      "o": [
+        "NaCl",
+        "Gas nitrogen",
+        "Asam sulfat",
+        "HPAM (hydrolyzed polyacrylamide)"
+      ],
+      "oe": [
+        "NaCl",
+        "Nitrogen gas",
+        "Sulfuric acid",
+        "HPAM (hydrolyzed polyacrylamide)"
+      ],
+      "c": "HPAM (hydrolyzed polyacrylamide)",
+      "ce": "HPAM (hydrolyzed polyacrylamide)"
+    },
+    {
+      "t": "option",
+      "q": "Biopolimer yang sering dipakai pada polymer flooding adalah...",
+      "qe": "A biopolymer often used in polymer flooding is...",
+      "o": [
+        "Xanthan gum",
+        "Protein whey",
+        "Selulosa asetat",
+        "Karet alam"
+      ],
+      "oe": [
+        "Xanthan gum",
+        "Whey protein",
+        "Cellulose acetate",
+        "Natural rubber"
+      ],
+      "c": "Xanthan gum",
+      "ce": "Xanthan gum"
+    },
+    {
+      "t": "option",
+      "q": "Adsorpsi polimer pada permukaan batuan menyebabkan...",
+      "qe": "Polymer adsorption on the rock surface causes...",
+      "o": [
+        "Penurunan viskositas minyak",
+        "Peningkatan permeabilitas absolut",
+        "Kehilangan sebagian polimer dan penurunan efektivitas",
+        "Peningkatan porositas"
+      ],
+      "oe": [
+        "Reduced oil viscosity",
+        "Increased absolute permeability",
+        "Loss of some polymer and reduced effectiveness",
+        "Increased porosity"
+      ],
+      "c": "Kehilangan sebagian polimer dan penurunan efektivitas",
+      "ce": "Loss of some polymer and reduced effectiveness"
+    },
+    {
+      "t": "option",
+      "q": "Degradasi shear pada polimer terjadi akibat...",
+      "qe": "Shear degradation of polymer occurs due to...",
+      "o": [
+        "Gaya geser tinggi saat melewati pompa dan pori",
+        "Penambahan garam",
+        "Pemanasan reservoir",
+        "Pengurangan tekanan"
+      ],
+      "oe": [
+        "High shear forces when passing through pumps and pores",
+        "Salt addition",
+        "Reservoir heating",
+        "Pressure reduction"
+      ],
+      "c": "Gaya geser tinggi saat melewati pompa dan pori",
+      "ce": "High shear forces when passing through pumps and pores"
+    },
+    {
+      "t": "option",
+      "q": "HPAM umumnya paling sensitif terhadap...",
+      "qe": "HPAM is generally most sensitive to...",
+      "o": [
+        "Kedalaman sumur",
+        "Warna batuan",
+        "Salinitas dan hardness air",
+        "Jenis casing"
+      ],
+      "oe": [
+        "Well depth",
+        "Rock color",
+        "Water salinity and hardness",
+        "Casing type"
+      ],
+      "c": "Salinitas dan hardness air",
+      "ce": "Water salinity and hardness"
+    },
+    {
+      "t": "multi",
+      "q": "Manakah persyaratan air untuk pencampuran polimer?",
+      "qe": "Which are water requirements for polymer mixing?",
+      "o": [
+        "Kadar besi rendah",
+        "Kadar minyak tinggi",
+        "Kadar oksigen rendah",
+        "Salinitas terkontrol"
+      ],
+      "oe": [
+        "Low iron content",
+        "High oil content",
+        "Low oxygen content",
+        "Controlled salinity"
+      ],
+      "c": [
+        "Kadar oksigen rendah",
+        "Kadar besi rendah",
+        "Salinitas terkontrol"
+      ],
+      "ce": [
+        "Low oxygen content",
+        "Low iron content",
+        "Controlled salinity"
+      ]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan proses polymer flooding dari persiapan sampai produksi.",
+      "qe": "Arrange the polymer flooding process from preparation to production.",
+      "o": [
+        "Persiapan air injeksi",
+        "Pencampuran polimer",
+        "Injeksi larutan polimer ke reservoir",
+        "Perbaikan sweep dan pendorongan minyak",
+        "Produksi minyak di sumur produksi",
+        "Pembakaran in-situ"
+      ],
+      "oe": [
+        "Injection water preparation",
+        "Polymer mixing",
+        "Polymer solution injection into the reservoir",
+        "Sweep improvement and oil displacement",
+        "Oil production at the producer well",
+        "In-situ combustion"
+      ],
+      "c": [
+        "Persiapan air injeksi",
+        "Pencampuran polimer",
+        "Injeksi larutan polimer ke reservoir",
+        "Perbaikan sweep dan pendorongan minyak",
+        "Produksi minyak di sumur produksi"
+      ],
+      "ce": [
+        "Injection water preparation",
+        "Polymer mixing",
+        "Polymer solution injection into the reservoir",
+        "Sweep improvement and oil displacement",
+        "Oil production at the producer well"
+      ]
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah polymer flooding menurunkan tegangan antarmuka secara signifikan seperti surfaktan?",
+      "qe": "Is it true that polymer flooding significantly reduces interfacial tension like a surfactant?",
+      "o": [
+        "Yes",
+        "No"
+      ],
+      "oe": [
+        "Yes",
+        "No"
+      ],
+      "c": "No",
+      "ce": "No"
+    }
+  ],
+  "advanced": [
+    {
+      "t": "option",
+      "q": "Jika viskositas air dinaikkan dari 1 cp menjadi 20 cp sementara viskositas minyak 40 cp, mobility ratio air-minyak berubah dari 40 menjadi...",
+      "qe": "If water viscosity is increased from 1 cp to 20 cp while oil viscosity is 40 cp, the water-oil mobility ratio changes from 40 to...",
+      "o": [
+        "800",
+        "20",
+        "2",
+        "40"
+      ],
+      "oe": [
+        "800",
+        "20",
+        "2",
+        "40"
+      ],
+      "c": "2",
+      "ce": "2"
+    },
+    {
+      "t": "option",
+      "q": "Resistance factor (RF) pada polymer flooding didefinisikan sebagai...",
+      "qe": "The resistance factor (RF) in polymer flooding is defined as...",
+      "o": [
+        "Rasio viskositas minyak dan gas",
+        "Rasio tekanan dan laju alir",
+        "Rasio porositas dan permeabilitas",
+        "Rasio mobilitas air sebelum dan sesudah polimer"
+      ],
+      "oe": [
+        "The ratio of oil and gas viscosity",
+        "The ratio of pressure to flow rate",
+        "The ratio of porosity to permeability",
+        "The ratio of water mobility before and after polymer"
+      ],
+      "c": "Rasio mobilitas air sebelum dan sesudah polimer",
+      "ce": "The ratio of water mobility before and after polymer"
+    },
+    {
+      "t": "option",
+      "q": "Residual resistance factor (RRF) berkaitan dengan...",
+      "qe": "The residual resistance factor (RRF) relates to...",
+      "o": [
+        "Peningkatan tekanan reservoir",
+        "Penurunan permeabilitas air yang tersisa setelah polimer lewat",
+        "Penurunan viskositas minyak",
+        "Peningkatan porositas"
+      ],
+      "oe": [
+        "Increased reservoir pressure",
+        "The remaining reduction in water permeability after polymer passes",
+        "Reduced oil viscosity",
+        "Increased porosity"
+      ],
+      "c": "Penurunan permeabilitas air yang tersisa setelah polimer lewat",
+      "ce": "The remaining reduction in water permeability after polymer passes"
+    },
+    {
+      "t": "option",
+      "q": "Kurva adsorpsi polimer umumnya berbentuk...",
+      "qe": "The polymer adsorption curve is generally shaped...",
+      "o": [
+        "Eksponensial menurun",
+        "Langmuir (mendatar pada konsentrasi tinggi)",
+        "Parabola terbuka ke bawah",
+        "Linier tanpa batas"
+      ],
+      "oe": [
+        "Exponentially decreasing",
+        "Langmuir (leveling off at high concentration)",
+        "Downward-opening parabola",
+        "Unbounded linear"
+      ],
+      "c": "Langmuir (mendatar pada konsentrasi tinggi)",
+      "ce": "Langmuir (leveling off at high concentration)"
+    },
+    {
+      "t": "option",
+      "q": "Inaccessible pore volume (IPV) menyebabkan...",
+      "qe": "Inaccessible pore volume (IPV) causes...",
+      "o": [
+        "Polimer bergerak lebih cepat dari air pada awal injeksi",
+        "Viskositas polimer meningkat tajam",
+        "Polimer tidak dapat mengalir sama sekali",
+        "Adsorpsi menjadi nol"
+      ],
+      "oe": [
+        "Polymer to move faster than water at the start of injection",
+        "Polymer viscosity to increase sharply",
+        "Polymer to be unable to flow at all",
+        "Adsorption to become zero"
+      ],
+      "c": "Polimer bergerak lebih cepat dari air pada awal injeksi",
+      "ce": "Polymer to move faster than water at the start of injection"
+    },
+    {
+      "t": "option",
+      "q": "Larutan polimer umumnya bersifat...",
+      "qe": "Polymer solutions are generally...",
+      "o": [
+        "Bersifat gas ideal",
+        "Non-Newtonian (shear thinning)",
+        "Newtonian sempurna",
+        "Tidak dapat mengalir"
+      ],
+      "oe": [
+        "Ideal gas behavior",
+        "Non-Newtonian (shear thinning)",
+        "Perfectly Newtonian",
+        "Unable to flow"
+      ],
+      "c": "Non-Newtonian (shear thinning)",
+      "ce": "Non-Newtonian (shear thinning)"
+    },
+    {
+      "t": "option",
+      "q": "Untuk reservoir bersalinitas tinggi dan bertemperatur tinggi, polimer yang lebih sesuai adalah...",
+      "qe": "For high-salinity and high-temperature reservoirs, the more suitable polymer is...",
+      "o": [
+        "HPAM standar tanpa modifikasi",
+        "Bukan polimer, tetapi garam",
+        "Polimer dengan berat molekul sangat rendah",
+        "Polimer tahan salinitas/suhu (misalnya terpolimer atau biopolimer tertentu)"
+      ],
+      "oe": [
+        "Standard unmodified HPAM",
+        "Not a polymer, but salt",
+        "A very low molecular weight polymer",
+        "A salinity/temperature-resistant polymer (e.g., terpolymer or certain biopolymers)"
+      ],
+      "c": "Polimer tahan salinitas/suhu (misalnya terpolimer atau biopolimer tertentu)",
+      "ce": "A salinity/temperature-resistant polymer (e.g., terpolymer or certain biopolymers)"
+    },
+    {
+      "t": "option",
+      "q": "Laju injeksi polimer yang terlalu tinggi berisiko...",
+      "qe": "A polymer injection rate that is too high risks...",
+      "o": [
+        "Penurunan viskositas minyak",
+        "Porositas meningkat",
+        "Terbentuknya rekah (fracturing) dan degradasi shear",
+        "Peningkatan adsorpsi hingga jenuh"
+      ],
+      "oe": [
+        "Reduced oil viscosity",
+        "Porosity increasing",
+        "Fracturing and shear degradation",
+        "Adsorption increasing to saturation"
+      ],
+      "c": "Terbentuknya rekah (fracturing) dan degradasi shear",
+      "ce": "Fracturing and shear degradation"
+    },
+    {
+      "t": "option",
+      "q": "Konsentrasi polimer yang dinaikkan umumnya menyebabkan...",
+      "qe": "Increasing polymer concentration generally causes...",
+      "o": [
+        "Viskositas larutan menurun",
+        "Adsorpsi menjadi nol",
+        "Permeabilitas batuan meningkat",
+        "Viskositas larutan meningkat"
+      ],
+      "oe": [
+        "Solution viscosity to decrease",
+        "Adsorption to become zero",
+        "Rock permeability to increase",
+        "Solution viscosity to increase"
+      ],
+      "c": "Viskositas larutan meningkat",
+      "ce": "Solution viscosity to increase"
+    },
+    {
+      "t": "option",
+      "q": "Slug polimer biasanya diikuti oleh...",
+      "qe": "The polymer slug is usually followed by...",
+      "o": [
+        "Surfaktan pekat",
+        "Semen",
+        "Gas CO2",
+        "Air chase water untuk mendorong slug"
+      ],
+      "oe": [
+        "Concentrated surfactant",
+        "Cement",
+        "CO2 gas",
+        "Chase water to push the slug"
+      ],
+      "c": "Air chase water untuk mendorong slug",
+      "ce": "Chase water to push the slug"
+    },
+    {
+      "t": "option",
+      "q": "Kehilangan polimer akibat adsorpsi paling besar pada batuan dengan...",
+      "qe": "Polymer loss due to adsorption is greatest in rock with...",
+      "o": [
+        "Porositas sangat rendah",
+        "Permeabilitas sangat tinggi",
+        "Luas permukaan spesifik tinggi (banyak lempung)",
+        "Kandungan kuarsa murni"
+      ],
+      "oe": [
+        "Very low porosity",
+        "Very high permeability",
+        "High specific surface area (high clay content)",
+        "Pure quartz content"
+      ],
+      "c": "Luas permukaan spesifik tinggi (banyak lempung)",
+      "ce": "High specific surface area (high clay content)"
+    },
+    {
+      "t": "option",
+      "q": "Keberhasilan polymer flooding paling sensitif terhadap...",
+      "qe": "The success of polymer flooding is most sensitive to...",
+      "o": [
+        "Jenis casing sumur",
+        "Kedalaman sumur",
+        "Warna minyak",
+        "Kualitas air, salinitas, dan shear saat pencampuran"
+      ],
+      "oe": [
+        "Well casing type",
+        "Well depth",
+        "Oil color",
+        "Water quality, salinity, and shear during mixing"
+      ],
+      "c": "Kualitas air, salinitas, dan shear saat pencampuran",
+      "ce": "Water quality, salinity, and shear during mixing"
+    },
+    {
+      "t": "multi",
+      "q": "Manakah mekanisme penurunan kinerja polimer di reservoir?",
+      "qe": "Which are mechanisms of polymer performance degradation in the reservoir?",
+      "o": [
+        "Degradasi shear",
+        "Peningkatan viskositas air",
+        "Degradasi kimia/thermal",
+        "Adsorpsi pada permukaan batuan"
+      ],
+      "oe": [
+        "Shear degradation",
+        "Increased water viscosity",
+        "Chemical/thermal degradation",
+        "Adsorption on rock surfaces"
+      ],
+      "c": [
+        "Adsorpsi pada permukaan batuan",
+        "Degradasi shear",
+        "Degradasi kimia/thermal"
+      ],
+      "ce": [
+        "Adsorption on rock surfaces",
+        "Shear degradation",
+        "Chemical/thermal degradation"
+      ]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah kelebihan polymer flooding?",
+      "qe": "Which are advantages of polymer flooding?",
+      "o": [
+        "Teknologi relatif matang dan banyak diterapkan",
+        "Cocok untuk minyak dengan viskositas sedang",
+        "Dapat memperbaiki efisiensi sweep",
+        "Dapat menurunkan IFT secara drastis"
+      ],
+      "oe": [
+        "Relatively mature technology with many field applications",
+        "Suitable for medium-viscosity oil",
+        "Can improve sweep efficiency",
+        "Can drastically reduce IFT"
+      ],
+      "c": [
+        "Teknologi relatif matang dan banyak diterapkan",
+        "Dapat memperbaiki efisiensi sweep",
+        "Cocok untuk minyak dengan viskositas sedang"
+      ],
+      "ce": [
+        "Relatively mature technology with many field applications",
+        "Can improve sweep efficiency",
+        "Suitable for medium-viscosity oil"
+      ]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah parameter yang perlu diuji di laboratorium sebelum polymer flooding?",
+      "qe": "Which parameters must be tested in the laboratory before polymer flooding?",
+      "o": [
+        "Harga minyak dunia",
+        "Adsorpsi dan retensi",
+        "Viskositas larutan vs konsentrasi",
+        "Stabilitas thermal dan salinitas"
+      ],
+      "oe": [
+        "World oil price",
+        "Adsorption and retention",
+        "Solution viscosity vs concentration",
+        "Thermal and salinity stability"
+      ],
+      "c": [
+        "Viskositas larutan vs konsentrasi",
+        "Adsorpsi dan retensi",
+        "Stabilitas thermal dan salinitas"
+      ],
+      "ce": [
+        "Solution viscosity vs concentration",
+        "Adsorption and retention",
+        "Thermal and salinity stability"
+      ]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah pernyataan yang benar tentang mobility ratio pada polymer flooding?",
+      "qe": "Which statements about mobility ratio in polymer flooding are correct?",
+      "o": [
+        "M dipengaruhi relative permeability",
+        "M < 1 menunjukkan sweep yang baik",
+        "M tidak bergantung pada viskositas",
+        "Peningkatan viskositas air menurunkan M"
+      ],
+      "oe": [
+        "M is affected by relative permeability",
+        "M < 1 indicates good sweep",
+        "M does not depend on viscosity",
+        "Increasing water viscosity lowers M"
+      ],
+      "c": [
+        "M < 1 menunjukkan sweep yang baik",
+        "Peningkatan viskositas air menurunkan M",
+        "M dipengaruhi relative permeability"
+      ],
+      "ce": [
+        "M < 1 indicates good sweep",
+        "Increasing water viscosity lowers M",
+        "M is affected by relative permeability"
+      ]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan tahapan uji polymer dari skala laboratorium ke lapangan.",
+      "qe": "Arrange the polymer testing stages from laboratory to field scale.",
+      "o": [
+        "Analisis ekonomi proyek",
+        "Uji rheologi larutan",
+        "Uji adsorpsi dan core flood",
+        "Simulasi reservoir",
+        "Uji pilot sumur tunggal",
+        "Ekspansi pola injeksi"
+      ],
+      "oe": [
+        "Project economic analysis",
+        "Solution rheology test",
+        "Adsorption and core flood test",
+        "Reservoir simulation",
+        "Single-well pilot test",
+        "Injection pattern expansion"
+      ],
+      "c": [
+        "Uji rheologi larutan",
+        "Uji adsorpsi dan core flood",
+        "Simulasi reservoir",
+        "Uji pilot sumur tunggal",
+        "Ekspansi pola injeksi"
+      ],
+      "ce": [
+        "Solution rheology test",
+        "Adsorption and core flood test",
+        "Reservoir simulation",
+        "Single-well pilot test",
+        "Injection pattern expansion"
+      ]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan langkah pencampuran polimer di permukaan.",
+      "qe": "Arrange the surface polymer mixing steps.",
+      "o": [
+        "Penyaringan dan penyiapan air",
+        "Penambahan bubuk polimer",
+        "Pengadukan dan hidrasi",
+        "Penyuntikan bubuk polimer kering ke sumur",
+        "Pengenceran ke konsentrasi target",
+        "Penyimpanan sebelum injeksi"
+      ],
+      "oe": [
+        "Water filtration and preparation",
+        "Polymer powder addition",
+        "Mixing and hydration",
+        "Dry polymer powder injection into the well",
+        "Dilution to target concentration",
+        "Storage before injection"
+      ],
+      "c": [
+        "Penyaringan dan penyiapan air",
+        "Penambahan bubuk polimer",
+        "Pengadukan dan hidrasi",
+        "Pengenceran ke konsentrasi target",
+        "Penyimpanan sebelum injeksi"
+      ],
+      "ce": [
+        "Water filtration and preparation",
+        "Polymer powder addition",
+        "Mixing and hydration",
+        "Dilution to target concentration",
+        "Storage before injection"
+      ]
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah polymer flooding dapat menurunkan saturasi minyak sisa (Sor) secara signifikan?",
+      "qe": "Is it true that polymer flooding can significantly reduce residual oil saturation (Sor)?",
+      "o": [
+        "Yes",
+        "No"
+      ],
+      "oe": [
+        "Yes",
+        "No"
+      ],
+      "c": "No",
+      "ce": "No"
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah viskositas larutan polimer dapat menurun akibat degradasi mekanis di pompa?",
+      "qe": "Is it true that polymer solution viscosity can decrease due to mechanical degradation in pumps?",
+      "o": [
+        "Yes",
+        "No"
+      ],
+      "oe": [
+        "Yes",
+        "No"
+      ],
+      "c": "Yes",
+      "ce": "Yes"
+    }
+  ]
+}

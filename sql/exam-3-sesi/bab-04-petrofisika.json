@@ -1,0 +1,642 @@
+{
+  "lid": "PFC000000004",
+  "nama": "Petrofisika Bab 4 - Wireline Logging",
+  "inisialisasi": [
+    {
+      "t": "option",
+      "q": "Wireline logging adalah kegiatan merekam...",
+      "qe": "Wireline logging is the activity of recording...",
+      "o": [
+        "Sifat fisik batuan terhadap kedalaman lubang sumur",
+        "Volume lumpur pengeboran",
+        "Harga minyak harian",
+        "Jumlah pekerja di rig"
+      ],
+      "oe": [
+        "Rock physical properties versus borehole depth",
+        "Drilling mud volume",
+        "Daily oil prices",
+        "The number of workers on the rig"
+      ],
+      "c": "Sifat fisik batuan terhadap kedalaman lubang sumur",
+      "ce": "Rock physical properties versus borehole depth"
+    },
+    {
+      "t": "option",
+      "q": "Log gamma ray umumnya digunakan untuk...",
+      "qe": "The gamma ray log is generally used to...",
+      "o": [
+        "Mengukur densitas fluida",
+        "Mengukur radioaktivitas alami batuan sebagai indikator lempung",
+        "Mengukur porositas total",
+        "Mengukur resistivitas fluida"
+      ],
+      "oe": [
+        "Measure fluid density",
+        "Measure the natural radioactivity of the rock as a clay indicator",
+        "Measure total porosity",
+        "Measure fluid resistivity"
+      ],
+      "c": "Mengukur radioaktivitas alami batuan sebagai indikator lempung",
+      "ce": "Measure the natural radioactivity of the rock as a clay indicator"
+    },
+    {
+      "t": "option",
+      "q": "Log resistivitas digunakan untuk membedakan...",
+      "qe": "The resistivity log is used to distinguish...",
+      "o": [
+        "Sumur vertikal dari horizontal",
+        "Zona berisi hidrokarbon dari zona berisi air asin",
+        "Core dari cutting",
+        "Batupasir dari batugamping"
+      ],
+      "oe": [
+        "Vertical wells from horizontal wells",
+        "Hydrocarbon-bearing zones from brine-bearing zones",
+        "Core from cuttings",
+        "Sandstone from limestone"
+      ],
+      "c": "Zona berisi hidrokarbon dari zona berisi air asin",
+      "ce": "Hydrocarbon-bearing zones from brine-bearing zones"
+    },
+    {
+      "t": "option",
+      "q": "Density log (RHOB) mengukur...",
+      "qe": "The density log (RHOB) measures...",
+      "o": [
+        "Kecepatan suara batuan",
+        "Densitas bulk formasi",
+        "Densitas fluida reservoir saja",
+        "Resistivitas formasi"
+      ],
+      "oe": [
+        "Rock acoustic velocity",
+        "Formation bulk density",
+        "Reservoir fluid density only",
+        "Formation resistivity"
+      ],
+      "c": "Densitas bulk formasi",
+      "ce": "Formation bulk density"
+    },
+    {
+      "t": "option",
+      "q": "Neutron log terutama digunakan untuk mengukur...",
+      "qe": "The neutron log is primarily used to measure...",
+      "o": [
+        "Kadar sulfur",
+        "Porositas melalui kandungan hidrogen",
+        "Kedalaman sumur",
+        "Tekanan reservoir"
+      ],
+      "oe": [
+        "Sulfur content",
+        "Porosity through hydrogen content",
+        "Well depth",
+        "Reservoir pressure"
+      ],
+      "c": "Porositas melalui kandungan hidrogen",
+      "ce": "Porosity through hydrogen content"
+    },
+    {
+      "t": "option",
+      "q": "Sonic log mengukur...",
+      "qe": "The sonic log measures...",
+      "o": [
+        "Radioaktivitas batuan",
+        "Densitas fluida",
+        "Waktu tempuh gelombang akustik dalam batuan",
+        "Resistivitas batuan"
+      ],
+      "oe": [
+        "Rock radioactivity",
+        "Fluid density",
+        "The travel time of acoustic waves in the rock",
+        "Rock resistivity"
+      ],
+      "c": "Waktu tempuh gelombang akustik dalam batuan",
+      "ce": "The travel time of acoustic waves in the rock"
+    },
+    {
+      "t": "option",
+      "q": "Log SP (spontaneous potential) paling berguna untuk...",
+      "qe": "The SP (spontaneous potential) log is most useful for...",
+      "o": [
+        "Menentukan kekuatan semen",
+        "Mengukur densitas matriks",
+        "Mendeteksi lapisan permeabel dan menentukan Rw",
+        "Mengukur porositas efektif secara langsung"
+      ],
+      "oe": [
+        "Determining cement strength",
+        "Measuring matrix density",
+        "Detecting permeable beds and determining Rw",
+        "Directly measuring effective porosity"
+      ],
+      "c": "Mendeteksi lapisan permeabel dan menentukan Rw",
+      "ce": "Detecting permeable beds and determining Rw"
+    },
+    {
+      "t": "multi",
+      "q": "Log apa saja yang umum dipakai untuk estimasi porositas?",
+      "qe": "Which logs are commonly used to estimate porosity?",
+      "o": [
+        "Sonic log",
+        "Neutron log",
+        "Gamma ray log",
+        "Density log"
+      ],
+      "oe": [
+        "Sonic log",
+        "Neutron log",
+        "Gamma ray log",
+        "Density log"
+      ],
+      "c": [
+        "Density log",
+        "Neutron log",
+        "Sonic log"
+      ],
+      "ce": [
+        "Density log",
+        "Neutron log",
+        "Sonic log"
+      ]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan nilai resistivitas formasi dari yang paling rendah ke paling tinggi.",
+      "qe": "Arrange formation resistivity values from lowest to highest.",
+      "o": [
+        "Formasi batubara (coal)",
+        "Air asin (brine)",
+        "Air tawar",
+        "Minyak",
+        "Gas"
+      ],
+      "oe": [
+        "Coal formation",
+        "Brine",
+        "Fresh water",
+        "Oil",
+        "Gas"
+      ],
+      "c": [
+        "Air asin (brine)",
+        "Air tawar",
+        "Minyak",
+        "Gas"
+      ],
+      "ce": [
+        "Brine",
+        "Fresh water",
+        "Oil",
+        "Gas"
+      ]
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah nilai gamma ray yang tinggi menandakan zona reservoir yang bersih?",
+      "qe": "Is it true that a high gamma ray value indicates a clean reservoir zone?",
+      "o": [
+        "Yes",
+        "No"
+      ],
+      "oe": [
+        "Yes",
+        "No"
+      ],
+      "c": "No",
+      "ce": "No"
+    }
+  ],
+  "advanced": [
+    {
+      "t": "option",
+      "q": "Diketahui RHOB 2,20 g/cc, densitas matriks 2,65 g/cc, densitas fluida 1,00 g/cc. Berapa porositas densitas (phi D)?",
+      "qe": "Given RHOB 2.20 g/cc, matrix density 2.65 g/cc, and fluid density 1.00 g/cc. What is the density porosity (phi D)?",
+      "o": [
+        "45,0%",
+        "18,2%",
+        "33,3%",
+        "27,3%"
+      ],
+      "oe": [
+        "45.0%",
+        "18.2%",
+        "33.3%",
+        "27.3%"
+      ],
+      "c": "27,3%",
+      "ce": "27.3%"
+    },
+    {
+      "t": "option",
+      "q": "Efek crossover antara kurva neutron dan density yang saling menjauh biasanya menandakan...",
+      "qe": "The crossover effect between diverging neutron and density curves usually indicates...",
+      "o": [
+        "Adanya air asin",
+        "Kerusakan lubang bor",
+        "Adanya gas (gas effect)",
+        "Batuan serpih"
+      ],
+      "oe": [
+        "The presence of brine",
+        "Borehole damage",
+        "The presence of gas (gas effect)",
+        "Shale rock"
+      ],
+      "c": "Adanya gas (gas effect)",
+      "ce": "The presence of gas (gas effect)"
+    },
+    {
+      "t": "option",
+      "q": "Indeks gamma ray (IGR) dihitung dengan persamaan...",
+      "qe": "The gamma ray index (IGR) is calculated by the equation...",
+      "o": [
+        "(GRmin + GR) / GRmax",
+        "(GRmax - GR) / GR",
+        "(GR - GRmin) / (GRmax - GRmin)",
+        "GR / GRmax x 100"
+      ],
+      "oe": [
+        "(GRmin + GR) / GRmax",
+        "(GRmax - GR) / GR",
+        "(GR - GRmin) / (GRmax - GRmin)",
+        "GR / GRmax x 100"
+      ],
+      "c": "(GR - GRmin) / (GRmax - GRmin)",
+      "ce": "(GR - GRmin) / (GRmax - GRmin)"
+    },
+    {
+      "t": "option",
+      "q": "Log induksi (induction log) paling tepat digunakan pada...",
+      "qe": "The induction log is most appropriate for use in...",
+      "o": [
+        "Lubang bor berisi air asin",
+        "Lubang bor berisi lumpur berbasis minyak atau lubang kosong",
+        "Sumur yang belum dibor",
+        "Lubang bor yang sangat dangkal"
+      ],
+      "oe": [
+        "Wells filled with brine",
+        "Wells with oil-based mud or empty holes",
+        "Wells that are not drilled yet",
+        "Very shallow boreholes"
+      ],
+      "c": "Lubang bor berisi lumpur berbasis minyak atau lubang kosong",
+      "ce": "Wells with oil-based mud or empty holes"
+    },
+    {
+      "t": "option",
+      "q": "Caliper log digunakan untuk...",
+      "qe": "The caliper log is used to...",
+      "o": [
+        "Mengukur porositas efektif",
+        "Mengukur diameter lubang bor dan mendeteksi washout",
+        "Mengukur resistivitas air formasi",
+        "Menentukan jenis hidrokarbon"
+      ],
+      "oe": [
+        "Measure effective porosity",
+        "Measure borehole diameter and detect washouts",
+        "Measure formation water resistivity",
+        "Determine the hydrocarbon type"
+      ],
+      "c": "Mengukur diameter lubang bor dan mendeteksi washout",
+      "ce": "Measure borehole diameter and detect washouts"
+    },
+    {
+      "t": "option",
+      "q": "Kurva SP yang terdefleksi ke kiri (negatif) relatif terhadap baseline serpih umumnya menandakan...",
+      "qe": "An SP curve deflected to the left (negative) relative to the shale baseline generally indicates...",
+      "o": [
+        "Zona permeabel dengan salinitas air formasi lebih tinggi dari lumpur",
+        "Zona dengan resistivitas sangat tinggi",
+        "Zona tanpa fluida",
+        "Zona serpih tebal"
+      ],
+      "oe": [
+        "A permeable zone with formation water salinity higher than the mud",
+        "A zone of very high resistivity",
+        "A zone without fluid",
+        "A thick shale zone"
+      ],
+      "c": "Zona permeabel dengan salinitas air formasi lebih tinggi dari lumpur",
+      "ce": "A permeable zone with formation water salinity higher than the mud"
+    },
+    {
+      "t": "option",
+      "q": "Micro-resistivity log (MSFL) digunakan untuk menentukan...",
+      "qe": "The micro-resistivity log (MSFL) is used to determine...",
+      "o": [
+        "Densitas matriks",
+        "Resistivitas batuan induk",
+        "Kedalaman total sumur",
+        "Resistivitas zona flushed (Rxo)"
+      ],
+      "oe": [
+        "Matrix density",
+        "Source rock resistivity",
+        "Total well depth",
+        "Flushed zone resistivity (Rxo)"
+      ],
+      "c": "Resistivitas zona flushed (Rxo)",
+      "ce": "Flushed zone resistivity (Rxo)"
+    },
+    {
+      "t": "option",
+      "q": "Faktor fotolistrik (PEF) sangat berguna untuk...",
+      "qe": "The photoelectric factor (PEF) is very useful for...",
+      "o": [
+        "Mengukur laju alir sumur",
+        "Identifikasi litologi (jenis mineral batuan)",
+        "Menentukan tekanan pori",
+        "Menentukan viskositas minyak"
+      ],
+      "oe": [
+        "Measuring well flow rate",
+        "Lithology identification (rock mineral type)",
+        "Determining pore pressure",
+        "Determining oil viscosity"
+      ],
+      "c": "Identifikasi litologi (jenis mineral batuan)",
+      "ce": "Lithology identification (rock mineral type)"
+    },
+    {
+      "t": "option",
+      "q": "Persamaan Wyllie time-average pada sonic log digunakan untuk...",
+      "qe": "The Wyllie time-average equation on the sonic log is used to...",
+      "o": [
+        "Menghitung saturasi hidrokarbon",
+        "Mengukur diameter lubang bor",
+        "Menghitung resistivitas air",
+        "Menghitung porositas dari waktu tempuh gelombang"
+      ],
+      "oe": [
+        "Calculate hydrocarbon saturation",
+        "Measure borehole diameter",
+        "Calculate water resistivity",
+        "Calculate porosity from acoustic travel time"
+      ],
+      "c": "Menghitung porositas dari waktu tempuh gelombang",
+      "ce": "Calculate porosity from acoustic travel time"
+    },
+    {
+      "t": "option",
+      "q": "NMR log memberikan informasi terutama mengenai...",
+      "qe": "The NMR log provides information primarily about...",
+      "o": [
+        "Distribusi ukuran pori dan fluida bebas (free fluid)",
+        "Kekuatan casing",
+        "Kedalaman sumur",
+        "Jenis mineral lempung saja"
+      ],
+      "oe": [
+        "Pore size distribution and free fluid",
+        "Casing strength",
+        "Well depth",
+        "Clay mineral types only"
+      ],
+      "c": "Distribusi ukuran pori dan fluida bebas (free fluid)",
+      "ce": "Pore size distribution and free fluid"
+    },
+    {
+      "t": "option",
+      "q": "Hukum Archie digunakan untuk menghitung...",
+      "qe": "Archie's law is used to calculate...",
+      "o": [
+        "Porositas dari densitas",
+        "Saturasi air dari resistivitas formasi",
+        "Permeabilitas dari ukuran butir",
+        "Kedalaman dari waktu tempuh"
+      ],
+      "oe": [
+        "Porosity from density",
+        "Water saturation from formation resistivity",
+        "Permeability from grain size",
+        "Depth from travel time"
+      ],
+      "c": "Saturasi air dari resistivitas formasi",
+      "ce": "Water saturation from formation resistivity"
+    },
+    {
+      "t": "option",
+      "q": "Resistivitas air formasi (Rw) dapat diturunkan dari...",
+      "qe": "Formation water resistivity (Rw) can be derived from...",
+      "o": [
+        "Log caliper",
+        "Kurva SP atau pengukuran sampel air formasi",
+        "Kurva gamma ray saja",
+        "Kurva densitas"
+      ],
+      "oe": [
+        "The caliper log",
+        "The SP curve or formation water samples",
+        "The gamma ray curve alone",
+        "The density curve"
+      ],
+      "c": "Kurva SP atau pengukuran sampel air formasi",
+      "ce": "The SP curve or formation water samples"
+    },
+    {
+      "t": "multi",
+      "q": "Manakah faktor yang memengaruhi kualitas pengukuran log?",
+      "qe": "Which factors affect log measurement quality?",
+      "o": [
+        "Kecepatan logging",
+        "Kondisi lubang bor (washout, mudcake)",
+        "Jenis lumpur dan salinitasnya",
+        "Warna batuan di permukaan"
+      ],
+      "oe": [
+        "Logging speed",
+        "Borehole condition (washout, mudcake)",
+        "Mud type and salinity",
+        "Rock color at the surface"
+      ],
+      "c": [
+        "Kondisi lubang bor (washout, mudcake)",
+        "Jenis lumpur dan salinitasnya",
+        "Kecepatan logging"
+      ],
+      "ce": [
+        "Borehole condition (washout, mudcake)",
+        "Mud type and salinity",
+        "Logging speed"
+      ]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah pasangan log dan fungsi yang benar?",
+      "qe": "Which log-function pairs are correct?",
+      "o": [
+        "Resistivity - saturasi fluida",
+        "Caliper - viskositas minyak",
+        "Gamma ray - indikator kandungan lempung",
+        "Density - porositas"
+      ],
+      "oe": [
+        "Resistivity - fluid saturation",
+        "Caliper - oil viscosity",
+        "Gamma ray - clay content indicator",
+        "Density - porosity"
+      ],
+      "c": [
+        "Gamma ray - indikator kandungan lempung",
+        "Density - porositas",
+        "Resistivity - saturasi fluida"
+      ],
+      "ce": [
+        "Gamma ray - clay content indicator",
+        "Density - porosity",
+        "Resistivity - fluid saturation"
+      ]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah yang termasuk informasi yang dapat diperoleh dari kombinasi neutron-density?",
+      "qe": "Which of the following can be obtained from the neutron-density combination?",
+      "o": [
+        "Kedalaman casing shoe",
+        "Identifikasi litologi sederhana",
+        "Porositas terkoreksi gas",
+        "Deteksi gas"
+      ],
+      "oe": [
+        "Casing shoe depth",
+        "Simple lithology identification",
+        "Gas-corrected porosity",
+        "Gas detection"
+      ],
+      "c": [
+        "Porositas terkoreksi gas",
+        "Identifikasi litologi sederhana",
+        "Deteksi gas"
+      ],
+      "ce": [
+        "Gas-corrected porosity",
+        "Simple lithology identification",
+        "Gas detection"
+      ]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah keterbatasan log resistivitas?",
+      "qe": "Which are limitations of the resistivity log?",
+      "o": [
+        "Dipengaruhi invasi lumpur",
+        "Tidak dipengaruhi litologi",
+        "Perlu nilai Rw yang andal",
+        "Tidak dapat membaca formasi yang sangat konduktif"
+      ],
+      "oe": [
+        "Affected by mud invasion",
+        "Unaffected by lithology",
+        "Requires reliable Rw",
+        "Cannot read highly conductive formations"
+      ],
+      "c": [
+        "Tidak dapat membaca formasi yang sangat konduktif",
+        "Dipengaruhi invasi lumpur",
+        "Perlu nilai Rw yang andal"
+      ],
+      "ce": [
+        "Cannot read highly conductive formations",
+        "Affected by mud invasion",
+        "Requires reliable Rw"
+      ]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan tahapan pekerjaan wireline logging dari awal.",
+      "qe": "Arrange the wireline logging workflow from the beginning.",
+      "o": [
+        "Persiapan lubang bor dan lumpur",
+        "Menurunkan tool ke dalam sumur",
+        "Perekaman data sepanjang interval",
+        "Quality check dan pengolahan data log",
+        "Perforasi dan stimulasi sumur"
+      ],
+      "oe": [
+        "Borehole and mud preparation",
+        "Lowering the tool into the well",
+        "Recording data along the interval",
+        "Quality check and log data processing",
+        "Well perforation and stimulation"
+      ],
+      "c": [
+        "Persiapan lubang bor dan lumpur",
+        "Menurunkan tool ke dalam sumur",
+        "Perekaman data sepanjang interval",
+        "Quality check dan pengolahan data log"
+      ],
+      "ce": [
+        "Borehole and mud preparation",
+        "Lowering the tool into the well",
+        "Recording data along the interval",
+        "Quality check and log data processing"
+      ]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan zona dari arah lubang bor ke formasi asli.",
+      "qe": "Arrange the zones from the borehole into the original formation.",
+      "o": [
+        "Mudcake",
+        "Zona semen (cement annulus)",
+        "Flushed zone",
+        "Transition zone",
+        "Undisturbed formation"
+      ],
+      "oe": [
+        "Mudcake",
+        "Cement annulus",
+        "Flushed zone",
+        "Transition zone",
+        "Undisturbed formation"
+      ],
+      "c": [
+        "Mudcake",
+        "Flushed zone",
+        "Transition zone",
+        "Undisturbed formation"
+      ],
+      "ce": [
+        "Mudcake",
+        "Flushed zone",
+        "Transition zone",
+        "Undisturbed formation"
+      ]
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah density log dapat digunakan langsung untuk menghitung porositas bila densitas matriks dan fluida diketahui?",
+      "qe": "Is it true that the density log can be used directly to calculate porosity if matrix and fluid densities are known?",
+      "o": [
+        "Yes",
+        "No"
+      ],
+      "oe": [
+        "Yes",
+        "No"
+      ],
+      "c": "Yes",
+      "ce": "Yes"
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah nilai Rw yang salah tidak akan memengaruhi perhitungan saturasi air dengan metode Archie?",
+      "qe": "Is it true that an incorrect Rw will not affect water saturation calculation with the Archie method?",
+      "o": [
+        "Yes",
+        "No"
+      ],
+      "oe": [
+        "Yes",
+        "No"
+      ],
+      "c": "No",
+      "ce": "No"
+    }
+  ]
+}

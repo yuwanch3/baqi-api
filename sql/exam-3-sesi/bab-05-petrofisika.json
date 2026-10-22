@@ -1,0 +1,652 @@
+{
+  "lid": "PFC000000005",
+  "nama": "Petrofisika Bab 5 - Interpretasi Log dan Evaluasi Formasi",
+  "inisialisasi": [
+    {
+      "t": "option",
+      "q": "Volume serpih (Vsh) dari log gamma ray dihitung menggunakan...",
+      "qe": "Shale volume (Vsh) from the gamma ray log is calculated using...",
+      "o": [
+        "Faktor volume formasi (Bo)",
+        "Faktor Z gas",
+        "Indeks gamma ray (IGR)",
+        "API gravity"
+      ],
+      "oe": [
+        "The formation volume factor (Bo)",
+        "The gas Z factor",
+        "The gamma ray index (IGR)",
+        "API gravity"
+      ],
+      "c": "Indeks gamma ray (IGR)",
+      "ce": "The gamma ray index (IGR)"
+    },
+    {
+      "t": "option",
+      "q": "Dalam persamaan Archie, simbol Sw menyatakan...",
+      "qe": "In Archie's equation, the symbol Sw denotes...",
+      "o": [
+        "Saturasi air",
+        "Resistivitas air",
+        "Porositas efektif",
+        "Saturasi minyak"
+      ],
+      "oe": [
+        "Water saturation",
+        "Water resistivity",
+        "Effective porosity",
+        "Oil saturation"
+      ],
+      "c": "Saturasi air",
+      "ce": "Water saturation"
+    },
+    {
+      "t": "option",
+      "q": "Cutoff dalam evaluasi formasi digunakan untuk...",
+      "qe": "Cutoffs in formation evaluation are used to...",
+      "o": [
+        "Menghitung kedalaman sumur",
+        "Menentukan warna log",
+        "Menentukan batas nilai agar zona dianggap produktif",
+        "Mengukur laju alir"
+      ],
+      "oe": [
+        "Calculate well depth",
+        "Determine log colors",
+        "Define the value thresholds for a zone to be considered productive",
+        "Measure flow rate"
+      ],
+      "c": "Menentukan batas nilai agar zona dianggap produktif",
+      "ce": "Define the value thresholds for a zone to be considered productive"
+    },
+    {
+      "t": "option",
+      "q": "Net pay adalah bagian reservoir yang...",
+      "qe": "Net pay is the part of the reservoir that...",
+      "o": [
+        "Selalu mengandung air",
+        "Memenuhi cutoff dan mengandung hidrokarbon produktif",
+        "Berada di atas permukaan tanah",
+        "Memiliki porositas nol"
+      ],
+      "oe": [
+        "Always contains water",
+        "Meets the cutoffs and contains productive hydrocarbons",
+        "Is above the ground surface",
+        "Has zero porosity"
+      ],
+      "c": "Memenuhi cutoff dan mengandung hidrokarbon produktif",
+      "ce": "Meets the cutoffs and contains productive hydrocarbons"
+    },
+    {
+      "t": "option",
+      "q": "Rw adalah simbol untuk...",
+      "qe": "Rw is the symbol for...",
+      "o": [
+        "Resistivitas air formasi",
+        "Resistivitas batuan total",
+        "Resistivitas lumpur",
+        "Kadar air terikat"
+      ],
+      "oe": [
+        "Formation water resistivity",
+        "Total rock resistivity",
+        "Mud resistivity",
+        "Bound water content"
+      ],
+      "c": "Resistivitas air formasi",
+      "ce": "Formation water resistivity"
+    },
+    {
+      "t": "option",
+      "q": "Plot silang (crossplot) neutron-density paling sering digunakan untuk...",
+      "qe": "The neutron-density crossplot is most often used to...",
+      "o": [
+        "Identifikasi litologi dan koreksi efek gas",
+        "Menghitung kedalaman casing",
+        "Menentukan tekanan reservoir",
+        "Mengukur laju produksi"
+      ],
+      "oe": [
+        "Identify lithology and correct for gas effect",
+        "Calculate casing depth",
+        "Determine reservoir pressure",
+        "Measure production rate"
+      ],
+      "c": "Identifikasi litologi dan koreksi efek gas",
+      "ce": "Identify lithology and correct for gas effect"
+    },
+    {
+      "t": "option",
+      "q": "Zona dengan saturasi air 100% (Sw = 1) berarti zona tersebut...",
+      "qe": "A zone with 100% water saturation (Sw = 1) means the zone...",
+      "o": [
+        "Terisi air seluruhnya (water zone)",
+        "Merupakan zona gas",
+        "Terisi minyak seluruhnya",
+        "Tidak memiliki porositas"
+      ],
+      "oe": [
+        "Is entirely water-filled (water zone)",
+        "Is a gas zone",
+        "Is entirely oil-filled",
+        "Has no porosity"
+      ],
+      "c": "Terisi air seluruhnya (water zone)",
+      "ce": "Is entirely water-filled (water zone)"
+    },
+    {
+      "t": "multi",
+      "q": "Manakah parameter yang dibutuhkan dalam persamaan Archie untuk menghitung Sw?",
+      "qe": "Which parameters are required in Archie's equation to calculate Sw?",
+      "o": [
+        "Porositas (phi)",
+        "Resistivitas formasi (Rt)",
+        "Resistivitas air formasi (Rw)",
+        "Eksponen sementasi (m)"
+      ],
+      "oe": [
+        "Porosity (phi)",
+        "Formation resistivity (Rt)",
+        "Formation water resistivity (Rw)",
+        "Cementation exponent (m)"
+      ],
+      "c": [
+        "Porositas (phi)",
+        "Resistivitas formasi (Rt)",
+        "Resistivitas air formasi (Rw)",
+        "Eksponen sementasi (m)"
+      ],
+      "ce": [
+        "Porosity (phi)",
+        "Formation resistivity (Rt)",
+        "Formation water resistivity (Rw)",
+        "Cementation exponent (m)"
+      ]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan alur evaluasi formasi dari tahap paling awal.",
+      "qe": "Arrange the formation evaluation workflow from the earliest stage.",
+      "o": [
+        "Quality control data log",
+        "Penentuan litologi dan Vsh",
+        "Perforasi dan uji produksi",
+        "Perhitungan porositas",
+        "Perhitungan saturasi air (Archie)",
+        "Penentuan net pay dan volume hidrokarbon"
+      ],
+      "oe": [
+        "Log data quality control",
+        "Lithology and Vsh determination",
+        "Perforation and production test",
+        "Porosity calculation",
+        "Water saturation calculation (Archie)",
+        "Net pay and hydrocarbon volume determination"
+      ],
+      "c": [
+        "Quality control data log",
+        "Penentuan litologi dan Vsh",
+        "Perhitungan porositas",
+        "Perhitungan saturasi air (Archie)",
+        "Penentuan net pay dan volume hidrokarbon"
+      ],
+      "ce": [
+        "Log data quality control",
+        "Lithology and Vsh determination",
+        "Porosity calculation",
+        "Water saturation calculation (Archie)",
+        "Net pay and hydrocarbon volume determination"
+      ]
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah saturasi hidrokarbon dapat dihitung sebagai 1 - Sw?",
+      "qe": "Is it true that hydrocarbon saturation can be calculated as 1 - Sw?",
+      "o": [
+        "Yes",
+        "No"
+      ],
+      "oe": [
+        "Yes",
+        "No"
+      ],
+      "c": "Yes",
+      "ce": "Yes"
+    }
+  ],
+  "advanced": [
+    {
+      "t": "option",
+      "q": "Diketahui a = 1, Rw = 0,1 ohm-m, phi = 0,2, m = 2, n = 2, dan Rt = 10 ohm-m. Berapa saturasi air (Sw)?",
+      "qe": "Given a = 1, Rw = 0.1 ohm-m, phi = 0.2, m = 2, n = 2, and Rt = 10 ohm-m. What is the water saturation (Sw)?",
+      "o": [
+        "70%",
+        "25%",
+        "100%",
+        "50%"
+      ],
+      "oe": [
+        "70%",
+        "25%",
+        "100%",
+        "50%"
+      ],
+      "c": "50%",
+      "ce": "50%"
+    },
+    {
+      "t": "option",
+      "q": "Pada Pickett plot, kemiringan garis lurus (slope) pada skala log-log mencerminkan nilai...",
+      "qe": "On a Pickett plot, the slope of the straight line on log-log scale reflects the value of...",
+      "o": [
+        "Rw",
+        "-m (eksponen sementasi)",
+        "a",
+        "+n (eksponen saturasi)"
+      ],
+      "oe": [
+        "Rw",
+        "-m (cementation exponent)",
+        "a",
+        "+n (saturation exponent)"
+      ],
+      "c": "-m (eksponen sementasi)",
+      "ce": "-m (cementation exponent)"
+    },
+    {
+      "t": "option",
+      "q": "Nilai eksponen sementasi (m) yang umum untuk batupasir adalah sekitar...",
+      "qe": "The typical cementation exponent (m) for sandstone is about...",
+      "o": [
+        "1,0",
+        "5,0",
+        "2,0",
+        "3,5"
+      ],
+      "oe": [
+        "1.0",
+        "5.0",
+        "2.0",
+        "3.5"
+      ],
+      "c": "2,0",
+      "ce": "2.0"
+    },
+    {
+      "t": "option",
+      "q": "Nilai eksponen saturasi (n) yang umum dipakai adalah...",
+      "qe": "The commonly used saturation exponent (n) value is...",
+      "o": [
+        "3,0",
+        "2,0",
+        "1,0",
+        "4,0"
+      ],
+      "oe": [
+        "3.0",
+        "2.0",
+        "1.0",
+        "4.0"
+      ],
+      "c": "2,0",
+      "ce": "2.0"
+    },
+    {
+      "t": "option",
+      "q": "Bulk volume water (BVW) pada zona transisi umumnya...",
+      "qe": "Bulk volume water (BVW) in the transition zone is generally...",
+      "o": [
+        "Relatif konstan",
+        "Selalu nol",
+        "Bertambah dua kali setiap meter",
+        "Tidak dapat dihitung"
+      ],
+      "oe": [
+        "Relatively constant",
+        "Always zero",
+        "Doubles every meter",
+        "Impossible to calculate"
+      ],
+      "c": "Relatif konstan",
+      "ce": "Relatively constant"
+    },
+    {
+      "t": "option",
+      "q": "Moveable hydrocarbon index (Sxo/Sw) digunakan untuk...",
+      "qe": "The movable hydrocarbon index (Sxo/Sw) is used to...",
+      "o": [
+        "Mengukur salinitas lumpur",
+        "Menilai potensi hidrokarbon yang dapat diproduksi",
+        "Menghitung kedalaman sumur",
+        "Menentukan densitas matriks"
+      ],
+      "oe": [
+        "Measure mud salinity",
+        "Assess the producible hydrocarbon potential",
+        "Calculate well depth",
+        "Determine matrix density"
+      ],
+      "c": "Menilai potensi hidrokarbon yang dapat diproduksi",
+      "ce": "Assess the producible hydrocarbon potential"
+    },
+    {
+      "t": "option",
+      "q": "Zona dengan porositas rendah, Vsh tinggi, dan Sw tinggi sebaiknya...",
+      "qe": "A zone with low porosity, high Vsh, and high Sw should be...",
+      "o": [
+        "Dianggap zona gas",
+        "Dihitung sebagai net pay penuh",
+        "Dikeluarkan dari perhitungan net pay",
+        "Dianggap zona minyak"
+      ],
+      "oe": [
+        "Considered a gas zone",
+        "Counted as full net pay",
+        "Excluded from the net pay calculation",
+        "Considered an oil zone"
+      ],
+      "c": "Dikeluarkan dari perhitungan net pay",
+      "ce": "Excluded from the net pay calculation"
+    },
+    {
+      "t": "option",
+      "q": "Koreksi efek gas pada neutron-density dilakukan karena gas...",
+      "qe": "Gas effect correction on neutron-density is performed because gas...",
+      "o": [
+        "Menambah kandungan lempung",
+        "Menurunkan pembacaan neutron sehingga porositas terlihat lebih besar",
+        "Menghilangkan sinyal resistivitas",
+        "Menaikkan densitas matriks"
+      ],
+      "oe": [
+        "Increases clay content",
+        "Lowers the neutron reading so porosity appears larger",
+        "Removes the resistivity signal",
+        "Increases matrix density"
+      ],
+      "c": "Menurunkan pembacaan neutron sehingga porositas terlihat lebih besar",
+      "ce": "Lowers the neutron reading so porosity appears larger"
+    },
+    {
+      "t": "option",
+      "q": "Resistivitas air formasi (Rw) dapat diestimasi dari kurva SP menggunakan...",
+      "qe": "Formation water resistivity (Rw) can be estimated from the SP curve using...",
+      "o": [
+        "Hubungan defleksi SP dengan rasio Rw/Rmf",
+        "Kurva gamma ray",
+        "Kurva caliper",
+        "Nilai PEF"
+      ],
+      "oe": [
+        "The relationship between SP deflection and the Rw/Rmf ratio",
+        "The gamma ray curve",
+        "The caliper curve",
+        "The PEF value"
+      ],
+      "c": "Hubungan defleksi SP dengan rasio Rw/Rmf",
+      "ce": "The relationship between SP deflection and the Rw/Rmf ratio"
+    },
+    {
+      "t": "option",
+      "q": "Jika Sw = 60% dan Sxo = 30%, maka zona tersebut...",
+      "qe": "If Sw = 60% and Sxo = 30%, then the zone...",
+      "o": [
+        "Tidak mengandung hidrokarbon",
+        "Merupakan zona serpih",
+        "Mengandung hidrokarbon mobile yang cukup menarik",
+        "Seluruhnya terisi air"
+      ],
+      "oe": [
+        "Contains no hydrocarbons",
+        "Is a shale zone",
+        "Contains movable hydrocarbons of interest",
+        "Is entirely water-filled"
+      ],
+      "c": "Mengandung hidrokarbon mobile yang cukup menarik",
+      "ce": "Contains movable hydrocarbons of interest"
+    },
+    {
+      "t": "option",
+      "q": "Volume hidrokarbon per satuan volume batuan dihitung dengan...",
+      "qe": "Hydrocarbon volume per unit rock volume is calculated as...",
+      "o": [
+        "phi + Sw",
+        "phi x (1 - Sw)",
+        "phi x Sw",
+        "(1 - phi) x Sw"
+      ],
+      "oe": [
+        "phi + Sw",
+        "phi x (1 - Sw)",
+        "phi x Sw",
+        "(1 - phi) x Sw"
+      ],
+      "c": "phi x (1 - Sw)",
+      "ce": "phi x (1 - Sw)"
+    },
+    {
+      "t": "option",
+      "q": "Pada batupasir lempungan, penggunaan persamaan Archie langsung tanpa koreksi lempung umumnya...",
+      "qe": "In shaly sandstone, using Archie's equation directly without clay correction generally...",
+      "o": [
+        "Tidak berpengaruh",
+        "Menghasilkan Sw yang terlalu rendah",
+        "Menghasilkan porositas negatif",
+        "Menghasilkan Sw yang terlalu tinggi"
+      ],
+      "oe": [
+        "Has no effect",
+        "Produces Sw that is too low",
+        "Produces negative porosity",
+        "Produces Sw that is too high"
+      ],
+      "c": "Menghasilkan Sw yang terlalu tinggi",
+      "ce": "Produces Sw that is too high"
+    },
+    {
+      "t": "multi",
+      "q": "Manakah yang termasuk cutoff petrofisika dalam penentuan net pay?",
+      "qe": "Which of the following are petrophysical cutoffs in net pay determination?",
+      "o": [
+        "Cutoff harga minyak",
+        "Cutoff porositas",
+        "Cutoff saturasi air",
+        "Cutoff volume serpih (Vsh)"
+      ],
+      "oe": [
+        "Oil price cutoff",
+        "Porosity cutoff",
+        "Water saturation cutoff",
+        "Shale volume cutoff (Vsh)"
+      ],
+      "c": [
+        "Cutoff volume serpih (Vsh)",
+        "Cutoff porositas",
+        "Cutoff saturasi air"
+      ],
+      "ce": [
+        "Shale volume cutoff (Vsh)",
+        "Porosity cutoff",
+        "Water saturation cutoff"
+      ]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah penyebab kesalahan dalam perhitungan saturasi air?",
+      "qe": "Which are causes of error in water saturation calculation?",
+      "o": [
+        "Warna core yang berbeda",
+        "Nilai Rw yang tidak tepat",
+        "Parameter m dan n yang salah",
+        "Invasi lumpur yang tidak dikoreksi"
+      ],
+      "oe": [
+        "Different core color",
+        "Incorrect Rw value",
+        "Wrong m and n parameters",
+        "Uncorrected mud invasion"
+      ],
+      "c": [
+        "Nilai Rw yang tidak tepat",
+        "Parameter m dan n yang salah",
+        "Invasi lumpur yang tidak dikoreksi"
+      ],
+      "ce": [
+        "Incorrect Rw value",
+        "Wrong m and n parameters",
+        "Uncorrected mud invasion"
+      ]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah informasi yang dapat diperoleh dari analisis crossplot neutron-density?",
+      "qe": "Which information can be obtained from neutron-density crossplot analysis?",
+      "o": [
+        "Porositas terkoreksi",
+        "Jenis litologi dominan",
+        "Kehadiran gas",
+        "Kedalaman total sumur"
+      ],
+      "oe": [
+        "Corrected porosity",
+        "Dominant lithology type",
+        "Presence of gas",
+        "Total well depth"
+      ],
+      "c": [
+        "Jenis litologi dominan",
+        "Kehadiran gas",
+        "Porositas terkoreksi"
+      ],
+      "ce": [
+        "Dominant lithology type",
+        "Presence of gas",
+        "Corrected porosity"
+      ]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah pernyataan yang benar tentang net pay?",
+      "qe": "Which statements about net pay are correct?",
+      "o": [
+        "Selalu lebih kecil atau sama dengan gross thickness",
+        "Sama dengan ketebalan total formasi",
+        "Ditentukan setelah cutoff diterapkan",
+        "Mempengaruhi perhitungan volume hidrokarbon"
+      ],
+      "oe": [
+        "It is always less than or equal to gross thickness",
+        "It equals the total formation thickness",
+        "It is determined after cutoffs are applied",
+        "It affects the hydrocarbon volume calculation"
+      ],
+      "c": [
+        "Ditentukan setelah cutoff diterapkan",
+        "Selalu lebih kecil atau sama dengan gross thickness",
+        "Mempengaruhi perhitungan volume hidrokarbon"
+      ],
+      "ce": [
+        "It is determined after cutoffs are applied",
+        "It is always less than or equal to gross thickness",
+        "It affects the hydrocarbon volume calculation"
+      ]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan perhitungan dari data log sampai volume hidrokarbon.",
+      "qe": "Arrange the calculation steps from log data to hydrocarbon volume.",
+      "o": [
+        "Pengukuran laju alir sumur",
+        "Vsh dari gamma ray",
+        "Porositas dari density/neutron",
+        "Sw dari Archie",
+        "Tebal net pay",
+        "Volume hidrokarbon"
+      ],
+      "oe": [
+        "Well flow rate measurement",
+        "Vsh from gamma ray",
+        "Porosity from density/neutron",
+        "Sw from Archie",
+        "Net pay thickness",
+        "Hydrocarbon volume"
+      ],
+      "c": [
+        "Vsh dari gamma ray",
+        "Porositas dari density/neutron",
+        "Sw dari Archie",
+        "Tebal net pay",
+        "Volume hidrokarbon"
+      ],
+      "ce": [
+        "Vsh from gamma ray",
+        "Porosity from density/neutron",
+        "Sw from Archie",
+        "Net pay thickness",
+        "Hydrocarbon volume"
+      ]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan nilai saturasi air (Sw) dari zona paling produktif ke zona air.",
+      "qe": "Arrange water saturation (Sw) values from the most productive zone to the water zone.",
+      "o": [
+        "Sw rendah (< 30%)",
+        "Sw sedang (30 - 50%)",
+        "Sw tinggi (50 - 70%)",
+        "Sw 100% (water zone)",
+        "Sw negatif (-10%)"
+      ],
+      "oe": [
+        "Low Sw (< 30%)",
+        "Moderate Sw (30 - 50%)",
+        "High Sw (50 - 70%)",
+        "Sw 100% (water zone)",
+        "Negative Sw (-10%)"
+      ],
+      "c": [
+        "Sw rendah (< 30%)",
+        "Sw sedang (30 - 50%)",
+        "Sw tinggi (50 - 70%)",
+        "Sw 100% (water zone)"
+      ],
+      "ce": [
+        "Low Sw (< 30%)",
+        "Moderate Sw (30 - 50%)",
+        "High Sw (50 - 70%)",
+        "Sw 100% (water zone)"
+      ]
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah zona dengan resistivitas tinggi selalu berarti zona minyak?",
+      "qe": "Is it true that a high-resistivity zone always means an oil zone?",
+      "o": [
+        "Yes",
+        "No"
+      ],
+      "oe": [
+        "Yes",
+        "No"
+      ],
+      "c": "No",
+      "ce": "No"
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah porositas yang dipakai pada persamaan Archie adalah porositas efektif?",
+      "qe": "Is it true that the porosity used in Archie's equation is effective porosity?",
+      "o": [
+        "Yes",
+        "No"
+      ],
+      "oe": [
+        "Yes",
+        "No"
+      ],
+      "c": "Yes",
+      "ce": "Yes"
+    }
+  ]
+}

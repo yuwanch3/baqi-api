@@ -6,13 +6,14 @@
  * ke folder baru (yang benar-benar di-serve)     : /react/assets/img/
  * lalu memperbarui URL foto di kolom users.picture.
  *
- * Kenapa perlu: domain baqi.jannahku.com me-redirect semua path
- * /assets/* ke baqi-app.jannahku.com (aplikasi lain) sehingga foto
- * lama tidak bisa dibuka (301 -> 404). Path /react/* tidak di-redirect.
+ * Menangani URL lama:
+ *   - https://baqi.jannahku.com/assets/img/...   (di-redirect -> tidak bisa dibuka)
+ *   - https://api.pondok-huda.com/assets/img/... (host lama sudah mati)
+ * File yang ditemukan di /assets/img/ akan dipindah & URL-nya diperbarui.
+ * File yang sudah tidak ada di server dihitung sebagai "missing".
  *
  * CARA PAKAI (cukup SEKALI):
- *   1. Buka di browser:
- *      https://baqi.jannahku.com/react/migrate-foto.php?key=BAQIMIGRATE2026
+ *   1. Buka: https://baqi.jannahku.com/react/migrate-foto.php?key=BAQIMIGRATE2026
  *   2. Pastikan hasilnya {"moved":..., "updated":..., "missing":...}
  *   3. SETELAH SELESAI, HAPUS file ini dari server.
  * ------------------------------------------------------------------
@@ -37,18 +38,23 @@ $conn = (new Connection())->get_connection();
 $srcDir    = __DIR__ . "/../assets/img/";   // <docroot>/assets/img/       (lokasi lama)
 $dstDir    = __DIR__ . "/assets/img/";      // <docroot>/react/assets/img/ (lokasi baru yg di-serve)
 $host      = $_SERVER['HTTP_HOST'];
-$oldPrefix = 'https://baqi.jannahku.com/assets/img/';
 $newPrefix = 'https://' . $host . '/react/assets/img/';
 
 if (!is_dir($dstDir)) { @mkdir($dstDir, 0755, true); }
 
-$moved = 0; $updated = 0; $missing = 0; $errors = array();
+$oldPrefixes = array(
+    'https://baqi.jannahku.com/assets/img/',
+    'https://api.pondok-huda.com/assets/img/',
+);
 
-$res = $conn->query("SELECT id, picture FROM users WHERE picture LIKE 'https://baqi.jannahku.com/assets/img/%'");
+$moved = 0; $updated = 0; $missing = 0; $errors = array(); $details = array();
+
+$like = "picture LIKE '" . $oldPrefixes[0] . "%' OR picture LIKE '" . $oldPrefixes[1] . "%'";
+$res  = $conn->query("SELECT id, picture FROM users WHERE $like");
 if ($res) {
     while ($row = $res->fetch_assoc()) {
         $path  = parse_url($row['picture'], PHP_URL_PATH);
-        $fname = basename($path);
+        $fname = $path ? basename($path) : '';
         if ($fname === '') { continue; }
 
         $src = $srcDir . $fname;
@@ -69,11 +75,13 @@ if ($res) {
             if ($conn->query("UPDATE users SET picture='$nu' WHERE id='$id'")) {
                 $updated++;
                 @unlink($src); // "pindahkan": hapus file lama setelah sukses
+                $details[] = $row['id'] . " => " . $fname;
             } else {
                 $errors[] = "gagal update DB: " . $row['id'];
             }
         } else {
-            $missing++; // file lama tidak ada di server (mis. host api.pondok-huda.com yg sudah mati)
+            $missing++; // file lama tidak ada di server
+            $details[] = $row['id'] . " (HILANG) => " . $fname;
         }
     }
 }
@@ -88,4 +96,5 @@ echo json_encode(array(
     'updated'   => $updated,
     'missing'   => $missing,
     'errors'    => $errors,
+    'details'   => $details,
 ), JSON_PRETTY_PRINT);

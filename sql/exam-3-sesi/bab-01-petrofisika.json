@@ -1,0 +1,648 @@
+{
+  "lid": "PFC000000001",
+  "nama": "Petrofisika Bab 1 - Pengantar Petrofisika dan Batuan Reservoar",
+  "inisialisasi": [
+    {
+      "t": "option",
+      "q": "Petrofisika adalah ilmu yang mempelajari sifat fisik batuan dan fluida reservoir dengan tujuan utama...",
+      "qe": "Petrophysics is the study of the physical properties of reservoir rocks and fluids with the main purpose of...",
+      "o": [
+        "Menentukan harga jual minyak",
+        "Mengatur jadwal ekspor",
+        "Merancang pompa permukaan",
+        "Menghitung cadangan dan karakterisasi reservoir"
+      ],
+      "oe": [
+        "Determining the selling price of oil",
+        "Managing export schedules",
+        "Designing surface pumps",
+        "Calculating reserves and characterizing the reservoir"
+      ],
+      "c": "Menghitung cadangan dan karakterisasi reservoir",
+      "ce": "Calculating reserves and characterizing the reservoir"
+    },
+    {
+      "t": "option",
+      "q": "Porositas batuan umumnya dinyatakan dalam satuan...",
+      "qe": "Rock porosity is generally expressed in units of...",
+      "o": [
+        "mD",
+        "Derajat API",
+        "Fraksi atau persen",
+        "psi"
+      ],
+      "oe": [
+        "mD",
+        "API degrees",
+        "Fraction or percent",
+        "psi"
+      ],
+      "c": "Fraksi atau persen",
+      "ce": "Fraction or percent"
+    },
+    {
+      "t": "option",
+      "q": "Porositas 20% termasuk kategori kualitas...",
+      "qe": "A porosity of 20% falls into the quality category...",
+      "o": [
+        "Tidak terukur",
+        "Buruk",
+        "Sangat buruk",
+        "Baik (good)"
+      ],
+      "oe": [
+        "Unmeasurable",
+        "Poor",
+        "Very poor",
+        "Good"
+      ],
+      "c": "Baik (good)",
+      "ce": "Good"
+    },
+    {
+      "t": "option",
+      "q": "Syarat utama agar batuan dapat disebut batuan reservoir adalah memiliki...",
+      "qe": "The main requirement for a rock to be called a reservoir rock is that it has...",
+      "o": [
+        "Berat jenis di atas 3 g/cc",
+        "Kandungan lempung yang tinggi",
+        "Porositas untuk menyimpan dan permeabilitas untuk mengalirkan fluida",
+        "Warna terang dan keras"
+      ],
+      "oe": [
+        "A specific gravity above 3 g/cc",
+        "A high clay content",
+        "Porosity to store fluids and permeability to flow them",
+        "A bright color and hardness"
+      ],
+      "c": "Porositas untuk menyimpan dan permeabilitas untuk mengalirkan fluida",
+      "ce": "Porosity to store fluids and permeability to flow them"
+    },
+    {
+      "t": "option",
+      "q": "Porositas yang terbentuk selama proses pengendapan sedimen disebut porositas...",
+      "qe": "Porosity formed during the sediment deposition process is called...",
+      "o": [
+        "Fraktur",
+        "Vuggy",
+        "Sekunder",
+        "Primer"
+      ],
+      "oe": [
+        "Fracture",
+        "Vuggy",
+        "Secondary",
+        "Primary"
+      ],
+      "c": "Primer",
+      "ce": "Primary"
+    },
+    {
+      "t": "option",
+      "q": "Satuan permeabilitas dalam sistem Darcy adalah...",
+      "qe": "The unit of permeability in the Darcy system is...",
+      "o": [
+        "Persen",
+        "Pascal",
+        "Darcy atau miliDarcy",
+        "gram/cc"
+      ],
+      "oe": [
+        "Percent",
+        "Pascal",
+        "Darcy or milliDarcy",
+        "gram/cc"
+      ],
+      "c": "Darcy atau miliDarcy",
+      "ce": "Darcy or milliDarcy"
+    },
+    {
+      "t": "option",
+      "q": "Bagian reservoir yang produktif mengalirkan hidrokarbon disebut...",
+      "qe": "The productive part of a reservoir that flows hydrocarbons is called...",
+      "o": [
+        "Net pay",
+        "Gross thickness",
+        "Shale barrier",
+        "Overburden"
+      ],
+      "oe": [
+        "Net pay",
+        "Gross thickness",
+        "Shale barrier",
+        "Overburden"
+      ],
+      "c": "Net pay",
+      "ce": "Net pay"
+    },
+    {
+      "t": "multi",
+      "q": "Manakah yang termasuk komponen penyusun batuan reservoir?",
+      "qe": "Which of the following are components of a reservoir rock?",
+      "o": [
+        "Fluida pengisi pori",
+        "Pipa selubung sumur",
+        "Ruang pori",
+        "Matriks batuan"
+      ],
+      "oe": [
+        "Fluid filling the pores",
+        "Well casing",
+        "Pore space",
+        "Rock matrix"
+      ],
+      "c": [
+        "Matriks batuan",
+        "Ruang pori",
+        "Fluida pengisi pori"
+      ],
+      "ce": [
+        "Rock matrix",
+        "Pore space",
+        "Fluid filling the pores"
+      ]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan proses pembentukan batuan sedimen dari awal sampai akhir.",
+      "qe": "Arrange the sedimentary rock formation process from beginning to end.",
+      "o": [
+        "Pelapukan dan erosi",
+        "Transportasi sedimen",
+        "Pengendapan",
+        "Kompaksi dan sementasi",
+        "Metamorfisme"
+      ],
+      "oe": [
+        "Weathering and erosion",
+        "Sediment transport",
+        "Deposition",
+        "Compaction and cementation",
+        "Metamorphism"
+      ],
+      "c": [
+        "Pelapukan dan erosi",
+        "Transportasi sedimen",
+        "Pengendapan",
+        "Kompaksi dan sementasi"
+      ],
+      "ce": [
+        "Weathering and erosion",
+        "Sediment transport",
+        "Deposition",
+        "Compaction and cementation"
+      ]
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah petrofisika hanya dibutuhkan pada fase produksi, tidak pada fase eksplorasi?",
+      "qe": "Is it true that petrophysics is only needed in the production phase, not in the exploration phase?",
+      "o": [
+        "Yes",
+        "No"
+      ],
+      "oe": [
+        "Yes",
+        "No"
+      ],
+      "c": "No",
+      "ce": "No"
+    }
+  ],
+  "advanced": [
+    {
+      "t": "option",
+      "q": "Sebuah core memiliki bulk volume 100 cm3 dan grain volume 75 cm3. Berapa porositas batuan tersebut?",
+      "qe": "A core has a bulk volume of 100 cm3 and a grain volume of 75 cm3. What is the porosity of the rock?",
+      "o": [
+        "25%",
+        "33%",
+        "20%",
+        "15%"
+      ],
+      "oe": [
+        "25%",
+        "33%",
+        "20%",
+        "15%"
+      ],
+      "c": "25%",
+      "ce": "25%"
+    },
+    {
+      "t": "option",
+      "q": "Batuan memiliki porositas total 30% dan saturasi air 40%. Berapa volume hidrokarbon per 1 m3 batuan?",
+      "qe": "A rock has a total porosity of 30% and a water saturation of 40%. What is the hydrocarbon volume per 1 m3 of rock?",
+      "o": [
+        "0,12 m3",
+        "0,30 m3",
+        "0,18 m3",
+        "0,40 m3"
+      ],
+      "oe": [
+        "0.12 m3",
+        "0.30 m3",
+        "0.18 m3",
+        "0.40 m3"
+      ],
+      "c": "0,18 m3",
+      "ce": "0.18 m3"
+    },
+    {
+      "t": "option",
+      "q": "Diketahui bulk density 2,35 g/cc, densitas matriks 2,65 g/cc, dan densitas fluida 1,00 g/cc. Berapa porositas berdasarkan persamaan densitas?",
+      "qe": "Given a bulk density of 2.35 g/cc, a matrix density of 2.65 g/cc, and a fluid density of 1.00 g/cc. What is the density-derived porosity?",
+      "o": [
+        "18,2%",
+        "30,0%",
+        "25,0%",
+        "11,3%"
+      ],
+      "oe": [
+        "18.2%",
+        "30.0%",
+        "25.0%",
+        "11.3%"
+      ],
+      "c": "18,2%",
+      "ce": "18.2%"
+    },
+    {
+      "t": "option",
+      "q": "Pada batuan karbonat, porositas yang terbentuk dari lubang pelarutan berukuran besar disebut...",
+      "qe": "In carbonate rocks, porosity formed by large dissolution cavities is called...",
+      "o": [
+        "Microporosity",
+        "Intercrystalline porosity",
+        "Vuggy porosity",
+        "Intergranular porosity"
+      ],
+      "oe": [
+        "Microporosity",
+        "Intercrystalline porosity",
+        "Vuggy porosity",
+        "Intergranular porosity"
+      ],
+      "c": "Vuggy porosity",
+      "ce": "Vuggy porosity"
+    },
+    {
+      "t": "option",
+      "q": "Peningkatan intensitas sementasi pada batupasir umumnya menyebabkan...",
+      "qe": "Increasing cementation intensity in sandstone generally causes...",
+      "o": [
+        "Porositas turun, permeabilitas naik",
+        "Porositas naik, permeabilitas turun",
+        "Porositas dan permeabilitas menurun",
+        "Keduanya tidak berubah"
+      ],
+      "oe": [
+        "Porosity to decrease and permeability to increase",
+        "Porosity to increase and permeability to decrease",
+        "Both porosity and permeability to decrease",
+        "Neither to change"
+      ],
+      "c": "Porositas dan permeabilitas menurun",
+      "ce": "Both porosity and permeability to decrease"
+    },
+    {
+      "t": "option",
+      "q": "Rasio net-to-gross (NTG) digunakan untuk...",
+      "qe": "The net-to-gross (NTG) ratio is used to...",
+      "o": [
+        "Menentukan jenis semen sumur",
+        "Menghitung laju injeksi air",
+        "Mengoreksi densitas fluida",
+        "Memisahkan ketebalan produktif dari total ketebalan reservoir"
+      ],
+      "oe": [
+        "Determine the type of well cement",
+        "Calculate water injection rate",
+        "Correct fluid density",
+        "Separate productive thickness from total reservoir thickness"
+      ],
+      "c": "Memisahkan ketebalan produktif dari total ketebalan reservoir",
+      "ce": "Separate productive thickness from total reservoir thickness"
+    },
+    {
+      "t": "option",
+      "q": "Kehadiran lempung pada batupasir terutama menurunkan porositas efektif karena...",
+      "qe": "The presence of clay in sandstone mainly reduces effective porosity because...",
+      "o": [
+        "Lempung menghilangkan rekahan",
+        "Lempung menambah volume butiran kuarsa",
+        "Air terikat pada permukaan lempung menempati ruang pori",
+        "Lempung meningkatkan densitas matriks secara tetap"
+      ],
+      "oe": [
+        "Clay removes fractures",
+        "Clay adds quartz grain volume",
+        "Water bound to clay surfaces occupies pore space",
+        "Clay increases matrix density uniformly"
+      ],
+      "c": "Air terikat pada permukaan lempung menempati ruang pori",
+      "ce": "Water bound to clay surfaces occupies pore space"
+    },
+    {
+      "t": "option",
+      "q": "Tortuositas yang tinggi pada jalur aliran fluida akan...",
+      "qe": "High tortuosity in the fluid flow path will...",
+      "o": [
+        "Meningkatkan permeabilitas",
+        "Menurunkan permeabilitas",
+        "Tidak memengaruhi permeabilitas",
+        "Menaikkan porositas total"
+      ],
+      "oe": [
+        "Increase permeability",
+        "Decrease permeability",
+        "Not affect permeability",
+        "Increase total porosity"
+      ],
+      "c": "Menurunkan permeabilitas",
+      "ce": "Decrease permeability"
+    },
+    {
+      "t": "option",
+      "q": "Batuan dengan porositas 6% dan permeabilitas 0,05 mD paling tepat dikategorikan sebagai...",
+      "qe": "A rock with 6% porosity and 0.05 mD permeability is best categorized as...",
+      "o": [
+        "Reservoir karbonat berongga",
+        "Reservoir konvensional berkualitas baik",
+        "Reservoir dengan permeabilitas tinggi",
+        "Reservoir tight (kualitas buruk)"
+      ],
+      "oe": [
+        "A vuggy carbonate reservoir",
+        "A good-quality conventional reservoir",
+        "A high-permeability reservoir",
+        "A tight (poor-quality) reservoir"
+      ],
+      "c": "Reservoir tight (kualitas buruk)",
+      "ce": "A tight (poor-quality) reservoir"
+    },
+    {
+      "t": "option",
+      "q": "Porositas sekunder pada batuan karbonat umumnya terbentuk akibat...",
+      "qe": "Secondary porosity in carbonate rocks generally forms as a result of...",
+      "o": [
+        "Pengangkatan batuan tanpa perubahan kimia",
+        "Proses pelarutan (dissolution) dan dolomitisasi",
+        "Pemadatan sedimen saat pengendapan",
+        "Pemilahan butir yang sempurna"
+      ],
+      "oe": [
+        "Uplift without chemical change",
+        "Dissolution processes and dolomitization",
+        "Sediment compaction during deposition",
+        "Perfect grain sorting"
+      ],
+      "c": "Proses pelarutan (dissolution) dan dolomitisasi",
+      "ce": "Dissolution processes and dolomitization"
+    },
+    {
+      "t": "option",
+      "q": "Rekahan (fracture) pada reservoir karbonat umumnya memberikan kontribusi terbesar terhadap...",
+      "qe": "Fractures in a carbonate reservoir generally contribute most to...",
+      "o": [
+        "Porositas total",
+        "Densitas matriks",
+        "Saturasi air terikat",
+        "Permeabilitas efektif"
+      ],
+      "oe": [
+        "Total porosity",
+        "Matrix density",
+        "Irreducible water saturation",
+        "Effective permeability"
+      ],
+      "c": "Permeabilitas efektif",
+      "ce": "Effective permeability"
+    },
+    {
+      "t": "option",
+      "q": "Data tekanan reservoir paling andal digunakan untuk menentukan...",
+      "qe": "Reservoir pressure data are most reliably used to determine...",
+      "o": [
+        "Kadar air terikat",
+        "Kontak fluida seperti GOC dan WOC",
+        "Porositas total batuan",
+        "Kandungan mineral lempung"
+      ],
+      "oe": [
+        "Bound water content",
+        "Fluid contacts such as GOC and WOC",
+        "Total rock porosity",
+        "Clay mineral content"
+      ],
+      "c": "Kontak fluida seperti GOC dan WOC",
+      "ce": "Fluid contacts such as GOC and WOC"
+    },
+    {
+      "t": "multi",
+      "q": "Manakah data yang diperlukan untuk perhitungan volumetrik cadangan hidrokarbon (OOIP)?",
+      "qe": "Which data are required for the volumetric calculation of hydrocarbon reserves (OOIP)?",
+      "o": [
+        "Faktor volumetrik formasi (Bo)",
+        "Porositas",
+        "Ketebalan net pay",
+        "Saturasi hidrokarbon",
+        "Luas area (acreage)"
+      ],
+      "oe": [
+        "Formation volume factor (Bo)",
+        "Porosity",
+        "Net pay thickness",
+        "Hydrocarbon saturation",
+        "Areal extent (acreage)"
+      ],
+      "c": [
+        "Luas area (acreage)",
+        "Ketebalan net pay",
+        "Porositas",
+        "Saturasi hidrokarbon",
+        "Faktor volumetrik formasi (Bo)"
+      ],
+      "ce": [
+        "Areal extent (acreage)",
+        "Net pay thickness",
+        "Porosity",
+        "Hydrocarbon saturation",
+        "Formation volume factor (Bo)"
+      ]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah pernyataan yang benar tentang porositas efektif?",
+      "qe": "Which statements about effective porosity are correct?",
+      "o": [
+        "Selalu lebih besar dari porositas total",
+        "Dipengaruhi oleh sementasi dan pemadatan",
+        "Menjadi acuan utama perhitungan volume hidrokarbon",
+        "Hanya mencakup pori yang saling terhubung"
+      ],
+      "oe": [
+        "It is always larger than total porosity",
+        "It is affected by cementation and compaction",
+        "It is the main reference for hydrocarbon volume calculation",
+        "It includes only interconnected pores"
+      ],
+      "c": [
+        "Hanya mencakup pori yang saling terhubung",
+        "Dipengaruhi oleh sementasi dan pemadatan",
+        "Menjadi acuan utama perhitungan volume hidrokarbon"
+      ],
+      "ce": [
+        "It includes only interconnected pores",
+        "It is affected by cementation and compaction",
+        "It is the main reference for hydrocarbon volume calculation"
+      ]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah yang merupakan keterbatasan analisis core dalam petrofisika?",
+      "qe": "Which of the following are limitations of core analysis in petrophysics?",
+      "o": [
+        "Kerusakan sampel saat pengambilan",
+        "Sampel hanya mewakili sebagian kecil reservoir",
+        "Ketidaksesuaian kondisi laboratorium dengan reservoir",
+        "Core analysis tidak dapat mengukur porositas"
+      ],
+      "oe": [
+        "Sample damage during recovery",
+        "The sample represents only a small part of the reservoir",
+        "Laboratory conditions differ from reservoir conditions",
+        "Core analysis cannot measure porosity"
+      ],
+      "c": [
+        "Sampel hanya mewakili sebagian kecil reservoir",
+        "Kerusakan sampel saat pengambilan",
+        "Ketidaksesuaian kondisi laboratorium dengan reservoir"
+      ],
+      "ce": [
+        "The sample represents only a small part of the reservoir",
+        "Sample damage during recovery",
+        "Laboratory conditions differ from reservoir conditions"
+      ]
+    },
+    {
+      "t": "multi",
+      "q": "Manakah ciri khas reservoir karbonat dibandingkan batupasir?",
+      "qe": "Which are characteristic features of carbonate reservoirs compared with sandstones?",
+      "o": [
+        "Rekahan dan vug umum dijumpai",
+        "Distribusi porositas sering tidak homogen",
+        "Selalu memiliki permeabilitas lebih tinggi",
+        "Porositas dapat terbentuk setelah pengendapan (sekunder)"
+      ],
+      "oe": [
+        "Fractures and vugs are common",
+        "Porosity distribution is often heterogeneous",
+        "Always have higher permeability",
+        "Porosity can form after deposition (secondary)"
+      ],
+      "c": [
+        "Porositas dapat terbentuk setelah pengendapan (sekunder)",
+        "Distribusi porositas sering tidak homogen",
+        "Rekahan dan vug umum dijumpai"
+      ],
+      "ce": [
+        "Porosity can form after deposition (secondary)",
+        "Porosity distribution is often heterogeneous",
+        "Fractures and vugs are common"
+      ]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan tahapan diagenesis yang menurunkan kualitas reservoir dari yang paling awal.",
+      "qe": "Arrange the diagenetic stages that reduce reservoir quality from the earliest.",
+      "o": [
+        "Kompaksi mekanik",
+        "Autigenesis mineral lempung",
+        "Sementasi",
+        "Kompaksi kimia (pressure solution)",
+        "Pelarutan (dissolution)"
+      ],
+      "oe": [
+        "Mechanical compaction",
+        "Clay mineral authigenesis",
+        "Cementation",
+        "Chemical compaction (pressure solution)",
+        "Dissolution"
+      ],
+      "c": [
+        "Kompaksi mekanik",
+        "Sementasi",
+        "Kompaksi kimia (pressure solution)",
+        "Pelarutan (dissolution)"
+      ],
+      "ce": [
+        "Mechanical compaction",
+        "Cementation",
+        "Chemical compaction (pressure solution)",
+        "Dissolution"
+      ]
+    },
+    {
+      "t": "drag",
+      "q": "Urutkan skala ukuran pori dari yang terkecil ke terbesar.",
+      "qe": "Arrange pore size scales from smallest to largest.",
+      "o": [
+        "Mikropori (< 1 um)",
+        "Mesopori (1 - 10 um)",
+        "Makropori (> 10 um)",
+        "Rekahan (> 1 cm)",
+        "Vug (> 1 mm)"
+      ],
+      "oe": [
+        "Micropore (< 1 um)",
+        "Mesopore (1 - 10 um)",
+        "Macropore (> 10 um)",
+        "Fracture (> 1 cm)",
+        "Vug (> 1 mm)"
+      ],
+      "c": [
+        "Mikropori (< 1 um)",
+        "Mesopori (1 - 10 um)",
+        "Makropori (> 10 um)",
+        "Vug (> 1 mm)"
+      ],
+      "ce": [
+        "Micropore (< 1 um)",
+        "Mesopore (1 - 10 um)",
+        "Macropore (> 10 um)",
+        "Vug (> 1 mm)"
+      ]
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah porositas efektif selalu lebih kecil atau sama dengan porositas total?",
+      "qe": "Is it true that effective porosity is always less than or equal to total porosity?",
+      "o": [
+        "Yes",
+        "No"
+      ],
+      "oe": [
+        "Yes",
+        "No"
+      ],
+      "c": "Yes",
+      "ce": "Yes"
+    },
+    {
+      "t": "yesorno",
+      "q": "Benarkah batuan dengan porositas tinggi pasti memiliki permeabilitas tinggi?",
+      "qe": "Is it true that a rock with high porosity must have high permeability?",
+      "o": [
+        "Yes",
+        "No"
+      ],
+      "oe": [
+        "Yes",
+        "No"
+      ],
+      "c": "No",
+      "ce": "No"
+    }
+  ]
+}
