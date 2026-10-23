@@ -1,0 +1,275 @@
+-- ============================================================
+-- BAQI - Batch perbaikan 40 soal (opsi & kunci jawaban)
+-- ============================================================
+-- Cakupan: HANYA 40 ID di bawah ini.
+--   * 26 soal type=option: kunci kosong / tidak ada di opsi / serialized.
+--   * 14 soal type=multi/drag: jawaban tidak cocok dengan opsi.
+-- Tidak ada perubahan pada level, materi, exam, atau soal lain.
+--
+-- Charset: final_exam & soal = latin1, data Arab disimpan sebagai byte UTF-8.
+-- Semua nilai memakai CONVERT(0x... USING latin1) agar byte UTF-8 tersimpan
+-- persis (tidak berubah menjadi "?").
+--
+-- Jalankan seluruh file dalam satu transaksi. Jika ada yang gagal, ROLLBACK.
+-- ============================================================
+
+START TRANSACTION;
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000091 | final_exam
+-- Opsi EN ke-2 punya spasi di awal (" أَنَا...") sehingga tidak sama dengan kunci. Spasi dihapus.
+UPDATE `final_exam` SET `options_en` = CONVERT(0x613A343A7B693A303B733A32373A22D8A3D98ED986D992D8AAD98E20D985D98FD8B3D992D984D990D985223B693A313B733A32373A22D8A3D98ED986D98ED8A720D985D98FD8B3D992D984D990D985D992223B693A323B733A33333A22D986D98ED8ADD992D986D98F20D985D98FD8B3D992D984D990D985D98FD988D986223B693A333B733A32393A22D986D98ED8ADD992D986D98F20D985D98FD8B3D992D984D990D985D992223B7D USING latin1) WHERE `id` = 'FQT00000000000000000091';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000092 | final_exam
+-- Kunci EN "who?" tidak sama dengan opsi "Who?" (huruf besar). Diselaraskan.
+UPDATE `final_exam` SET `correct_option_en` = CONVERT(0x613A313A7B693A303B733A343A2257686F3F223B7D USING latin1) WHERE `id` = 'FQT00000000000000000092';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000115 | final_exam
+-- Kunci EN ke-2 "He will plot" tidak ada di opsi; diganti "I plot evil plan" (sesuai kunci Indonesia).
+UPDATE `final_exam` SET `correct_option_en` = CONVERT(0x613A323A7B693A303B733A32313A22492077696C6C20706C6F74206576696C20706C616E223B693A313B733A31363A224920706C6F74206576696C20706C616E223B7D USING latin1) WHERE `id` = 'FQT00000000000000000115';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000206 | final_exam
+-- Opsi C salah/duplikat; diganti dengan kunci yang benar "نَعَمْ، شِئْنَا خَيْرًا".
+UPDATE `final_exam` SET `options` = CONVERT(0x613A343A7B693A303B733A34343A22D986D98ED8B9D98ED985D992D88C20D986D98ED8B4D98ED8A7D8A1D98F20D8AED98ED98AD992D8B1D98BD8A7223B693A313B733A34343A22D986D98ED8B9D98ED985D992D88C20D8A3D98ED8B4D98ED8A7D8A1D98F20D8AED98ED98AD992D8B1D98BD8A7223B693A323B733A34343A22D986D98ED8B9D98ED985D992D88C20D8B4D990D8A6D992D986D98ED8A720D8AED98ED98AD992D8B1D98BD8A7223B693A333B733A35323A22D986D98ED8B9D98ED985D992D88C20D8AAD98ED8B4D98ED8A7D8A1D98FD988D992D986D98E20D8AED98ED98AD992D8B1D98BD8A7223B7D USING latin1) WHERE `id` = 'FQT00000000000000000206';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000474 | final_exam
+-- Kunci EN ke-4 "Read the biography..." tidak ada di opsi; diselaraskan ke opsi EN ke-4 "earnings Halal" (sama dengan kunci Indonesia).
+UPDATE `final_exam` SET `correct_option_en` = CONVERT(0x613A343A7B693A303B733A31383A22416C6C6168E280997320706C656173757265223B693A313B733A34323A22436C6F73656E65737320746F206F75722062656C6F7665642050726F706865742C204D7568616D6D6164223B693A323B733A32333A224265696E672061626C6520546F2073656520416C6C6168223B693A333B733A31343A226561726E696E67732048616C616C223B7D USING latin1) WHERE `id` = 'FQT00000000000000000474';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000506 | final_exam
+-- Kunci tersimpan sebagai serialized skalar s:8:"Salahnya";. Dijadikan teks biasa "Salahnya".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x53616C61686E7961 USING latin1) WHERE `id` = 'FQT00000000000000000506';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000522 | final_exam
+-- Kunci EN ke-2 "we will glorify" tidak ada di opsi; diganti "He will migrate" (sesuai kunci Indonesia).
+UPDATE `final_exam` SET `correct_option_en` = CONVERT(0x613A323A7B693A303B733A31313A224865206D69677261746573223B693A313B733A31353A2248652077696C6C206D696772617465223B7D USING latin1) WHERE `id` = 'FQT00000000000000000522';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000531 | final_exam
+-- Kunci kosong; diisi opsi D "dan biarkan wanitamu hidup".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x64616E20626961726B616E2077616E6974616D75206869647570 USING latin1) WHERE `id` = 'FQT00000000000000000531';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000532 | final_exam
+-- Kunci kosong; diisi opsi C "Kami memisahkan laut untukmu".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x4B616D69206D656D697361686B616E206C61757420756E74756B6D75 USING latin1) WHERE `id` = 'FQT00000000000000000532';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000533 | final_exam
+-- Kunci kosong; diisi opsi A "يَفْرُقُ".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0xD98AD98ED981D992D8B1D98FD982D98F USING latin1) WHERE `id` = 'FQT00000000000000000533';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000534 | final_exam
+-- Kunci kosong; diisi opsi C "مُذَبَّح" (ism maf'ul dari ذَبَّحَ).
+UPDATE `final_exam` SET `correct_option` = CONVERT(0xD985D98FD8B0D98ED8A8D991D98ED8AD USING latin1) WHERE `id` = 'FQT00000000000000000534';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000536 | final_exam
+-- Kunci kosong; diisi opsi D "selama empat puluh malam".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x73656C616D6120656D7061742070756C7568206D616C616D USING latin1) WHERE `id` = 'FQT00000000000000000536';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000537 | final_exam
+-- Kunci kosong; diisi opsi B "kalian semua mengambil [untuk disembah] anak sapi itu".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x6B616C69616E2073656D7561206D656E67616D62696C205B756E74756B20646973656D6261685D20616E616B207361706920697475 USING latin1) WHERE `id` = 'FQT00000000000000000537';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000538 | final_exam
+-- Kunci kosong; diisi opsi B "لَيَالِيْ".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0xD984D98ED98AD98ED8A7D984D990D98AD992 USING latin1) WHERE `id` = 'FQT00000000000000000538';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000540 | final_exam
+-- Kunci kosong; diisi opsi B "menerima bimbingan darinya".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x6D656E6572696D612062696D62696E67616E20646172696E7961 USING latin1) WHERE `id` = 'FQT00000000000000000540';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000541 | final_exam
+-- Kunci kosong; diisi opsi C "dengan Anda mengambil anak sapi".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x64656E67616E20416E6461206D656E67616D62696C20616E616B2073617069 USING latin1) WHERE `id` = 'FQT00000000000000000541';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000542 | final_exam
+-- Kunci kosong; diisi opsi D "dan bunuh dirimu".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x64616E2062756E756820646972696D75 USING latin1) WHERE `id` = 'FQT00000000000000000542';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000543 | final_exam
+-- Kunci kosong; diisi opsi A "تُبْ".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0xD8AAD98FD8A8D992 USING latin1) WHERE `id` = 'FQT00000000000000000543';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000544 | final_exam
+-- Kunci kosong; diisi opsi D "api neraka abadi".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x617069206E6572616B61206162616469 USING latin1) WHERE `id` = 'FQT00000000000000000544';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000545 | final_exam
+-- Kunci kosong; diisi opsi A "dengan membunuh mereka yang melakukan syirik".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x64656E67616E206D656D62756E7568206D6572656B612079616E67206D656C616B756B616E2073796972696B USING latin1) WHERE `id` = 'FQT00000000000000000545';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000546 | final_exam
+-- Kunci kosong; diisi opsi D "Kemudian Kami menghidupkanmu kembali".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x4B656D756469616E204B616D69206D656E6768696475706B616E6D75206B656D62616C69 USING latin1) WHERE `id` = 'FQT00000000000000000546';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000547 | final_exam
+-- Kunci kosong; diisi opsi B "setelah kematianmu".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x736574656C6168206B656D617469616E6D75 USING latin1) WHERE `id` = 'FQT00000000000000000547';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000548 | final_exam
+-- Kunci kosong; diisi opsi B "مُؤْمَن".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0xD985D98FD8A4D992D985D98ED986 USING latin1) WHERE `id` = 'FQT00000000000000000548';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000688 | final_exam
+-- Kunci ke-2 "فَاقِعٌ" berasal dari soal lain; diganti "Dia akan mengungkapkan" (sesuai versi Inggris).
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x613A323A7B693A303B733A31373A22446961206D656E67756E676B61706B616E223B693A313B733A32323A2244696120616B616E206D656E67756E676B61706B616E223B7D USING latin1) WHERE `id` = 'FQT00000000000000000688';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000830 | final_exam
+-- Kunci kosong; diisi opsi D (jawaban yang sama dengan versi Inggris).
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x446961206164616C61682073656F72616E67204D75736C696D2073656A6174692C2073656F72616E672068616D626120416C6C61682079616E6720736570656E75686E79612074616174 USING latin1) WHERE `id` = 'FQT00000000000000000830';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000000831 | final_exam
+-- Opsi D berisi jawaban soal nomor 23. Diganti dengan kunci "Setan tidak akan pernah disesatkan".
+UPDATE `final_exam` SET `options` = CONVERT(0x613A343A7B693A303B733A31393A22546964616B20616B616E206D656D62656E6369223B693A313B733A32323A224A616E67616E206D656E79616C616867756E616B616E223B693A323B733A31373A22416B616E2062657262756174206261696B223B693A333B733A33343A22536574616E20746964616B20616B616E207065726E616820646973657361746B616E223B7D USING latin1) WHERE `id` = 'FQT00000000000000000831';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000001180 | final_exam
+-- Kunci ke-4 "berguna" tidak persis sama dengan opsi "Sangat berguna dalam menghafal Al-Qur'an". Diselaraskan.
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x613A343A7B693A303B733A343A226B756174223B693A313B733A373A226566656B746966223B693A323B733A373A226D656E6172696B223B693A333B733A34303A2253616E6761742062657267756E612064616C616D206D656E67686166616C20416C2D51757227616E223B7D USING latin1) WHERE `id` = 'FQT00000000000000001180';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000001351 | final_exam
+-- Kunci ke-2 "وَعْد" tidak ada di opsi; diganti dengan opsi C "Dimulai dengan \"اَلْ\"" (sesuai versi Inggris).
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x613A323A7B693A303B733A36303A2254616E7765656E20286661746861682067616E64612C206B61737261682067616E64612C206468616D6D61682067616E64612920646920616B686972223B693A313B733A32353A2244696D756C61692064656E67616E2022D8A7D98ED984D99222223B7D USING latin1) WHERE `id` = 'FQT00000000000000001351';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000001363 | final_exam
+-- Kunci tidak ada di opsi. Jawaban benar "فِيْ سَبِيْلِ اللهِ" (opsi B), sama dengan versi Inggris.
+UPDATE `final_exam` SET `correct_option` = CONVERT(0xD981D990D98AD99220D8B3D98ED8A8D990D98AD992D984D99020D8A7D984D984D987D990 USING latin1) WHERE `id` = 'FQT00000000000000001363';
+
+-- ------------------------------------------------------------
+-- FQT00000000000000001384 | final_exam
+-- Kunci tidak ada di opsi. Jawaban benar "mereka membuka" (opsi B), sama dengan versi Inggris "they open".
+UPDATE `final_exam` SET `correct_option` = CONVERT(0x6D6572656B61206D656D62756B61 USING latin1) WHERE `id` = 'FQT00000000000000001384';
+
+-- ------------------------------------------------------------
+-- FQT00000000009200000271 | final_exam
+-- Serialized array rusak karena karakter μ tidak terbaca (panjang byte tidak cocok). Dipulihkan dari sumber soal_all.json.
+UPDATE `final_exam` SET `options` = CONVERT(0x613A343A7B693A303B733A32303A224B656365706174616E20616C6972616E20287629223B693A313B733A32323A225669736B6F736974617320666C756964612028CEBC29223B693A323B733A32353A22546567616E67616E20616E746172206D756B61202849465429223B693A333B733A31363A22506F726F73697461732062617475616E223B7D USING latin1), `correct_option` = CONVERT(0x613A333A7B693A303B733A32303A224B656365706174616E20616C6972616E20287629223B693A313B733A32323A225669736B6F736974617320666C756964612028CEBC29223B693A323B733A32353A22546567616E67616E20616E746172206D756B61202849465429223B7D USING latin1), `options_en` = CONVERT(0x613A343A7B693A303B733A31373A22466C6F772076656C6F6369747920287629223B693A313B733A32303A22466C75696420766973636F736974792028CEBC29223B693A323B733A32353A22496E74657266616369616C2074656E73696F6E202849465429223B693A333B733A31333A22526F636B20706F726F73697479223B7D USING latin1), `correct_option_en` = CONVERT(0x613A333A7B693A303B733A31373A22466C6F772076656C6F6369747920287629223B693A313B733A32303A22466C75696420766973636F736974792028CEBC29223B693A323B733A32353A22496E74657266616369616C2074656E73696F6E202849465429223B7D USING latin1) WHERE `id` = 'FQT00000000009200000271';
+
+-- ------------------------------------------------------------
+-- QST00000000000000000381 | soal
+-- Opsi EN ke-2 dan ke-4 salah terjemahan; diselaraskan dengan kunci EN (mixed truth / hid the predictions of Torah).
+UPDATE `soal` SET `options_en` = CONVERT(0x613A343A7B693A303B733A32363A22746865792062656C696576656420696E2074686520517572616E223B693A313B733A33313A2274686579206D6978656420747275746820776974682066616C7365686F6F64223B693A323B733A32333A22746865792066656172656420416C6C616820616C6F6E65223B693A333B733A34343A227468657920686964207468652070726564696374696F6E73206F6620546F72616820636F6D706C6574656C79223B7D USING latin1) WHERE `id` = 'QST00000000000000000381';
+
+-- ------------------------------------------------------------
+-- QST00000000000000000551 | soal
+-- Kunci "dan ketika Musa meminta air" tidak persis ada di opsi; dipakai opsi D yang benar "dan ketika Musa telah meminta air".
+UPDATE `soal` SET `correct_option` = CONVERT(0x64616E206B6574696B61204D7573612074656C6168206D656D696E746120616972 USING latin1) WHERE `id` = 'QST00000000000000000551';
+
+-- ------------------------------------------------------------
+-- QST00000000000000001115 | soal
+-- Kunci "اُمْنِيّ" bukan jamak dari أُمْنِيَّة; jamak yang benar "أَمَانِيّ" (opsi D). Kunci EN "كَسْب" juga dari soal lain.
+UPDATE `soal` SET `correct_option` = CONVERT(0x613A313A7B693A303B733A31383A22D8A3D98ED985D98ED8A7D986D990D98AD991223B7D USING latin1), `correct_option_en` = CONVERT(0x613A313A7B693A303B733A31383A22D8A3D98ED985D98ED8A7D986D990D98AD991223B7D USING latin1) WHERE `id` = 'QST00000000000000001115';
+
+-- ------------------------------------------------------------
+-- QST00000000000000001153 | soal
+-- Kunci kosong dan opsi Indonesia salah (kirim = send, seharusnya tunduk/submit). Stem juga dilengkapi لَا agar sama dengan versi Inggris.
+UPDATE `soal` SET `question` = CONVERT(0x332E205465726A656D61686B616E3A20D984D98ED8A720D8AAD98FD8B3D992D984D990D985D990D98AD992 USING latin1), `options` = CONVERT(0x613A343A7B693A303B733A32353A224A616E67616E2074756E64756B2028706572656D7075616E29223B693A313B733A32383A224A616E67616E2074756E64756B20286B616C69616E2073656D756129223B693A323B733A31383A2254756E64756B2028706572656D7075616E29223B693A333B733A32313A2254756E64756B20286B616C69616E2073656D756129223B7D USING latin1), `correct_option` = CONVERT(0x4A616E67616E2074756E64756B2028706572656D7075616E29 USING latin1) WHERE `id` = 'QST00000000000000001153';
+
+-- ------------------------------------------------------------
+-- QST00000000000000001154 | soal
+-- Kunci kosong; diisi opsi D "تُسْلِمِيْنَ".
+UPDATE `soal` SET `correct_option` = CONVERT(0xD8AAD98FD8B3D992D984D990D985D990D98AD992D986D98E USING latin1) WHERE `id` = 'QST00000000000000001154';
+
+-- ------------------------------------------------------------
+-- QST00000000000000001263 | soal
+-- Opsi C "يَكْرُمُوْنَ" bukan ism fa'il; diganti "كَرِيْم" (sesuai kunci dan versi Inggris).
+UPDATE `soal` SET `options` = CONVERT(0x613A343A7B693A303B733A32393A22D983D98ED8B1D992D985D88C20D983D98ED8B1D98ED8A7D985D98ED8A9223B693A313B733A31383A22D983D98ED8B1D98FD985D992D986D98ED8A7223B693A323B733A31343A22D983D98ED8B1D990D98AD992D985223B693A333B733A31363A22D983D98ED8B1D98FD985D992D8AAD98F223B7D USING latin1) WHERE `id` = 'QST00000000000000001263';
+
+-- ------------------------------------------------------------
+-- QST00000000000000001314 | soal
+-- Kunci 4 tidak ada di opsi Indonesia dan faktanya jenis jamak ada 3. Kunci ID & EN diselaraskan ke "3".
+UPDATE `soal` SET `correct_option` = CONVERT(0x33 USING latin1), `correct_option_en` = CONVERT(0x33 USING latin1) WHERE `id` = 'QST00000000000000001314';
+
+-- ------------------------------------------------------------
+-- QST00000000000000001324 | soal
+-- Opsi C "بَصَل" dari soal lain dan opsi D belum memuat jawaban; diselaraskan dengan versi Inggris (سُنَة / سَنِيْن).
+UPDATE `soal` SET `options` = CONVERT(0x613A343A7B693A303B733A31303A22D8B3D990D986D98ED8A9223B693A313B733A31303A22D8B3D98ED986D992D8A9223B693A323B733A31303A22D8B3D98FD986D98ED8A9223B693A333B733A31343A22D8B3D98ED986D990D98AD992D986223B7D USING latin1) WHERE `id` = 'QST00000000000000001324';
+
+-- ------------------------------------------------------------
+-- QST00000000000000001596 | soal
+-- Tulisan sama tetapi urutan Unicode shadda/fatha berbeda. Opsi diselaraskan dengan kunci (fatha lalu shadda).
+UPDATE `soal` SET `options` = CONVERT(0x613A343A7B693A303B733A32343A22D8A5D990D8A8D992D8B1D98ED8A7D987D990D98AD992D985223B693A313B733A31343A22D8B9D98ED981D991D98ED8A7D986223B693A323B733A31303A22D8B9D98FD985D98ED8B1223B693A333B733A31323A22D8AED98ED8A7D984D990D8AF223B7D USING latin1), `options_en` = CONVERT(0x613A343A7B693A303B733A32343A22D8A5D990D8A8D992D8B1D98ED8A7D987D990D98AD992D985223B693A313B733A31343A22D8B9D98ED981D991D98ED8A7D986223B693A323B733A31303A22D8B9D98FD985D98ED8B1223B693A333B733A31323A22D8AED98ED8A7D984D990D8AF223B7D USING latin1) WHERE `id` = 'QST00000000000000001596';
+
+COMMIT;
+
+-- ============================================================
+-- Verifikasi cepat setelah import
+-- ============================================================
+-- 1) Tidak boleh ada correct_option type=option yang kosong/serialized.
+SELECT id, type, LEFT(correct_option, 40) AS correct_option
+FROM final_exam
+WHERE id IN (
+  'FQT00000000000000000091',
+  'FQT00000000000000000092',
+  'FQT00000000000000000115',
+  'FQT00000000000000000206',
+  'FQT00000000000000000474',
+  'FQT00000000000000000506',
+  'FQT00000000000000000522',
+  'FQT00000000000000000531',
+  'FQT00000000000000000532',
+  'FQT00000000000000000533',
+  'FQT00000000000000000534',
+  'FQT00000000000000000536',
+  'FQT00000000000000000537',
+  'FQT00000000000000000538',
+  'FQT00000000000000000540',
+  'FQT00000000000000000541',
+  'FQT00000000000000000542',
+  'FQT00000000000000000543',
+  'FQT00000000000000000544',
+  'FQT00000000000000000545',
+  'FQT00000000000000000546',
+  'FQT00000000000000000547',
+  'FQT00000000000000000548',
+  'FQT00000000000000000688',
+  'FQT00000000000000000830',
+  'FQT00000000000000000831',
+  'FQT00000000000000001180',
+  'FQT00000000000000001351',
+  'FQT00000000000000001363',
+  'FQT00000000000000001384',
+  'FQT00000000009200000271'
+) AND type = 'option' AND (correct_option = '' OR correct_option LIKE 'a:%' OR correct_option LIKE 's:%');
+
+-- 2) Semua 40 soal harus punya kunci yang ada di opsi.
+--    (Cek manual di app/API; SQL tidak bisa unserialize langsung.)
+-- 3) Soal materi QST yang diubah:
+SELECT id, type, question, options, correct_option, options_en, correct_option_en
+FROM soal
+WHERE id IN (
+  'QST00000000000000000381',
+  'QST00000000000000000551',
+  'QST00000000000000001115',
+  'QST00000000000000001153',
+  'QST00000000000000001154',
+  'QST00000000000000001263',
+  'QST00000000000000001314',
+  'QST00000000000000001324',
+  'QST00000000000000001596'
+);
